@@ -134,6 +134,8 @@
   // CUR = company being rendered; its own "labels" (e.g. sp: "Street avg target") override the site-wide names
   var CUR = null;
   function L(k) { var o = CUR && CUR.labels && T(CUR.labels[k]); if (o) return o; var l = SITE.labels || {}; return T(l[k]) || { mine: u("thCo"), morningstar: "Morningstar", sp: "S&P" }[k]; }
+  // UI text a company may rename (e.g. a bank: "Cost of equity" instead of WACC)
+  function UL(k, d) { var o = CUR && CUR.labels && T(CUR.labels[k]); return o || (d !== undefined ? d : u(k)); }
   function LFV(k) { return CUR && CUR.labels && CUR.labels[k] ? L(k) : L(k) + " FV"; }
   function fileKind(p) {
     var e = (String(p || "").split(".").pop() || "").toLowerCase();
@@ -308,14 +310,14 @@
       metric(LFV("morningstar"), money(f.morningstar, C), diffTxt(f.mine, f.morningstar)) +
       metric(LFV("sp"), money(f.sp, C), diffTxt(f.mine, f.sp)) +
       metric(u("impliedUp"), '<span class="' + (x == null ? "" : x >= 0 ? "up" : "down") + '">' + pct(x) + "</span>", u("mineVsPx")) +
-      metric(u("waccG"), c.dcf && c.dcf.wacc ? esc(c.dcf.wacc) : "—", c.dcf && c.dcf.terminalGrowth ? "g = " + esc(c.dcf.terminalGrowth) : "") + "</div>";
-    var secs = [["summary", u("secSummary")], ["valuation", u("secFV")], ["gap", u("secGap")], ["business", u("secBiz")], ["dcf", u("secDcf")], ["files", u("secFiles")], ["history", u("secHist")]];
+      metric(UL("waccG"), c.dcf && c.dcf.wacc ? esc(c.dcf.wacc) : "—", c.dcf && c.dcf.terminalGrowth ? "g = " + esc(c.dcf.terminalGrowth) : "") + "</div>";
+    var secs = [["summary", u("secSummary")], ["valuation", u("secFV")], ["gap", u("secGap")], ["business", u("secBiz")], ["dcf", UL("secDcf")], ["files", u("secFiles")], ["history", u("secHist")]];
     h += '<div class="detail"><nav class="toc">' + secs.map(function (s) { return '<a href="#' + esc(c.id) + '" data-jump="b-' + s[0] + '">' + s[1] + "</a>"; }).join("") + '</nav><div class="blocks">';
     h += block("summary", u("secSummary"), "", '<p class="lead">' + E(c.summary) + "</p>" + (c.tags && c.tags.length ? '<div class="tags">' + c.tags.map(function (t) { return '<span class="chip">' + E(t) + "</span>"; }).join("") + "</div>" : ""));
     h += block("valuation", u("secFV"), u("subFV"), fvChart(c));
     h += block("gap", u("gapTitle"), isNum(f.morningstar) && c.gap && (c.gap.bridge || []).length ? u("subGap")(L("morningstar")) : u("subGapCmp"), gapBlock(c));
     h += block("business", u("secBiz"), "", segBlock(c) + '<div class="prose">' + md(c.business) + "</div>");
-    h += block("dcf", u("secDcf"), c.dcf && c.dcf.horizon ? u("horizon") + T(c.dcf.horizon) : "", dcfBlock(c));
+    h += block("dcf", UL("secDcf"), c.dcf && c.dcf.horizon ? u("horizon") + T(c.dcf.horizon) : "", dcfBlock(c));
     h += block("files", u("secFiles"), u("subFiles"), filesBlock(c));
     h += block("history", u("secHist"), "", c.history && c.history.length ? '<ul class="timeline">' + c.history.map(function (y) { return "<li><time>" + esc(y.date) + "</time>" + E(y.note) + "</li>"; }).join("") + "</ul>" : '<p class="sub">' + u("noHist") + "</p>");
     app.innerHTML = h + "</div></div></div>";
@@ -422,7 +424,7 @@
   }
   function dcfBlock(c) {
     var d = c.dcf || {}, C = c.currency, h = "";
-    var kv = [["WACC", d.wacc], [u("tg"), d.terminalGrowth], [u("cagr"), d.revenueCagr], [u("margin"), d.margin]].filter(function (x) { return T(x[1]); });
+    var kv = [[UL("wacc", "WACC"), d.wacc], [u("tg"), d.terminalGrowth], [u("cagr"), d.revenueCagr], [u("margin"), d.margin]].filter(function (x) { return T(x[1]); });
     if (kv.length) h += '<div class="kv">' + kv.map(function (x) { return "<div><span>" + esc(x[0]) + "</span><b>" + E(x[1]) + "</b></div>"; }).join("") + "</div>";
     var sc = (d.scenarios || []).filter(function (x) { return isNum(x.value); });
     if (sc.length) {

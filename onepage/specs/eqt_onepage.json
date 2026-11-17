@@ -1,0 +1,1651 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "EQT | FY25: Dec 31, 2025 | Q3 26: Sep 30, 2026 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+  "zh": "EQT | FY25：2025年12月31日 | 2026年Q3：2026年9月30日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "EQT CORP",
+   "zh": "EQT公司"
+  },
+  "ticker": "EQT",
+  "name_size_pt": 22,
+  "name_width_in": 2.1
+ },
+ "header_metrics": [
+  {
+   "value": "32.1B"
+  },
+  {
+   "value": "51.24"
+  },
+  {
+   "value": "40.71"
+  },
+  {
+   "value": "12.2x"
+  },
+  {
+   "value": "8.4x"
+  },
+  {
+   "value": "1.3%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Produce | FY25 sales 2,382 Bcfe (6.5 Bcfe/d) of Appalachian gas; 2026 guide 2,375-2,450.",
+    "2 Move | Owns its gathering and transmission pipes: $1.25B of $1.87B midstream revenue is internal.",
+    "3 Sell | FY25 realised $3.19/Mcfe incl. hedges vs Henry Hub $3.52.",
+    "4 Control cost | Q3 2026 total operating cost $1.09/Mcfe.",
+    "5 Collect | FY25 OCF $5.1B - capex $2.3B = FCF $2.8B → debt paydown, dividends $0.39B."
+   ],
+   "zh": [
+    "1 生产 | FY25 销售 2,382 Bcfe（6.5 Bcfe/日）阿巴拉契亚天然气；2026 年指引 2,375-2,450。",
+    "2 输送 | 自有集输与输气管道：$18.7 亿中游收入中 $12.5 亿为内部收入。",
+    "3 销售 | FY25 实现价格 $3.19/Mcfe（含套保），Henry Hub $3.52。",
+    "4 控成本 | 2026年Q3 单位总经营成本 $1.09/Mcfe。",
+    "5 回款 | FY25 OCF $5.1B - 资本开支 $2.3B = FCF $2.8B → 还债、股息 $0.39B。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: Henry Hub and LNG demand, unit cost per Mcfe, and debt reduction.",
+   "zh": "关注：Henry Hub 与 LNG 需求、单位成本，以及债务下降。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "REVENUE BY SEGMENT | FY25",
+   "zh": "分部收入 | FY25"
+  },
+  "columns": [
+   {
+    "en": "Segment",
+    "zh": "分部"
+   },
+   "$M",
+   {
+    "en": "% gross",
+    "zh": "占比"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Upstream",
+     "zh": "上游"
+    },
+    "8,024",
+    "81.1%"
+   ],
+   [
+    {
+     "en": "Gathering",
+     "zh": "集输"
+    },
+    "1,301",
+    "13.1%"
+   ],
+   [
+    {
+     "en": "Transmission",
+     "zh": "输气"
+    },
+    "572",
+    "5.8%"
+   ],
+   [
+    {
+     "en": "Intersegment",
+     "zh": "分部间抵销"
+    },
+    "-1,254",
+    "--"
+   ]
+  ],
+  "total_row": [
+   {
+    "en": "Consolidated",
+    "zh": "合并"
+   },
+   "8,643",
+   ""
+  ],
+  "notes": [
+   {
+    "en": "Consolidated revenue includes derivative gains/losses; third-party midstream ~$0.6-0.7B.",
+    "zh": "合并收入含衍生品损益；第三方中游收入约 $6-7 亿。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "ocf_ps": [
+   6.0250717333848165,
+   5.294287270939365,
+   7.661136988016102,
+   9.276205962770387,
+   7.957028619253428,
+   6.374013343075135,
+   8.723827685948212,
+   11.406251437156039,
+   7.257571303710497,
+   5.900323468130907,
+   5.143776531887771,
+   8.525467717930109,
+   7.692800998973922,
+   5.49360951276057,
+   8.325175364656166
+  ],
+  "fcf_ps": [
+   -2.869202244872145,
+   -3.814984120234409,
+   -4.177821552570378,
+   -9.73856654842538,
+   -7.369343332962815,
+   -9.604139467474758,
+   -6.079583650726852,
+   -0.0873062713657196,
+   0.9769108061816799,
+   1.9011714688062378,
+   1.8791074146957267,
+   5.080301110714769,
+   2.806741621977426,
+   1.1140143764100954,
+   4.608492213143376
+  ],
+  "last_price": 51.24,
+  "log": true,
+  "legend": {
+   "en": [
+    "OCF / sh $8.33",
+    "FCF / sh $4.61"
+   ],
+   "zh": [
+    "OCF /股 $8.33",
+    "FCF /股 $4.61"
+   ]
+  },
+  "price_min": 10,
+  "price_max": 120,
+  "price_ticks": [
+   20,
+   40,
+   80
+  ],
+  "cash_max": 14,
+  "cash_min": -12,
+  "note": {
+   "en": "Cash $/sh L lin; price R log (Nov 16, 2026)",
+   "zh": "现金$/股：左线性 | 股价：右对数（2026年11月16日）"
+  },
+  "annotations": [
+   {
+    "x": 6.6,
+    "text": {
+     "en": "Rice 2017",
+     "zh": "收购 Rice 2017"
+    }
+   },
+   {
+    "x": 7.6,
+    "dy": 10,
+    "text": {
+     "en": "Equitrans spin 2018",
+     "zh": "2018 分拆 Equitrans"
+    }
+   },
+   {
+    "x": 13.5,
+    "dy": 20,
+    "text": {
+     "en": "Equitrans reacquired 2024",
+     "zh": "2024 重新收购 Equitrans"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "FY11",
+   "FY12",
+   "FY13",
+   "FY14",
+   "FY15",
+   "FY16",
+   "FY17",
+   "FY18",
+   "FY19",
+   "FY20",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M sh",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      1323.829,
+      1377.222,
+      1862.011,
+      2469.71,
+      2339.762,
+      1387.054,
+      3091.02,
+      4557.868,
+      4416.484,
+      3058.843,
+      3064.663,
+      7497.689,
+      6908.923,
+      5273.309,
+      8644.211
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      null,
+      4.033224834929583,
+      35.20049781371486,
+      32.63670300551394,
+      -5.261670398548812,
+      -40.71815851355822,
+      122.84784874994052,
+      47.455144256588454,
+      -3.101976625913694,
+      -30.74031288237431,
+      0.1902680196401052,
+      144.64970536727856,
+      -7.852632991312392,
+      -23.673935865257146,
+      63.92384743621129
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA率*"
+     },
+     "values": [
+      81.20678728143892,
+      62.752845946405166,
+      70.23245297691581,
+      62.05963453198958,
+      59.08100909408734,
+      7.312116182931594,
+      43.77833207161391,
+      -26.637147016982492,
+      8.754362067200967,
+      16.86255227875376,
+      10.30217678093807,
+      58.47080347024263,
+      58.56995366716347,
+      54.001121496957595,
+      67.67545354920189
+     ]
+    },
+    {
+     "key": "op_income",
+     "values": [
+      761.171,
+      389.629,
+      654.604,
+      853.395,
+      563.139,
+      -755.028,
+      382.212,
+      -2783.124,
+      -1152.11,
+      -877.666,
+      -1360.975,
+      2717.997,
+      2314.411,
+      685.296,
+      3249.619
+     ]
+    },
+    {
+     "key": "op_margin",
+     "values": [
+      57.49768285783134,
+      28.29093639224468,
+      35.155753644849575,
+      34.55446185989448,
+      24.068217194740317,
+      -54.43392975327564,
+      12.36523865908341,
+      -61.06197020185753,
+      -26.086588335879853,
+      -28.692744282723897,
+      -44.408634815638784,
+      36.25113018157995,
+      33.49886805801715,
+      12.995559334755463,
+      37.59300877778204
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      479.769,
+      183.395,
+      390.572,
+      386.965,
+      85.171,
+      -452.983,
+      1508.529,
+      -2244.568,
+      -1221.695,
+      -958.799,
+      -1142.747,
+      1770.965,
+      1735.232,
+      230.577,
+      2039.247
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      36.24100997938556,
+      13.316299042565397,
+      20.975815932344116,
+      15.668438804555999,
+      3.6401565629324693,
+      -32.65792103263463,
+      48.80359881204262,
+      -49.246007124383596,
+      -27.662162933229233,
+      -31.345152399126075,
+      -37.287851878004204,
+      23.62014482062406,
+      25.11581038028648,
+      4.372529658322696,
+      23.590898000985867
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      905.02,
+      796.822,
+      1162.861,
+      1414.742,
+      1216.94,
+      1064.32,
+      1637.698,
+      2976.256,
+      1851.704,
+      1537.701,
+      1662.448,
+      3465.56,
+      3178.85,
+      2826.973,
+      5125.952
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      68.3638143597096,
+      57.85719368409741,
+      62.451886696695134,
+      57.28372966866555,
+      52.01127294143593,
+      76.73241272509938,
+      52.9824459239992,
+      65.29930221761578,
+      41.9271076267909,
+      50.270674238592825,
+      54.24570336118523,
+      46.22170911596893,
+      46.01078923589104,
+      53.60909061084796,
+      59.29924662875536
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      1.886366147041597,
+      4.3448403718749145,
+      2.977328123879848,
+      3.6559947282053935,
+      14.288196686665648,
+      "NM",
+      1.0856257983770945,
+      "NM",
+      "NM",
+      "NM",
+      "NM",
+      1.9568766181149826,
+      1.8319452384465016,
+      12.260429270916006,
+      2.5136494009798716
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      1336,
+      1371,
+      1797,
+      2900,
+      2344,
+      2668,
+      2779,
+      2999.037,
+      1602.454,
+      1042.231,
+      1055.128,
+      1400.443,
+      2019.037,
+      2253.709,
+      2288.425
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      147.621047048684,
+      172.05850240078712,
+      154.53265695556044,
+      204.98437170876386,
+      192.61426200141338,
+      250.67648827420328,
+      169.68940549478597,
+      100.76542474840873,
+      86.53942530771657,
+      67.77852131201058,
+      63.46833103952725,
+      40.410294440148206,
+      63.51469871179829,
+      79.72163158261503,
+      44.64390224489031
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      -430.98,
+      -574.178,
+      -634.1389999999999,
+      -1485.258,
+      -1127.06,
+      -1603.68,
+      -1141.302,
+      -22.78099999999995,
+      249.25,
+      495.47,
+      607.3200000000002,
+      2065.117,
+      1159.8129999999999,
+      573.2640000000001,
+      2837.527
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      -32.55556420051231,
+      -41.69102729988339,
+      -34.05667313458405,
+      -60.138963683995286,
+      -48.16985659225168,
+      -115.6177048622476,
+      -36.9231515810315,
+      -0.49981701971184656,
+      5.643629638418252,
+      16.19795458609677,
+      19.816860777188232,
+      27.543380366937065,
+      16.787175077794323,
+      10.871048899277476,
+      32.825748931857405
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions",
+      "zh": "收购支出"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      174.184,
+      null,
+      null,
+      2379.229,
+      null,
+      null,
+      691.942,
+      1030.239,
+      205.347,
+      2271.881,
+      874.265,
+      483.522
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF",
+      "zh": "收购/OCF"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      12.312068207489423,
+      null,
+      null,
+      145.27886093773085,
+      null,
+      null,
+      44.99847499611433,
+      61.971201505250086,
+      5.925362711942659,
+      71.4686443210595,
+      30.92583480634587,
+      9.432823405291348
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      20.08,
+      40.23,
+      52.618,
+      42.123,
+      58.629,
+      44.605,
+      94.592,
+      25.189,
+      31.233,
+      19.552,
+      28.169,
+      45.201,
+      49.834,
+      158.344,
+      60.781
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      2.218735497558065,
+      5.0488063833578884,
+      4.5248744260921985,
+      2.977433341202848,
+      4.817739576314361,
+      4.190938815393866,
+      5.775912286636486,
+      0.8463317671598143,
+      1.68671666745873,
+      1.2715085702617088,
+      1.6944289385292048,
+      1.3042913699373262,
+      1.567673844314768,
+      5.601185437568735,
+      1.1857504713270823
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      null,
+      null,
+      null,
+      32.368,
+      3.375,
+      0.03,
+      0.03,
+      0.027,
+      null,
+      null,
+      12.922,
+      409.485,
+      201.029,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      2.2879083253342305,
+      0.27733495488684734,
+      0.00281870114251353,
+      0.001831839569932918,
+      0.000907180027524514,
+      0.0,
+      0.0,
+      0.7772874700441759,
+      11.815839287157054,
+      6.32395363103009,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      131.625,
+      131.803,
+      18.094,
+      18.207,
+      18.31,
+      20.156,
+      20.827,
+      31.375,
+      30.655,
+      7.664,
+      0.0,
+      203.629,
+      228.339,
+      326.581,
+      389.633
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      14.543877483370535,
+      16.541084458009443,
+      1.5559899248491436,
+      1.2869484330005048,
+      1.5045934885861256,
+      1.8937913409500902,
+      1.2717240907664296,
+      1.054176791243764,
+      1.6555021752936754,
+      0.49840638719751107,
+      0.0,
+      5.875789194242778,
+      7.183069348978405,
+      11.552321157648128,
+      7.601183155831345
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      10.914289826647364,
+      4.93840623656328,
+      7.931547884257109,
+      8.166966828657634,
+      4.825080559942986,
+      -5.276102270413368,
+      1.307662315507965,
+      -14.047090992065419,
+      -6.030802073499876,
+      -4.923632288345692,
+      -6.959883048461338,
+      13.912572652131718,
+      8.921146049956787,
+      1.6208990240184054,
+      7.324457560683648
+     ]
+    },
+    {
+     "key": "roe",
+     "metric": "ROE*",
+     "values": [
+      13.34979673495964,
+      5.088905661215044,
+      9.6801120653675,
+      8.44382764741758,
+      1.677323859922553,
+      -7.729714667265955,
+      11.325617596540681,
+      -20.48294482621234,
+      -12.461712997323021,
+      -10.359526063073458,
+      -11.479399358879764,
+      15.851144518215033,
+      11.745809980234478,
+      1.1194347232603676,
+      8.585335455031027
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      5.468874587228886,
+      2.0722922007145423,
+      3.9993417918069465,
+      3.2152359801993344,
+      0.6094014870452368,
+      -2.9275853649362418,
+      5.10974235199578,
+      -10.832154516618228,
+      -6.4951898342233845,
+      -5.293293073789454,
+      -5.28868644372934,
+      7.811957568807239,
+      6.862666697989464,
+      0.5788991308240432,
+      4.879413174600052
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      150.209,
+      150.506,
+      151.787,
+      152.513,
+      152.939,
+      166.978,
+      187.727,
+      260.932,
+      255.141,
+      260.613,
+      323.196,
+      406.495,
+      413.224,
+      514.593,
+      615.717
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      8.813246876019413,
+      9.150611935736782,
+      12.26726267730438,
+      16.193439247801827,
+      15.298661557876018,
+      8.306806884739308,
+      16.46550576102532,
+      17.467646743212793,
+      17.309973700816414,
+      11.73710827932605,
+      9.482366737212093,
+      18.44472625739554,
+      16.71955888331752,
+      10.247533487630031,
+      14.039259919735851
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      3.19,
+      1.22,
+      2.57,
+      2.54,
+      0.56,
+      -2.71,
+      8.04,
+      -8.6,
+      -4.79,
+      -3.68,
+      -3.54,
+      4.38,
+      4.22,
+      0.45,
+      3.31
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      6.0250717333848165,
+      5.294287270939365,
+      7.661136988016102,
+      9.276205962770387,
+      7.957028619253428,
+      6.374013343075135,
+      8.723827685948212,
+      11.406251437156039,
+      7.257571303710497,
+      5.900323468130907,
+      5.143776531887771,
+      8.525467717930109,
+      7.692800998973922,
+      5.49360951276057,
+      8.325175364656166
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      8.894273978256962,
+      9.109271391173774,
+      11.838958540586479,
+      19.014772511195766,
+      15.326371952216244,
+      15.978152810549892,
+      14.803411336675065,
+      11.49355770852176,
+      6.280660497528817,
+      3.999151999324669,
+      3.264669117192044,
+      3.4451666072153406,
+      4.886059376996496,
+      4.379595136350475,
+      3.7166831515127896
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      -2.869202244872145,
+      -3.814984120234409,
+      -4.177821552570378,
+      -9.73856654842538,
+      -7.369343332962815,
+      -9.604139467474758,
+      -6.079583650726852,
+      -0.0873062713657196,
+      0.9769108061816799,
+      1.9011714688062378,
+      1.8791074146957267,
+      5.080301110714769,
+      2.806741621977426,
+      1.1140143764100954,
+      4.608492213143376
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      0.8762790511886771,
+      0.8757325289357235,
+      0.11920651966242168,
+      0.11937998727977288,
+      0.11972093449022159,
+      0.12071051276216027,
+      0.11094301831915496,
+      0.12024205540140726,
+      0.12014925080641685,
+      0.029407589030478142,
+      0.0,
+      0.5009385109287937,
+      0.5525792306352003,
+      0.6346394140612096,
+      0.6328118275116652
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      7.01,
+      9.16,
+      119.32,
+      16.4
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      7.37,
+      16.63,
+      7.29,
+      2.08,
+      8.48
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.57,
+      1.62,
+      1.61,
+      1.37,
+      1.19
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "Gas price",
+     "zh": "天然气价格"
+    },
+    "text": {
+     "en": "Henry Hub averaged $3.52 in FY25 after $2.19 in FY24; EIA sees $3.48 for 2026.",
+     "zh": "FY25 Henry Hub 均价 $3.52（FY24 $2.19）；EIA 预计 2026 年 $3.48。"
+    }
+   },
+   {
+    "title": {
+     "en": "Integrated chain",
+     "zh": "一体化链条"
+    },
+    "sub": [
+     {
+      "title": {
+       "en": "Upstream",
+       "zh": "上游"
+      },
+      "text": {
+       "en": "81% of gross revenue.",
+       "zh": "占分部收入 81%。"
+      }
+     },
+     {
+      "title": {
+       "en": "Gathering",
+       "zh": "集输"
+      },
+      "text": {
+       "en": "13%; mostly own gas.",
+       "zh": "13%；主要是自产气。"
+      }
+     },
+     {
+      "title": {
+       "en": "Transmission",
+       "zh": "输气"
+      },
+      "text": {
+       "en": "6%; MVP stake $4.0B.",
+       "zh": "6%；MVP 股权 $40 亿。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Low cost",
+     "zh": "低成本"
+    },
+    "text": {
+     "en": "Total cost $1.09/Mcfe in Q3 2026; production taxes ~2.3% of sales.",
+     "zh": "2026年Q3 单位总成本 $1.09/Mcfe；生产税约为销售的 2.3%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Cash conversion",
+     "zh": "现金转化"
+    },
+    "text": {
+     "en": "OCF $5.1B - capex $2.3B = FCF $2.8B; debt cut from $9.4B (FY24) to $5.6B (Q3 2026).",
+     "zh": "OCF $5.1B - 资本开支 $2.3B = FCF $2.8B；债务由 FY24 的 $94 亿降至 2026年Q3 的 $56 亿。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "Henry Hub must stay well above the ~$1.1/Mcfe cost, and acquired pipes and acreage must earn more than their cost of capital.",
+     "zh": "Henry Hub 须明显高于约 $1.1/Mcfe 的成本，收购来的管道和区块须赚到高于资本成本的回报。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "Street avg target",
+   "zh": "华尔街平均目标价"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Oct 30, 2026",
+   "zh": "2026年10月30日"
+  },
+  "price": 51.24,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 24.15
+   },
+   {
+    "name": "base",
+    "value": 54.4
+   },
+   {
+    "name": "bull",
+    "value": 85.28
+   }
+  ],
+  "wacc": "8.5%",
+  "terminal_growth": "1.5%",
+  "horizon": "2026-30",
+  "morningstar": null,
+  "sp": 66.27,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "Base: Henry Hub $3.16 (2027) to $3.50 (2030). Bear $2.60-2.75; bull $3.90-4.25. Beta 0.9; TV 76% of EV.",
+    "zh": "基准：Henry Hub 由 $3.16（2027）升至 $3.50（2030）。悲观 $2.60-2.75；乐观 $3.90-4.25。Beta 0.9；终值占 EV 76%。"
+   },
+   {
+    "en": "Model price $55.38 (Oct 30); vs price uses Nov 16 close. Morningstar FV to follow.",
+    "zh": "模型股价 $55.38（10月30日）；较现价按 11月16日收盘。Morningstar 合理价值待补充。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | FY21-25",
+   "zh": "核心KPI | FY21-25"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Sales vol. (Bcfe)",
+     "zh": "销售量（Bcfe）"
+    },
+    "1,858",
+    "1,940",
+    "2,016",
+    "2,228",
+    "2,382"
+   ],
+   [
+    {
+     "en": "Daily (MMcfe/d)",
+     "zh": "日均（MMcfe）"
+    },
+    "5,090",
+    "5,315",
+    "5,523",
+    "6,104",
+    "6,526"
+   ],
+   [
+    {
+     "en": "Henry Hub ($)",
+     "zh": "Henry Hub（$）"
+    },
+    "3.89",
+    "6.45",
+    "2.53",
+    "2.19",
+    "3.52"
+   ],
+   [
+    {
+     "en": "Realised ($/Mcfe)",
+     "zh": "实现价格（$/Mcfe）"
+    },
+    "--",
+    "--",
+    "--",
+    "2.74",
+    "3.19"
+   ],
+   [
+    {
+     "en": "Net debt / EBITDA",
+     "zh": "净债务/EBITDA"
+    },
+    "7.88x",
+    "0.93x",
+    "1.36x",
+    "3.68x",
+    "1.28x"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y",
+   "5Y",
+   "10Y",
+   "14Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "63.9%",
+    "4.9%",
+    "23.1%",
+    "14.0%",
+    "14.3%"
+   ],
+   [
+    {
+     "en": "Op. Income",
+     "zh": "营业利润"
+    },
+    "374.2%",
+    "6.1%",
+    "NM",
+    "19.2%",
+    "10.9%"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "81.3%",
+    "13.9%",
+    "27.2%",
+    "15.5%",
+    "13.2%"
+   ],
+   [
+    {
+     "en": "Capex",
+     "zh": "资本开支"
+    },
+    "1.5%",
+    "17.8%",
+    "17.0%",
+    "-.2%",
+    "3.9%"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "635.6%",
+    "-8.9%",
+    "NM",
+    "19.4%",
+    ".3%"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "313.7%",
+    "-3.2%",
+    "19.4%",
+    "NM",
+    "NM"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "-.3%",
+    "8.1%",
+    "84.7%",
+    "18.1%",
+    "-2.3%"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "21.6",
+    "22.7",
+    "25.3",
+    "39.8",
+    "41.8"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "11.6",
+    "11.5",
+    "10.5",
+    "15.6",
+    "14.4"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "5.6",
+    "5.7",
+    "5.8",
+    "9.3",
+    "7.8"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "8.2",
+    "12.4",
+    "15.9",
+    "27.5",
+    "33.5"
+   ],
+   [
+    {
+     "en": "Cash + ST",
+     "zh": "现金及短投"
+    },
+    "0.1",
+    "1.5",
+    "0.1",
+    "0.2",
+    "0.1"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "53.9%",
+    "50.5%",
+    "41.5%",
+    "39.0%",
+    "34.5%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY12-25 OCF $29.9B less capex $28.5B left only **$1.4B FCF**. Dividends **$1.4B**; buybacks **$0.7B**; cash acquisitions **$8.1B**. FCF was negative every year from FY11 to FY18; growth was funded with debt and stock.",
+    "zh": "FY12-25 OCF $29.9B 减资本开支 $28.5B，仅得 **FCF $1.4B**。股息 **$1.4B**；回购 **$0.7B**；现金收购 **$8.1B**。FY11-FY18 每年 FCF 为负，增长靠举债和发股。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted shares rose from 150M (FY11) to 616M (FY25), **4.1 times**, mainly from stock-funded deals (Rice 2017, Equitrans 2024). 629M diluted in Q3 2026.",
+    "zh": "稀释股数由 FY11 的 150M 增至 FY25 的 616M，**增至 4.1 倍**，主要来自换股收购（2017 年 Rice、2024 年 Equitrans）。2026年Q3 稀释股数 6.29 亿股。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "Scale was bought with shares.",
+    "zh": "规模是用股票买来的。"
+   },
+   "body": {
+    "en": "Shares grew 4.1x since FY11 while FCF per share has only recently turned positive. Cumulative FY12-25 FCF was just $1.4B against $8.1B of cash acquisitions plus large stock deals. Per-share value, not production growth, is the test from here.",
+    "zh": "自 FY11 起股数增至 4.1 倍，而每股 FCF 直到最近才转正。FY12-25 累计 FCF 仅 $1.4B，而现金收购达 $8.1B，另有大额换股收购。今后的检验标准应是每股价值，而不是产量增长。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Now the cash is real.",
+    "zh": "现在现金是真实的。"
+   },
+   "body": {
+    "en": "FY25 OCF $5.1B and FCF $2.8B, the best year on record; TTM FCF $3.8B. Volumes rose 28% in FY21-25 to 2,382 Bcfe while capex stayed near $2.3B.",
+    "zh": "FY25 OCF $5.1B、FCF $2.8B，为历史最好；TTM FCF $3.8B。FY21-25 销售量增长 28% 至 2,382 Bcfe，资本开支保持在约 $23 亿。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Owning the pipes changes the cost.",
+    "zh": "拥有管道改变了成本。"
+   },
+   "body": {
+    "en": "After reacquiring Equitrans, most gathering and transmission revenue is internal, so cost per Mcfe fell to $1.09. The trade-off is $3.55B of minority interests and more fixed assets, so ROIC (7.3% in FY25) has to rise as the pipes fill with third-party gas.",
+    "zh": "重新收购 Equitrans 后，大部分集输和输气收入变为内部收入，单位成本降至 $1.09/Mcfe。代价是 $35.5 亿的少数股东权益和更多固定资产，因此 ROIC（FY25 为 7.3%）需要随第三方气量增加而提升。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Debt is coming down fast.",
+    "zh": "债务在快速下降。"
+   },
+   "body": {
+    "en": "Total debt fell from $9.4B (FY24) to $5.6B (Q3 2026); net debt/EBITDA from 3.7x to 0.8x TTM. Lower leverage matters for a company with a BBB- rating and gas-price exposure; it also leaves room to restart buybacks.",
+    "zh": "总债务由 FY24 的 $94 亿降至 2026年Q3 的 $56 亿；净债务/EBITDA 由 3.7 倍降至 TTM 0.8 倍。对评级 BBB-、承担天然气价格风险的公司，降杠杆很重要，也为重启回购留出空间。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Reported revenue swings with hedges.",
+    "zh": "报表收入随套保波动。"
+   },
+   "body": {
+    "en": "GAAP revenue includes derivative results: $7.5B in FY22 against $12.1B of gross sales. Judge the business by volume x realised price and unit cost, not by headline revenue.",
+    "zh": "GAAP 收入包含衍生品损益：FY22 为 $75 亿，而毛销售额为 $121 亿。评价业务应看销量 × 实现价格与单位成本，而不是报表收入。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The gas deck decides the value.",
+    "zh": "天然气价格决定估值。"
+   },
+   "body": {
+    "en": "Base $54.40 (WACC 8.5%, g 1.5%, beta 0.9) assumes Henry Hub $3.16 in 2027 rising to $3.50 by 2030 as LNG grows; TV is 76% of EV. At $51.24 that is +6%. Bear $24 and bull $85 show how wide the range is.",
+    "zh": "基准价值 $54.40（WACC 8.5%，g 1.5%，beta 0.9）假设 Henry Hub 由 2027 年的 $3.16 随 LNG 增长升至 2030 年的 $3.50；终值占 EV 76%。按 $51.24 计 +6%。悲观 $24、乐观 $85，区间很宽。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY11-25 from SEC 10-K XBRL (calendar year). Revenue = GAAP total revenues incl. derivative gains/losses (FY11-15: oil & gas revenue tag). Capex FY11-17 = payments for productive assets (incl. midstream before the 2018 spin).",
+   "EBITDA* = operating income + DD&A. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares. KPI net debt/EBITDA from the analyst model (S&P basis).",
+   "Header: Nov 16, 2026 close $51.24, 625.6M shares; book value = Sep 30, 2026 equity $25.5B; TTM P/E (EPS $4.21); P/FCF on TTM FCF $3.8B. FY21-25 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
+   "DCF: Pythia model EQT_DCF_Model, Oct 30, 2026 (price $55.38); WACC 8.5%, g 1.5%. Street avg target = 22-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "Sources: EQT 10-K FY2025, Q3 2026 release (Oct 27, 2026); SEC EDGAR; FRED (Henry Hub); EIA STEO Oct 2026; StockAnalysis."
+  ],
+  "zh": [
+   "FY11-25 数据取自 SEC 10-K XBRL（日历年）。营收 = GAAP 总收入（含衍生品损益；FY11-15 用油气收入标签）。FY11-17 资本开支 = 生产性资产支出（2018 年分拆前含中游）。",
+   "EBITDA* = 营业利润 + 折旧折耗摊销。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。KPI 中净债务/EBITDA 取自分析模型（S&P 口径）。",
+   "首行：2026年11月16日收盘 $51.24，6.256 亿股；每股账面 = 2026年9月30日权益 $255 亿；TTM P/E（EPS $4.21）；P/FCF 按 TTM FCF $38 亿。FY21-25 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
+   "DCF：Pythia 模型 EQT_DCF_Model，2026年10月30日（股价 $55.38）；WACC 8.5%，g 1.5%。华尔街平均目标价为 22 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "来源：EQT FY2025 10-K、2026年Q3 业绩公告（2026年10月27日）；SEC EDGAR；FRED（Henry Hub）；EIA 2026年10月 STEO；StockAnalysis。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "eqt",
+  "name": {
+   "en": "EQT Corporation",
+   "zh": "EQT公司"
+  },
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "indices": [
+   "S&P 500",
+   "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "",
+  "summary": {
+   "en": "The largest U.S. natural-gas producer, now with its own pipelines: after years of share-funded growth it generates real FCF and is paying down debt; my base value ($54.40) is close to the price.",
+   "zh": "美国最大的天然气生产商，现在拥有自己的管道：经历多年发股扩张后，已产生真实的 FCF 并在还债；我的基准价值（$54.40）接近股价。"
+  },
+  "tags": [
+   {
+    "en": "Natural gas",
+    "zh": "天然气"
+   },
+   {
+    "en": "Appalachia",
+    "zh": "阿巴拉契亚"
+   },
+   {
+    "en": "Midstream",
+    "zh": "中游管道"
+   },
+   {
+    "en": "LNG demand",
+    "zh": "LNG 需求"
+   }
+  ],
+  "business": {
+   "en": "### What EQT does\n- **Upstream (81% of FY25 segment revenue):** natural gas from the Marcellus and Utica shales in Appalachia; 2,382 Bcfe sold in FY25.\n- **Gathering (13%) and Transmission (6%):** pipelines reacquired with Equitrans in 2024; most of their revenue is EQT's own gas, plus a stake in the Mountain Valley Pipeline.\n\n### How it makes money\nVolume x realised gas price, less a low unit cost (~$1.09/Mcfe). Owning the pipes lowers cost and gives access to more markets.\n\n### Key risks\nHenry Hub prices, Appalachian takeaway capacity, hedging results, and execution on integrating acquisitions.",
+   "zh": "### EQT 做什么\n- **上游（占 FY25 分部收入 81%）：** 阿巴拉契亚地区 Marcellus 和 Utica 页岩气；FY25 销售 2,382 Bcfe。\n- **集输（13%）与输气（6%）：** 2024 年随 Equitrans 重新收购的管道；大部分收入来自自产气，另持有 Mountain Valley 管道股权。\n\n### 怎样赚钱\n销量 × 实现气价，减去较低的单位成本（约 $1.09/Mcfe）。拥有管道降低了成本，并能进入更多市场。\n\n### 关键风险\nHenry Hub 价格、阿巴拉契亚外输能力、套保结果，以及收购整合。"
+  },
+  "segments": [
+   {
+    "name": {
+     "en": "Upstream",
+     "zh": "上游"
+    },
+    "share": 81.1
+   },
+   {
+    "name": {
+     "en": "Gathering",
+     "zh": "集输"
+    },
+    "share": 13.1
+   },
+   {
+    "name": {
+     "en": "Transmission",
+     "zh": "输气"
+    },
+    "share": 5.8
+   }
+  ],
+  "revenue_cagr": "1.3% (2026-30E, base deck)",
+  "margin": "EBIT margin 40% (2026E) → 41% (2030E)",
+  "gap": {
+   "summary": {
+    "en": "My base value is **$54.40**, **6% above** the price (**$51.24**) but 18% below the Street average target (**$66.27**). Volumes and capex follow guidance; the difference is the **gas deck** (Henry Hub $3.16 in 2027 rising to $3.50) and the **0.9 beta** (WACC 8.5%; S&P Global uses 7.4%). With a 0.65 beta the value is about $64, close to the Street. Morningstar's fair value will be added when the report is uploaded.",
+    "zh": "我的基准价值为 **$54.40**，比现价（**$51.24**）高 **6%**，但比华尔街平均目标价（**$66.27**）低 18%。产量和资本开支按公司指引；差距来自 **天然气价格假设**（Henry Hub 2027 年 $3.16，逐步升至 $3.50）和 **0.9 的 beta**（WACC 8.5%；S&P Global 用 7.4%）。若 beta 为 0.65，价值约 $64，接近华尔街。Morningstar 的合理价值将在上传报告后补充。"
+   },
+   "bridge": [],
+   "assumptions": [
+    {
+     "item": {
+      "en": "Value per share",
+      "zh": "每股价值"
+     },
+     "mine": "$54.40",
+     "morningstar": "—",
+     "sp": "$66.27",
+     "note": {
+      "en": "Street = average of 22 analysts (S&P Global)",
+      "zh": "华尔街 = 22 位分析师平均（S&P Global）"
+     }
+    },
+    {
+     "item": "WACC",
+     "mine": "8.5%",
+     "morningstar": "—",
+     "sp": "7.4%",
+     "note": {
+      "en": "S&P Global WACC estimate",
+      "zh": "S&P Global 的 WACC 估计"
+     }
+    },
+    {
+     "item": {
+      "en": "Henry Hub 2027E / 2030E",
+      "zh": "Henry Hub 2027E / 2030E"
+     },
+     "mine": "$3.16 / $3.50",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "EIA STEO Oct 2026, then LNG demand",
+      "zh": "EIA 2026年10月 STEO，之后看 LNG 需求"
+     }
+    },
+    {
+     "item": {
+      "en": "2026E revenue",
+      "zh": "2026E 营收"
+     },
+     "mine": "$8.6B",
+     "morningstar": "—",
+     "sp": "$9.1B",
+     "note": {
+      "en": "Street = S&P consensus",
+      "zh": "华尔街 = S&P 一致预期"
+     }
+    },
+    {
+     "item": {
+      "en": "2026E capex",
+      "zh": "2026E 资本开支"
+     },
+     "mine": "$2.68B",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "Company guidance",
+      "zh": "公司指引"
+     }
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/eqt/EQT_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/eqt/EQT_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/eqt/EQT_OnePage_en.png",
+   "zh": "reports/eqt/EQT_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   },
+   {
+    "date": "2026-10-30",
+    "note": {
+     "en": "DCF model (price deck)",
+     "zh": "DCF 模型（价格假设）"
+    }
+   }
+  ]
+ }
+}

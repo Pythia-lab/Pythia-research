@@ -54,6 +54,1053 @@
 
 window.COMPANIES = [
   {
+    "id": "msft",
+    "name": {
+      "en": "Microsoft",
+      "zh": "微软"
+    },
+    "ticker": "MSFT",
+    "exchange": "NASDAQ",
+    "market": "US",
+    "sector": "Information Technology",
+    "industry": "Systems Software",
+    "indices": [
+      "S&P 500",
+      "Nasdaq-100",
+      "Dow 30",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 517.99,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 404.69,
+      "bear": 283.37,
+      "bull": 416.25,
+      "morningstar": 600.0,
+      "sp": 636.12
+    },
+    "moat": "Wide",
+    "summary": {
+      "en": "Cloud and AI growth has reaccelerated, but capex now takes 63% of operating cash flow; my DCF ($404.69) is below the price because I discount at 9.7% and need capex to fall back to ~21% of revenue.",
+      "zh": "云与 AI 增长重新加速，但资本开支已占经营现金流的 63%；我的 DCF（$404.69）低于股价，因为我用 9.7% 的折现率，并要求资本开支回落到营收的约 21%。"
+    },
+    "tags": [
+      {
+        "en": "Cloud",
+        "zh": "云计算"
+      },
+      "AI",
+      {
+        "en": "Software",
+        "zh": "软件"
+      },
+      {
+        "en": "Capex cycle",
+        "zh": "资本开支周期"
+      }
+    ],
+    "business": {
+      "en": "### Two segments (from FY2027)\n- **Agents and Infra (81% of FY26 revenue, 50.9% margin):** Azure, Microsoft 365 cloud, Dynamics, server products and industry solutions.\n- **Devices and Consumer (19%, 29.6% margin):** Windows OEM and devices, search and advertising, Xbox.\n\n### What changed\nAI demand pushed Azure growth to +48% and commercial RPO to $677B, but capex rose to 35% of revenue in FY26 and about 50% (incl. leases) in FY27.\n\n### Key risks\nAI demand and pricing, depreciation of the capex wave, capacity constraints, and the value of the OpenAI stake.",
+      "zh": "### 两大分部（FY2027 起）\n- **智能体与基础设施（占 FY26 营收 81%，利润率 50.9%）：** Azure、Microsoft 365 云、Dynamics、服务器产品与行业解决方案。\n- **设备与消费者（19%，利润率 29.6%）：** Windows OEM 与设备、搜索与广告、Xbox。\n\n### 发生了什么变化\nAI 需求把 Azure 增速推到 +48%，商业 RPO 达 $6,770 亿；但资本开支在 FY26 升至营收的 35%，FY27（含租赁）约 50%。\n\n### 关键风险\nAI 需求与定价、资本开支浪潮带来的折旧、算力供给约束，以及 OpenAI 股权的价值。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Agents and Infra",
+          "zh": "智能体与基础设施"
+        },
+        "share": 80.8
+      },
+      {
+        "name": {
+          "en": "Devices and Consumer",
+          "zh": "设备与消费者"
+        },
+        "share": 19.2
+      }
+    ],
+    "dcf": {
+      "wacc": "9.7%",
+      "terminalGrowth": "3.0%",
+      "horizon": "FY27-31",
+      "revenueCagr": "13.7% (FY26-31, blended)",
+      "margin": "EBIT margin 46.8% → 47.6% (FY31E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 283.37
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 404.69
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 416.25
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$404.69**, **33% below** Morningstar's **$600** (dated Jul 30, 2026) and 36% below the Street average target (**$636.12**). My revenue path is close to consensus (FY27 $396B), so the gap comes from **valuation inputs**: a **9.7% WACC** (10-year Treasury 5.15%, beta 1.05) and capex that only falls to **21% of revenue by FY31**, keeping FCF well below operating earnings. At a 0.6 beta the value would be **$584**, close to Morningstar. A step-by-step bridge will be added when the Morningstar report is uploaded.",
+        "zh": "我的混合基准价值为 **$404.69**，比 Morningstar 的 **$600**（2026年7月30日）低 **33%**，比华尔街平均目标价（**$636.12**）低 36%。我的营收路径接近一致预期（FY27 $3,960 亿），差距来自 **估值参数**：**9.7% 的 WACC**（10 年期美债 5.15%，beta 1.05），以及资本开支到 **FY31 才降到营收的 21%**，使 FCF 明显低于经营利润。若 beta 为 0.6，价值为 **$584**，接近 Morningstar。上传 Morningstar 报告后将补充逐项拆解。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$404.69",
+          "morningstar": "$600",
+          "sp": "$636.12",
+          "note": {
+            "en": "Street = average of 58 analysts (S&P Global)",
+            "zh": "华尔街 = 58 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "9.7%",
+          "morningstar": "—",
+          "sp": "9.7%",
+          "note": {
+            "en": "S&P Global WACC estimate",
+            "zh": "S&P Global 的 WACC 估计"
+          }
+        },
+        {
+          "item": {
+            "en": "FY27E / FY28E revenue",
+            "zh": "FY27E / FY28E 营收"
+          },
+          "mine": "$396B / $458B",
+          "morningstar": "—",
+          "sp": "$396B / $437B",
+          "note": {
+            "en": "Street = consensus",
+            "zh": "华尔街 = 一致预期"
+          }
+        },
+        {
+          "item": {
+            "en": "FY27E capex / revenue",
+            "zh": "FY27E 资本开支/营收"
+          },
+          "mine": "50%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Incl. finance leases; 21% by FY31",
+            "zh": "含融资租赁；FY31 为 21%"
+          }
+        },
+        {
+          "item": {
+            "en": "FY27E FCF",
+            "zh": "FY27E FCF"
+          },
+          "mine": "—",
+          "morningstar": "—",
+          "sp": "$32.6B",
+          "note": {
+            "en": "S&P consensus",
+            "zh": "S&P 一致预期"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/msft/MSFT_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/msft/MSFT_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/msft/MSFT_OnePage_en.png",
+      "zh": "reports/msft/MSFT_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "ms",
+    "name": {
+      "en": "Morgan Stanley",
+      "zh": "摩根士丹利"
+    },
+    "ticker": "MS",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Financials",
+    "industry": "Brokerage & Investment Banking",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 185.57,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 159.64,
+      "bear": 117.68,
+      "bull": 164.48,
+      "morningstar": null,
+      "sp": 211.5
+    },
+    "moat": "",
+    "summary": {
+      "en": "Wealth management turned a trading house into a fee business earning 20%+ on tangible equity; at 3.5x tangible book the price already assumes that lasts, and my equity value ($159.64) is 14% lower.",
+      "zh": "财富管理把一家交易型投行变成了以收费为主、有形权益回报 20% 以上的公司；股价已是有形账面的 3.5 倍，假设这种回报会持续，我的股权价值（$159.64）低 14%。"
+    },
+    "tags": [
+      {
+        "en": "Wealth management",
+        "zh": "财富管理"
+      },
+      {
+        "en": "Investment banking",
+        "zh": "投资银行"
+      },
+      {
+        "en": "Trading",
+        "zh": "交易"
+      },
+      {
+        "en": "Bank capital",
+        "zh": "银行资本"
+      }
+    ],
+    "business": {
+      "en": "### Three segments\n- **Institutional Securities (47% of FY25 net revenues):** investment banking, equities and fixed-income trading; 34% pre-tax margin.\n- **Wealth Management (45%):** advice and brokerage for individuals, including E*TRADE; 29.3% margin and recurring fees.\n- **Investment Management (9%):** asset management including Eaton Vance; 21.6% margin.\n\n### Why it is valued on equity\nFor a bank, debt and deposits fund trading inventory and loans, so enterprise value and WACC are not meaningful. Value comes from returns on tangible equity above the cost of equity, and from capital that can be paid out above the CET1 requirement.\n\n### Key risks\nMarket downturns (lower fees and trading), regulatory capital changes, and competition for wealth clients.",
+      "zh": "### 三大分部\n- **机构证券（占 FY25 净收入 47%）：** 投资银行、股票与固定收益交易；税前利润率 34%。\n- **财富管理（45%）：** 为个人客户提供顾问与经纪服务（含 E*TRADE）；利润率 29.3%，收入可重复。\n- **投资管理（9%）：** 资产管理（含 Eaton Vance）；利润率 21.6%。\n\n### 为什么按股权估值\n对银行来说，债务和存款是交易存货和贷款的资金来源，企业价值和 WACC 没有意义。价值来自高于股权成本的有形权益回报，以及高于 CET1 要求、可以分配的资本。\n\n### 关键风险\n市场下行（费用与交易收入下降）、监管资本要求变化，以及财富客户的竞争。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Institutional Securities",
+          "zh": "机构证券"
+        },
+        "share": 46.8
+      },
+      {
+        "name": {
+          "en": "Wealth Management",
+          "zh": "财富管理"
+        },
+        "share": 44.9
+      },
+      {
+        "name": {
+          "en": "Investment Management",
+          "zh": "投资管理"
+        },
+        "share": 9.2
+      }
+    ],
+    "dcf": {
+      "wacc": "10.6%",
+      "terminalGrowth": "3.5% / 2%",
+      "horizon": "2026-30",
+      "revenueCagr": "7.0% (2025-30, blended)",
+      "margin": "Pre-tax margin 31% → 32% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 117.68
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 159.64
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 164.48
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended value is **$159.64**, **14% below** the price (**$185.57**) and 25% below the Street average target (**$211.50**). It averages two equity methods: residual income (**$151.14**) and distributable capital (**$168.13**), at a **10.6% cost of equity** (beta 1.22). After a strong 2026, I grow net revenues only about **4.5% a year** and hold ROTCE near 25-26%; the market price implies either faster growth or a lower discount rate. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合价值为 **$159.64**，比现价（**$185.57**）低 **14%**，比华尔街平均目标价（**$211.50**）低 25%。它是两种股权估值方法的平均：剩余收益（**$151.14**）和可分配资本（**$168.13**），股权成本 **10.6%**（beta 1.22）。在 2026 年强劲增长之后，我只让净收入每年增长约 **4.5%**，ROTCE 保持在 25-26%；市场价格意味着更快的增长或更低的折现率。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$159.64",
+          "morningstar": "—",
+          "sp": "$211.50",
+          "note": {
+            "en": "Street = analyst average (S&P Global)",
+            "zh": "华尔街 = 分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": {
+            "en": "Cost of equity",
+            "zh": "股权成本"
+          },
+          "mine": "10.6%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "rf 5.15% + 1.22 x 4.5%",
+            "zh": "无风险利率 5.15% + 1.22 × 4.5%"
+          }
+        },
+        {
+          "item": {
+            "en": "Net revenues 2026E / 2030E",
+            "zh": "净收入 2026E / 2030E"
+          },
+          "mine": "$82.4B / $99.1B",
+          "morningstar": "—",
+          "sp": "—",
+          "note": ""
+        },
+        {
+          "item": {
+            "en": "ROTCE 2026E / 2030E",
+            "zh": "ROTCE 2026E / 2030E"
+          },
+          "mine": "24.4% / 26.3%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "FY25 actual 21.6%",
+            "zh": "FY25 实际 21.6%"
+          }
+        },
+        {
+          "item": {
+            "en": "Target CET1",
+            "zh": "目标 CET1"
+          },
+          "mine": "13.5% (2028+)",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Requirement 11.8%",
+            "zh": "要求 11.8%"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/ms/MS_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/ms/MS_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/ms/MS_OnePage_en.png",
+      "zh": "reports/ms/MS_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page (bank layout) with equity valuation",
+          "zh": "One Page（银行版式）含股权估值"
+        }
+      }
+    ],
+    "labels": {
+      "mine": {"en": "My value", "zh": "我的估值"},
+      "waccG": {"en": "Cost of equity / g", "zh": "股权成本 / 永续增长"},
+      "wacc": {"en": "Cost of equity", "zh": "股权成本"},
+      "secDcf": {"en": "Valuation summary", "zh": "估值摘要"},
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "cl",
+    "name": {
+      "en": "Colgate-Palmolive",
+      "zh": "高露洁棕榄"
+    },
+    "ticker": "CL",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Consumer Staples",
+    "industry": "Household Products",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 100.99,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 82.56,
+      "bear": 67.96,
+      "bull": 84.04,
+      "morningstar": null,
+      "sp": 101.7
+    },
+    "moat": "",
+    "summary": {
+      "en": "A steady oral-care and pet-food cash machine that pays out more than it earns in FCF; my DCF ($82.56) sits below the price because I use a normal staples beta, not the unusually low raw beta.",
+      "zh": "稳健的口腔护理与宠物食品现金机器，分配额超过 FCF；我的 DCF（$82.56）低于股价，因为我用的是正常的必需消费品 beta，而不是异常低的原始 beta。"
+    },
+    "tags": [
+      {
+        "en": "Consumer staples",
+        "zh": "必需消费品"
+      },
+      {
+        "en": "Oral care",
+        "zh": "口腔护理"
+      },
+      {
+        "en": "Pet food",
+        "zh": "宠物食品"
+      },
+      {
+        "en": "Emerging markets",
+        "zh": "新兴市场"
+      }
+    ],
+    "business": {
+      "en": "### Two businesses\n- **Oral, Personal & Home Care (77% of FY25 sales):** toothpaste, toothbrushes, soap, home care, sold through five regions; Latin America is the largest ($4.8B) and most profitable (29.5% margin).\n- **Hill's Pet Nutrition (23%):** premium and therapeutic pet food; 23.1% margin.\n\n### How it makes money\nPricing power keeps gross margin near 60%; capex is under 3% of sales, so most operating cash flow is free cash flow, which is paid out as dividends and buybacks.\n\n### Key risks\nInput-cost inflation, emerging-market currencies, private-label trade-down, and slower Hill's growth.",
+      "zh": "### 两大业务\n- **口腔、个人与家居护理（占 FY25 销售 77%）：** 牙膏、牙刷、香皂、家居清洁，分五个地区经营；拉丁美洲规模最大（$48 亿）、利润率最高（29.5%）。\n- **Hill's 宠物营养（23%）：** 高端与处方宠物食品；利润率 23.1%。\n\n### 怎样赚钱\n定价能力让毛利率保持在 60% 左右；资本开支不到销售的 3%，经营现金流大部分成为自由现金流，用于分红和回购。\n\n### 关键风险\n原材料成本上涨、新兴市场汇率、消费降级至自有品牌、Hill's 增长放缓。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Oral, Personal & Home Care",
+          "zh": "口腔、个人与家居护理"
+        },
+        "share": 77.4
+      },
+      {
+        "name": {
+          "en": "Hill's Pet Nutrition",
+          "zh": "Hill's 宠物营养"
+        },
+        "share": 22.6
+      }
+    ],
+    "dcf": {
+      "wacc": "7.5%",
+      "terminalGrowth": "2.5%",
+      "horizon": "2026-30",
+      "revenueCagr": "3.9% (2025-30, blended)",
+      "margin": "EBIT margin 16% → 22% (2030E, before one-offs)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 67.96
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 82.56
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 84.04
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$82.56**, **19% below** the Street average target (**$101.70**) and the price (**$100.99**). Revenue and margins are close to consensus (my consensus case is $81.09), so the gap is the **discount rate**: I use a **beta of 0.6** (WACC 7.5%) because the raw five-year beta of 0.31 is abnormally low; with the raw beta the value is **$111.82**. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合基准价值为 **$82.56**，比华尔街平均目标价（**$101.70**）和现价（**$100.99**）低 **19%**。营收和利润率与一致预期接近（我的一致预期情景为 $81.09），差距来自 **折现率**：我用 **0.6 的 beta**（WACC 7.5%），因为 5 年原始 beta 0.31 异常偏低；若用原始 beta，价值为 **$111.82**。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$82.56",
+          "morningstar": "—",
+          "sp": "$101.70",
+          "note": {
+            "en": "Street = average of 21 analysts (S&P Global)",
+            "zh": "华尔街 = 21 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "7.5%",
+          "morningstar": "—",
+          "sp": "5.6%",
+          "note": {
+            "en": "S&P Global WACC uses the raw beta",
+            "zh": "S&P Global 的 WACC 使用原始 beta"
+          }
+        },
+        {
+          "item": "Beta",
+          "mine": "0.60",
+          "morningstar": "—",
+          "sp": "0.31",
+          "note": {
+            "en": "Raw 5-year beta",
+            "zh": "5 年原始 beta"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2027E",
+            "zh": "营收 2026E / 2027E"
+          },
+          "mine": "$21.4B / $22.2B",
+          "morningstar": "—",
+          "sp": "$21.4B / $22.1B",
+          "note": {
+            "en": "Street = consensus",
+            "zh": "华尔街 = 一致预期"
+          }
+        },
+        {
+          "item": {
+            "en": "2030E EBIT margin",
+            "zh": "2030E EBIT 利润率"
+          },
+          "mine": "22.2%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "FY25 GAAP 16.2% incl. impairments",
+            "zh": "FY25 GAAP 16.2%（含减值）"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/cl/CL_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/cl/CL_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/cl/CL_OnePage_en.png",
+      "zh": "reports/cl/CL_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "eog",
+    "name": {
+      "en": "EOG Resources",
+      "zh": "EOG资源"
+    },
+    "ticker": "EOG",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 155.47,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 146.17,
+      "bear": 73.24,
+      "bull": 231.36,
+      "morningstar": null,
+      "sp": 167.14
+    },
+    "moat": "",
+    "summary": {
+      "en": "A low-cost U.S. oil producer whose value is set by the price deck: at mid-cycle WTI ~$70 my base value ($146.17) is a little below the price.",
+      "zh": "低成本的美国石油生产商，估值由油气价格假设决定：在 WTI 约 $70 的中周期价格下，我的基准价值（$146.17）略低于股价。"
+    },
+    "tags": [
+      {
+        "en": "Oil & gas",
+        "zh": "油气"
+      },
+      {
+        "en": "Shale",
+        "zh": "页岩油"
+      },
+      {
+        "en": "Natural gas",
+        "zh": "天然气"
+      },
+      {
+        "en": "Commodity cycle",
+        "zh": "商品周期"
+      }
+    ],
+    "business": {
+      "en": "### What EOG sells\n- **Crude oil & condensate (55% of FY25 revenue):** Delaware Basin, Eagle Ford and other U.S. shale plays.\n- **Natural gas (12%) and NGLs (10%):** growing after the Encino (Utica) acquisition in Aug 2025 and the Dorado gas play.\n- **Gathering, processing & marketing (22%):** mostly resale of third-party volumes at a thin margin.\n\n### How it makes money\nEOG is a price-taker, so it competes on cost: cash operating cost has stayed near $10.3/Boe, and in FY21-25 it reinvested 41-61% of operating cash flow, paying out the rest as dividends and buybacks.\n\n### Key risks\nOil and gas prices, well productivity and cost inflation, and the integration of Encino.",
+      "zh": "### EOG 卖什么\n- **原油与凝析油（占 FY25 营收 55%）：** Delaware 盆地、Eagle Ford 等美国页岩区。\n- **天然气（12%）与 NGL（10%）：** 2025年8月收购 Encino（Utica）及 Dorado 气田后增长。\n- **集输、处理与营销（22%）：** 主要是转售第三方油气，利润很薄。\n\n### 怎样赚钱\nEOG 无法决定价格，只能靠成本竞争：现金经营成本保持在约 $10.3/桶油当量，FY21-25 把经营现金流的 41-61% 用于再投资，其余用于分红和回购。\n\n### 关键风险\n油气价格、单井产量与成本通胀，以及 Encino 的整合。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Crude oil & condensate",
+          "zh": "原油与凝析油"
+        },
+        "share": 55.2
+      },
+      {
+        "name": {
+          "en": "Gathering, marketing & other",
+          "zh": "集输、营销及其他"
+        },
+        "share": 22.0
+      },
+      {
+        "name": {
+          "en": "Natural gas",
+          "zh": "天然气"
+        },
+        "share": 12.3
+      },
+      {
+        "name": {
+          "en": "Natural gas liquids",
+          "zh": "天然气凝液"
+        },
+        "share": 10.5
+      }
+    ],
+    "dcf": {
+      "wacc": "8.6%",
+      "terminalGrowth": "1.5%",
+      "horizon": "2026-30",
+      "revenueCagr": "-2.9% (2026-30E, base deck)",
+      "margin": "EBIT margin 38% (2026E) → 29% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 73.24
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 146.17
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 231.36
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My base value is **$146.17**, **6% below** the price (**$155.47**) and 13% below the Street average target (**$167.14**). Volumes and costs follow company guidance, so the gap is mostly the **price deck**: I let WTI fade from $87 in 2026 to **$70 by 2030** and use a **0.9 beta** (WACC 8.6%) instead of the raw 0.37. With the raw beta the value would be $213. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的基准价值为 **$146.17**，比现价（**$155.47**）低 **6%**，比华尔街平均目标价（**$167.14**）低 13%。产量和成本按公司指引，差距主要来自 **价格假设**：我让 WTI 从 2026 年的 $87 回落到 **2030 年的 $70**，并用 **0.9 的 beta**（WACC 8.6%）而不是原始的 0.37。若用原始 beta，价值约 $213。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$146.17",
+          "morningstar": "—",
+          "sp": "$167.14",
+          "note": {
+            "en": "Street = average of 33 analysts (S&P Global)",
+            "zh": "华尔街 = 33 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "8.6%",
+          "morningstar": "—",
+          "sp": "6.0%",
+          "note": {
+            "en": "S&P Global WACC uses the raw beta 0.37",
+            "zh": "S&P Global 的 WACC 使用原始 beta 0.37"
+          }
+        },
+        {
+          "item": {
+            "en": "WTI 2027E / 2030E",
+            "zh": "WTI 2027E / 2030E"
+          },
+          "mine": "$79 / $70",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "2027 from EIA STEO less WTI-Brent spread",
+            "zh": "2027 年取 EIA STEO 减 WTI-Brent 价差"
+          }
+        },
+        {
+          "item": {
+            "en": "Henry Hub 2027E / 2030E",
+            "zh": "Henry Hub 2027E / 2030E"
+          },
+          "mine": "$3.16 / $3.50",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "EIA STEO Oct 2026, then LNG demand",
+            "zh": "EIA 2026年10月 STEO，之后看 LNG 需求"
+          }
+        },
+        {
+          "item": {
+            "en": "2026E revenue",
+            "zh": "2026E 营收"
+          },
+          "mine": "$31.0B",
+          "morningstar": "—",
+          "sp": "$29.9B",
+          "note": {
+            "en": "Street = S&P consensus",
+            "zh": "华尔街 = S&P 一致预期"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/eog/EOG_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/eog/EOG_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/eog/EOG_OnePage_en.png",
+      "zh": "reports/eog/EOG_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      },
+      {
+        "date": "2026-10-30",
+        "note": {
+          "en": "DCF model (price deck)",
+          "zh": "DCF 模型（价格假设）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "eqt",
+    "name": {
+      "en": "EQT Corporation",
+      "zh": "EQT公司"
+    },
+    "ticker": "EQT",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 51.24,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 54.4,
+      "bear": 24.15,
+      "bull": 85.28,
+      "morningstar": null,
+      "sp": 66.27
+    },
+    "moat": "",
+    "summary": {
+      "en": "The largest U.S. natural-gas producer, now with its own pipelines: after years of share-funded growth it generates real FCF and is paying down debt; my base value ($54.40) is close to the price.",
+      "zh": "美国最大的天然气生产商，现在拥有自己的管道：经历多年发股扩张后，已产生真实的 FCF 并在还债；我的基准价值（$54.40）接近股价。"
+    },
+    "tags": [
+      {
+        "en": "Natural gas",
+        "zh": "天然气"
+      },
+      {
+        "en": "Appalachia",
+        "zh": "阿巴拉契亚"
+      },
+      {
+        "en": "Midstream",
+        "zh": "中游管道"
+      },
+      {
+        "en": "LNG demand",
+        "zh": "LNG 需求"
+      }
+    ],
+    "business": {
+      "en": "### What EQT does\n- **Upstream (81% of FY25 segment revenue):** natural gas from the Marcellus and Utica shales in Appalachia; 2,382 Bcfe sold in FY25.\n- **Gathering (13%) and Transmission (6%):** pipelines reacquired with Equitrans in 2024; most of their revenue is EQT's own gas, plus a stake in the Mountain Valley Pipeline.\n\n### How it makes money\nVolume x realised gas price, less a low unit cost (~$1.09/Mcfe). Owning the pipes lowers cost and gives access to more markets.\n\n### Key risks\nHenry Hub prices, Appalachian takeaway capacity, hedging results, and execution on integrating acquisitions.",
+      "zh": "### EQT 做什么\n- **上游（占 FY25 分部收入 81%）：** 阿巴拉契亚地区 Marcellus 和 Utica 页岩气；FY25 销售 2,382 Bcfe。\n- **集输（13%）与输气（6%）：** 2024 年随 Equitrans 重新收购的管道；大部分收入来自自产气，另持有 Mountain Valley 管道股权。\n\n### 怎样赚钱\n销量 × 实现气价，减去较低的单位成本（约 $1.09/Mcfe）。拥有管道降低了成本，并能进入更多市场。\n\n### 关键风险\nHenry Hub 价格、阿巴拉契亚外输能力、套保结果，以及收购整合。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Upstream",
+          "zh": "上游"
+        },
+        "share": 81.1
+      },
+      {
+        "name": {
+          "en": "Gathering",
+          "zh": "集输"
+        },
+        "share": 13.1
+      },
+      {
+        "name": {
+          "en": "Transmission",
+          "zh": "输气"
+        },
+        "share": 5.8
+      }
+    ],
+    "dcf": {
+      "wacc": "8.5%",
+      "terminalGrowth": "1.5%",
+      "horizon": "2026-30",
+      "revenueCagr": "1.3% (2026-30E, base deck)",
+      "margin": "EBIT margin 40% (2026E) → 41% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 24.15
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 54.4
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 85.28
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My base value is **$54.40**, **6% above** the price (**$51.24**) but 18% below the Street average target (**$66.27**). Volumes and capex follow guidance; the difference is the **gas deck** (Henry Hub $3.16 in 2027 rising to $3.50) and the **0.9 beta** (WACC 8.5%; S&P Global uses 7.4%). With a 0.65 beta the value is about $64, close to the Street. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的基准价值为 **$54.40**，比现价（**$51.24**）高 **6%**，但比华尔街平均目标价（**$66.27**）低 18%。产量和资本开支按公司指引；差距来自 **天然气价格假设**（Henry Hub 2027 年 $3.16，逐步升至 $3.50）和 **0.9 的 beta**（WACC 8.5%；S&P Global 用 7.4%）。若 beta 为 0.65，价值约 $64，接近华尔街。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$54.40",
+          "morningstar": "—",
+          "sp": "$66.27",
+          "note": {
+            "en": "Street = average of 22 analysts (S&P Global)",
+            "zh": "华尔街 = 22 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "8.5%",
+          "morningstar": "—",
+          "sp": "7.4%",
+          "note": {
+            "en": "S&P Global WACC estimate",
+            "zh": "S&P Global 的 WACC 估计"
+          }
+        },
+        {
+          "item": {
+            "en": "Henry Hub 2027E / 2030E",
+            "zh": "Henry Hub 2027E / 2030E"
+          },
+          "mine": "$3.16 / $3.50",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "EIA STEO Oct 2026, then LNG demand",
+            "zh": "EIA 2026年10月 STEO，之后看 LNG 需求"
+          }
+        },
+        {
+          "item": {
+            "en": "2026E revenue",
+            "zh": "2026E 营收"
+          },
+          "mine": "$8.6B",
+          "morningstar": "—",
+          "sp": "$9.1B",
+          "note": {
+            "en": "Street = S&P consensus",
+            "zh": "华尔街 = S&P 一致预期"
+          }
+        },
+        {
+          "item": {
+            "en": "2026E capex",
+            "zh": "2026E 资本开支"
+          },
+          "mine": "$2.68B",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Company guidance",
+            "zh": "公司指引"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/eqt/EQT_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/eqt/EQT_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/eqt/EQT_OnePage_en.png",
+      "zh": "reports/eqt/EQT_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      },
+      {
+        "date": "2026-10-30",
+        "note": {
+          "en": "DCF model (price deck)",
+          "zh": "DCF 模型（价格假设）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
     "id": "orcl",
     "name": {
       "en": "Oracle",

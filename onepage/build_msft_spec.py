@@ -1,0 +1,152 @@
+"""Microsoft One Page spec. Usage: PYTHONPATH=onepage python onepage/build_msft_spec.py <MSFT_D.json>
+Sources: SEC XBRL FY2012-26 (fiscal years end Jun 30; D&A = depreciation + intangible + finance-lease amortisation;
+acquisitions FY22-26 from the analyst model, earlier years not in XBRL); analyst model MSFT_DCF_Model.xlsx (Nov 17, 2026)."""
+import sys
+from spec_common import L, load, grid, cagr_block, fin_position, chart, write
+
+D = load(sys.argv[1])
+Y = list(range(2012, 2027))
+P = 517.99
+spec = {
+    "lang": "en",
+    "meta_line": L("MSFT | FY26: Jun 30, 2026 | Q1 FY27: Sep 30, 2026 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+                   "MSFT | FY26：2026年6月30日 | Q1 FY27：2026年9月30日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"),
+    "company": {"name": L("MICROSOFT", "微软"), "ticker": "MSFT", "name_size_pt": 22, "name_width_in": 2.3},
+    "header_metrics": [{"value": "3.85T"}, {"value": "517.99"}, {"value": "63.35"}, {"value": "27.0x"}, {"value": "64.2x"}, {"value": "0.8%"}],
+    "business_chain": {
+        "title": L("HOW IT EARNS CASH | BUSINESS CHAIN", "现金生成路径"),
+        "lines": L(["1 Sell | Agents & Infra (cloud, AI, M365): $268.1B, 81% of FY26 revenue, 50.9% margin.",
+                    "2 Grow | Q1 FY27 Azure +48% to $33.2B; commercial RPO $677B (+73%).",
+                    "3 Build | FY26 cash capex $115.9B (35% of revenue); Q1 FY27 incl. leases $45.2B.",
+                    "4 Defend | Devices & Consumer $63.7B (19%): Windows, search, Xbox; 29.6% margin.",
+                    "5 Collect | FY26 OCF $182.9B - capex $115.9B = FCF $67.0B → dividends $26.4B, buybacks $22.3B."],
+                   ["1 销售 | 智能体与基础设施（云、AI、M365）：$2,681 亿，占 FY26 营收 81%，利润率 50.9%。",
+                    "2 增长 | Q1 FY27 Azure +48% 至 $332 亿；商业 RPO $6,770 亿（+73%）。",
+                    "3 建设 | FY26 现金资本开支 $1,159 亿（占营收 35%）；Q1 FY27 含租赁 $452 亿。",
+                    "4 守住 | 设备与消费者 $637 亿（19%）：Windows、搜索、Xbox；利润率 29.6%。",
+                    "5 回款 | FY26 OCF $182.9B - 资本开支 $115.9B = FCF $67.0B → 股息 $26.4B、回购 $22.3B。"]),
+        "watch": L("Watch: Azure growth vs capacity, capex/revenue path, and depreciation in margins.",
+                   "关注：Azure 增长与算力供给、资本开支占营收的走势、折旧对利润率的影响。")},
+    "mix_table": {
+        "title": L("REVENUE BY PRODUCT | Q1 FY27", "产品收入 | Q1 FY27"),
+        "columns": [L("Revenue", "营收"), "$M", L("Mix", "占比"), L("YoY", "同比")],
+        "rows": [[L("Azure", "Azure"), "33,165", "35.9%", "+48.2%"],
+                 [L("Microsoft 365 cloud", "Microsoft 365 云"), "27,778", "30.1%", "+17.2%"],
+                 [L("Productivity & server", "生产力与服务器"), "8,407", "9.1%", "-3.1%"],
+                 [L("Search & advertising", "搜索与广告"), "6,554", "7.1%", "+10.3%"],
+                 [L("Xbox", "Xbox"), "5,379", "5.8%", "-2.3%"],
+                 [L("Industry solutions", "行业解决方案"), "5,337", "5.8%", "+9.1%"],
+                 [L("Windows OEM & devices", "Windows OEM 与设备"), "3,551", "3.8%", "-22.0%"],
+                 [L("Support & other", "支持服务及其他"), "2,108", "2.3%", "+4.3%"]],
+        "total_row": [L("Total revenue", "合计"), "92,279", "100.0%", "+18.8%"],
+        "notes": [L("Quarter to Sep 30, 2026 (Q1 FY27 release, Oct 28, 2026).", "截至 2026年9月30日的季度（Q1 FY27 公告，2026年10月28日）。")]},
+    "chart": chart(D, Y, P, price_min=20, price_max=800, price_ticks=[25, 100, 400], cash_max=30, cash_min=0,
+                   note=L("FY ends Jun; cash $/sh L lin; price R log (Nov 16, 2026)", "财年截至6月；现金$/股：左线性 | 股价：右对数（2026年11月16日）"),
+                   annotations=[{"x": 11.8, "text": L("Activision 10/2023", "收购 Activision 10/2023")},
+                                {"x": 13.3, "dy": 12, "text": L("AI capex wave", "AI 资本开支浪潮")}]),
+    "value_creation": {
+        "title": L("VALUE CREATION", "价值创造"), "columns": [f"FY{str(y)[-2:]}" for y in Y], "money_unit": "$M", "share_unit": "M sh",
+        "groups": grid(D, Y, {"pe": [None] * 10 + [26.41, 34.99, 37.69, 36.31, 20.72],
+                              "fcfy": [None] * 10 + [3.39, 2.35, 2.23, 1.94, 2.42],
+                              "divy": [None] * 10 + [0.96, 0.80, 0.67, 0.67, 0.98]}),
+        "sidebar": [
+            {"title": L("AI and cloud demand", "AI 与云需求"),
+             "text": L("Commercial RPO $677B (+73%); Azure +48% in Q1 FY27, guided +49-50% for Q2.",
+                       "商业 RPO $6,770 亿（+73%）；Q1 FY27 Azure +48%，Q2 指引 +49-50%。")},
+            {"title": L("Two segments", "两大分部"), "sub": [
+                {"title": L("Agents & Infra", "智能体与基础设施"), "text": L("81% of FY26; 50.9% margin.", "占 FY26 81%；利润率 50.9%。")},
+                {"title": L("Devices & Consumer", "设备与消费者"), "text": L("19%; 29.6% margin.", "19%；利润率 29.6%。")}]},
+            {"title": L("Capex wave", "资本开支浪潮"),
+             "text": L("Capex rose from 12.0% of revenue (FY22) to 34.9% (FY26); D&A from 7.4% to 11.8%.",
+                       "资本开支占营收由 FY22 的 12.0% 升至 FY26 的 34.9%；折旧摊销由 7.4% 升至 11.8%。")},
+            {"title": L("Cash conversion", "现金转化"),
+             "text": L("OCF $182.9B - capex $115.9B = FCF $67.0B, below FY24's $74.1B; payouts 73% of FCF.",
+                       "OCF $182.9B - 资本开支 $115.9B = FCF $67.0B，低于 FY24 的 $74.1B；分配占 FCF 73%。")},
+            {"title": L("Return condition", "回报条件"), "final": True,
+             "text": L("AI capacity must earn above the 9.7% WACC as it depreciates, and capex must fall back toward ~21% of revenue by FY31.",
+                       "AI 算力在折旧期内须赚到高于 9.7% WACC 的回报，资本开支须在 FY31 前回落到营收的约 21%。")}]},
+    "labels": {"sp": L("Street avg target", "华尔街平均目标价"), "bull": L("Guidance", "公司指引")},
+    "dcf": {
+        "as_of": L("Nov 17, 2026", "2026年11月17日"), "price": P,
+        "scenarios": [{"name": "bear", "value": 283.37}, {"name": "base", "value": 404.69}, {"name": "bull", "value": 416.25}],
+        "wacc": "9.7%", "terminal_growth": "3.0%", "horizon": "FY27-31", "morningstar": 600.0, "sp": 636.12, "show_weighted": False,
+        "notes": [L("Base = blend of guidance and consensus; consensus case $393.37. Beta 1.05; TV 84% of EV; OpenAI stake $135B added.",
+                    "基准 = 公司指引与一致预期的平均；一致预期情景 $393.37。Beta 1.05；终值占 EV 84%；加回 OpenAI 股权 $1,350 亿。"),
+                  L("Morningstar FV $600 as of Jul 30, 2026 (update to follow).", "Morningstar 合理价值 $600（2026年7月30日，待更新）。")]},
+    "kpi_tracker": {
+        "title": L("CORE KPI TRACKER | FY22-26", "核心KPI | FY22-26"),
+        "columns": [L("Metric", "指标"), "FY22", "FY23", "FY24", "FY25", "FY26"],
+        "rows": [[L("Capex / revenue", "资本开支/营收"), "12.0%", "13.3%", "18.1%", "22.9%", "34.9%"],
+                 [L("Capex / OCF", "资本开支/OCF"), "26.8%", "32.1%", "37.5%", "47.4%", "63.4%"],
+                 [L("D&A / revenue", "折旧摊销/营收"), "7.4%", "6.4%", "8.2%", "9.9%", "11.8%"],
+                 [L("EBIT margin", "EBIT 利润率"), "42.1%", "41.8%", "44.6%", "45.6%", "46.8%"],
+                 [L("Net debt / EBITDA", "净债务/EBITDA"), "-0.41x", "-0.46x", "0.02x", "-0.03x", "0.15x"]]},
+    "cagr": cagr_block(D, 2026),
+    "financial_position": fin_position(D, range(2022, 2027), [1920840, 2532081, 3321869, 3697022, 2770955]),
+    "lead_paragraphs": [
+        {"label": L("CAPITAL RETURNS:", "现金分配："), "text": L(
+            "FY13-26 OCF $1,011.6B less capex $370.7B left **$640.8B FCF**. Buybacks **$248.4B (39%)**; dividends **$217.5B (34%)**; acquisitions **$100.6B in FY22-26 alone** (Activision $69.1B).",
+            "FY13-26 OCF $10,116 亿减资本开支 $3,707 亿，得 **FCF $6,408 亿**。回购 **$2,484 亿（39%）**；股息 **$2,175 亿（34%）**；仅 FY22-26 收购就达 **$1,006 亿**（Activision $691 亿）。")},
+        {"label": L("NET SHARES:", "净股数变化："), "text": L(
+            "Diluted shares FY12 8,506M to FY26 7,453M, **down 12.4%**. Buybacks now mostly offset stock pay: FY26 buybacks $22.3B vs SBC $12.4B; **7,446M** diluted in Q1 FY27.",
+            "稀释股数由 FY12 的 8,506M 降至 FY26 的 7,453M，**减少 12.4%**。目前回购主要用于抵消股权激励：FY26 回购 $22.3B，SBC $12.4B；Q1 FY27 稀释股数 **74.46 亿股**。")}],
+    "commentary": [
+        {"headline": L("Cloud growth reaccelerated.", "云业务重新加速。"),
+         "body": L("Revenue grew 17.8% in FY26 to $331.8B and 18.8% in Q1 FY27, led by Azure (+48%). Commercial RPO of $677B (+73%) gives multi-year visibility; devices (-22% Windows OEM) are now a small drag.",
+                   "FY26 营收增长 17.8% 至 $3,318 亿，Q1 FY27 增长 18.8%，主要靠 Azure（+48%）。商业 RPO $6,770 亿（+73%）提供多年可见度；设备业务（Windows OEM -22%）已只是小幅拖累。")},
+        {"headline": L("Capex is eating the FCF.", "资本开支正在吞掉 FCF。"),
+         "body": L("Capex went from 27% of OCF (FY22) to 63% (FY26). OCF rose 54% from FY24 to FY26, yet FCF fell from $74.1B to $67.0B; TTM FCF is $60.0B. FY27 capex incl. leases runs near $195B.",
+                   "资本开支占 OCF 由 FY22 的 27% 升至 FY26 的 63%。FY24-FY26 OCF 增长 54%，FCF 却由 $741 亿降至 $670 亿；TTM FCF 为 $600 亿。FY27 含租赁的资本开支接近 $1,950 亿。")},
+        {"headline": L("Margins have held, so far.", "利润率至今守住了。"),
+         "body": L("EBIT margin rose from 42.1% (FY22) to 46.8% (FY26). Depreciation is the delayed cost: D&A climbed from 6.4% to 11.8% of revenue, and management expects the FY27 margin to slip slightly. My model lets D&A reach 18.5% of revenue by FY31, so margin holds only if pricing on AI services keeps up.",
+                   "EBIT 利润率由 FY22 的 42.1% 升至 FY26 的 46.8%。折旧是滞后的成本：折旧摊销占营收由 6.4% 升至 11.8%，管理层预计 FY27 利润率小幅下降。我的模型让折旧摊销在 FY31 达到营收的 18.5%，只有 AI 服务定价跟得上，利润率才能守住。")},
+        {"headline": L("OpenAI sits outside operations.", "OpenAI 在经营之外。"),
+         "body": L("Microsoft owns ~27% of OpenAI, valued at ~$135B in the Oct 2025 recapitalisation; I add it to equity value rather than to EBIT. FY26 other income of $13.7B includes OpenAI-related gains. The stake adds about $18 per share; it is not marked to later funding rounds.",
+                   "微软持有 OpenAI 约 27%，按 2025年10月重组估值约 $1,350 亿；我把它加到股权价值中，而不是计入 EBIT。FY26 其他收益 $137 亿包含 OpenAI 相关收益。这部分每股约 $18，未按后续融资轮重新估值。")},
+        {"headline": L("Payouts are steady, not growing fast.", "分配稳定，但增长不快。"),
+         "body": L("Dividends plus buybacks were $48.7B in FY26, 73% of FCF. With AAA ratings and net debt/EBITDA 0.15x even after finance leases, the balance sheet can fund the build-out.",
+                   "FY26 股息加回购 $487 亿，占 FCF 73%。AAA 评级，计入融资租赁后净债务/EBITDA 也仅 0.15 倍，资产负债表足以支撑建设。")},
+        {"headline": L("My DCF is well below the market.", "我的 DCF 明显低于市场。"),
+         "body": L("Base $404.69 (WACC 9.7%, g 3%, beta 1.05) needs $631B revenue by FY31 (13.7% a year) at a 47.6% EBIT margin, with capex falling from 50% to 21% of revenue; TV is 84% of EV. At $517.99 that is -22%; Morningstar ($600) and the Street ($636) are higher.",
+                   "基准价值 $404.69（WACC 9.7%，g 3%，beta 1.05）要求 FY31 营收 $6,310 亿（年增 13.7%）、EBIT 利润率 47.6%，资本开支占营收由 50% 降到 21%；终值占 EV 84%。按 $517.99 计为 -22%；Morningstar（$600）和华尔街（$636）都更高。")}],
+    "footnotes": L([
+        "FY12-26 from SEC 10-K XBRL (fiscal years end Jun 30). D&A* = depreciation + intangible and finance-lease amortisation. Acquisitions FY22-26 from the analyst model; FY12-21 not in XBRL (--).",
+        "EBITDA* = operating income + D&A. FCF = OCF - cash capex (excl. finance leases). ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares.",
+        "Header: Nov 16, 2026 close $517.99, 7,427M shares; book value = Sep 30, 2026 equity $470.5B; TTM P/E (EPS $19.15); P/FCF on TTM FCF $60.0B. FY22-26 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
+        "DCF: Pythia model MSFT_DCF_Model, Nov 17, 2026; WACC 9.7%, g 3.0%, horizon FY27-31. Morningstar FV $600 (Jul 30, 2026). Street avg target = 58-analyst average (S&P Global via StockAnalysis).",
+        "Sources: Microsoft 10-K FY2026, Q1 FY27 release (Oct 28, 2026), Sep 2026 segment recast 8-K; SEC EDGAR; StockAnalysis; Morningstar."],
+        ["FY12-26 数据取自 SEC 10-K XBRL（财年截至 6月30日）。折旧摊销* = 折旧 + 无形资产与融资租赁摊销。FY22-26 收购支出取自分析模型；FY12-21 XBRL 中没有（--）。",
+         "EBITDA* = 营业利润 + 折旧摊销。FCF = OCF - 现金资本开支（不含融资租赁）。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。",
+         "首行：2026年11月16日收盘 $517.99，74.27 亿股；每股账面 = 2026年9月30日权益 $4,705 亿；TTM P/E（EPS $19.15）；P/FCF 按 TTM FCF $600 亿。FY22-26 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
+         "DCF：Pythia 模型 MSFT_DCF_Model，2026年11月17日；WACC 9.7%，g 3.0%，预测期 FY27-31。Morningstar 合理价值 $600（2026年7月30日）。华尔街平均目标价为 58 位分析师平均（S&P Global，经 StockAnalysis）。",
+         "来源：Microsoft FY2026 10-K、Q1 FY27 业绩公告（2026年10月28日）、2026年9月分部重组 8-K；SEC EDGAR；StockAnalysis；Morningstar。"]),
+    "brand_mark": "PYTHIA",
+    "website": {
+        "id": "msft", "name": L("Microsoft", "微软"), "exchange": "NASDAQ", "market": "US", "sector": "Information Technology", "industry": "Systems Software",
+        "indices": ["S&P 500", "Nasdaq-100", "Dow 30", "Russell 1000"], "updated": "2026-11-17", "price_date": "2026-11-16", "currency": "USD", "moat": "Wide",
+        "summary": L("Cloud and AI growth has reaccelerated, but capex now takes 63% of operating cash flow; my DCF ($404.69) is below the price because I discount at 9.7% and need capex to fall back to ~21% of revenue.",
+                     "云与 AI 增长重新加速，但资本开支已占经营现金流的 63%；我的 DCF（$404.69）低于股价，因为我用 9.7% 的折现率，并要求资本开支回落到营收的约 21%。"),
+        "tags": [L("Cloud", "云计算"), "AI", L("Software", "软件"), L("Capex cycle", "资本开支周期")],
+        "business": L(
+            "### Two segments (from FY2027)\n- **Agents and Infra (81% of FY26 revenue, 50.9% margin):** Azure, Microsoft 365 cloud, Dynamics, server products and industry solutions.\n- **Devices and Consumer (19%, 29.6% margin):** Windows OEM and devices, search and advertising, Xbox.\n\n### What changed\nAI demand pushed Azure growth to +48% and commercial RPO to $677B, but capex rose to 35% of revenue in FY26 and about 50% (incl. leases) in FY27.\n\n### Key risks\nAI demand and pricing, depreciation of the capex wave, capacity constraints, and the value of the OpenAI stake.",
+            "### 两大分部（FY2027 起）\n- **智能体与基础设施（占 FY26 营收 81%，利润率 50.9%）：** Azure、Microsoft 365 云、Dynamics、服务器产品与行业解决方案。\n- **设备与消费者（19%，利润率 29.6%）：** Windows OEM 与设备、搜索与广告、Xbox。\n\n### 发生了什么变化\nAI 需求把 Azure 增速推到 +48%，商业 RPO 达 $6,770 亿；但资本开支在 FY26 升至营收的 35%，FY27（含租赁）约 50%。\n\n### 关键风险\nAI 需求与定价、资本开支浪潮带来的折旧、算力供给约束，以及 OpenAI 股权的价值。"),
+        "segments": [{"name": L("Agents and Infra", "智能体与基础设施"), "share": 80.8},
+                     {"name": L("Devices and Consumer", "设备与消费者"), "share": 19.2}],
+        "revenue_cagr": "13.7% (FY26-31, blended)", "margin": "EBIT margin 46.8% → 47.6% (FY31E)",
+        "gap": {
+            "summary": L(
+                "My blended base value is **$404.69**, **33% below** Morningstar's **$600** (dated Jul 30, 2026) and 36% below the Street average target (**$636.12**). My revenue path is close to consensus (FY27 $396B), so the gap comes from **valuation inputs**: a **9.7% WACC** (10-year Treasury 5.15%, beta 1.05) and capex that only falls to **21% of revenue by FY31**, keeping FCF well below operating earnings. At a 0.6 beta the value would be **$584**, close to Morningstar. A step-by-step bridge will be added when the Morningstar report is uploaded.",
+                "我的混合基准价值为 **$404.69**，比 Morningstar 的 **$600**（2026年7月30日）低 **33%**，比华尔街平均目标价（**$636.12**）低 36%。我的营收路径接近一致预期（FY27 $3,960 亿），差距来自 **估值参数**：**9.7% 的 WACC**（10 年期美债 5.15%，beta 1.05），以及资本开支到 **FY31 才降到营收的 21%**，使 FCF 明显低于经营利润。若 beta 为 0.6，价值为 **$584**，接近 Morningstar。上传 Morningstar 报告后将补充逐项拆解。"),
+            "bridge": [],
+            "assumptions": [
+                {"item": L("Value per share", "每股价值"), "mine": "$404.69", "morningstar": "$600", "sp": "$636.12", "note": L("Street = average of 58 analysts (S&P Global)", "华尔街 = 58 位分析师平均（S&P Global）")},
+                {"item": "WACC", "mine": "9.7%", "morningstar": "—", "sp": "9.7%", "note": L("S&P Global WACC estimate", "S&P Global 的 WACC 估计")},
+                {"item": L("FY27E / FY28E revenue", "FY27E / FY28E 营收"), "mine": "$396B / $458B", "morningstar": "—", "sp": "$396B / $437B", "note": L("Street = consensus", "华尔街 = 一致预期")},
+                {"item": L("FY27E capex / revenue", "FY27E 资本开支/营收"), "mine": "50%", "morningstar": "—", "sp": "—", "note": L("Incl. finance leases; 21% by FY31", "含融资租赁；FY31 为 21%")},
+                {"item": L("FY27E FCF", "FY27E FCF"), "mine": "—", "morningstar": "—", "sp": "$32.6B", "note": L("S&P consensus", "S&P 一致预期")}]},
+        "files": [{"type": "onepage", "lang": "en", "label": "One Page", "path": "reports/msft/MSFT_OnePage_en.pdf", "date": "2026-11-17"},
+                  {"type": "onepage", "lang": "zh", "label": "One Page", "path": "reports/msft/MSFT_OnePage_zh.pdf", "date": "2026-11-17"}],
+        "onepage_image": L("reports/msft/MSFT_OnePage_en.png", "reports/msft/MSFT_OnePage_zh.png"),
+        "history": [{"date": "2026-11-17", "note": L("One Page V2 with DCF", "One Page V2（含 DCF）")}]},
+}
+write(spec, "onepage/specs/msft_onepage.json")

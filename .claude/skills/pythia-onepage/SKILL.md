@@ -65,6 +65,13 @@ sheet; plus yearly (ideally monthly) price high/low.
 Derive what's missing (margins, YoY, FCF = OCF − cash PP&E, per-share values, payout ratios, CAGRs). Never invent an
 input that can't be derived: write `--` (not available), `NM` (not meaningful) or `ND` (not disclosed) and footnote it.
 If public filings are reachable (sec.gov, stockanalysis.com) you may fill historical gaps from them — say which.
+In the PYTHIA site repo, `onepage/sec_history.py` builds the 15-year working table from SEC companyfacts
+(data.sec.gov) and `onepage/spec_common.py` builds the grid, CAGR, financial-position and chart blocks from it; copy
+an existing `onepage/build_<id>_spec.py` and write only the prose. Check splits (adjust old shares/EPS), capex tags
+(E&P companies use oil-and-gas property tags) and acquisitions that are not in XBRL (mark `--`, footnote).
+Banks and brokers (e.g. MS): replace the OCF/capex/FCF rows with net revenues, efficiency ratio, pre-tax margin,
+ROE/ROTE, equity and tangible equity per share (see `build_ms_spec.py`), relabel the valuation block
+(`labels`: `dcf`, `wacc` → cost of equity, `hm` P/FCF → P/TBV) and plot EPS and dividends per share in the chart.
 
 ### 2. Valuation block (always include)
 The DCF VALUATION block is required. Take it from the user's DCF model or analysis:
