@@ -16,12 +16,12 @@ def grid(D, Y, valuation=None, first_metric=None):
     col = lambda f: [f(D[y], y) for y in Y]
     r = lambda k: col(lambda d, y: d[k])
     nz = lambda k: col(lambda d, y: d[k] if d[k] else None)
-    pct = lambda a, b: col(lambda d, y: d[a] / d[b] * 100 if d[a] is not None and d[b] else None)
+    pct = lambda a, b: col(lambda d, y: (d[a] / d[b] * 100 if d[b] > 0 else "NM") if d[a] is not None and d[b] else None)
     prev = lambda y: D.get(y - 1)
     yoy = col(lambda d, y: (d["rev"] / prev(y)["rev"] - 1) * 100 if prev(y) and prev(y)["rev"] else None)
     roe = col(lambda d, y: "NM*" if not d["eq"] or d["eq"] <= 0 or d["eq"] / d["assets"] < 0.08 else d["ni"] / d["eq"] * 100)
     roic = col(lambda d, y: d["roic"] if d["roic"] is not None else "NM*")
-    per = lambda k: col(lambda d, y: d[k] / d["sh"] if d[k] is not None else None)
+    per = lambda k: col(lambda d, y: d[k] / d["sh"] if d[k] is not None and d.get("sh") else None)
     ratio = lambda a, b: col(lambda d, y: d[a] / d[b] if d[a] is not None and d[b] and d[b] > 0 else "NM")
     v = valuation or {}
     n = len(Y)
@@ -42,7 +42,7 @@ def grid(D, Y, valuation=None, first_metric=None):
          {"key": "fcf", "values": r("fcf")},
          {"key": "fcf_margin", "values": pct("fcf", "rev")}],
         [{"key": "acq", "metric": L("Acquisitions", "收购支出"), "values": nz("acq") if any(D[y]["acq"] is not None for y in Y) else [None] * n},
-         {"key": "acq_ocf", "metric": L("Acquisitions / OCF", "收购/OCF"), "values": col(lambda d, y: d["acq"] / d["ocf"] * 100 if d["acq"] else None)},
+         {"key": "acq_ocf", "metric": L("Acquisitions / OCF", "收购/OCF"), "values": col(lambda d, y: (d["acq"] / d["ocf"] * 100 if d["ocf"] > 0 else "NM") if d["acq"] else None)},
          {"key": "sbc", "values": r("sbc")},
          {"key": "sbc_ocf", "values": pct("sbc", "ocf")},
          {"key": "buybacks", "values": nz("bb")},
@@ -70,14 +70,17 @@ def _cagr(f, last, n):
         a, b = f(last - n), f(last)
     except (TypeError, ZeroDivisionError, KeyError):
         return "NM"
-    if a is None or b is None or a <= 0 or b <= 0:
+    if a is None or b is None:
+        return "--"
+    if a <= 0 or b <= 0:
         return "NM"
     s = f"{((b / a) ** (1 / n) - 1) * 100:.1f}%"
     return s.replace("0.", ".", 1) if s.startswith(("0.", "-0.")) else s
 
 
 def cagr_block(D, last, spans=(1, 3, 5, 10, 14)):
-    ps = lambda k: (lambda y: D[y][k] / D[y]["sh"] if D[y][k] is not None else None)
+    spans = [n for n in spans if last - n in D]
+    ps = lambda k: (lambda y: D[y][k] / D[y]["sh"] if D[y][k] is not None and D[y].get("sh") else None)
     rows = [(L("Revenue", "营收"), lambda y: D[y]["rev"]), (L("Op. Income", "营业利润"), lambda y: D[y]["op"]),
             (L("OCF", "OCF"), lambda y: D[y]["ocf"]), (L("Capex", "资本开支"), lambda y: D[y]["capex"]),
             (L("Diluted EPS", "稀释EPS"), lambda y: D[y]["eps"]), (L("FCF / Sh.", "每股FCF"), ps("fcf")),
@@ -101,6 +104,7 @@ def fin_position(D, years, mktcap, unit="B"):
 
 
 def chart(D, Y, last_price, **kw):
+    Y = [y for y in Y if D[y].get("sh")]
     ocf = [D[y]["ocf"] / D[y]["sh"] for y in Y]
     fcf = [D[y]["fcf"] / D[y]["sh"] for y in Y]
     sgn = lambda v: f"-${-v:.2f}" if v < 0 else f"${v:.2f}"

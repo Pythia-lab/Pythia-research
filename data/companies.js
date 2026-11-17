@@ -54,6 +54,662 @@
 
 window.COMPANIES = [
   {
+    "id": "gd",
+    "name": {
+      "en": "General Dynamics",
+      "zh": "通用动力"
+    },
+    "ticker": "GD",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 359.69,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 342.81,
+      "bear": 249.58,
+      "bull": 348.64,
+      "morningstar": 438.0,
+      "sp": 419.29
+    },
+    "moat": "Wide",
+    "summary": {
+      "en": "A defence prime with a $220B backlog and a Gulfstream business jet arm; growth is back, but submarine margins are thin, and my DCF ($342.81) sits just below the price and well below Morningstar ($438).",
+      "zh": "拥有 $2,200 亿积压订单的国防主承包商，另有湾流公务机业务；增长已经回来，但潜艇利润率很薄，我的 DCF（$342.81）略低于股价，明显低于 Morningstar（$438）。"
+    },
+    "tags": [
+      {
+        "en": "Defence",
+        "zh": "国防"
+      },
+      {
+        "en": "Submarines",
+        "zh": "潜艇"
+      },
+      {
+        "en": "Business jets",
+        "zh": "公务机"
+      },
+      {
+        "en": "Backlog",
+        "zh": "积压订单"
+      }
+    ],
+    "business": {
+      "en": "### Four segments\n- **Marine Systems (32% of FY25 revenue, 7.0% margin):** Virginia- and Columbia-class submarines and surface ships for the US Navy.\n- **Technologies (26%, 9.5%):** GDIT IT services and Mission Systems.\n- **Aerospace (25%, 13.3%):** Gulfstream business jets and Jet Aviation services.\n- **Combat Systems (18%, 14.4%):** land vehicles, weapons and munitions.\n\n### How it makes money\nLong government contracts give visibility (backlog $220B); Gulfstream adds higher-margin, more cyclical growth. Capex is about 2% of revenue, so most profit converts to cash.\n\n### Key risks\nSubmarine execution and margins, business-jet demand, and US defence budget timing.",
+      "zh": "### 四个分部\n- **海事系统（占 FY25 营收 32%，利润率 7.0%）：** 为美国海军建造弗吉尼亚级与哥伦比亚级潜艇及水面舰艇。\n- **技术（26%，9.5%）：** GDIT 信息技术服务与任务系统。\n- **航空航天（25%，13.3%）：** 湾流公务机与 Jet Aviation 服务。\n- **作战系统（18%，14.4%）：** 陆地车辆、武器与弹药。\n\n### 怎样赚钱\n长期政府合同带来可见度（积压订单 $2,200 亿）；湾流带来利润率更高但周期性更强的增长。资本开支约为营收的 2%，大部分利润能转化为现金。\n\n### 关键风险\n潜艇交付与利润率、公务机需求，以及美国国防预算时点。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Marine Systems",
+          "zh": "海事系统"
+        },
+        "share": 31.8
+      },
+      {
+        "name": {
+          "en": "Technologies",
+          "zh": "技术"
+        },
+        "share": 25.6
+      },
+      {
+        "name": {
+          "en": "Aerospace",
+          "zh": "航空航天"
+        },
+        "share": 24.9
+      },
+      {
+        "name": {
+          "en": "Combat Systems",
+          "zh": "作战系统"
+        },
+        "share": 17.6
+      }
+    ],
+    "dcf": {
+      "wacc": "8.2%",
+      "terminalGrowth": "2.5%",
+      "horizon": "2026-30",
+      "revenueCagr": "6.0% (2025-30, blended)",
+      "margin": "EBIT margin 10.2% → 10.9% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 249.58
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 342.81
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 348.64
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "Morningstar's fair value is **$438** (Nov 1, 2026; wide moat, Medium uncertainty); mine is **$342.81**, **$95.19 lower**, and the price is **$359.69**. My revenue is actually higher (**$70.4B** in 2030 vs Morningstar's $67.5B), but Morningstar's operating margin reaches **11.7%** against my 10.9%, and its 20-year horizon keeps growing earnings at 6.4% before the terminal value. At its **7.9% WACC** my forecasts are worth **$365.54**; my **8.2% WACC** (beta 0.75) takes off another $22.73.",
+        "zh": "Morningstar 的合理价值为 **$438**（2026年11月1日；宽护城河，中等不确定性）；我的是 **$342.81**，低 **$95.19**，股价为 **$359.69**。我的营收其实更高（2030 年 **$704 亿**，Morningstar $675 亿），但 Morningstar 的营业利润率达到 **11.7%**（我的 10.9%），且其 20 年预测期在进入终值前让利润保持 6.4% 的增长。按其 **7.9% 的 WACC**，我的预测值 **$365.54**；我 **8.2% 的 WACC**（beta 0.75）再减去 $22.73。"
+      },
+      "bridge": [
+        {
+          "driver": {
+            "en": "Morningstar's own DCF: equity $113.3B / 273M sh = $414.92 (FVE $438)",
+            "zh": "Morningstar 自己的 DCF：权益 $1,133 亿 / 2.73 亿股 = $414.92（公布值 $438）"
+          },
+          "impact": -23.08
+        },
+        {
+          "driver": {
+            "en": "My forecasts at Morningstar's 7.9% WACC: $365.54 (10.9% vs 11.7% margin, 5-year vs 20-year horizon)",
+            "zh": "按 Morningstar 7.9% 的 WACC 计算我的预测：$365.54（利润率 10.9% 对 11.7%，5 年对 20 年预测期）"
+          },
+          "impact": -49.38
+        },
+        {
+          "driver": {
+            "en": "My 8.2% WACC (beta 0.75) instead of 7.9%",
+            "zh": "改用我的 8.2% WACC（beta 0.75）"
+          },
+          "impact": -22.73
+        }
+      ],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$342.81",
+          "morningstar": "$438.00",
+          "sp": "$419.29",
+          "note": {
+            "en": "Street = average of 24 analysts (S&P Global)",
+            "zh": "华尔街 = 24 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "8.2%",
+          "morningstar": "7.9%",
+          "sp": "—",
+          "note": {
+            "en": "Cost of equity: mine 8.5%, Morningstar 8.1%",
+            "zh": "股权成本：我的 8.5%，Morningstar 8.1%"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2030E",
+            "zh": "营收 2026E / 2030E"
+          },
+          "mine": "$56.9B / $70.4B",
+          "morningstar": "$56.5B / $67.5B",
+          "sp": "—",
+          "note": ""
+        },
+        {
+          "item": {
+            "en": "Op. margin 2030E",
+            "zh": "营业利润率 2030E"
+          },
+          "mine": "10.9%",
+          "morningstar": "11.7%",
+          "sp": "—",
+          "note": {
+            "en": "FY25 actual 10.2%",
+            "zh": "FY25 实际 10.2%"
+          }
+        },
+        {
+          "item": {
+            "en": "Explicit horizon",
+            "zh": "明确预测期"
+          },
+          "mine": {
+            "en": "5 years",
+            "zh": "5 年"
+          },
+          "morningstar": {
+            "en": "20 years",
+            "zh": "20 年"
+          },
+          "sp": "—",
+          "note": {
+            "en": "TV 81% of my EV",
+            "zh": "终值占我的 EV 81%"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/gd/GD_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/gd/GD_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/gd/GD_OnePage_en.png",
+      "zh": "reports/gd/GD_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF and Morningstar gap",
+          "zh": "One Page V2（含 DCF 与 Morningstar 差距拆解）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "gev",
+    "name": {
+      "en": "GE Vernova",
+      "zh": "GE Vernova"
+    },
+    "ticker": "GEV",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 763.57,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 484.19,
+      "bear": 318.24,
+      "bull": 498.92,
+      "morningstar": null,
+      "sp": 1176.0
+    },
+    "moat": "",
+    "summary": {
+      "en": "Gas turbines and grid equipment for the AI power build-out: orders nearly doubled and customers prepay, but my DCF ($484.19) is 37% below the price because I discount at 10% and let margins rise only to 16%.",
+      "zh": "为 AI 电力建设提供燃气轮机和电网设备：订单几乎翻倍，客户预付货款；但我的 DCF（$484.19）比股价低 37%，因为我用 10% 的折现率，并只让利润率升到 16%。"
+    },
+    "tags": [
+      {
+        "en": "Power generation",
+        "zh": "发电设备"
+      },
+      {
+        "en": "Grid",
+        "zh": "电网"
+      },
+      {
+        "en": "Data centres",
+        "zh": "数据中心"
+      },
+      {
+        "en": "Spin-off",
+        "zh": "分拆"
+      }
+    ],
+    "business": {
+      "en": "### Three segments\n- **Power (52% of FY25 revenue, 14.7% margin):** gas turbines, nuclear, hydro and steam, plus a large services base.\n- **Electrification (25%, 14.9%):** grid equipment, power conversion and software; growing fastest (+27.7%).\n- **Wind (24%, -6.6%):** onshore and offshore wind; still loss-making.\n\n### What changed\nSince the April 2024 spin-off from GE, orders have surged on data-centre and grid demand; backlog is $197B and customers pay deposits to reserve turbine slots.\n\n### Key risks\nA slowdown in power orders, Wind losses, execution on a large backlog, and the Trench Group acquisition.",
+      "zh": "### 三个分部\n- **电力（占 FY25 营收 52%，利润率 14.7%）：** 燃气轮机、核电、水电和蒸汽轮机，以及庞大的服务业务。\n- **电气化（25%，14.9%）：** 电网设备、电力转换与软件；增长最快（+27.7%）。\n- **风电（24%，-6.6%）：** 陆上与海上风电；仍在亏损。\n\n### 发生了什么变化\n2024年4月从 GE 分拆后，数据中心与电网需求推动订单激增；积压订单 $1,970 亿，客户支付定金预订燃气轮机产能。\n\n### 关键风险\n电力订单放缓、风电亏损、大量积压订单的交付，以及 Trench Group 收购。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Power",
+          "zh": "电力"
+        },
+        "share": 51.9
+      },
+      {
+        "name": {
+          "en": "Electrification",
+          "zh": "电气化"
+        },
+        "share": 25.3
+      },
+      {
+        "name": {
+          "en": "Wind",
+          "zh": "风电"
+        },
+        "share": 23.9
+      }
+    ],
+    "dcf": {
+      "wacc": "10.0%",
+      "terminalGrowth": "3.0%",
+      "horizon": "2026-30",
+      "revenueCagr": "12.5% (2025-30, blended)",
+      "margin": "EBIT margin 3.6% (GAAP FY25) → 16.1% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 318.24
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 484.19
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 498.92
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$484.19**, **37% below** the price (**$763.57**) and far below the Street average target (**$1,176**). Revenue follows guidance and consensus (12.5% a year to **$68.6B** in 2030), so the gap is the **margin path and discount rate**: I take the EBIT margin to **16.1%** and discount at **10.0%** (beta 1.10). At a 0.6 beta (WACC 7.8%) the value would be **$691**. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合基准价值为 **$484.19**，比股价（**$763.57**）低 **37%**，远低于华尔街平均目标价（**$1,176**）。营收按公司指引与一致预期（每年 12.5%，2030 年 **$686 亿**），差距来自 **利润率路径与折现率**：我让 EBIT 利润率升至 **16.1%**，并以 **10.0%**（beta 1.10）折现。若 beta 为 0.6（WACC 7.8%），价值约 **$691**。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$484.19",
+          "morningstar": "—",
+          "sp": "$1,176",
+          "note": {
+            "en": "Street = average of 37 analysts (S&P Global)",
+            "zh": "华尔街 = 37 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "10.0%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Cost of equity 10.1% (beta 1.10)",
+            "zh": "股权成本 10.1%（beta 1.10）"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2030E",
+            "zh": "营收 2026E / 2030E"
+          },
+          "mine": "$46.7B / $68.6B",
+          "morningstar": "—",
+          "sp": {
+            "en": "2026 guide ~$47B",
+            "zh": "2026 指引约 $470 亿"
+          },
+          "note": ""
+        },
+        {
+          "item": {
+            "en": "EBIT margin 2030E",
+            "zh": "EBIT 利润率 2030E"
+          },
+          "mine": "16.1%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Power 25%, Electrification 19.5%, Wind 3%",
+            "zh": "电力 25%、电气化 19.5%、风电 3%"
+          }
+        },
+        {
+          "item": {
+            "en": "Trench Group deal",
+            "zh": "Trench Group 收购"
+          },
+          "mine": {
+            "en": "Not modelled",
+            "zh": "未计入"
+          },
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "~$9.0B, announced Oct 2026",
+            "zh": "约 $90 亿，2026年10月宣布"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/gev/GEV_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/gev/GEV_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/gev/GEV_OnePage_en.png",
+      "zh": "reports/gev/GEV_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "bidu",
+    "name": {
+      "en": "Baidu",
+      "zh": "百度"
+    },
+    "ticker": "BIDU",
+    "exchange": "NASDAQ",
+    "market": "CN",
+    "sector": "Communication Services",
+    "industry": "Interactive Media & Advertising",
+    "indices": [
+      "Other"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 73.94,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 147.81,
+      "bear": 101.74,
+      "bull": 153.97,
+      "morningstar": null,
+      "sp": 124.86
+    },
+    "moat": "",
+    "summary": {
+      "en": "China's search leader is shrinking its old ad business and spending heavily on AI cloud; the stock trades below its cash and investments, and my DCF ($147.81 per ADS) is double the price.",
+      "zh": "中国搜索龙头的传统广告业务在萎缩，正大举投入 AI 云；股价低于其现金与投资，我的 DCF（每 ADS $147.81）是股价的两倍。"
+    },
+    "tags": [
+      {
+        "en": "China internet",
+        "zh": "中国互联网"
+      },
+      "AI",
+      {
+        "en": "Search",
+        "zh": "搜索"
+      },
+      {
+        "en": "Cloud",
+        "zh": "云计算"
+      }
+    ],
+    "business": {
+      "en": "### Three businesses\n- **Legacy business (48% of FY25 revenue):** traditional search and online advertising; down 20% in FY25 and 22% in Q3 2026.\n- **AI-powered business (31%, +48%):** AI Cloud Infra (GPU cloud), AI applications and AI-native marketing.\n- **iQIYI (21%):** online video, consolidated with a ~45% economic stake.\n\n### What changed\nBaidu is spending about a fifth of revenue on AI infrastructure while its high-margin search ads shrink; free cash flow turned negative in FY25.\n\n### Key risks\nSearch decline outpacing AI growth, AI pricing competition in China, capex discipline, regulation, and US-China tensions (ADR listing).",
+      "zh": "### 三块业务\n- **传统业务（占 FY25 营收 48%）：** 传统搜索与在线广告；FY25 下降 20%，2026年Q3 下降 22%。\n- **AI 业务（31%，+48%）：** AI 云基础设施（GPU 云）、AI 应用和 AI 原生营销。\n- **爱奇艺（21%）：** 在线视频，持股约 45% 并表。\n\n### 发生了什么变化\n百度把约五分之一的营收投入 AI 基础设施，而高利润的搜索广告在萎缩；FY25 自由现金流转负。\n\n### 关键风险\n搜索下滑快于 AI 增长、中国 AI 价格竞争、资本开支纪律、监管，以及中美关系（ADR 上市）。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Legacy business",
+          "zh": "传统业务"
+        },
+        "share": 47.9
+      },
+      {
+        "name": {
+          "en": "AI-powered business",
+          "zh": "AI 业务"
+        },
+        "share": 31.0
+      },
+      {
+        "name": "iQIYI",
+        "share": 21.1
+      }
+    ],
+    "dcf": {
+      "wacc": "8.2%",
+      "terminalGrowth": "2.0%",
+      "horizon": "2026-30",
+      "revenueCagr": "5.9% (2025-30, blended)",
+      "margin": "EBIT margin 8.0% → 11.5% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 101.74
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 147.81
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 153.97
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$147.81 per ADS**, about **double** the price (**$73.94**) and 18% above the Street average target (**$124.86**). The difference with the market is mostly **the balance sheet and the terminal value**: I add net cash and long-term investments (at 70% of book) and assume margins recover to **11.5%** with capex falling to **12%** of revenue, so 86% of EV is terminal. The market is pricing years of cash burn and a China discount. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合基准价值为 **每 ADS $147.81**，约为股价（**$73.94**）的 **两倍**，比华尔街平均目标价（**$124.86**）高 18%。与市场的差距主要来自 **资产负债表和终值**：我加回净现金和按账面 70% 计的长期投资，并假设利润率回升至 **11.5%**、资本开支降到营收的 **12%**，因此终值占 EV 86%。市场在为多年的现金消耗和中国折价定价。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per ADS",
+            "zh": "每 ADS 价值"
+          },
+          "mine": "$147.81",
+          "morningstar": "—",
+          "sp": "$124.86",
+          "note": {
+            "en": "Street = average of 30 analysts (S&P Global)",
+            "zh": "华尔街 = 30 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "8.2%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Beta 1.0 (raw 0.58)",
+            "zh": "Beta 1.0（原始 0.58）"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2030E",
+            "zh": "营收 2026E / 2030E"
+          },
+          "mine": "$19.0B / $25.8B",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "AI share 43% (2026E) → 65% (2030E)",
+            "zh": "AI 占比 43%（2026E）→ 65%（2030E）"
+          }
+        },
+        {
+          "item": {
+            "en": "EBIT margin 2030E",
+            "zh": "EBIT 利润率 2030E"
+          },
+          "mine": "11.5%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "FY25 8.0% (S&P)",
+            "zh": "FY25 8.0%（S&P）"
+          }
+        },
+        {
+          "item": {
+            "en": "Long-term investments",
+            "zh": "长期投资"
+          },
+          "mine": {
+            "en": "70% of book ($9.5B)",
+            "zh": "账面 70%（$95 亿）"
+          },
+          "morningstar": "—",
+          "sp": "—",
+          "note": ""
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/bidu/BIDU_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/bidu/BIDU_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/bidu/BIDU_OnePage_en.png",
+      "zh": "reports/bidu/BIDU_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      },
+      "mine": {
+        "en": "My DCF / ADS",
+        "zh": "我的 DCF / ADS"
+      }
+    }
+  },
+
+  {
     "id": "etn",
     "name": {
       "en": "Eaton",

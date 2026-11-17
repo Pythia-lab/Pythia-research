@@ -7,8 +7,13 @@ Each output year has: rev op da ebitda ni ocf capex fcf acq sbc bb div sh eps in
 (values in $M, shares in M). Missing inputs stay null and are printed so they can be filled from the model or footnoted.
 `overrides.json` = {"2019": {"capex": 1234}, ...} wins over SEC values (e.g. numbers from the user's model).
 """
-import json, sys
+import json, os, sys
 from datetime import date
+
+# Foreign filers (20-F) tag the same fact in the reporting currency and a USD convenience translation.
+# Keep only one currency: SEC_CCY=CNY python onepage/sec_history.py ...  (default USD)
+CCY = os.environ.get("SEC_CCY", "USD")
+_CCYS = {"USD", "CNY", "EUR", "GBP", "JPY", "HKD", "CAD", "CHF", "TWD", "KRW", "INR", "BRL", "AUD"}
 
 TAGS = {
     "rev": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet",
@@ -51,8 +56,10 @@ def series(facts, tag, instant):
         if not node:
             continue
         for unit, rows in node["units"].items():
+            if unit.split("/")[0] in _CCYS and unit.split("/")[0] != CCY:
+                continue
             for r in rows:
-                if r.get("form") not in ("10-K", "10-K/A", "10-KT") or r.get("fp") != "FY":
+                if r.get("form") not in ("10-K", "10-K/A", "10-KT", "20-F", "20-F/A", "40-F") or r.get("fp") != "FY":
                     continue
                 if not instant:
                     if "start" not in r:

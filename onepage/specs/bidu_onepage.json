@@ -1,0 +1,1596 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "BIDU (ADS) | FY25: Dec 31, 2025 | Q3 26: Sep 30, 2026 | Market: Nov 16, 2026 | USD at RMB 6.671 | Issued: Nov 17, 2026",
+  "zh": "BIDU（ADS）| FY25：2025年12月31日 | 2026年Q3：2026年9月30日 | 市场日期：2026年11月16日 | 美元（按 6.671 人民币折算）| 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "BAIDU",
+   "zh": "百度"
+  },
+  "ticker": "BIDU",
+  "name_size_pt": 24,
+  "name_width_in": 1.9
+ },
+ "header_metrics": [
+  {
+   "value": "25.2B"
+  },
+  {
+   "value": "73.94"
+  },
+  {
+   "value": "130.05"
+  },
+  {
+   "value": "22.3x"
+  },
+  {
+   "value": "NM"
+  },
+  {
+   "value": "0.0%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Search | Legacy online marketing $9.3B (48% of FY25), shrinking: Q3 2026 -22%.",
+    "2 AI | AI-powered business $6.0B (31%, +48%): AI Cloud Infra +94%, GPU cloud +191% in Q3.",
+    "3 Stream | iQIYI $4.1B (21%, -6.5%), consolidated with a ~45% stake.",
+    "4 Invest | TTM capex 21% of revenue for AI infrastructure; FY25 FCF -$2.3B.",
+    "5 Hold | Net cash RMB71.7B (~$10.7B) plus investments; buybacks $0.8B in FY25."
+   ],
+   "zh": [
+    "1 搜索 | 传统在线营销 $93 亿（占 FY25 48%），持续萎缩：2026年Q3 -22%。",
+    "2 AI | AI 业务 $60 亿（31%，+48%）：Q3 AI 云基础设施 +94%，GPU 云 +191%。",
+    "3 视频 | 爱奇艺 $41 亿（21%，-6.5%），持股约 45% 并表。",
+    "4 投入 | TTM 资本开支占营收 21%，投向 AI 基础设施；FY25 FCF -$23 亿。",
+    "5 持有 | 净现金 717 亿元人民币（约 $107 亿）及投资；FY25 回购 $8 亿。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: AI cloud growth vs search decline, capex intensity, and shareholder returns from the cash pile.",
+   "zh": "关注：AI 云增长能否抵消搜索下滑、资本开支强度，以及现金储备如何回报股东。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "REVENUE BY BUSINESS | FY25",
+   "zh": "业务收入 | FY25"
+  },
+  "columns": [
+   {
+    "en": "Business",
+    "zh": "业务"
+   },
+   "$M",
+   {
+    "en": "Mix",
+    "zh": "占比"
+   },
+   {
+    "en": "YoY",
+    "zh": "同比"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Legacy (search ads)",
+     "zh": "传统（搜索广告）"
+    },
+    "9,261",
+    "47.9%",
+    "-19.7%"
+   ],
+   [
+    {
+     "en": "AI-powered business",
+     "zh": "AI 业务"
+    },
+    "5,996",
+    "31.0%",
+    "+48.0%"
+   ],
+   [
+    {
+     "en": "iQIYI",
+     "zh": "爱奇艺"
+    },
+    "4,092",
+    "21.1%",
+    "-6.5%"
+   ]
+  ],
+  "total_row": [
+   {
+    "en": "Total revenue",
+    "zh": "合计"
+   },
+   "19,349",
+   "100.0%",
+   "-3.0%"
+  ],
+  "notes": [
+   {
+    "en": "RMB at 6.671/USD. Q3 2026 AI-powered = 43% of revenue (RMB13.2B).",
+    "zh": "按 6.671 人民币/美元折算。2026年Q3 AI 业务占营收 43%（132 亿元）。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "21",
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "ocf_ps": [
+   8.56914596421417,
+   11.176495961385783,
+   15.461077060474071,
+   9.0943743709446,
+   -1.3167825752910753
+  ],
+  "fcf_ps": [
+   3.928980253744157,
+   7.6377704919152976,
+   10.735979359894941,
+   5.6106387990663205,
+   -6.593090584414591
+  ],
+  "last_price": 73.94,
+  "log": true,
+  "legend": {
+   "en": [
+    "OCF / sh -$1.32",
+    "FCF / sh -$6.59"
+   ],
+   "zh": [
+    "OCF /股 -$1.32",
+    "FCF /股 -$6.59"
+   ]
+  },
+  "price_min": 30,
+  "price_max": 300,
+  "price_ticks": [
+   50,
+   100,
+   200
+  ],
+  "cash_max": 18,
+  "cash_min": -10,
+  "note": {
+   "en": "FY21-25 only (per-ADS data); cash $/ADS L lin; price R log (Nov 16, 2026)",
+   "zh": "仅 FY21-25（每 ADS 数据）；现金$/ADS：左线性 | 股价：右对数（2026年11月16日）"
+  },
+  "annotations": [
+   {
+    "x": 3.3,
+    "dy": 8,
+    "text": {
+     "en": "AI capex",
+     "zh": "AI 资本开支"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "FY11",
+   "FY12",
+   "FY13",
+   "FY14",
+   "FY15",
+   "FY16",
+   "FY17",
+   "FY18",
+   "FY19",
+   "FY20",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M ADS",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      2173.704991755359,
+      3343.730475191126,
+      4788.476090541148,
+      7353.068205666316,
+      9950.831959226502,
+      10575.475940638584,
+      12713.086493779043,
+      15331.584470094438,
+      16101.484035377005,
+      16050.667066406835,
+      18661.81981711887,
+      18539.199520311795,
+      20176.585219607256,
+      19955.778743816518,
+      19349.27297256783
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      null,
+      53.82632362135404,
+      43.207597803391764,
+      53.55758422165042,
+      35.328976706054945,
+      6.277304088457725,
+      20.212901671178905,
+      20.59687061514699,
+      5.021656873001756,
+      -0.31560425646802726,
+      16.268188355716596,
+      -0.6570650558666014,
+      8.832019405700443,
+      -1.0943699014844266,
+      -3.0392488262910855
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA率*"
+     },
+     "values": [
+      57.89960626961875,
+      55.28844985655444,
+      40.364045444135165,
+      30.636005825453545,
+      21.93064384923624,
+      19.135636224468104,
+      22.988126260184654,
+      18.801881165853516,
+      11.085250388686656,
+      18.716028167435606,
+      13.027238479271928,
+      17.878310086921367,
+      21.51294967235769,
+      20.935211267605634,
+      1.2217324274281642
+     ]
+    },
+    {
+     "key": "op_income",
+     "values": [
+      1135.7606056063557,
+      1656.6211962224552,
+      1677.6675161145254,
+      1919.317043921451,
+      1749.6627192324988,
+      1506.3708589416879,
+      2352.1211212711737,
+      2327.9868085744265,
+      945.4354669464848,
+      2149.602758207165,
+      1576.6751611452555,
+      2385.099685204617,
+      3276.270424224254,
+      3188.427522110628,
+      -872.8826262929095
+     ]
+    },
+    {
+     "key": "op_margin",
+     "values": [
+      52.24998837994023,
+      49.54410077348604,
+      35.03552037000839,
+      26.1022608554401,
+      17.583079750534786,
+      14.244000623679998,
+      18.501574125387638,
+      15.184254524477645,
+      5.871728747916919,
+      13.392606982087155,
+      8.44866779658294,
+      12.86517081059228,
+      16.23798273377019,
+      15.977464788732396,
+      -4.511190821125047
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      995.148703342827,
+      1567.3853994903313,
+      1581.5705291560485,
+      1978.2539349422875,
+      5046.319892070154,
+      1743.6666166991454,
+      2743.3668115724777,
+      4133.263378803777,
+      308.3495727776945,
+      3368.6104032378953,
+      1532.9036126517763,
+      1133.1134762404436,
+      3045.2705741268173,
+      3561.684904811872,
+      837.8054264727926
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      45.781221790322256,
+      46.875351082259115,
+      33.02868176120129,
+      26.90378872615154,
+      50.71254255671719,
+      16.487831152815772,
+      21.579077692226058,
+      26.959140373691053,
+      1.9150382169755988,
+      20.987354539850944,
+      8.214116456346945,
+      6.111987062866383,
+      15.093092022169719,
+      17.847887323943663,
+      4.3299064913735
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      1226.0259331434568,
+      1798.2302503372807,
+      2067.6017088892218,
+      2688.828511467546,
+      2963.7235796732125,
+      3369.809623744566,
+      4921.00134912307,
+      5391.545495427971,
+      4265.927147354219,
+      3627.642032678759,
+      3016.3393794033877,
+      3922.95008244641,
+      5488.682356468295,
+      3183.03102983061,
+      -451.65642332483884
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      56.402590866453714,
+      53.77916263524484,
+      43.17869964879706,
+      36.567436018008365,
+      29.783676297791573,
+      31.864377950077255,
+      38.7081559740122,
+      35.16626416496377,
+      26.493999795183075,
+      22.601191699198687,
+      16.16315776790663,
+      21.16029917121488,
+      27.203227388222707,
+      15.950422535211267,
+      -2.3342294253906526
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      1.232002743936745,
+      1.147280210037693,
+      1.307309203587985,
+      1.3591928032970086,
+      0.5873039448669202,
+      1.9325997248968365,
+      1.7937817605595325,
+      1.3044282450223044,
+      13.83471074380165,
+      1.0768956924172304,
+      1.9677293174261687,
+      3.4620981611324253,
+      1.8023627861186315,
+      0.8936868686868688,
+      -0.5390946502057613
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      264.1454054864338,
+      346.40383750562137,
+      413.2257532603807,
+      723.6041073302353,
+      783.9904062359466,
+      627.9418378054264,
+      716.3843501723879,
+      1314.945285564383,
+      963.5736771098785,
+      762.104631989207,
+      1633.3383300854443,
+      1242.0926397841401,
+      1677.4096837055913,
+      1219.3074501573976,
+      1809.7736471293658
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      21.544846511458438,
+      19.263597497631295,
+      19.985752163185147,
+      26.91150083555521,
+      26.45288553942643,
+      18.634341637010674,
+      14.55769465090776,
+      24.389023271332057,
+      22.587673062056364,
+      21.008264462809915,
+      54.14968690984991,
+      31.662208635842564,
+      30.5612453912331,
+      38.30648959216351,
+      "NM"
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      961.8805276570229,
+      1451.8264128316594,
+      1654.3759556288412,
+      1965.2244041373106,
+      2179.7331734372656,
+      2741.8677859391396,
+      4204.616998950682,
+      4076.6002098635886,
+      3302.353470244341,
+      2865.5374006895518,
+      1383.0010493179432,
+      2680.8574426622695,
+      3811.272672762704,
+      1963.7235796732123,
+      -2261.4300704542047
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      44.250739235790384,
+      43.41936120759475,
+      34.54911174970239,
+      26.726590168480925,
+      21.905034497303486,
+      25.92666090235156,
+      33.073140822318386,
+      26.589555814112654,
+      20.509621740385242,
+      17.853073575284384,
+      7.410858441840104,
+      14.460481099656358,
+      18.889582311772834,
+      9.84037558685446,
+      -11.687416233469426
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions",
+      "zh": "收购支出"
+     },
+     "values": [
+      291.69090091440563,
+      122.99895068205664,
+      1978.8826262929097,
+      49.30160395742767,
+      49.91755359016639,
+      null,
+      82.89611752360965,
+      296.5072702743217,
+      145.25558387048417,
+      359.16654174786385,
+      37.025933143456754,
+      2.098635886673662,
+      17.238794783390794,
+      null,
+      178.08424524059362
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF",
+      "zh": "收购/OCF"
+     },
+     "values": [
+      23.79157675454121,
+      6.840000086695608,
+      95.70908254646517,
+      1.8335718974699193,
+      1.6842850639826008,
+      null,
+      1.6845375898623123,
+      5.499485639614091,
+      3.405017921146954,
+      9.90082644628099,
+      1.227512175728059,
+      0.05349636988918608,
+      0.3140789294005189,
+      null,
+      "NM"
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      22.789386898515964,
+      31.82566331884275,
+      77.15889671713386,
+      144.3171938240144,
+      207.91485534402636,
+      263.8285114675461,
+      486.28391545495424,
+      700.9443861490031,
+      843.3518213161444,
+      1008.5444461100284,
+      1057.7124868835256,
+      1017.5385999100585,
+      951.1317643531704,
+      717.1338629890571,
+      540.398740818468
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      1.8588013746238912,
+      1.7698324957481637,
+      3.7318065846727295,
+      5.367288884676657,
+      7.015325476708309,
+      7.829181494661921,
+      9.881808212501522,
+      13.000806294658993,
+      19.76948485487385,
+      27.80165289256198,
+      35.06609680946228,
+      25.938097057699654,
+      17.328963539532978,
+      22.529904869548837,
+      "NM"
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      955.928646379853,
+      null,
+      258.28211662419426,
+      496.4772897616549,
+      743.216909009144,
+      1956.828061759856,
+      1136.411332633788,
+      288.56243441762854,
+      714.1358117223805,
+      947.98381052316,
+      829.8605906160996
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      32.25431187092205,
+      0.0,
+      5.248568295357621,
+      9.208441070981733,
+      17.422165999016094,
+      53.942148760330575,
+      37.675181393499656,
+      7.355750859763087,
+      13.01106104055715,
+      29.782424413676186,
+      "NM"
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      "NM"
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      38.893706729930436,
+      24.58024949682599,
+      22.083315443554007,
+      19.39331932434764,
+      8.30948594279099,
+      6.345789835494236,
+      7.999361129574538,
+      5.461445321889942,
+      2.3172941422691444,
+      4.776996740445879,
+      3.0726068579923007,
+      4.550789438432491,
+      5.86963645882201,
+      5.424549011505533,
+      -1.4471859565231069
+     ]
+    },
+    {
+     "key": "roe",
+     "metric": "ROE*",
+     "values": [
+      43.41328991461782,
+      40.13024794370451,
+      27.45785384300785,
+      25.83964293529518,
+      41.94594965840604,
+      12.605934499425622,
+      15.866176547084423,
+      16.92664689957458,
+      1.257342648793697,
+      12.3002145640846,
+      4.835925640431479,
+      3.3824358549834876,
+      8.338600970339783,
+      9.012973219027389,
+      2.098524387038636
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      28.442515535522507,
+      22.89529699539446,
+      14.863055404836809,
+      13.31435636826717,
+      22.768513234752923,
+      6.391314142540811,
+      7.270148731964659,
+      9.26617960385259,
+      0.6826720121068911,
+      6.754271012419298,
+      2.690811874726998,
+      1.9333815890099828,
+      4.99435783842521,
+      5.55425686100332,
+      1.244331046827724
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      352,
+      351,
+      355,
+      350,
+      343
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      53.016533571360426,
+      52.818232251600556,
+      56.835451322837336,
+      57.016510696618624,
+      56.41187455559134
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4.21,
+      2.97,
+      8.27,
+      9.89,
+      1.77
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      8.56914596421417,
+      11.176495961385783,
+      15.461077060474071,
+      9.0943743709446,
+      -1.3167825752910753
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4.640165710470012,
+      3.5387254694704846,
+      4.725097700579131,
+      3.4837355718782788,
+      5.2763080091235155
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      3.928980253744157,
+      7.6377704919152976,
+      10.735979359894941,
+      5.6106387990663205,
+      -6.593090584414591
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      33.31,
+      39.12,
+      15.06,
+      9.31,
+      67.37
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.8,
+      6.56,
+      8.61,
+      6.07,
+      -4.8
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "Shift in demand",
+     "zh": "需求转移"
+    },
+    "text": {
+     "en": "Advertisers move budgets from search to AI products; Q3 2026 revenue -1%, sixth straight decline.",
+     "zh": "广告主把预算从搜索转向 AI 产品；2026年Q3 营收 -1%，连续第六个季度下滑。"
+    }
+   },
+   {
+    "title": {
+     "en": "Three businesses",
+     "zh": "三块业务"
+    },
+    "sub": [
+     {
+      "title": {
+       "en": "Legacy search",
+       "zh": "传统搜索"
+      },
+      "text": {
+       "en": "48%; -20%.",
+       "zh": "48%；-20%。"
+      }
+     },
+     {
+      "title": {
+       "en": "AI-powered",
+       "zh": "AI 业务"
+      },
+      "text": {
+       "en": "31%; +48%.",
+       "zh": "31%；+48%。"
+      }
+     },
+     {
+      "title": {
+       "en": "iQIYI",
+       "zh": "爱奇艺"
+      },
+      "text": {
+       "en": "21%; ~45% owned.",
+       "zh": "21%；持股约 45%。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Margin squeeze",
+     "zh": "利润挤压"
+    },
+    "text": {
+     "en": "EBIT margin (S&P) fell from 16.2% (FY23) to 8.0% (FY25) as high-margin search shrank and AI costs rose.",
+     "zh": "高利润的搜索萎缩、AI 成本上升，EBIT 利润率（S&P 口径）由 FY23 的 16.2% 降至 FY25 的 8.0%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Cash burn",
+     "zh": "现金消耗"
+    },
+    "text": {
+     "en": "FY25 OCF -$0.5B - capex $1.8B = FCF -$2.3B; TTM capex $4.0B, 21% of revenue.",
+     "zh": "FY25 OCF -$5 亿 - 资本开支 $18 亿 = FCF -$23 亿；TTM 资本开支 $40 亿，占营收 21%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "AI revenue must grow fast enough to lift margins back above 10% while capex falls toward 12% of revenue.",
+     "zh": "AI 收入须增长得足够快，使利润率回到 10% 以上，同时资本开支降至营收的 12% 左右。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "Street avg target",
+   "zh": "华尔街平均目标价"
+  },
+  "bull": {
+   "en": "Guidance",
+   "zh": "公司指引"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Nov 17, 2026",
+   "zh": "2026年11月17日"
+  },
+  "price": 73.94,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 101.74
+   },
+   {
+    "name": "base",
+    "value": 147.81
+   },
+   {
+    "name": "bull",
+    "value": 153.97
+   }
+  ],
+  "wacc": "8.2%",
+  "terminal_growth": "2.0%",
+  "horizon": "2026-30",
+  "morningstar": null,
+  "sp": 124.86,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "Base = blend of guidance and consensus; consensus $141.94. Beta 1.0 (raw 0.58); TV 86% of EV. Per ADS.",
+    "zh": "基准 = 公司指引与一致预期的平均；一致预期 $141.94。Beta 1.0（原始 0.58）；终值占 EV 86%。按每 ADS。"
+   },
+   {
+    "en": "Equity adds net cash and long-term investments at 70% of book; less iQIYI minorities. Morningstar FV to follow.",
+    "zh": "股权价值加回净现金与按账面 70% 计的长期投资，扣除爱奇艺少数股东权益。Morningstar 合理价值待补充。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | FY21-25",
+   "zh": "核心KPI | FY21-25"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "EBIT margin (S&P)",
+     "zh": "EBIT 利润率"
+    },
+    "8.6%",
+    "12.9%",
+    "16.2%",
+    "16.0%",
+    "8.0%"
+   ],
+   [
+    {
+     "en": "Gross margin",
+     "zh": "毛利率"
+    },
+    "48.5%",
+    "48.4%",
+    "51.7%",
+    "50.3%",
+    "43.9%"
+   ],
+   [
+    {
+     "en": "Capex / revenue",
+     "zh": "资本开支/营收"
+    },
+    "8.8%",
+    "6.7%",
+    "8.3%",
+    "6.1%",
+    "9.4%"
+   ],
+   [
+    {
+     "en": "AI-powered share",
+     "zh": "AI 业务占比"
+    },
+    "--",
+    "--",
+    "--",
+    "20.3%",
+    "31.0%"
+   ],
+   [
+    {
+     "en": "Net cash ($B)",
+     "zh": "净现金（$B）"
+    },
+    "13.3",
+    "12.4",
+    "16.4",
+    "7.2",
+    "2.7"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y",
+   "5Y",
+   "10Y",
+   "14Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "-3.0%",
+    "1.4%",
+    "3.8%",
+    "6.9%",
+    "16.9%"
+   ],
+   [
+    {
+     "en": "Op. Income",
+     "zh": "营业利润"
+    },
+    "NM",
+    "NM",
+    "NM",
+    "NM",
+    "NM"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "NM",
+    "NM",
+    "NM",
+    "NM",
+    "NM"
+   ],
+   [
+    {
+     "en": "Capex",
+     "zh": "资本开支"
+    },
+    "48.4%",
+    "13.4%",
+    "18.9%",
+    "8.7%",
+    "14.7%"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "-82.1%",
+    "-15.8%",
+    "--",
+    "--",
+    "--"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "NM",
+    "NM",
+    "--",
+    "--",
+    "--"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "NM",
+    "NM",
+    "--",
+    "--",
+    "--"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "57.0",
+    "58.6",
+    "61.0",
+    "64.1",
+    "67.3"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "24.5",
+    "24.2",
+    "23.0",
+    "23.1",
+    "25.9"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "8.0",
+    "7.0",
+    "6.1",
+    "5.4",
+    "6.2"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "51.8",
+    "39.5",
+    "41.6",
+    "29.6",
+    "44.9"
+   ],
+   [
+    {
+     "en": "Cash + ST",
+     "zh": "现金及短投"
+    },
+    "27.0",
+    "26.1",
+    "29.1",
+    "19.1",
+    "17.3"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "43.0%",
+    "41.3%",
+    "37.8%",
+    "36.0%",
+    "38.4%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY12-25 OCF $46.3B less capex $14.2B left **$32.0B FCF**. Buybacks **$8.3B (26%)**; no dividends; acquisitions **$3.3B**. Most FCF stayed on the balance sheet as cash and long-term investments.",
+    "zh": "FY12-25 OCF $463 亿减资本开支 $142 亿，得 **FCF $320 亿**。回购 **$83 亿（26%）**；未派息；收购 **$33 亿**。大部分 FCF 留在资产负债表上，成为现金和长期投资。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted ADS-equivalents FY21 352M to FY25 343M, **down 2.6%**; buybacks roughly offset stock pay (SBC $0.5B in FY25). 344.5M diluted now.",
+    "zh": "稀释 ADS 等值股数由 FY21 的 352M 降至 FY25 的 343M，**减少 2.6%**；回购大致抵消股权激励（FY25 SBC $5 亿）。目前稀释股数 3.445 亿。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "Search growth is over.",
+    "zh": "搜索增长已经结束。"
+   },
+   "body": {
+    "en": "Revenue rose from $2.2B (FY11) to $20.2B (FY23), then fell to $19.3B (FY25); Q3 2026 was the sixth straight quarterly decline as online marketing dropped 22%.",
+    "zh": "营收由 FY11 的 $22 亿增至 FY23 的 $202 亿，之后降至 FY25 的 $193 亿；2026年Q3 在线营销下降 22%，营收连续第六个季度下滑。"
+   }
+  },
+  {
+   "headline": {
+    "en": "AI is growing, but not yet enough.",
+    "zh": "AI 在增长，但还不够。"
+   },
+   "body": {
+    "en": "The AI-powered business grew 48% to $6.0B in FY25 and was 43% of revenue in Q3 2026; AI Cloud Infra rose 94% and GPU cloud 191%. It still cannot offset the search decline: legacy revenue fell by $2.3B in FY25 while AI added $1.9B.",
+    "zh": "AI 业务 FY25 增长 48% 至 $60 亿，2026年Q3 占营收 43%；AI 云基础设施增长 94%，GPU 云增长 191%。但仍不足以抵消搜索下滑：FY25 传统业务收入减少 $23 亿，AI 业务只增加 $19 亿。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Margins and cash have collapsed.",
+    "zh": "利润率和现金流大幅下滑。"
+   },
+   "body": {
+    "en": "EBIT margin halved from 16.2% (FY23) to 8.0% (FY25); operating cash flow turned negative and FCF was -$2.3B as capex rose to 21% of TTM revenue. My model needs that ratio back near 12% by 2030; if AI capex stays high, the DCF falls sharply.",
+    "zh": "EBIT 利润率由 FY23 的 16.2% 减半至 FY25 的 8.0%；经营现金流转负，资本开支升至 TTM 营收的 21%，FCF 为 -$23 亿。我的模型要求该比例在 2030 年回到 12% 左右；若 AI 资本开支持续偏高，DCF 会大幅下降。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The balance sheet is the floor.",
+    "zh": "资产负债表是底线。"
+   },
+   "body": {
+    "en": "Net cash of RMB71.7B plus long-term investments means the ~$25B market value is below gross cash and investments (~$41B). The market is pricing years of cash burn and a China discount.",
+    "zh": "717 亿元人民币的净现金加上长期投资，使约 $250 亿的市值低于现金和投资总额（约 $410 亿）。市场在为多年的现金消耗和中国折价定价。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Little has been returned.",
+    "zh": "回报股东很少。"
+   },
+   "body": {
+    "en": "Baidu has never paid a dividend; buybacks took 26% of FY12-25 FCF and only offset stock pay. Cash returns, not AI growth alone, would close the gap to book value.",
+    "zh": "百度从未派息；FY12-25 回购只占 FCF 的 26%，仅抵消了股权激励。能缩小与账面价值差距的是现金回报，而不只是 AI 增长。"
+   }
+  },
+  {
+   "headline": {
+    "en": "My DCF says the market is too pessimistic.",
+    "zh": "我的 DCF 认为市场过于悲观。"
+   },
+   "body": {
+    "en": "Base $147.81 per ADS (WACC 8.2%, g 2%, beta 1.0) needs $25.8B revenue by 2030 (5.9% a year), an 11.5% EBIT margin and capex back to 12%; TV is 86% of EV. At $73.94 that is +100%; even bear $101.74 is +38%.",
+    "zh": "基准价值每 ADS $147.81（WACC 8.2%，g 2%，beta 1.0）要求 2030 年营收 $258 亿（年增 5.9%）、EBIT 利润率 11.5%，资本开支回到 12%；终值占 EV 86%。按 $73.94 计 +100%；悲观情景 $101.74 也有 +38%。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY11-25 from SEC 20-F XBRL in RMB, converted at a constant RMB 6.671/USD (analyst model). Per-ADS shares and EPS only FY21-25 (1 ADS = 8 Class A shares; earlier years not tagged).",
+   "Op. income = GAAP (FY25 loss includes impairments); KPI EBIT margin on S&P basis. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt), cash not deducted (net cash exceeds capital). iQIYI is consolidated (~45% stake).",
+   "Header: Nov 16, 2026 ADS close $73.94, 340.5M ADS; book value = Sep 30, 2026 equity $44.3B per ADS; TTM P/E (EPS $3.31); P/FCF NM (negative FCF). FY21-25 P/E, FCF yield and Mkt cap* from StockAnalysis.",
+   "DCF: Pythia model BIDU_DCF_Model, Nov 17, 2026; WACC 8.2%, g 2.0%. Street avg target = 30-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "Sources: Baidu 20-F FY2025, Q3 2026 release (Nov 16, 2026); SEC EDGAR; FRED (RMB/USD); StockAnalysis."
+  ],
+  "zh": [
+   "FY11-25 数据取自 SEC 20-F XBRL（人民币），按固定汇率 6.671 人民币/美元折算（分析模型）。每 ADS 股数与 EPS 仅有 FY21-25（1 ADS = 8 股 A 类股；更早年份未标注）。",
+   "营业利润为 GAAP 口径（FY25 亏损含减值）；KPI 中 EBIT 利润率为 S&P 口径。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务），不扣现金（净现金超过资本）。爱奇艺并表（持股约 45%）。",
+   "首行：2026年11月16日 ADS 收盘 $73.94，3.405 亿 ADS；每 ADS 账面 = 2026年9月30日权益 $443 亿；TTM P/E（EPS $3.31）；P/FCF 为 NM（FCF 为负）。FY21-25 P/E、FCF 收益率与市值*取自 StockAnalysis。",
+   "DCF：Pythia 模型 BIDU_DCF_Model，2026年11月17日；WACC 8.2%，g 2.0%。华尔街平均目标价为 30 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "来源：百度 FY2025 20-F、2026年Q3 业绩公告（2026年11月16日）；SEC EDGAR；FRED（人民币汇率）；StockAnalysis。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "bidu",
+  "name": {
+   "en": "Baidu",
+   "zh": "百度"
+  },
+  "exchange": "NASDAQ",
+  "market": "CN",
+  "sector": "Communication Services",
+  "industry": "Interactive Media & Advertising",
+  "indices": [
+   "Other"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "",
+  "summary": {
+   "en": "China's search leader is shrinking its old ad business and spending heavily on AI cloud; the stock trades below its cash and investments, and my DCF ($147.81 per ADS) is double the price.",
+   "zh": "中国搜索龙头的传统广告业务在萎缩，正大举投入 AI 云；股价低于其现金与投资，我的 DCF（每 ADS $147.81）是股价的两倍。"
+  },
+  "tags": [
+   {
+    "en": "China internet",
+    "zh": "中国互联网"
+   },
+   "AI",
+   {
+    "en": "Search",
+    "zh": "搜索"
+   },
+   {
+    "en": "Cloud",
+    "zh": "云计算"
+   }
+  ],
+  "business": {
+   "en": "### Three businesses\n- **Legacy business (48% of FY25 revenue):** traditional search and online advertising; down 20% in FY25 and 22% in Q3 2026.\n- **AI-powered business (31%, +48%):** AI Cloud Infra (GPU cloud), AI applications and AI-native marketing.\n- **iQIYI (21%):** online video, consolidated with a ~45% economic stake.\n\n### What changed\nBaidu is spending about a fifth of revenue on AI infrastructure while its high-margin search ads shrink; free cash flow turned negative in FY25.\n\n### Key risks\nSearch decline outpacing AI growth, AI pricing competition in China, capex discipline, regulation, and US-China tensions (ADR listing).",
+   "zh": "### 三块业务\n- **传统业务（占 FY25 营收 48%）：** 传统搜索与在线广告；FY25 下降 20%，2026年Q3 下降 22%。\n- **AI 业务（31%，+48%）：** AI 云基础设施（GPU 云）、AI 应用和 AI 原生营销。\n- **爱奇艺（21%）：** 在线视频，持股约 45% 并表。\n\n### 发生了什么变化\n百度把约五分之一的营收投入 AI 基础设施，而高利润的搜索广告在萎缩；FY25 自由现金流转负。\n\n### 关键风险\n搜索下滑快于 AI 增长、中国 AI 价格竞争、资本开支纪律、监管，以及中美关系（ADR 上市）。"
+  },
+  "segments": [
+   {
+    "name": {
+     "en": "Legacy business",
+     "zh": "传统业务"
+    },
+    "share": 47.9
+   },
+   {
+    "name": {
+     "en": "AI-powered business",
+     "zh": "AI 业务"
+    },
+    "share": 31.0
+   },
+   {
+    "name": "iQIYI",
+    "share": 21.1
+   }
+  ],
+  "revenue_cagr": "5.9% (2025-30, blended)",
+  "margin": "EBIT margin 8.0% → 11.5% (2030E)",
+  "gap": {
+   "summary": {
+    "en": "My blended base value is **$147.81 per ADS**, about **double** the price (**$73.94**) and 18% above the Street average target (**$124.86**). The difference with the market is mostly **the balance sheet and the terminal value**: I add net cash and long-term investments (at 70% of book) and assume margins recover to **11.5%** with capex falling to **12%** of revenue, so 86% of EV is terminal. The market is pricing years of cash burn and a China discount. Morningstar's fair value will be added when the report is uploaded.",
+    "zh": "我的混合基准价值为 **每 ADS $147.81**，约为股价（**$73.94**）的 **两倍**，比华尔街平均目标价（**$124.86**）高 18%。与市场的差距主要来自 **资产负债表和终值**：我加回净现金和按账面 70% 计的长期投资，并假设利润率回升至 **11.5%**、资本开支降到营收的 **12%**，因此终值占 EV 86%。市场在为多年的现金消耗和中国折价定价。Morningstar 的合理价值将在上传报告后补充。"
+   },
+   "bridge": [],
+   "assumptions": [
+    {
+     "item": {
+      "en": "Value per ADS",
+      "zh": "每 ADS 价值"
+     },
+     "mine": "$147.81",
+     "morningstar": "—",
+     "sp": "$124.86",
+     "note": {
+      "en": "Street = average of 30 analysts (S&P Global)",
+      "zh": "华尔街 = 30 位分析师平均（S&P Global）"
+     }
+    },
+    {
+     "item": "WACC",
+     "mine": "8.2%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "Beta 1.0 (raw 0.58)",
+      "zh": "Beta 1.0（原始 0.58）"
+     }
+    },
+    {
+     "item": {
+      "en": "Revenue 2026E / 2030E",
+      "zh": "营收 2026E / 2030E"
+     },
+     "mine": "$19.0B / $25.8B",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "AI share 43% (2026E) → 65% (2030E)",
+      "zh": "AI 占比 43%（2026E）→ 65%（2030E）"
+     }
+    },
+    {
+     "item": {
+      "en": "EBIT margin 2030E",
+      "zh": "EBIT 利润率 2030E"
+     },
+     "mine": "11.5%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "FY25 8.0% (S&P)",
+      "zh": "FY25 8.0%（S&P）"
+     }
+    },
+    {
+     "item": {
+      "en": "Long-term investments",
+      "zh": "长期投资"
+     },
+     "mine": {
+      "en": "70% of book ($9.5B)",
+      "zh": "账面 70%（$95 亿）"
+     },
+     "morningstar": "—",
+     "sp": "—",
+     "note": ""
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/bidu/BIDU_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/bidu/BIDU_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/bidu/BIDU_OnePage_en.png",
+   "zh": "reports/bidu/BIDU_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   }
+  ]
+ }
+}

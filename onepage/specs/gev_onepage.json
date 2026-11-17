@@ -1,0 +1,1162 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "GEV | FY25: Dec 31, 2025 | Q3 26: Sep 30, 2026 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+  "zh": "GEV | FY25：2025年12月31日 | 2026年Q3：2026年9月30日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "GE VERNOVA",
+   "zh": "GE Vernova"
+  },
+  "ticker": "GEV",
+  "name_size_pt": 20,
+  "name_width_in": 2.2
+ },
+ "header_metrics": [
+  {
+   "value": "201.0B"
+  },
+  {
+   "value": "763.57"
+  },
+  {
+   "value": "47.62"
+  },
+  {
+   "value": "20.0x"
+  },
+  {
+   "value": "11.7x"
+  },
+  {
+   "value": "0.3%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Order | Q3 2026 orders $29.3B (+96% organic); backlog $197B, >$200B expected in Q4.",
+    "2 Reserve | Gas turbine backlog + slot reservations 122 GW; customers pay deposits up front.",
+    "3 Build | Power $19.8B (52% of FY25), 14.7% margin; Electrification $9.6B, +27.7%.",
+    "4 Fix Wind | Wind $9.1B, still loss-making (-6.6% margin).",
+    "5 Collect | TTM OCF $19.2B incl. down-payments; 2026 FCF guide $16.5B → buybacks, deals."
+   ],
+   "zh": [
+    "1 接单 | 2026年Q3 订单 $293 亿（有机 +96%）；积压订单 $1,970 亿，预计 Q4 超过 $2,000 亿。",
+    "2 预订 | 燃气轮机积压订单 + 产能预订 122 GW；客户预付定金。",
+    "3 制造 | 电力 $198 亿（占 FY25 52%），利润率 14.7%；电气化 $96 亿，+27.7%。",
+    "4 修复风电 | 风电 $91 亿，仍亏损（利润率 -6.6%）。",
+    "5 回款 | TTM OCF $192 亿（含预付款）；2026 年 FCF 指引 $165 亿 → 回购、收购。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: gas-turbine pricing and slot reservations, Wind losses, and how much FCF is customer deposits.",
+   "zh": "关注：燃气轮机定价与产能预订、风电亏损，以及 FCF 中有多少来自客户预付款。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "REVENUE BY SEGMENT | FY25",
+   "zh": "分部收入 | FY25"
+  },
+  "columns": [
+   {
+    "en": "Segment",
+    "zh": "分部"
+   },
+   "$M",
+   {
+    "en": "YoY",
+    "zh": "同比"
+   },
+   {
+    "en": "Margin",
+    "zh": "利润率"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Power",
+     "zh": "电力"
+    },
+    "19,767",
+    "+9.0%",
+    "14.7%"
+   ],
+   [
+    {
+     "en": "Electrification",
+     "zh": "电气化"
+    },
+    "9,642",
+    "+27.7%",
+    "14.9%"
+   ],
+   [
+    {
+     "en": "Wind",
+     "zh": "风电"
+    },
+    "9,110",
+    "-6.1%",
+    "-6.6%"
+   ],
+   [
+    {
+     "en": "Corporate & elim.",
+     "zh": "总部与抵销"
+    },
+    "-451",
+    "--",
+    "--"
+   ]
+  ],
+  "total_row": [
+   {
+    "en": "Total revenue",
+    "zh": "合计"
+   },
+   "38,068",
+   "+9.0%",
+   "3.6%"
+  ],
+  "notes": [
+   {
+    "en": "Segment profit margins (10-K); total = GAAP operating margin.",
+    "zh": "分部利润率取自 10-K；合计为 GAAP 营业利润率。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "ocf_ps": [
+   -0.41605839416058393,
+   4.328467153284672,
+   9.29136690647482,
+   18.068840579710145
+  ],
+  "fcf_ps": [
+   -2.2883211678832116,
+   1.6131386861313868,
+   6.115107913669065,
+   13.442028985507246
+  ],
+  "last_price": 763.57,
+  "log": true,
+  "legend": {
+   "en": [
+    "OCF / sh $18.07",
+    "FCF / sh $13.44"
+   ],
+   "zh": [
+    "OCF /股 $18.07",
+    "FCF /股 $13.44"
+   ]
+  },
+  "price_min": 100,
+  "price_max": 1500,
+  "price_ticks": [
+   200,
+   400
+  ],
+  "cash_max": 25,
+  "cash_min": -5,
+  "note": {
+   "en": "Cash $/sh L lin; price R log (Nov 16, 2026); spun off Apr 2024",
+   "zh": "现金$/股：左线性 | 股价：右对数（2026年11月16日）；2024年4月分拆上市"
+  },
+  "annotations": [
+   {
+    "x": 2.3,
+    "text": {
+     "en": "Spin-off 04/2024",
+     "zh": "分拆上市 04/2024"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M sh",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      29654.0,
+      33239.0,
+      34935.0,
+      38068.0
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      null,
+      12.089431442638432,
+      5.1024399049309554,
+      8.968083583798482
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA率*"
+     },
+     "values": [
+      -6.373507789842854,
+      0.12334907789042993,
+      4.39387433805639,
+      5.886834086371756
+     ]
+    },
+    {
+     "key": "op_income",
+     "values": [
+      -2881.0,
+      -923.0,
+      471.0,
+      1388.0
+     ]
+    },
+    {
+     "key": "op_margin",
+     "values": [
+      -9.715384096580562,
+      -2.776858509582117,
+      1.3482181193645342,
+      3.646106966481034
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      -2736.0,
+      -438.0,
+      1552.0,
+      4884.0
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      -9.226411276724894,
+      -1.317729173561178,
+      4.442536138543009,
+      12.82967321634969
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      -114.0,
+      1186.0,
+      2583.0,
+      4987.0
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      -0.38443380319687054,
+      3.568097716537802,
+      7.393731215113783,
+      13.100241672796049
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      "NM",
+      "NM",
+      1.6643041237113403,
+      1.0210892710892712
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      513.0,
+      744.0,
+      883.0,
+      1277.0
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      "NM",
+      62.731871838111296,
+      34.18505613627565,
+      25.606577100461198
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      -627.0,
+      442.0,
+      1700.0,
+      3710.0
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      -2.114385917582788,
+      1.3297632299407323,
+      4.866180048661801,
+      9.74571818850478
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions",
+      "zh": "收购支出"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF",
+      "zh": "收购/OCF"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      null,
+      null,
+      155.0,
+      257.0
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      null,
+      null,
+      6.00077429345722,
+      5.153398836976137
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      null,
+      null,
+      43.0,
+      3316.0
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      "NM",
+      0.0,
+      1.664730933023616,
+      66.49288149187889
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      275.0
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      "NM",
+      0.0,
+      0.0,
+      5.514337276919992
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      -21.25504295853568,
+      -9.043408160734218,
+      9.57267815796244,
+      24.062321702874698
+     ]
+    },
+    {
+     "key": "roe",
+     "metric": "ROE*",
+     "values": [
+      -23.571982424399067,
+      -5.906148867313916,
+      16.25811858369998,
+      43.69296833064949
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      -6.152323986418115,
+      -0.9496758526484681,
+      3.0144702340487517,
+      7.750412593627015
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      274.0,
+      274.0,
+      278.0,
+      276.0
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      108.22627737226277,
+      121.31021897810218,
+      125.66546762589928,
+      137.92753623188406
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      -10,
+      -1.6,
+      5.58,
+      17.69
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      -0.41605839416058393,
+      4.328467153284672,
+      9.29136690647482,
+      18.068840579710145
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      1.8722627737226278,
+      2.7153284671532845,
+      3.176258992805755,
+      4.6268115942028984
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      -2.2883211678832116,
+      1.6131386861313868,
+      6.115107913669065,
+      13.442028985507246
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.9963768115942029
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      58.38,
+      36.31
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      1.88,
+      2.09
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      0.08,
+      0.19
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "Power demand",
+     "zh": "电力需求"
+    },
+    "text": {
+     "en": "Q3 2026 orders +96%; Power orders $21.8B (+178%) on data-centre and grid demand.",
+     "zh": "2026年Q3 订单 +96%；数据中心与电网需求推动电力订单 $218 亿（+178%）。"
+    }
+   },
+   {
+    "title": {
+     "en": "Three segments",
+     "zh": "三个分部"
+    },
+    "sub": [
+     {
+      "title": {
+       "en": "Power",
+       "zh": "电力"
+      },
+      "text": {
+       "en": "52%; 14.7% margin.",
+       "zh": "52%；利润率 14.7%。"
+      }
+     },
+     {
+      "title": {
+       "en": "Electrification",
+       "zh": "电气化"
+      },
+      "text": {
+       "en": "25%; 14.9%; +28%.",
+       "zh": "25%；14.9%；+28%。"
+      }
+     },
+     {
+      "title": {
+       "en": "Wind",
+       "zh": "风电"
+      },
+      "text": {
+       "en": "24%; still a loss.",
+       "zh": "24%；仍在亏损。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Margin turn",
+     "zh": "利润率拐点"
+    },
+    "text": {
+     "en": "GAAP op. margin from -9.7% (FY22) to 3.6% (FY25); 2026 adj. EBITDA margin guide ~14%.",
+     "zh": "GAAP 营业利润率由 FY22 的 -9.7% 升至 FY25 的 3.6%；2026 年调整后 EBITDA 利润率指引约 14%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Cash from customers",
+     "zh": "来自客户的现金"
+    },
+    "text": {
+     "en": "TTM OCF $19.2B vs $5.0B in FY25: deposits and slot reservations fund the build-out; cash $16.4B.",
+     "zh": "TTM OCF $192 亿，FY25 为 $50 亿：定金和产能预订为扩产提供资金；现金 $164 亿。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "Backlog must convert at rising margins (Power 25% by 2030 in my model) and deposits must not reverse if orders slow.",
+     "zh": "积压订单须以不断提高的利润率交付（我的模型中电力 2030 年达 25%），订单放缓时预付款不能大量回流。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "Street avg target",
+   "zh": "华尔街平均目标价"
+  },
+  "bull": {
+   "en": "Guidance",
+   "zh": "公司指引"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Nov 17, 2026",
+   "zh": "2026年11月17日"
+  },
+  "price": 763.57,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 318.24
+   },
+   {
+    "name": "base",
+    "value": 484.19
+   },
+   {
+    "name": "bull",
+    "value": 498.92
+   }
+  ],
+  "wacc": "10.0%",
+  "terminal_growth": "3.0%",
+  "horizon": "2026-30",
+  "morningstar": null,
+  "sp": 1176.0,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "Base = blend of guidance and consensus; consensus case $469.82. Beta 1.10; TV 78% of EV.",
+    "zh": "基准 = 公司指引与一致预期的平均；一致预期情景 $469.82。Beta 1.10；终值占 EV 78%。"
+   },
+   {
+    "en": "Trench Group (~$9.0B, Oct 2026) not modelled. Morningstar FV to follow.",
+    "zh": "Trench Group 收购（约 $90 亿，2026年10月）未计入模型。Morningstar 合理价值待补充。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | Q3 2026",
+   "zh": "核心KPI | 2026年Q3"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   {
+    "en": "Value",
+    "zh": "数值"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Orders ($B, +96%)",
+     "zh": "订单（$B，+96%）"
+    },
+    "29.3"
+   ],
+   [
+    {
+     "en": "Backlog ($B)",
+     "zh": "积压订单（$B）"
+    },
+    "197"
+   ],
+   [
+    {
+     "en": "Gas backlog + slots (GW)",
+     "zh": "燃气积压 + 预订（GW）"
+    },
+    "122"
+   ],
+   [
+    {
+     "en": "Electrification backlog ($B)",
+     "zh": "电气化积压（$B）"
+    },
+    "42"
+   ],
+   [
+    {
+     "en": "2026 FCF guide ($B)",
+     "zh": "2026 FCF 指引（$B）"
+    },
+    "16.5"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "9.0%",
+    "8.7%"
+   ],
+   [
+    {
+     "en": "Op. Income",
+     "zh": "营业利润"
+    },
+    "194.7%",
+    "NM"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "93.1%",
+    "NM"
+   ],
+   [
+    {
+     "en": "Capex",
+     "zh": "资本开支"
+    },
+    "44.6%",
+    "35.5%"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "217.0%",
+    "NM"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "119.8%",
+    "NM"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "NM",
+    "NM"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "44.5",
+    "46.1",
+    "51.5",
+    "63.0"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "32.9",
+    "37.7",
+    "40.9",
+    "50.7"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "1.2",
+    "1.2",
+    "1.1",
+    "1.2"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "--",
+    "--",
+    "90.6",
+    "177.3"
+   ],
+   [
+    {
+     "en": "Cash + ST",
+     "zh": "现金及短投"
+    },
+    "2.1",
+    "1.5",
+    "7.8",
+    "8.9"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "73.9%",
+    "81.8%",
+    "79.4%",
+    "80.5%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY22-25 OCF $8.6B less capex $3.4B left **$5.2B FCF**. Buybacks **$3.4B** (mostly FY25) and dividends **$0.3B**. TTM buybacks reached **$6.4B** against a **$20B** authorisation.",
+    "zh": "FY22-25 OCF $86 亿减资本开支 $34 亿，得 **FCF $52 亿**。回购 **$34 亿**（主要在 FY25），股息 **$3 亿**。TTM 回购达 **$64 亿**，授权额度 **$200 亿**。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted shares 274M at the spin to 276M (FY25); buybacks have since cut them to **267M** (Q3 2026), **down 3%**.",
+    "zh": "稀释股数由分拆时的 274M 变为 FY25 的 276M；之后回购使其降至 **2.67 亿股**（2026年Q3），**减少 3%**。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "A turnaround that became a boom.",
+    "zh": "从扭亏变成了繁荣。"
+   },
+   "body": {
+    "en": "Revenue grew from $29.7B (FY22) to $38.1B (FY25) and GAAP operating income from -$2.9B to +$1.4B. Q3 2026 orders nearly doubled (+96%) as data centres and utilities order gas turbines and grid equipment.",
+    "zh": "营收由 FY22 的 $297 亿增至 FY25 的 $381 亿，GAAP 营业利润由 -$29 亿变为 +$14 亿。数据中心和电力公司订购燃气轮机与电网设备，2026年Q3 订单几乎翻倍（+96%）。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Customers are funding the growth.",
+    "zh": "客户在为增长出资。"
+   },
+   "body": {
+    "en": "TTM operating cash flow of $19.2B is almost four times FY25's $5.0B, because customers pay deposits to reserve turbine slots. That cash is real but is owed back as equipment; it would shrink if orders slowed.",
+    "zh": "TTM 经营现金流 $192 亿，几乎是 FY25 $50 亿的四倍，因为客户为预订燃气轮机产能支付定金。这些现金是真实的，但对应未来交付的设备；订单放缓时会减少。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Power and Electrification carry the profit.",
+    "zh": "利润来自电力和电气化。"
+   },
+   "body": {
+    "en": "Power earned 14.7% and Electrification 14.9% in FY25, while Wind lost 6.6%. My model takes Power to 25% and Electrification to 19.5% by 2030, with Wind only reaching 3%.",
+    "zh": "FY25 电力利润率 14.7%、电气化 14.9%，风电亏损 6.6%。我的模型让电力在 2030 年达到 25%、电气化 19.5%，风电只到 3%。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The history is short.",
+    "zh": "历史很短。"
+   },
+   "body": {
+    "en": "As a separate company GE Vernova has only four audited years, all under very different conditions. Treat FY22-23 as the restructuring base, not a guide to normal margins. The five-year CAGRs and 15-year averages used for other companies are not available here, so the DCF rests more on guidance and backlog.",
+    "zh": "作为独立公司，GE Vernova 只有四年经审计数据，且各年情况差异很大。FY22-23 应视为重组期的基数，而不是正常利润率的参考。其他公司使用的 5 年 CAGR 和 15 年均值在这里无法计算，因此 DCF 更依赖公司指引和积压订单。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Capital returns started quickly.",
+    "zh": "股东回报起步很快。"
+   },
+   "body": {
+    "en": "Buybacks were $3.3B in FY25 and $6.4B TTM under a $20B programme; a dividend began in 2025. The ~$9.0B Trench Group deal (Oct 2026) will use part of the cash pile; it is not in my model.",
+    "zh": "在 $200 亿回购计划下，FY25 回购 $33 亿，TTM $64 亿；2025 年开始派息。约 $90 亿的 Trench Group 收购（2026年10月）将用掉部分现金；我的模型未计入。"
+   }
+  },
+  {
+   "headline": {
+    "en": "My DCF is far below the market.",
+    "zh": "我的 DCF 远低于市场。"
+   },
+   "body": {
+    "en": "Base $484.19 (WACC 10.0%, g 3%, beta 1.10) needs $68.6B revenue by 2030 (12.5% a year) at a 16.1% EBIT margin; TV is 78% of EV. At $763.57 that is -37%; the Street ($1,176) prices far faster growth.",
+    "zh": "基准价值 $484.19（WACC 10.0%，g 3%，beta 1.10）要求 2030 年营收 $686 亿（年增 12.5%）、EBIT 利润率 16.1%；终值占 EV 78%。按 $763.57 计为 -37%；华尔街（$1,176）定价的增长要快得多。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY22-25 from SEC 10-K XBRL (GE Vernova was spun off from GE on Apr 2, 2024; FY22-23 are carve-out financials). Op. income = GAAP; D&A, debt and cash from the analyst model (S&P).",
+   "EBITDA* = operating income + D&A. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt - cash). FY25 net income includes non-operating gains. Dividend/Sh.* = dividends paid / diluted shares.",
+   "Header: Nov 16, 2026 close $763.57, 263.3M shares; book value = Sep 30, 2026 equity $12.5B; TTM P/E (EPS $38.26); P/FCF on TTM FCF $17.1B (incl. customer deposits). FY24-25 ratios and Mkt cap* from StockAnalysis.",
+   "DCF: Pythia model GEV_DCF_Model, Nov 17, 2026; WACC 10.0%, g 3.0%. Street avg target = 37-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "Sources: GE Vernova 10-K FY2025, Q3 2026 release (Oct 28, 2026); SEC EDGAR; StockAnalysis."
+  ],
+  "zh": [
+   "FY22-25 数据取自 SEC 10-K XBRL（GE Vernova 于 2024年4月2日从 GE 分拆；FY22-23 为剥离口径财务数据）。营业利润为 GAAP 口径；折旧摊销、债务与现金取自分析模型（S&P 口径）。",
+   "EBITDA* = 营业利润 + 折旧摊销。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。FY25 净利润包含非经营性收益。每股股息* = 已付股息 / 稀释股数。",
+   "首行：2026年11月16日收盘 $763.57，2.633 亿股；每股账面 = 2026年9月30日权益 $125 亿；TTM P/E（EPS $38.26）；P/FCF 按 TTM FCF $171 亿（含客户预付款）。FY24-25 比率与市值*取自 StockAnalysis。",
+   "DCF：Pythia 模型 GEV_DCF_Model，2026年11月17日；WACC 10.0%，g 3.0%。华尔街平均目标价为 37 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "来源：GE Vernova FY2025 10-K、2026年Q3 业绩公告（2026年10月28日）；SEC EDGAR；StockAnalysis。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "gev",
+  "name": {
+   "en": "GE Vernova",
+   "zh": "GE Vernova"
+  },
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment",
+  "indices": [
+   "S&P 500",
+   "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "",
+  "summary": {
+   "en": "Gas turbines and grid equipment for the AI power build-out: orders nearly doubled and customers prepay, but my DCF ($484.19) is 37% below the price because I discount at 10% and let margins rise only to 16%.",
+   "zh": "为 AI 电力建设提供燃气轮机和电网设备：订单几乎翻倍，客户预付货款；但我的 DCF（$484.19）比股价低 37%，因为我用 10% 的折现率，并只让利润率升到 16%。"
+  },
+  "tags": [
+   {
+    "en": "Power generation",
+    "zh": "发电设备"
+   },
+   {
+    "en": "Grid",
+    "zh": "电网"
+   },
+   {
+    "en": "Data centres",
+    "zh": "数据中心"
+   },
+   {
+    "en": "Spin-off",
+    "zh": "分拆"
+   }
+  ],
+  "business": {
+   "en": "### Three segments\n- **Power (52% of FY25 revenue, 14.7% margin):** gas turbines, nuclear, hydro and steam, plus a large services base.\n- **Electrification (25%, 14.9%):** grid equipment, power conversion and software; growing fastest (+27.7%).\n- **Wind (24%, -6.6%):** onshore and offshore wind; still loss-making.\n\n### What changed\nSince the April 2024 spin-off from GE, orders have surged on data-centre and grid demand; backlog is $197B and customers pay deposits to reserve turbine slots.\n\n### Key risks\nA slowdown in power orders, Wind losses, execution on a large backlog, and the Trench Group acquisition.",
+   "zh": "### 三个分部\n- **电力（占 FY25 营收 52%，利润率 14.7%）：** 燃气轮机、核电、水电和蒸汽轮机，以及庞大的服务业务。\n- **电气化（25%，14.9%）：** 电网设备、电力转换与软件；增长最快（+27.7%）。\n- **风电（24%，-6.6%）：** 陆上与海上风电；仍在亏损。\n\n### 发生了什么变化\n2024年4月从 GE 分拆后，数据中心与电网需求推动订单激增；积压订单 $1,970 亿，客户支付定金预订燃气轮机产能。\n\n### 关键风险\n电力订单放缓、风电亏损、大量积压订单的交付，以及 Trench Group 收购。"
+  },
+  "segments": [
+   {
+    "name": {
+     "en": "Power",
+     "zh": "电力"
+    },
+    "share": 51.9
+   },
+   {
+    "name": {
+     "en": "Electrification",
+     "zh": "电气化"
+    },
+    "share": 25.3
+   },
+   {
+    "name": {
+     "en": "Wind",
+     "zh": "风电"
+    },
+    "share": 23.9
+   }
+  ],
+  "revenue_cagr": "12.5% (2025-30, blended)",
+  "margin": "EBIT margin 3.6% (GAAP FY25) → 16.1% (2030E)",
+  "gap": {
+   "summary": {
+    "en": "My blended base value is **$484.19**, **37% below** the price (**$763.57**) and far below the Street average target (**$1,176**). Revenue follows guidance and consensus (12.5% a year to **$68.6B** in 2030), so the gap is the **margin path and discount rate**: I take the EBIT margin to **16.1%** and discount at **10.0%** (beta 1.10). At a 0.6 beta (WACC 7.8%) the value would be **$691**. Morningstar's fair value will be added when the report is uploaded.",
+    "zh": "我的混合基准价值为 **$484.19**，比股价（**$763.57**）低 **37%**，远低于华尔街平均目标价（**$1,176**）。营收按公司指引与一致预期（每年 12.5%，2030 年 **$686 亿**），差距来自 **利润率路径与折现率**：我让 EBIT 利润率升至 **16.1%**，并以 **10.0%**（beta 1.10）折现。若 beta 为 0.6（WACC 7.8%），价值约 **$691**。Morningstar 的合理价值将在上传报告后补充。"
+   },
+   "bridge": [],
+   "assumptions": [
+    {
+     "item": {
+      "en": "Value per share",
+      "zh": "每股价值"
+     },
+     "mine": "$484.19",
+     "morningstar": "—",
+     "sp": "$1,176",
+     "note": {
+      "en": "Street = average of 37 analysts (S&P Global)",
+      "zh": "华尔街 = 37 位分析师平均（S&P Global）"
+     }
+    },
+    {
+     "item": "WACC",
+     "mine": "10.0%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "Cost of equity 10.1% (beta 1.10)",
+      "zh": "股权成本 10.1%（beta 1.10）"
+     }
+    },
+    {
+     "item": {
+      "en": "Revenue 2026E / 2030E",
+      "zh": "营收 2026E / 2030E"
+     },
+     "mine": "$46.7B / $68.6B",
+     "morningstar": "—",
+     "sp": {
+      "en": "2026 guide ~$47B",
+      "zh": "2026 指引约 $470 亿"
+     },
+     "note": ""
+    },
+    {
+     "item": {
+      "en": "EBIT margin 2030E",
+      "zh": "EBIT 利润率 2030E"
+     },
+     "mine": "16.1%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "Power 25%, Electrification 19.5%, Wind 3%",
+      "zh": "电力 25%、电气化 19.5%、风电 3%"
+     }
+    },
+    {
+     "item": {
+      "en": "Trench Group deal",
+      "zh": "Trench Group 收购"
+     },
+     "mine": {
+      "en": "Not modelled",
+      "zh": "未计入"
+     },
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "~$9.0B, announced Oct 2026",
+      "zh": "约 $90 亿，2026年10月宣布"
+     }
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/gev/GEV_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/gev/GEV_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/gev/GEV_OnePage_en.png",
+   "zh": "reports/gev/GEV_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   }
+  ]
+ }
+}
