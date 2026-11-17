@@ -1,0 +1,1655 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "DVN | FY25: Dec 31, 2025 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+  "zh": "DVN | FY25：2025年12月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "DEVON ENERGY",
+   "zh": "戴文能源"
+  },
+  "ticker": "DVN",
+  "name_size_pt": 22,
+  "name_width_in": 2.2
+ },
+ "header_metrics": [
+  {
+   "value": "50.5B"
+  },
+  {
+   "value": "44.27"
+  },
+  {
+   "value": "36.62"
+  },
+  {
+   "value": "10.3x"
+  },
+  {
+   "value": "27.4x"
+  },
+  {
+   "value": "2.9%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Lease | Delaware core plus Williston, Anadarko and Marcellus; one reported segment.",
+    "2 Drill | ~$1.4–1.5B capex a quarter holds ~1.6M Boe/d against well decline.",
+    "3 Sell | Oil, NGL and gas at market: Q2'26 realised $88.09 / $22.70 / $1.05.",
+    "4 Cost | Cash cost ~$9.55/Boe -> $8.90 with synergies; breakeven < $44 WTI.",
+    "5 Return | FY25 OCF $6.71B - capex $3.59B = FCF $3.12B -> 70% to holders."
+   ],
+   "zh": [
+    "1 租地 | 以 Delaware 为核心，另有 Williston、Anadarko、Marcellus；只报一个分部。",
+    "2 钻井 | 每季约 $14–15 亿资本开支，抵消老井递减、维持约 160 万桶油当量/天。",
+    "3 销售 | 油、NGL、气按市价卖出：Q2'26 实现价 $88.09 / $22.70 / $1.05。",
+    "4 成本 | 现金成本约 $9.55/桶油当量，协同后降至 $8.90；盈亏平衡 < $44 WTI。",
+    "5 回报 | FY25 OCF $6.71B - 资本开支 $3.59B = FCF $3.12B → 70% 回馈股东。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: 2027 budget, cash cost/Boe and share count vs 1,150M.",
+   "zh": "关注：2027 年预算、单位现金成本与股数是否低于 11.5 亿股。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "PRODUCTION & PRICES",
+   "zh": "产量与实现价格"
+  },
+  "columns": [
+   "",
+   "Q4'25",
+   "Q2'26",
+   {
+    "en": "Q3'26 guide",
+    "zh": "Q3'26 指引"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Total (MBoe/d)",
+     "zh": "总产量 MBoe/d"
+    },
+    "851",
+    "1,359",
+    "1,675"
+   ],
+   [
+    {
+     "en": "Oil (MBbl/d)",
+     "zh": "原油 MBbl/d"
+    },
+    "390",
+    "503",
+    "555"
+   ],
+   [
+    {
+     "en": "Oil $/Bbl (hedged)",
+     "zh": "原油 $/桶（含套保）"
+    },
+    "59.66",
+    "88.09",
+    "--"
+   ],
+   [
+    {
+     "en": "NGL $/Bbl",
+     "zh": "NGL $/桶"
+    },
+    "17.09",
+    "22.70",
+    "--"
+   ],
+   [
+    {
+     "en": "Gas $/Mcf",
+     "zh": "天然气 $/Mcf"
+    },
+    "1.58",
+    "1.05",
+    "--"
+   ],
+   [
+    {
+     "en": "Prod. cost $/Boe",
+     "zh": "生产成本 $/Boe"
+    },
+    "10.99",
+    "11.27",
+    "--"
+   ]
+  ],
+  "notes": [
+   {
+    "en": "Q4'25 standalone; Q2'26 includes Coterra from May 7. Eagle Ford (~68 MBoe/d) sale pending.",
+    "zh": "Q4'25 为单体；Q2'26 自 5月7日起含 Coterra。Eagle Ford（约 6.8 万桶油当量/天）出售待完成。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "ocf_ps": [
+   15.08695652173913,
+   12.325,
+   13.522388059701493,
+   14.793611793611793,
+   13.201474201474202,
+   1.6449704142011834,
+   2.3903846153846153,
+   3.1851106639839033,
+   5.094763092269327,
+   3.883289124668435,
+   7.366917293233083,
+   13.062787136294027,
+   10.193146417445483,
+   10.410094637223974,
+   10.601895734597157
+  ],
+  "fcf_ps": [
+   -3.111111111111111,
+   -8.2375,
+   -2.6517412935323383,
+   -2.3759213759213758,
+   1.4398034398034398,
+   -1.0848126232741617,
+   -0.7134615384615385,
+   -1.0724346076458753,
+   0.3316708229426434,
+   0.8249336870026526,
+   4.37593984962406,
+   9.169984686064318,
+   4.144859813084112,
+   4.660883280757098,
+   4.927330173775672
+  ],
+  "last_price": 44.27,
+  "log": true,
+  "price_min": 20,
+  "price_max": 200,
+  "price_ticks": [
+   25,
+   50,
+   100,
+   200
+  ],
+  "cash_max": 16,
+  "cash_min": -10,
+  "legend": {
+   "en": [
+    "OCF / sh $10.60",
+    "FCF / sh $4.93"
+   ],
+   "zh": [
+    "OCF /股 $10.60",
+    "FCF /股 $4.93"
+   ]
+  },
+  "note": {
+   "en": "Cash $/sh L lin; price R log (Nov 16, 2026)",
+   "zh": "现金$/股：左线性 | 股价：右对数（2026年11月16日）"
+  },
+  "annotations": [
+   {
+    "x": 4.3,
+    "text": {
+     "en": "Oil crash 2015–16",
+     "zh": "油价暴跌 2015–16"
+    }
+   },
+   {
+    "x": 10.0,
+    "dy": 10,
+    "text": {
+     "en": "WPX merger 01/2021",
+     "zh": "合并 WPX 01/2021"
+    }
+   },
+   {
+    "x": 13.7,
+    "dy": 20,
+    "text": {
+     "en": "Grayson Mill 09/2024",
+     "zh": "收购 Grayson Mill 09/2024"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "2011",
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M sh",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      11445.0,
+      9501.0,
+      10397.0,
+      20638.0,
+      13145.0,
+      6753.0,
+      6501.0,
+      8896.0,
+      6220.0,
+      4828.0,
+      12206.0,
+      19169.0,
+      15258.0,
+      15940.0,
+      17188.0
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      15.140845070422525,
+      -16.98558322411533,
+      9.43058625407851,
+      98.4995671828412,
+      -36.30681267564686,
+      -48.62685431723088,
+      -3.7316748111950293,
+      36.84048607906476,
+      -30.080935251798557,
+      -22.37942122186495,
+      152.8169014084507,
+      57.045715222021954,
+      -20.402733580259792,
+      4.4697863415912975,
+      7.8293601003764035
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA利润率*"
+     },
+     "values": [
+      60.74268239405855,
+      30.880959898958004,
+      32.65365009137251,
+      38.32735730206415,
+      -116.17344998098136,
+      24.38916037316748,
+      21.304414705429934,
+      27.64163669064748,
+      26.495176848874596,
+      -31.71085335542668,
+      44.60101589382271,
+      54.08732849913923,
+      49.45602306986499,
+      46.223337515683816,
+      43.9725389806842
+     ]
+    },
+    {
+     "key": "op_income",
+     "metric": {
+      "en": "EBIT*",
+      "zh": "息税前利润*"
+     },
+     "values": [
+      4704.0,
+      123.0,
+      615.0,
+      4591.0,
+      -19293.0,
+      55.0,
+      377.0,
+      1231.0,
+      151.0,
+      -2831.0,
+      3286.0,
+      8145.0,
+      4992.0,
+      4113.0,
+      3963.0
+     ]
+    },
+    {
+     "key": "op_margin",
+     "metric": {
+      "en": "EBIT Margin*",
+      "zh": "EBIT利润率*"
+     },
+     "values": [
+      41.10091743119266,
+      1.2946005683612252,
+      5.915167836876021,
+      22.245372613625353,
+      -146.77063522251808,
+      0.8144528357766918,
+      5.799107829564682,
+      13.837679856115107,
+      2.427652733118971,
+      -58.63711681855841,
+      26.92118630181878,
+      42.49047941989671,
+      32.717263075108136,
+      25.8030112923463,
+      23.056783802653015
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      4704.0,
+      -206.0,
+      -20.0,
+      1607.0,
+      -12896.0,
+      -1056.0,
+      898.0,
+      3064.0,
+      -355.0,
+      -2680.0,
+      2813.0,
+      6031.0,
+      3739.0,
+      2893.0,
+      2642.0
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      41.10091743119266,
+      -2.1681928218082307,
+      -0.1923631816870251,
+      7.786607229382692,
+      -98.10574362875619,
+      -15.637494446912484,
+      13.813259498538685,
+      34.44244604316547,
+      -5.707395498392283,
+      -55.50952775476388,
+      23.0460429297067,
+      31.4622567687412,
+      24.505177611744656,
+      18.14930991217064,
+      15.371189201768676
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      6246.0,
+      4930.0,
+      5436.0,
+      6021.0,
+      5373.0,
+      834.0,
+      1243.0,
+      1583.0,
+      2043.0,
+      1464.0,
+      4899.0,
+      8530.0,
+      6544.0,
+      6600.0,
+      6711.0
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      54.5740498034076,
+      51.88927481317756,
+      52.284312782533426,
+      29.17433859870143,
+      40.87485736021301,
+      12.3500666370502,
+      19.120135363790187,
+      17.79451438848921,
+      32.845659163987136,
+      30.323115161557578,
+      40.13599868916926,
+      44.4989305649747,
+      42.88897627474112,
+      41.40526976160602,
+      39.044682336513844
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      1.3278061224489797,
+      "NM*",
+      "NM*",
+      3.74673304293715,
+      "NM*",
+      "NM*",
+      1.3841870824053453,
+      0.516644908616188,
+      "NM*",
+      "NM*",
+      1.7415570565232847,
+      1.4143591444204942,
+      1.7502005883926184,
+      2.2813688212927756,
+      2.540121120363361
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      7534.0,
+      8225.0,
+      6502.0,
+      6988.0,
+      4787.0,
+      1384.0,
+      1614.0,
+      2116.0,
+      1910.0,
+      1153.0,
+      1989.0,
+      2542.0,
+      3883.0,
+      3645.0,
+      3592.0
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      120.62119756644252,
+      166.83569979716023,
+      119.61000735835172,
+      116.06045507390799,
+      89.09361622929462,
+      165.947242206235,
+      129.84714400643605,
+      133.67024636765635,
+      93.48996573666177,
+      78.7568306010929,
+      40.60012247397428,
+      29.80070339976553,
+      59.33679706601467,
+      55.22727272727273,
+      53.52406496796305
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      -1288.0,
+      -3295.0,
+      -1066.0,
+      -967.0,
+      586.0,
+      -550.0,
+      -371.0,
+      -533.0,
+      133.0,
+      311.0,
+      2910.0,
+      5988.0,
+      2661.0,
+      2955.0,
+      3119.0
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      -11.253822629969418,
+      -34.68055994105884,
+      -10.25295758391844,
+      -4.68553154375424,
+      4.457968809433244,
+      -8.144528357766918,
+      -5.706814336255961,
+      -5.991456834532374,
+      2.138263665594855,
+      6.441590720795361,
+      23.840734065213827,
+      31.237936251238978,
+      17.4400314589068,
+      18.538268506900877,
+      18.146381196183384
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions*",
+      "zh": "收购支出*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      18.0,
+      2583.0,
+      64.0,
+      3808.0,
+      322.0
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF*",
+      "zh": "收购/OCF*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.3674219228413962,
+      30.28135990621336,
+      0.9779951100244498,
+      57.6969696969697,
+      4.798092683653703
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      null,
+      null,
+      null,
+      163.0,
+      244.0,
+      203.0,
+      126.0,
+      137.0,
+      115.0,
+      88.0,
+      99.0,
+      88.0,
+      93.0,
+      99.0,
+      99.0
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      null,
+      null,
+      null,
+      2.7071914964291643,
+      4.541224641727154,
+      24.34052757793765,
+      10.136765888978278,
+      8.654453569172457,
+      5.628976994615761,
+      6.0109289617486334,
+      2.020820575627679,
+      1.0316529894490036,
+      1.4211491442542787,
+      1.5,
+      1.475189986589182
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      2332.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2956.0,
+      1849.0,
+      38.0,
+      589.0,
+      718.0,
+      979.0,
+      1057.0,
+      1050.0
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      37.33589497278258,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      186.73404927353127,
+      90.5041605482134,
+      2.5956284153005464,
+      12.022861808532353,
+      8.417350527549825,
+      14.960268948655257,
+      16.015151515151516,
+      15.645954403218596
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      278.0,
+      324.0,
+      348.0,
+      386.0,
+      396.0,
+      221.0,
+      127.0,
+      149.0,
+      140.0,
+      257.0,
+      1315.0,
+      3379.0,
+      1858.0,
+      937.0,
+      619.0
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      4.450848543067563,
+      6.572008113590264,
+      6.401766004415011,
+      6.4108952001328685,
+      7.370184254606365,
+      26.498800959232614,
+      10.217216411906678,
+      9.41250789639924,
+      6.852667645619187,
+      17.55464480874317,
+      26.842212696468664,
+      39.61313012895663,
+      28.392420537897312,
+      14.196969696969697,
+      9.22366264342125
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      15.191785359390527,
+      0.36982499421787063,
+      1.8132678132678133,
+      10.358335020682075,
+      -68.92566298722119,
+      0.20497873763677196,
+      1.6046054785550583,
+      8.55318011758418,
+      1.3460571428571428,
+      -41.90094876660342,
+      18.59730082716587,
+      38.68651808549507,
+      22.225926137336607,
+      14.085616438356166,
+      13.718279856210891
+     ]
+    },
+    {
+     "key": "roe",
+     "values": [
+      21.950536630891275,
+      -0.9681361030172009,
+      -0.09756573491389824,
+      7.460884906448767,
+      -182.94793587742942,
+      -12.762871646120377,
+      9.703911821914847,
+      33.35510559547137,
+      -6.118579800068942,
+      -92.89428076256499,
+      30.37141006262146,
+      54.007343064386134,
+      31.000746206782193,
+      19.95722958057395,
+      17.014425553838226
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      11.483253588516746,
+      -0.4754650787056271,
+      -0.04664505445810108,
+      3.1778990666033855,
+      -43.460384861658746,
+      -3.6826503923278118,
+      2.9694785225356304,
+      15.659818051722377,
+      -2.5880294525041916,
+      -27.037933817594833,
+      13.379310344827585,
+      25.91637660607623,
+      15.267456104532462,
+      9.488668044212666,
+      8.361024083040602
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      414.0,
+      400.0,
+      402.0,
+      407.0,
+      407.0,
+      507.0,
+      520.0,
+      497.0,
+      401.0,
+      377.0,
+      665.0,
+      653.0,
+      642.0,
+      634.0,
+      633.0
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      27.644927536231883,
+      23.7525,
+      25.86318407960199,
+      50.70761670761671,
+      32.2972972972973,
+      13.319526627218934,
+      12.501923076923077,
+      17.899396378269618,
+      15.511221945137157,
+      12.806366047745358,
+      18.354887218045114,
+      29.355283307810108,
+      23.766355140186917,
+      25.141955835962143,
+      27.153238546603475
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      11.25,
+      -0.52,
+      -0.06,
+      3.91,
+      -31.72,
+      -2.09,
+      1.7,
+      6.1,
+      -0.89,
+      -7.12,
+      4.19,
+      9.12,
+      5.84,
+      4.56,
+      4.17
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      15.08695652173913,
+      12.325,
+      13.522388059701493,
+      14.793611793611793,
+      13.201474201474202,
+      1.6449704142011834,
+      2.3903846153846153,
+      3.1851106639839033,
+      5.094763092269327,
+      3.883289124668435,
+      7.366917293233083,
+      13.062787136294027,
+      10.193146417445483,
+      10.410094637223974,
+      10.601895734597157
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      18.198067632850243,
+      20.5625,
+      16.17412935323383,
+      17.16953316953317,
+      11.761670761670763,
+      2.7297830374753453,
+      3.103846153846154,
+      4.257545271629779,
+      4.763092269326683,
+      3.0583554376657824,
+      2.9909774436090224,
+      3.892802450229709,
+      6.048286604361371,
+      5.749211356466877,
+      5.674565560821485
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      -3.111111111111111,
+      -8.2375,
+      -2.6517412935323383,
+      -2.3759213759213758,
+      1.4398034398034398,
+      -1.0848126232741617,
+      -0.7134615384615385,
+      -1.0724346076458753,
+      0.3316708229426434,
+      0.8249336870026526,
+      4.37593984962406,
+      9.169984686064318,
+      4.144859813084112,
+      4.660883280757098,
+      4.927330173775672
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      0.6714975845410628,
+      0.81,
+      0.8656716417910447,
+      0.9484029484029484,
+      0.972972972972973,
+      0.4358974358974359,
+      0.24423076923076922,
+      0.29979879275653926,
+      0.3491271820448878,
+      0.6816976127320955,
+      1.9774436090225564,
+      5.174578866768759,
+      2.8940809968847354,
+      1.4779179810725551,
+      0.9778830963665087
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      10.71,
+      6.75,
+      7.75,
+      7.44,
+      8.7
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      9.7,
+      8.47,
+      8.95,
+      -3.97,
+      12.17
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4.38,
+      8.4,
+      6.29,
+      4.39,
+      2.6
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "Price × volume",
+     "zh": "价格 × 产量"
+    },
+    "text": {
+     "en": "FY25 revenue +7.8% to $17.19B as oil rose 12% to 389 MBbl/d, but WTI fell to $64.87 from $75.79.",
+     "zh": "FY25 营收 +7.8% 至 $17.19B：原油产量 +12% 至 38.9 万桶/天，但 WTI 由 $75.79 跌至 $64.87。"
+    }
+   },
+   {
+    "title": {
+     "en": "Four basins",
+     "zh": "四个盆地"
+    },
+    "sub": [
+     {
+      "title": "Delaware",
+      "text": {
+       "en": "~2/3 of output; >60% of 2026 capex.",
+       "zh": "约占产量 2/3；占 2026 年资本开支 60% 以上。"
+      }
+     },
+     {
+      "title": "Williston / Anadarko",
+      "text": {
+       "en": "Oil and liquids; Grayson Mill 2024.",
+       "zh": "原油与液体；2024 年收购 Grayson Mill。"
+      }
+     },
+     {
+      "title": "Marcellus",
+      "text": {
+       "en": "Coterra gas, added May 2026.",
+       "zh": "Coterra 天然气，2026年5月并入。"
+      }
+     },
+     {
+      "title": "Eagle Ford",
+      "text": {
+       "en": "Sold to Crescent for $4.2B.",
+       "zh": "以 $42 亿出售给 Crescent。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Unit cost",
+     "zh": "单位成本"
+    },
+    "text": {
+     "en": "Q2'26 production cost $11.27/Boe; $1B synergies target cash cost ~$8.90 by end-2027.",
+     "zh": "Q2'26 生产成本 $11.27/桶油当量；$10 亿协同目标使现金成本在 2027 年底降至约 $8.90。"
+    }
+   },
+   {
+    "title": {
+     "en": "Reinvest & FCF",
+     "zh": "再投资与FCF"
+    },
+    "text": {
+     "en": "FY25 OCF $6.71B - capex $3.59B = FCF $3.12B; capex 54% of OCF.",
+     "zh": "FY25 OCF $6.71B - 资本开支 $3.59B = FCF $3.12B；资本开支占 OCF 54%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "Synergies, Eagle Ford cash and buybacks must lift FCF per share faster than ~532M Coterra shares dilute it.",
+     "zh": "协同效应、Eagle Ford 现金和回购，必须让每股 FCF 的增长快于约 5.32 亿股 Coterra 新股带来的稀释。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "S&P GMI target",
+   "zh": "S&P GMI 目标价"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Oct 30, 2026",
+   "zh": "2026年10月30日"
+  },
+  "price": 44.27,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 33.5
+   },
+   {
+    "name": "base",
+    "value": 69.33
+   },
+   {
+    "name": "bull",
+    "value": 110.68
+   }
+  ],
+  "wacc": "8.31%",
+  "terminal_growth": "1.5%",
+  "horizon": "2026-30",
+  "morningstar": 62,
+  "sp": 61.69,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "On Morningstar's $60 WTI deck: $52.83. EV/EBITDA 4.8–6.0x: $55–70.",
+    "zh": "按 Morningstar $60 WTI 价格：$52.83。EV/EBITDA 4.8–6.0x：$55–70。"
+   },
+   {
+    "en": "No scenario probabilities set; vs price uses Nov 16 close $44.27.",
+    "zh": "未设情景概率；较现价按 11月16日收盘 $44.27 计算。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | FY21-25",
+   "zh": "核心KPI | FY21-25"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Production (MMBoe)",
+     "zh": "产量（百万桶油当量）"
+    },
+    "209",
+    "223",
+    "240",
+    "270",
+    "307"
+   ],
+   [
+    {
+     "en": "Daily (MBoe/d)",
+     "zh": "日均（千桶油当量）"
+    },
+    "573",
+    "611",
+    "658",
+    "740",
+    "841"
+   ],
+   [
+    {
+     "en": "EBITDA* ($B)",
+     "zh": "EBITDA* ($B)"
+    },
+    "5.50",
+    "10.26",
+    "7.46",
+    "7.34",
+    "7.43"
+   ],
+   [
+    {
+     "en": "EBITDA margin*",
+     "zh": "EBITDA利润率*"
+    },
+    "40.0%",
+    "51.8%",
+    "49.2%",
+    "48.4%",
+    "46.3%"
+   ],
+   [
+    {
+     "en": "Net debt / EBITDA*",
+     "zh": "净债务/EBITDA*"
+    },
+    ".85x",
+    ".53x",
+    ".76x",
+    "1.15x",
+    ".98x"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y",
+   "5Y",
+   "10Y",
+   "15Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "7.8%",
+    "-3.6%",
+    "28.9%",
+    "2.7%",
+    "3.7%"
+   ],
+   [
+    {
+     "en": "EBIT*",
+     "zh": "息税前利润*"
+    },
+    "-3.6%",
+    "-21.3%",
+    "NM",
+    "NM",
+    "-.0%"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "1.7%",
+    "-7.7%",
+    "35.6%",
+    "2.2%",
+    "2.0%"
+   ],
+   [
+    {
+     "en": "FCF",
+     "zh": "FCF"
+    },
+    "5.5%",
+    "-19.5%",
+    "58.6%",
+    "18.2%",
+    "NM"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "-8.6%",
+    "-23.0%",
+    "NM",
+    "NM",
+    "-5.9%"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "5.7%",
+    "-18.7%",
+    "43.0%",
+    "13.1%",
+    "NM"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "-33.8%",
+    "-42.6%",
+    "7.5%",
+    ".1%",
+    "NM"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "21.0",
+    "23.3",
+    "24.5",
+    "30.5",
+    "31.6"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "11.6",
+    "12.0",
+    "12.3",
+    "15.8",
+    "16.1"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "6.5",
+    "6.4",
+    "6.2",
+    "8.9",
+    "8.4"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "29.8",
+    "40.2",
+    "29.0",
+    "21.5",
+    "23.0"
+   ],
+   [
+    {
+     "en": "Cash",
+     "zh": "现金"
+    },
+    "2.1",
+    "1.3",
+    "0.9",
+    "0.8",
+    "1.4"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "55.3%",
+    "51.5%",
+    "50.1%",
+    "51.8%",
+    "50.9%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY11-25 OCF $68.5B less capex $57.9B left only **$10.6B FCF**. Buybacks **$11.6B (109%)**; dividends **$10.7B (101%)**; payout **210%**, funded by asset sales and debt. Since the 2021 WPX merger: FCF $17.6B, payout **71%**.",
+    "zh": "FY11-25 OCF $68.5B 减资本开支 $57.9B，仅得 **FCF $10.6B**。回购 **$11.6B（109%）**；股息 **$10.7B（101%）**；分配率 **210%**，差额靠出售资产和举债。2021 年合并 WPX 以来：FCF $17.6B，分配率 **71%**。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted shares FY11 414M to FY25 633M, **up 53%** (2016 equity raise, 2021 all-stock WPX). Coterra added ~532M in May 2026, so ~1.14B today. The $8B buyback is **~16%** of the $50.5B market cap.",
+    "zh": "稀释股数由 FY11 的 414M 增至 FY25 的 633M，**增加 53%**（2016 年增发、2021 年全股票合并 WPX）。2026年5月合并 Coterra 新增约 5.32 亿股，目前约 11.4 亿股。$80 亿回购授权约为 $505 亿市值的 **16%**。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "Value it on price and cost, not growth.",
+    "zh": "按价格和成本估值，不按增长。"
+   },
+   "body": {
+    "en": "FY25 revenue rose 7.8% to $17.19B while net income fell 8.9% as WTI dropped from $75.79 to $64.87. Even so, OCF was $6.71B. The model is price × volume - unit cost - capex. FY15 shows the other side: impairments drove a $12.9B loss.",
+    "zh": "FY25 营收增长 7.8% 至 $17.19B，但 WTI 由 $75.79 跌至 $64.87，净利润下降 8.9%。即便如此，OCF 仍有 $6.71B。模型按「价格 × 产量 - 单位成本 - 资本开支」搭建。FY15 则是反面：减值导致 $129 亿亏损。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The merger doubles the base; per share is the test.",
+    "zh": "合并让体量翻倍，检验在每股。"
+   },
+   "body": {
+    "en": "Coterra (closed May 7) lifts output from ~0.84 to ~1.6M Boe/d but adds ~532M shares. Value per share rises only if the $1B synergies and buybacks outrun that dilution. Over FY11-25 shares already rose 53%.",
+    "zh": "Coterra（5月7日完成）把产量从约 84 万提升到约 160 万桶油当量/天，但新增约 5.32 亿股。只有 $10 亿协同和回购跑赢稀释，每股价值才会提升。FY11-25 股数已增加 53%。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Asset sales should close the discount.",
+    "zh": "出售资产应能收窄折价。"
+   },
+   "body": {
+    "en": "Eagle Ford sold for $4.2B, about 40% above proved value, while DVN trades ~4.8x 2027E EV/EBITDA, a turn below peers. Activists (Toms, Kimmeridge) push for more. Selling is not free: our base deck puts the lost cash flow at about -$3/share.",
+    "zh": "Eagle Ford 以 $42 亿出售，约比探明储量价值高 40%；而 DVN 按 2027E 只有约 4.8x EV/EBITDA，比同行低约一倍。激进投资者（Toms、Kimmeridge）在推动更多出售。但出售不是免费的：按基准价格，失去的现金流约合每股 -$3。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Cash returns are large for the size.",
+    "zh": "相对市值，现金回报很大。"
+   },
+   "body": {
+    "en": "Devon returns ~70% of FCF, raised the dividend 33% to $0.32 a quarter and has an $8B buyback. Base 2027E FCF ~$6.7B is a ~13% yield at $50.5B. Watch shares below 1,150M. $1.25B of 2026 debt repayment targets net debt below 1x EBITDA by end-2027.",
+    "zh": "公司约 70% 的 FCF 回馈股东，季度股息上调 33% 至 $0.32，并有 $80 亿回购授权。基准 2027E FCF 约 $67 亿，按 $505 亿市值约 13% 收益率。关注股数是否降到 11.5 亿以下。2026 年偿债 $12.5 亿，目标是 2027 年底净债务/EBITDA 低于 1 倍。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Low cost limits the downside.",
+    "zh": "低成本限制了下行空间。"
+   },
+   "body": {
+    "en": "Breakeven is just under $44 WTI. On Morningstar's $60 deck our model gives $52.83. Oil fell ~7% on Nov 2 on Iran talks and the stock is $44.27, below that conservative anchor. Q3 EPS of $1.42 beat the $1.31 consensus (Nov 5).",
+    "zh": "盈亏平衡在 $44 WTI 以下。用 Morningstar 的 $60 价格，我们的模型得出 $52.83。11月2日因美伊和谈油价跌约 7%，股价已到 $44.27，低于这一保守锚点。Q3 EPS $1.42，高于 $1.31 的一致预期（11月5日）。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The DCF needs volume held, not high oil.",
+    "zh": "DCF 要的是守住产量，而不是高油价。"
+   },
+   "body": {
+    "en": "Base $69.33 (8.31% WACC, 1.5% g) needs WTI $79 in 2027 fading to $70 and ~$5.5B capex holding ~1.6M Boe/d. At $44.27 that is +56.6%. I sit 11.8% above Morningstar ($62), mostly on the price deck. Failure test: WTI below $60 for a quarter, or 2027 capex above $6B for flat output.",
+    "zh": "基准价值 $69.33（WACC 8.31%，g 1.5%）要求 2027 年 WTI $79、之后回落到 $70，且约 $55 亿资本开支能维持约 160 万桶油当量/天。按 $44.27 计，空间 +56.6%。我比 Morningstar（$62）高 11.8%，主要来自油价假设。失效信号：WTI 连续一个季度低于 $60，或 2027 年资本开支超过 $60 亿而产量持平。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY11-25 from SEC 10-K XBRL (latest filing for each year); Devon standalone (Coterra from May 2026 not included). FY11-15 include EnLink midstream; FY16-20 continuing operations.",
+   "EBIT* = pretax income + interest expense (GAAP, incl. impairments); EBITDA* = EBIT + DD&A. KPI EBITDA* and net debt from S&P via StockAnalysis. FCF = OCF - capex. Acquisitions* = S&P capex less reported capex (FY21-25 only).",
+   "ROIC* = EBIT x (1-22%) / (equity + debt - cash), year-end. Dividend/Sh.* = dividends paid / diluted shares. FY21-25 P/E, yields and Mkt cap* from StockAnalysis (FY-end basis).",
+   "Header: Nov 16, 2026 close $44.27, 1.14B shares; book value = Jun 30, 2026 equity $41.7B / 1.14B; TTM P/E and P/FCF (TTM capex includes merger-period spending).",
+   "DCF: Pythia/SMF model, valuation date Oct 30, 2026 (price $52.15); WACC 8.31%, g 1.5%. Morningstar FV Oct 9, 2026; S&P GMI = 28-analyst avg target, Nov 1, 2026.",
+   "Sources: Devon 10-K, 10-K/A, 8-K (Oct 8, 2026), Q2-26 results; SEC EDGAR; StockAnalysis; Morningstar; EIA STEO."
+  ],
+  "zh": [
+   "FY11-25 数据取自 SEC 10-K XBRL（各年度以最新申报为准）；为 Devon 单体，不含 2026年5月起的 Coterra。FY11-15 含 EnLink 中游；FY16-20 为持续经营口径。",
+   "EBIT* = 税前利润 + 利息支出（GAAP，含减值）；EBITDA* = EBIT + DD&A。KPI 中的 EBITDA* 与净债务取自 S&P（经 StockAnalysis）。FCF = OCF - 资本开支。收购支出* = S&P 资本开支减公司披露资本开支（仅 FY21-25）。",
+   "ROIC* = EBIT ×（1-22%）/（权益 + 债务 - 现金），年末口径。每股股息* = 已付股息 / 稀释股数。FY21-25 的 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
+   "首行：2026年11月16日收盘 $44.27，11.4 亿股；每股账面 = 2026年6月30日权益 $41.7B / 11.4 亿股；P/E、P/FCF 为 TTM（TTM 资本开支含合并期支出）。",
+   "DCF：Pythia/SMF 模型，估值日 2026年10月30日（股价 $52.15）；WACC 8.31%，g 1.5%。Morningstar 合理价值为 2026年10月9日；S&P GMI 为 2026年11月1日 28 位分析师平均目标价。",
+   "来源：Devon 10-K、10-K/A、8-K（2026年10月8日）、Q2-26 业绩；SEC EDGAR；StockAnalysis；Morningstar；EIA STEO。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "dvn",
+  "name": {
+   "en": "Devon Energy",
+   "zh": "戴文能源"
+  },
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "indices": [
+   "S&P 500",
+   "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "Narrow",
+  "summary": {
+   "en": "A low-cost, multi-basin shale producer absorbing Coterra; at $44 the stock is below even Morningstar's $60-oil case, and the upside rests on synergies, asset sales and buybacks.",
+   "zh": "低成本、多盆地的页岩油气生产商，正在整合 Coterra；股价 $44 已低于按 Morningstar $60 油价算出的价值，上行空间来自协同效应、出售资产和回购。"
+  },
+  "tags": [
+   {
+    "en": "Oil & gas",
+    "zh": "油气"
+   },
+   "E&P",
+   {
+    "en": "Shale",
+    "zh": "页岩"
+   },
+   {
+    "en": "M&A integration",
+    "zh": "并购整合"
+   }
+  ],
+  "business": {
+   "en": "### A pure upstream producer\nDevon finds, drills and produces oil, natural gas and NGLs and sells them at market prices. Unlike integrated majors it has no refining or chemicals, so profit = price × volume - unit cost.\n\n### Portfolio\n- **Delaware Basin (Permian):** the core, about two-thirds of production and more than 60% of the 2026 budget.\n- **Williston, Anadarko:** oil and liquids; Williston grew with the 2024 Grayson Mill deal.\n- **Marcellus:** gas added by the all-stock Coterra merger (closed May 7, 2026).\n- **Eagle Ford:** being sold to Crescent for $4.2B (closing Q4 2026 or early 2027).\n\n### Key risks\nOil and gas prices, merger integration, well decline and capex intensity, Waha gas basis, reserve estimates and regulation.",
+   "zh": "### 纯上游生产商\nDevon 勘探、钻井并生产原油、天然气和 NGL，按市价出售。与综合性石油巨头不同，它没有炼化和化工业务，因此利润 = 价格 × 产量 - 单位成本。\n\n### 资产组合\n- **Delaware 盆地（Permian）：** 核心资产，约占产量三分之二、2026 年预算 60% 以上。\n- **Williston、Anadarko：** 原油与液体；Williston 因 2024 年收购 Grayson Mill 扩大。\n- **Marcellus：** 全股票合并 Coterra（2026年5月7日完成）带来的天然气资产。\n- **Eagle Ford：** 正以 $42 亿出售给 Crescent（预计 2026 年四季度或 2027 年初完成）。\n\n### 关键风险\n油气价格、合并整合、老井递减与资本开支强度、Waha 气价价差、储量估计和监管。"
+  },
+  "segments": [],
+  "revenue_cagr": "Price-driven (WTI $79 → $70)",
+  "margin": "EBITDA margin 47–49%",
+  "gap": {
+   "summary": {
+    "en": "My base value of **$69.33** is 11.8% above Morningstar's **$62** and above the analyst average (**$61.69**). On Morningstar's own price deck ($60 WTI midcycle) my model gives **$52.83**, so the price deck explains more than the whole gap; Morningstar's lower volumes (1,499 vs 1,625 MBoe/d) and higher costs (EBITDA $9.4B vs my $13.8B) are offset elsewhere in its method.",
+    "zh": "我的基准价值 **$69.33** 比 Morningstar 的 **$62** 高 11.8%，也高于分析师平均目标价（**$61.69**）。用 Morningstar 自己的价格（中周期 $60 WTI），我的模型得出 **$52.83**，说明油价假设解释了全部差距还有余；Morningstar 更低的产量（1,499 vs 1,625 千桶油当量/天）和更高的成本（EBITDA $9.4B vs 我的 $13.8B）在其方法的其他部分被抵消。"
+   },
+   "bridge": [
+    {
+     "driver": {
+      "en": "My model on Morningstar's price deck (volumes, costs, method)",
+      "zh": "按 Morningstar 价格跑我的模型（产量、成本、方法）"
+     },
+     "impact": -9.17
+    },
+    {
+     "driver": {
+      "en": "EIA-anchored deck: WTI $79 → $70 vs $73 → $60",
+      "zh": "EIA 价格：WTI $79→$70 vs $73→$60"
+     },
+     "impact": 16.5
+    }
+   ],
+   "assumptions": [
+    {
+     "item": {
+      "en": "WTI / HH 2027E",
+      "zh": "2027E WTI / HH"
+     },
+     "mine": "$79 / $3.16",
+     "morningstar": "$73 / $3.42",
+     "sp": "—",
+     "note": ""
+    },
+    {
+     "item": {
+      "en": "Midcycle price",
+      "zh": "中周期价格"
+     },
+     "mine": "$70 / $3.50",
+     "morningstar": "$60 / $3.70",
+     "sp": "—",
+     "note": ""
+    },
+    {
+     "item": {
+      "en": "Production 2027E (MBoe/d)",
+      "zh": "2027E 产量（千桶油当量/天）"
+     },
+     "mine": "1,625",
+     "morningstar": "1,499",
+     "sp": "—",
+     "note": ""
+    },
+    {
+     "item": {
+      "en": "EBITDA 2027E",
+      "zh": "2027E EBITDA"
+     },
+     "mine": "$13.8B",
+     "morningstar": "$9.4B",
+     "sp": "$14.6B",
+     "note": {
+      "en": "S&P = consensus",
+      "zh": "S&P 为一致预期"
+     }
+    },
+    {
+     "item": {
+      "en": "EPS 2027E",
+      "zh": "2027E EPS"
+     },
+     "mine": "$4.12",
+     "morningstar": "$2.39",
+     "sp": "$5.41",
+     "note": {
+      "en": "Mine includes Coterra step-up DD&A",
+      "zh": "我的口径含 Coterra 增值折耗"
+     }
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/dvn/DVN_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/dvn/DVN_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/dvn/DVN_OnePage_en.png",
+   "zh": "reports/dvn/DVN_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   },
+   {
+    "date": "2026-11-02",
+    "note": {
+     "en": "Pitch: preliminary Buy, base $69.33",
+     "zh": "推介：初步买入，基准 $69.33"
+    }
+   }
+  ]
+ }
+}

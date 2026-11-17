@@ -55,6 +55,200 @@
 window.COMPANIES = [
 
 {
+  "id": "dvn",
+  "name": {
+    "en": "Devon Energy",
+    "zh": "戴文能源"
+  },
+  "ticker": "DVN",
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "indices": [
+    "S&P 500",
+    "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "currency": "USD",
+  "price": 44.27,
+  "priceDate": "2026-11-16",
+  "fairValue": {
+    "mine": 69.33,
+    "bear": 33.5,
+    "bull": 110.68,
+    "morningstar": 62,
+    "sp": 61.69
+  },
+  "moat": "Narrow",
+  "summary": {
+    "en": "A low-cost, multi-basin shale producer absorbing Coterra; at $44 the stock is below even Morningstar's $60-oil case, and the upside rests on synergies, asset sales and buybacks.",
+    "zh": "低成本、多盆地的页岩油气生产商，正在整合 Coterra；股价 $44 已低于按 Morningstar $60 油价算出的价值，上行空间来自协同效应、出售资产和回购。"
+  },
+  "tags": [
+    {
+      "en": "Oil & gas",
+      "zh": "油气"
+    },
+    "E&P",
+    {
+      "en": "Shale",
+      "zh": "页岩"
+    },
+    {
+      "en": "M&A integration",
+      "zh": "并购整合"
+    }
+  ],
+  "business": {
+    "en": "### A pure upstream producer\nDevon finds, drills and produces oil, natural gas and NGLs and sells them at market prices. Unlike integrated majors it has no refining or chemicals, so profit = price × volume - unit cost.\n\n### Portfolio\n- **Delaware Basin (Permian):** the core, about two-thirds of production and more than 60% of the 2026 budget.\n- **Williston, Anadarko:** oil and liquids; Williston grew with the 2024 Grayson Mill deal.\n- **Marcellus:** gas added by the all-stock Coterra merger (closed May 7, 2026).\n- **Eagle Ford:** being sold to Crescent for $4.2B (closing Q4 2026 or early 2027).\n\n### Key risks\nOil and gas prices, merger integration, well decline and capex intensity, Waha gas basis, reserve estimates and regulation.",
+    "zh": "### 纯上游生产商\nDevon 勘探、钻井并生产原油、天然气和 NGL，按市价出售。与综合性石油巨头不同，它没有炼化和化工业务，因此利润 = 价格 × 产量 - 单位成本。\n\n### 资产组合\n- **Delaware 盆地（Permian）：** 核心资产，约占产量三分之二、2026 年预算 60% 以上。\n- **Williston、Anadarko：** 原油与液体；Williston 因 2024 年收购 Grayson Mill 扩大。\n- **Marcellus：** 全股票合并 Coterra（2026年5月7日完成）带来的天然气资产。\n- **Eagle Ford：** 正以 $42 亿出售给 Crescent（预计 2026 年四季度或 2027 年初完成）。\n\n### 关键风险\n油气价格、合并整合、老井递减与资本开支强度、Waha 气价价差、储量估计和监管。"
+  },
+  "segments": [],
+  "dcf": {
+    "wacc": "8.31%",
+    "terminalGrowth": "1.5%",
+    "horizon": "2026-30",
+    "revenueCagr": "Price-driven (WTI $79 → $70)",
+    "margin": "EBITDA margin 47–49%",
+    "scenarios": [
+      {
+        "name": "Bear",
+        "prob": null,
+        "value": 33.5
+      },
+      {
+        "name": "Base",
+        "prob": null,
+        "value": 69.33
+      },
+      {
+        "name": "Bull",
+        "prob": null,
+        "value": 110.68
+      }
+    ]
+  },
+  "gap": {
+    "summary": {
+      "en": "My base value of **$69.33** is 11.8% above Morningstar's **$62** and above the analyst average (**$61.69**). On Morningstar's own price deck ($60 WTI midcycle) my model gives **$52.83**, so the price deck explains more than the whole gap; Morningstar's lower volumes (1,499 vs 1,625 MBoe/d) and higher costs (EBITDA $9.4B vs my $13.8B) are offset elsewhere in its method.",
+      "zh": "我的基准价值 **$69.33** 比 Morningstar 的 **$62** 高 11.8%，也高于分析师平均目标价（**$61.69**）。用 Morningstar 自己的价格（中周期 $60 WTI），我的模型得出 **$52.83**，说明油价假设解释了全部差距还有余；Morningstar 更低的产量（1,499 vs 1,625 千桶油当量/天）和更高的成本（EBITDA $9.4B vs 我的 $13.8B）在其方法的其他部分被抵消。"
+    },
+    "bridge": [
+      {
+        "driver": {
+          "en": "My model on Morningstar's price deck (volumes, costs, method)",
+          "zh": "按 Morningstar 价格跑我的模型（产量、成本、方法）"
+        },
+        "impact": -9.17
+      },
+      {
+        "driver": {
+          "en": "EIA-anchored deck: WTI $79 → $70 vs $73 → $60",
+          "zh": "EIA 价格：WTI $79→$70 vs $73→$60"
+        },
+        "impact": 16.5
+      }
+    ],
+    "assumptions": [
+      {
+        "item": {
+          "en": "WTI / HH 2027E",
+          "zh": "2027E WTI / HH"
+        },
+        "mine": "$79 / $3.16",
+        "morningstar": "$73 / $3.42",
+        "sp": "—",
+        "note": ""
+      },
+      {
+        "item": {
+          "en": "Midcycle price",
+          "zh": "中周期价格"
+        },
+        "mine": "$70 / $3.50",
+        "morningstar": "$60 / $3.70",
+        "sp": "—",
+        "note": ""
+      },
+      {
+        "item": {
+          "en": "Production 2027E (MBoe/d)",
+          "zh": "2027E 产量（千桶油当量/天）"
+        },
+        "mine": "1,625",
+        "morningstar": "1,499",
+        "sp": "—",
+        "note": ""
+      },
+      {
+        "item": {
+          "en": "EBITDA 2027E",
+          "zh": "2027E EBITDA"
+        },
+        "mine": "$13.8B",
+        "morningstar": "$9.4B",
+        "sp": "$14.6B",
+        "note": {
+          "en": "S&P = consensus",
+          "zh": "S&P 为一致预期"
+        }
+      },
+      {
+        "item": {
+          "en": "EPS 2027E",
+          "zh": "2027E EPS"
+        },
+        "mine": "$4.12",
+        "morningstar": "$2.39",
+        "sp": "$5.41",
+        "note": {
+          "en": "Mine includes Coterra step-up DD&A",
+          "zh": "我的口径含 Coterra 增值折耗"
+        }
+      }
+    ]
+  },
+  "files": [
+    {
+      "type": "onepage",
+      "lang": "en",
+      "label": "One Page",
+      "path": "reports/dvn/DVN_OnePage_en.pdf",
+      "date": "2026-11-17"
+    },
+    {
+      "type": "onepage",
+      "lang": "zh",
+      "label": "One Page",
+      "path": "reports/dvn/DVN_OnePage_zh.pdf",
+      "date": "2026-11-17"
+    }
+  ],
+  "onepageImage": {
+    "en": "reports/dvn/DVN_OnePage_en.png",
+    "zh": "reports/dvn/DVN_OnePage_zh.png"
+  },
+  "history": [
+    {
+      "date": "2026-11-17",
+      "note": {
+        "en": "One Page V2 with DCF",
+        "zh": "One Page V2（含 DCF）"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "note": {
+        "en": "Pitch: preliminary Buy, base $69.33",
+        "zh": "推介：初步买入，基准 $69.33"
+      }
+    }
+  ]
+},
+
+
+{
   "id": "cvs",
   "name": {
     "en": "CVS Health",

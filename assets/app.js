@@ -332,14 +332,33 @@
       s += '<line x1="' + x(t) + '" x2="' + x(t) + '" y1="30" y2="' + (ay + 6) + '" stroke="var(--line2)"/><text x="' + x(t) + '" y="' + (ay + 22) + '" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="var(--mono)">' + esc(cur(C) + fmtTick(t)) + "</text>";
     s += '<line x1="' + X0 + '" x2="' + X1 + '" y1="' + ay + '" y2="' + ay + '" stroke="var(--muted2)"/>';
     if (isNum(f.bear) && isNum(f.bull)) s += '<rect x="' + x(f.bear) + '" y="' + (ay - 9) + '" width="' + Math.max(2, x(f.bull) - x(f.bear)) + '" height="18" rx="3" fill="var(--accent-soft)" stroke="var(--c-mine)" stroke-dasharray="3 3"/>';
-    var lastX = [-999, -999, -999], LY = [48, 30, 12];
-    pts.filter(function (p) { return p.k !== "price"; }).sort(function (a, b) { return a.v - b.v; }).forEach(function (p) {
-      var px = x(p.v), level = 0;
-      while (level < 2 && px - lastX[level] < 130) level++;   // stack labels that would collide
-      lastX[level] = px;
-      var ly = LY[level], an = px > X1 - 60 ? "end" : px < X0 + 60 ? "start" : "middle";
-      s += '<line x1="' + px + '" x2="' + px + '" y1="' + (ly + 6) + '" y2="' + (ay - 7) + '" stroke="' + p.color + '"/><circle cx="' + px + '" cy="' + ay + '" r="6.5" fill="' + p.color + '" stroke="var(--card)" stroke-width="2"/>' +
-        '<text x="' + px + '" y="' + ly + '" text-anchor="' + an + '" font-size="12.5" fill="' + p.color + '" font-weight="600">' + esc(p.label + " " + money(p.v, C)) + "</text>";
+    // Fair-value labels. Points closer than 130px form a cluster; a cluster's labels are stacked in one column beside
+    // it and joined to their dots with elbow leader lines, ordered so that no line crosses another line or label.
+    var fvs = pts.filter(function (p) { return p.k !== "price"; }).sort(function (a, b) { return a.v - b.v; });
+    var clusters = [];
+    fvs.forEach(function (p) {
+      p.px = x(p.v);
+      var c = clusters[clusters.length - 1];
+      if (c && p.px - c[c.length - 1].px < 130) c.push(p); else clusters.push([p]);
+    });
+    clusters.forEach(function (c) {
+      var dot = function (p) { return '<circle cx="' + p.px + '" cy="' + ay + '" r="6.5" fill="' + p.color + '" stroke="var(--card)" stroke-width="2"/>'; };
+      var txt = function (p, tx, ty, an) { return '<text x="' + tx + '" y="' + ty + '" text-anchor="' + an + '" font-size="12.5" fill="' + p.color + '" font-weight="600">' + esc(p.label + " " + money(p.v, C)) + "</text>"; };
+      if (c.length === 1) {
+        var p = c[0], an = p.px > X1 - 60 ? "end" : p.px < X0 + 60 ? "start" : "middle";
+        s += '<line x1="' + p.px + '" x2="' + p.px + '" y1="54" y2="' + (ay - 7) + '" stroke="' + p.color + '"/>' + dot(p) + txt(p, p.px, 48, an);
+        return;
+      }
+      var lo = c[0].px, hi = c[c.length - 1].px;
+      var right = hi + 240 < X1 + 20;             // put the label column right of the cluster when it fits, else left
+      var colX = right ? hi + 16 : lo - 16;
+      // right column: lowest value on the top row; left column: highest value on the top row
+      var order = right ? c : c.slice().reverse();
+      order.forEach(function (p, i) {
+        var ty = 16 + i * 17, ly = ty - 4;
+        s += '<polyline points="' + p.px + "," + (ay - 7) + " " + p.px + "," + ly + " " + (colX + (right ? -4 : 4)) + "," + ly + '" fill="none" stroke="' + p.color + '"/>' +
+          dot(p) + txt(p, colX, ty, right ? "start" : "end");
+      });
     });
     var pr = pts.filter(function (p) { return p.k === "price"; })[0];
     if (pr) { var px = x(pr.v), an = px > X1 - 60 ? "end" : px < X0 + 60 ? "start" : "middle";

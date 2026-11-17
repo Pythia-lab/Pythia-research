@@ -749,6 +749,12 @@ def qa_text(pdf, spec):
             lab_ = str(r.get("metric", "")).replace(" ", "")
             if lab_ and lab_ not in alltext:
                 probs.append(f"metric label '{r.get('metric')}' missing/clipped")
+    # first-column labels of every small table (mix, KPI, CAGR, financial position) must appear in full
+    for key in ("mix_table", "kpi_tracker", "cagr", "financial_position"):
+        for row in (spec.get(key) or {}).get("rows", []) + [((spec.get(key) or {}).get("total_row") or [""])]:
+            lab_ = str(row[0] if row else "").replace(" ", "")
+            if lab_ and lab_ not in alltext:
+                probs.append(f"{key} label '{row[0]}' missing/clipped - shorten it")
     units = [r.get("unit", "").replace(" ", "") for g in groups for r in g if r.get("unit")]
     for u in set(units):
         need = units.count(u)
