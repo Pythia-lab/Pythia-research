@@ -24,7 +24,7 @@ window.SITE = {
   },
 
   about: {
-    name: "Wanrong (Pythia) Lan",
+    name: "Pythia",
     title: { en: "Leader & Risk Manager, UConn Student Managed Fund", zh: "UConn 学生管理基金 负责人 / 风险经理" },
     intro: {
       en: "I am a graduate student in Financial and Enterprise Risk Management at the University of Connecticut School of Business, where I lead the Student Managed Fund and serve as its risk manager. This library is where I keep my company research: how each business makes money, a one-page view of its long-run economics, and a DCF valuation compared against Morningstar and S&P.",
@@ -35,7 +35,7 @@ window.SITE = {
       { label: "LinkedIn", value: "linkedin.com/in/wanrong-lan-ksb", url: "https://www.linkedin.com/in/wanrong-lan-ksb" }
     ],
     education: [
-      { school: { en: "University of Connecticut, School of Business", zh: "康涅狄格大学 商学院" }, place: "Stamford, CT",
+      { school: { en: "University of Connecticut, School of Business", zh: "康涅狄格大学 商学院" }, place: "Stamford, CT", date: { en: "Expected May 2027", zh: "预计 2027年5月" },
         degree: { en: "M.S. in Financial and Enterprise Risk Management (MSFERM)", zh: "金融与企业风险管理硕士（MSFERM）" },
         note: { en: "GPA 3.90 / 4.00 · Merit Scholarship", zh: "GPA 3.90 / 4.00 · 优秀奖学金" } },
       { school: { en: "Indiana University, Kelley School of Business", zh: "印第安纳大学 凯利商学院" }, place: "Bloomington, IN", date: "2025",
