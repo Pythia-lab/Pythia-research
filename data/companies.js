@@ -76,7 +76,7 @@ window.COMPANIES = [
       "mine": 243.09,
       "bear": 101.32,
       "bull": 251.67,
-      "morningstar": null,
+      "morningstar": 195.0,
       "sp": 235.77
     },
     "moat": "Narrow",
@@ -159,10 +159,46 @@ window.COMPANIES = [
     },
     "gap": {
       "summary": {
-        "en": "My blended base value is **$243.09**, close to the Street average target (**$235.77**) and between the analyst-consensus case (**$233.29**) and the company-guidance case (**$251.67**). The stock trades at **$119.09**, so the market prices something near my **bear case ($101.32)**: slower OCI ramp, capex staying high for longer and cash flow staying negative. Morningstar's fair value is not in my source files, so it is not compared here.",
-        "zh": "我的混合基准价值为 **$243.09**，接近华尔街平均目标价（**$235.77**），介于分析师一致预期情景（**$233.29**）和公司指引情景（**$251.67**）之间。股价只有 **$119.09**，说明市场的定价接近我的 **悲观情景（$101.32）**：OCI 爬坡更慢、资本开支更久维持高位、现金流持续为负。资料中没有 Morningstar 的合理价值，因此这里不作对比。"
+        "en": "Morningstar's fair value is **$195** (Oct 15, 2026); mine is **$243.09**, **+$48.09** higher. The two models agree on more than they differ: both use a **9.6% WACC**, both have revenue growing about **31% a year to FY31** (Morningstar $264B, mine $256B) and an operating margin near **28-29%** in FY31, and in both the terminal value is **74% of EV**. The gap is the **capex path**. Morningstar has capex peaking at **$120B in FY28** and free cash flow negative until FY31 (**-$111B** over FY27-31); my model peaks at **$84B** and turns positive in FY30 (**+$17B** over FY27-31). Lower capex also leaves a larger normalised cash flow for my terminal value. Partly offsetting: I divide by **3,193M shares** (after the ATM issuance) against Morningstar's 3,026M. The stock at **$119.09** sits below both.",
+        "zh": "Morningstar 的合理价值为 **$195**（2026年10月15日）；我的是 **$243.09**，高 **$48.09**。两个模型的共同点多于分歧：WACC 都是 **9.6%**；到 FY31 营收都以每年约 **31%** 增长（Morningstar $2,640 亿，我的 $2,560 亿）；FY31 营业利润率都在 **28-29%**；终值都占 EV 的 **74%**。差距在于 **资本开支路径**。Morningstar 的资本开支在 **FY28 达到 $1,200 亿峰值**，自由现金流到 FY31 才转正（FY27-31 合计 **-$1,110 亿**）；我的模型峰值为 **$840 亿**，FY30 转正（FY27-31 合计 **+$170 亿**）。资本开支更低，也让我的终值所依据的正常化现金流更大。部分抵消的是：我用 **31.93 亿股**（含 ATM 增发）计算，Morningstar 用 30.26 亿股。现价 **$119.09** 低于两者。"
       },
-      "bridge": [],
+      "bridge": [
+        {
+          "driver": {
+            "en": "Morningstar's own model: equity $568.0B / 3,026M sh = $187.70 (FVE rounded to $195)",
+            "zh": "Morningstar 自己的模型：权益 $5,680 亿 / 30.26 亿股 = $187.70（公布值取整为 $195）"
+          },
+          "impact": -7.3
+        },
+        {
+          "driver": {
+            "en": "Forecast-period cash flows: PV $227.9B (mine, FY27-36) vs $173.1B (Morningstar, 15 yrs); capex peak $84B vs $120B",
+            "zh": "预测期现金流：现值 $2,279 亿（我的，FY27-36）对 $1,731 亿（Morningstar，15 年）；资本开支峰值 $840 亿对 $1,200 亿"
+          },
+          "impact": 18.1
+        },
+        {
+          "driver": {
+            "en": "Terminal value: PV $646.2B vs $493.5B; my FY36 FCF ~$100B with capex at 13.5% of sales",
+            "zh": "终值：现值 $6,462 亿对 $4,935 亿；我的 FY36 FCF 约 $1,000 亿，资本开支占营收 13.5%"
+          },
+          "impact": 50.44
+        },
+        {
+          "driver": {
+            "en": "Net debt: $97.9B vs $98.6B (about the same)",
+            "zh": "净债务：$979 亿对 $986 亿（基本相同）"
+          },
+          "impact": 0.26
+        },
+        {
+          "driver": {
+            "en": "Share count: 3,193M (incl. ATM issuance) vs 3,026M",
+            "zh": "股数：31.93 亿股（含 ATM 增发）对 30.26 亿股"
+          },
+          "impact": -13.42
+        }
+      ],
       "assumptions": [
         {
           "item": {
@@ -170,57 +206,99 @@ window.COMPANIES = [
             "zh": "每股价值"
           },
           "mine": "$243.09",
-          "morningstar": "—",
+          "morningstar": "$195.00",
           "sp": "$235.77",
           "note": {
-            "en": "Average of 42 analysts (StockAnalysis / S&P Global)",
-            "zh": "42 位分析师平均（StockAnalysis / S&P Global）"
-          }
-        },
-        {
-          "item": {
-            "en": "FY27E OCI growth",
-            "zh": "FY27E OCI 增长"
-          },
-          "mine": "114.3%",
-          "morningstar": "—",
-          "sp": "115.9%",
-          "note": {
-            "en": "Mine = blend of guidance 112.6% and consensus",
-            "zh": "我的 = 指引 112.6% 与一致预期的平均"
+            "en": "Street = average of 42 analysts (StockAnalysis / S&P Global)",
+            "zh": "华尔街 = 42 位分析师平均（StockAnalysis / S&P Global）"
           }
         },
         {
           "item": "WACC",
           "mine": "9.6%",
-          "morningstar": "—",
+          "morningstar": "9.6%",
           "sp": "10.4%",
           "note": {
-            "en": "S&P Global WACC estimate",
-            "zh": "S&P Global 的 WACC 估计"
-          }
-        },
-        {
-          "item": "Beta",
-          "mine": "1.40",
-          "morningstar": "—",
-          "sp": "1.78",
-          "note": {
-            "en": "Raw 5-year beta",
-            "zh": "5 年原始 beta"
+            "en": "Cost of equity: mine 11.1% (beta 1.4), Morningstar 10.8%; S&P Global WACC estimate",
+            "zh": "股权成本：我的 11.1%（beta 1.4），Morningstar 10.8%；S&P Global 的 WACC 估计"
           }
         },
         {
           "item": {
-            "en": "FY36E EBIT margin",
-            "zh": "FY36E EBIT 利润率"
+            "en": "Revenue FY27E / FY31E",
+            "zh": "营收 FY27E / FY31E"
           },
-          "mine": "32%",
-          "morningstar": "—",
+          "mine": "$90.2B / $255.5B",
+          "morningstar": "$91.1B / $264.2B",
           "sp": "—",
           "note": {
-            "en": "FY26 actual 33% (S&P basis)",
-            "zh": "FY26 实际 33%（S&P 口径）"
+            "en": "5-yr revenue CAGR 30.6% vs 31.4%",
+            "zh": "5 年营收 CAGR 30.6% 对 31.4%"
+          }
+        },
+        {
+          "item": {
+            "en": "OCI 5-yr CAGR (FY26-31)",
+            "zh": "OCI 5 年 CAGR（FY26-31）"
+          },
+          "mine": "61%",
+          "morningstar": "62%",
+          "sp": "—",
+          "note": {
+            "en": "FY27E OCI growth: mine 114%, consensus 116%",
+            "zh": "FY27E OCI 增长：我的 114%，一致预期 116%"
+          }
+        },
+        {
+          "item": {
+            "en": "Operating margin FY31E",
+            "zh": "营业利润率 FY31E"
+          },
+          "mine": "28.5%",
+          "morningstar": "28.8%",
+          "sp": "—",
+          "note": {
+            "en": "Morningstar: back to 33% by FY35; mine 32% by FY36",
+            "zh": "Morningstar：FY35 回到 33%；我的 FY36 为 32%"
+          }
+        },
+        {
+          "item": {
+            "en": "Capex peak",
+            "zh": "资本开支峰值"
+          },
+          "mine": "$84B (FY28)",
+          "morningstar": "$120B (FY28)",
+          "sp": "—",
+          "note": {
+            "en": "Main source of the gap",
+            "zh": "差距的主要来源"
+          }
+        },
+        {
+          "item": {
+            "en": "FCF FY27-31 (sum)",
+            "zh": "FCF FY27-31（合计）"
+          },
+          "mine": "+$17B",
+          "morningstar": "-$111B",
+          "sp": "—",
+          "note": {
+            "en": "First positive year: FY30 vs FY31",
+            "zh": "首个转正年份：FY30 对 FY31"
+          }
+        },
+        {
+          "item": {
+            "en": "Diluted shares",
+            "zh": "稀释股数"
+          },
+          "mine": "3,193M",
+          "morningstar": "3,026M",
+          "sp": "—",
+          "note": {
+            "en": "Mine includes the Q1 FY27 ATM issuance",
+            "zh": "我的包含 Q1 FY27 ATM 增发"
           }
         }
       ]
@@ -249,8 +327,8 @@ window.COMPANIES = [
       {
         "date": "2026-11-17",
         "note": {
-          "en": "One Page V2 with DCF",
-          "zh": "One Page V2（含 DCF）"
+          "en": "One Page V2 with DCF; Morningstar FV $195 and gap bridge added",
+          "zh": "One Page V2（含 DCF）；补充 Morningstar 合理价值 $195 与差距拆解"
         }
       },
       {
