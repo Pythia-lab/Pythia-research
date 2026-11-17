@@ -38,8 +38,8 @@
       prob: "Probability ", pw: "Probability-weighted", vsPx: " vs price", noDcf: "DCF summary not filled in yet.",
       subFiles: "Original One Page, DCF model and other analysis files.", notUp: "Not uploaded yet", noFiles: "No files yet.", noHist: "No history yet.",
       file: "File",
-      howIAnalyse: "How I analyse a company", contact: "Contact", skills: "Skills", coverage: "Coverage",
-      covText: function (n) { return n + " companies analysed. "; }, seeAll: "See all →",
+      howIAnalyse: "How I analyse a company", eduT: "Education", expT: "Experience", langT: "Languages", contact: "Contact", skills: "Skills", coverage: "Coverage",
+      covText: function (n) { return n + (n === 1 ? " company" : " companies") + " analysed. "; }, seeAll: "See all →",
       addCo: "Add a company", allCompaniesLink: "All companies", disclaimer: "Personal research for learning purposes only. Not investment advice.",
       opBrowse: "Browse One Pages ↓", opLatest: "Latest One Page", opView: "View One Page →", opPdf: "Download PDF ↓", zoom: "Click to enlarge", close: "Close", opCompany: "Full analysis →",
       opHow: "How to read a One Page", opHowLede: "A One Page starts with the business, not the share price: how it operates, how it earns, how it turns profit into cash, where that cash goes — and only then, what the market pays for it.",
@@ -74,7 +74,7 @@
       prob: "概率 ", pw: "概率加权", vsPx: " vs 现价", noDcf: "尚未填写 DCF 摘要。",
       subFiles: "One Page、DCF 模型和其他分析的原始文件。", notUp: "尚未上传", noFiles: "暂无文件。", noHist: "暂无记录。",
       file: "文件",
-      howIAnalyse: "我怎么分析一家公司", contact: "联系方式", skills: "技能", coverage: "覆盖情况",
+      howIAnalyse: "我怎么分析一家公司", eduT: "教育背景", expT: "经历", langT: "语言", contact: "联系方式", skills: "技能", coverage: "覆盖情况",
       covText: function (n) { return "已完成 " + n + " 家公司分析，"; }, seeAll: "查看全部 →",
       addCo: "生成新公司条目", allCompaniesLink: "全部公司", disclaimer: "所有内容仅为个人学习与研究，不构成投资建议。",
       opBrowse: "浏览全部 One Page ↓", opLatest: "最新 One Page", opView: "查看 One Page →", opPdf: "下载 PDF ↓", zoom: "点击放大", close: "关闭", opCompany: "完整分析 →",
@@ -479,13 +479,25 @@
   }
 
   /* ---------- about ---------- */
+  function cvBlock(title, items) {
+    return items.length ? '<p class="eyebrow" style="margin-top:40px">' + esc(title) + '</p><div class="cv">' + items.join("") + "</div>" : "";
+  }
   function viewAbout() {
     var a = SITE.about || {};
     app.innerHTML = '<div class="wrap about-grid"><div><p class="eyebrow">About</p><h1>' + E(a.name) + '</h1><p class="role">' + E(a.title) + '</p><div class="prose"><p>' + E(a.intro) + "</p></div>" +
+      cvBlock(u("expT"), (a.experience || []).map(function (x) {
+        return '<div class="cv-item"><div class="cv-head"><b>' + E(x.org) + "</b><span>" + [E(x.place), E(x.date)].filter(Boolean).join(" · ") + '</span></div><div class="cv-role">' + E(x.role) + "</div>" +
+          ((x.points || []).length ? "<ul>" + x.points.map(function (pt) { return "<li>" + E(pt) + "</li>"; }).join("") + "</ul>" : "") + "</div>";
+      })) +
+      cvBlock(u("eduT"), (a.education || []).map(function (x) {
+        return '<div class="cv-item"><div class="cv-head"><b>' + E(x.school) + "</b><span>" + [E(x.place), E(x.date)].filter(Boolean).join(" · ") + '</span></div><div class="cv-role">' + E(x.degree) + "</div>" +
+          (T(x.note) ? '<div class="cv-note">' + E(x.note) + "</div>" : "") + "</div>";
+      })) +
       '<p class="eyebrow" style="margin-top:44px">' + u("howIAnalyse") + '</p><div class="method">' + (a.method || []).map(function (m) { return "<div><b>" + E(m.step) + "</b><p>" + E(m.text) + "</p></div>"; }).join("") + "</div></div>" +
       '<aside class="side-box"><h3>' + u("contact") + "</h3>" + (a.contacts || []).map(function (x) {
         return '<div class="contact"><span>' + E(x.label) + "</span>" + (x.url ? '<a href="' + esc(x.url) + '" target="_blank" rel="noopener"><b>' + E(x.value) + "</b></a>" : "<b>" + E(x.value) + "</b>") + "</div>";
       }).join("") + '<h3 style="margin-top:22px">' + u("skills") + '</h3><div class="skills">' + (a.skills || []).map(function (s) { return '<span class="chip">' + E(s) + "</span>"; }).join("") + "</div>" +
+      (T(a.languages) ? '<h3 style="margin-top:22px">' + u("langT") + '</h3><p style="margin:0;font-size:14px">' + E(a.languages) + "</p>" : "") +
       '<h3 style="margin-top:22px">' + u("coverage") + '</h3><p style="margin:0;font-size:14px">' + esc(u("covText")(ALL.length)) + '<a href="#" style="color:var(--accent)">' + u("seeAll") + "</a></p></aside></div>";
   }
 

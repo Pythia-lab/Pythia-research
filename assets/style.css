@@ -431,3 +431,14 @@ footer{background:var(--footer);color:var(--footer-ink);padding-block:52px 40px}
 .lightbox img{width:min(1400px,100%);height:auto;align-self:flex-start;background:#fff;box-shadow:0 20px 60px rgba(0,0,0,.4);cursor:default}
 .lb-close{position:fixed;top:max(12px,env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px));width:40px;height:40px;border-radius:50%;
   border:0;background:var(--paper);color:var(--ink);font-size:18px;cursor:pointer}
+
+/* about: experience / education */
+.cv{display:flex;flex-direction:column;border-top:2px solid var(--ink)}
+.cv-item{padding:14px 0;border-bottom:1px solid var(--line)}
+.cv-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;flex-wrap:wrap}
+.cv-head b{font-size:15.5px}
+.cv-head span{font:12.5px var(--mono);color:var(--muted);white-space:nowrap}
+.cv-role{color:var(--accent);font-weight:600;font-size:14px;margin-top:2px}
+.cv-note{color:var(--muted);font-size:13px;margin-top:2px}
+.cv ul{margin:8px 0 0;padding-left:18px;font-size:14px;line-height:1.7;color:var(--ink2)}
+.cv li{margin-bottom:2px}
