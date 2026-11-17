@@ -388,9 +388,9 @@
     if (isNum(f.morningstar) && isNum(f.mine) && br.length) {
       var sum = br.reduce(function (a, b) { return a + b.impact; }, 0), resid = f.mine - f.morningstar - sum;
       if (Math.abs(resid) > 0.005 * f.mine) br = br.concat([{ driver: u("other"), impact: resid, other: true }]);
-      var run = f.morningstar, steps = [{ lab: L("morningstar") + " Fair Value", b: run, total: true, v: run, color: "var(--c-ms)" }];
+      var run = f.morningstar, steps = [{ lab: (CUR && CUR.labels && CUR.labels.morningstar ? L("morningstar") : L("morningstar") + " Fair Value"), b: run, total: true, v: run, color: "var(--c-ms)" }];
       br.forEach(function (b) { steps.push({ lab: T(b.driver), a: run, b: run + b.impact, v: b.impact, delta: true, other: b.other }); run += b.impact; });
-      steps.push({ lab: L("mine") + " Fair Value", b: f.mine, total: true, v: f.mine, color: "var(--c-mine)" });
+      steps.push({ lab: (CUR && CUR.labels && CUR.labels.mine ? L("mine") : L("mine") + " Fair Value"), b: f.mine, total: true, v: f.mine, color: "var(--c-mine)" });
       var ends = [f.morningstar, f.mine]; steps.forEach(function (s) { if (!s.total) ends.push(s.a, s.b); });
       var lo = Math.min.apply(null, ends), hi = Math.max.apply(null, ends), pad = (hi - lo) * 0.35 || hi * .05;
       lo = Math.max(0, lo - pad); hi += pad * .3;

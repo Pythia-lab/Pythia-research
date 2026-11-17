@@ -1102,7 +1102,7 @@
   "wacc": "10.6%",
   "terminal_growth": "3.5% / 2%",
   "horizon": "2026-30",
-  "morningstar": null,
+  "morningstar": 186.0,
   "sp": 211.5,
   "show_weighted": false,
   "notes": [
@@ -1111,8 +1111,12 @@
     "zh": "基准 = 剩余收益（$151.14）与可分配资本（$168.13）两种方法的平均；beta 1.22。"
    },
    {
-    "en": "g: 3.5% for book/payouts, 2% for residual income. Morningstar FV to follow.",
-    "zh": "g：账面与分配 3.5%，剩余收益 2%。Morningstar 合理价值待补充。"
+    "en": "g: 3.5% for book/payouts, 2% for residual income.",
+    "zh": "g：账面与分配 3.5%，剩余收益 2%。"
+   },
+   {
+    "en": "Morningstar FV $186 (Oct 14, 2026; wide moat, High uncertainty; cost of equity 9.6%).",
+    "zh": "Morningstar 合理价值 $186（2026年10月14日；宽护城河，高不确定性；股权成本 9.6%）。"
    }
   ]
  },
@@ -1430,8 +1434,8 @@
     "zh": "我的估值低于股价。"
    },
    "body": {
-    "en": "Base $159.64 averages residual income ($151.14) and distributable capital ($168.13) at a 10.6% cost of equity (beta 1.22), with ROTCE near 26% by 2030. At $185.57 that is -14%; the Street ($211.50) is higher.",
-    "zh": "基准价值 $159.64 是剩余收益（$151.14）与可分配资本（$168.13）的平均，股权成本 10.6%（beta 1.22），2030 年 ROTCE 约 26%。按 $185.57 计为 -14%；华尔街（$211.50）更高。"
+    "en": "Base $159.64 averages residual income ($151.14) and distributable capital ($168.13) at a 10.6% cost of equity (beta 1.22), with ROTCE near 26% by 2030. At $185.57 that is -14%; the Street ($211.50) is higher. Morningstar ($186) uses a 9.6% cost of equity; at that rate my model gives $182.66, so almost the whole gap is the discount rate.",
+    "zh": "基准价值 $159.64 是剩余收益（$151.14）与可分配资本（$168.13）的平均，股权成本 10.6%（beta 1.22），2030 年 ROTCE 约 26%。按 $185.57 计为 -14%；华尔街（$211.50）更高。Morningstar（$186）用 9.6% 的股权成本；按此我的模型为 $182.66，差距几乎全部来自折现率。"
    }
   }
  ],
@@ -1440,14 +1444,14 @@
    "FY11-25 from SEC 10-K XBRL. Net revenues = pre-tax income + non-interest expenses (+ credit provisions from FY20). Efficiency ratio* = non-interest expenses / net revenues.",
    "Tangible equity* = total equity - goodwill - intangibles (incl. preferred, ~$9-10B). ROE*/ROTE* = NI to common / average equity. KPI ROTCE and TBV from the analyst model (excl. preferred, approx.).",
    "Header: Nov 16, 2026 close $185.57 x 1,566M diluted shares; book value = Sep 30, 2026 common equity $107.0B; TTM P/E (EPS $12.63); P/TBV on $53.69. FY21-25 P/E, P/B, yield and Mkt cap* from StockAnalysis.",
-   "Valuation: Pythia model MS_Valuation_Model, Nov 17, 2026; residual income + distributable capital (CET1-constrained DDM). Street avg target = average via StockAnalysis/S&P Global. Morningstar FV not yet provided.",
+   "Valuation: Pythia model MS_Valuation_Model, Nov 17, 2026; residual income + distributable capital (CET1-constrained DDM). Street avg target = average via StockAnalysis/S&P Global. Morningstar FV $186 (Oct 14, 2026).",
    "Sources: Morgan Stanley 10-K FY2025, Q3 2026 10-Q and release; SEC EDGAR; Federal Reserve stress test (SCB); StockAnalysis."
   ],
   "zh": [
    "FY11-25 数据取自 SEC 10-K XBRL。净收入 = 税前利润 + 非利息费用（FY20 起另加信用损失拨备）。效率比* = 非利息费用 / 净收入。",
    "有形权益* = 股东权益 - 商誉 - 无形资产（含优先股约 $90-100 亿）。ROE*/ROTE* = 普通股净利润 / 平均权益。KPI 中 ROTCE 与每股有形账面取自分析模型（不含优先股，近似）。",
    "首行：2026年11月16日收盘 $185.57 × 15.66 亿稀释股；每股账面 = 2026年9月30日普通股权益 $1,070 亿；TTM P/E（EPS $12.63）；P/TBV 按 $53.69。FY21-25 P/E、P/B、股息率与市值*取自 StockAnalysis。",
-   "估值：Pythia 模型 MS_Valuation_Model，2026年11月17日；剩余收益 + 可分配资本（受 CET1 约束的股利折现）。华尔街平均目标价取自 StockAnalysis / S&P Global。Morningstar 合理价值待补充。",
+   "估值：Pythia 模型 MS_Valuation_Model，2026年11月17日；剩余收益 + 可分配资本（受 CET1 约束的股利折现）。华尔街平均目标价取自 StockAnalysis / S&P Global。",
    "来源：Morgan Stanley FY2025 10-K、2026年Q3 10-Q 及业绩公告；SEC EDGAR；美联储压力测试（SCB）；StockAnalysis。"
   ]
  },
@@ -1469,7 +1473,7 @@
   "updated": "2026-11-17",
   "price_date": "2026-11-16",
   "currency": "USD",
-  "moat": "",
+  "moat": "Wide",
   "summary": {
    "en": "Wealth management turned a trading house into a fee business earning 20%+ on tangible equity; at 3.5x tangible book the price already assumes that lasts, and my equity value ($159.64) is 14% lower.",
    "zh": "财富管理把一家交易型投行变成了以收费为主、有形权益回报 20% 以上的公司；股价已是有形账面的 3.5 倍，假设这种回报会持续，我的股权价值（$159.64）低 14%。"
@@ -1523,10 +1527,32 @@
   "margin": "Pre-tax margin 31% → 32% (2030E)",
   "gap": {
    "summary": {
-    "en": "My blended value is **$159.64**, **14% below** the price (**$185.57**) and 25% below the Street average target (**$211.50**). It averages two equity methods: residual income (**$151.14**) and distributable capital (**$168.13**), at a **10.6% cost of equity** (beta 1.22). After a strong 2026, I grow net revenues only about **4.5% a year** and hold ROTCE near 25-26%; the market price implies either faster growth or a lower discount rate. Morningstar's fair value will be added when the report is uploaded.",
-    "zh": "我的混合价值为 **$159.64**，比现价（**$185.57**）低 **14%**，比华尔街平均目标价（**$211.50**）低 25%。它是两种股权估值方法的平均：剩余收益（**$151.14**）和可分配资本（**$168.13**），股权成本 **10.6%**（beta 1.22）。在 2026 年强劲增长之后，我只让净收入每年增长约 **4.5%**，ROTCE 保持在 25-26%；市场价格意味着更快的增长或更低的折现率。Morningstar 的合理价值将在上传报告后补充。"
+    "en": "Morningstar's fair value is **$186** (Oct 14, 2026; wide moat, High uncertainty), right at the **$185.57** price; mine is **$159.64**, **$26.36 lower**. My earnings path is, if anything, higher than Morningstar's (2027 EPS ~$12.95 vs **$11.80**). The gap is the **cost of equity**: at Morningstar's **9.6%** my two methods average **$182.66**; at my **10.6%** (beta 1.22) they average $159.64.",
+    "zh": "Morningstar 的合理价值为 **$186**（2026年10月14日；宽护城河，高不确定性），与 **$185.57** 的股价基本相同；我的是 **$159.64**，低 **$26.36**。我的盈利路径甚至高于 Morningstar（2027 年 EPS 约 $12.95，对 **$11.80**）。差距来自 **股权成本**：按 Morningstar 的 **9.6%**，我的两种方法平均为 **$182.66**；按我的 **10.6%**（beta 1.22）为 $159.64。"
    },
-   "bridge": [],
+   "bridge": [
+    {
+     "driver": {
+      "en": "Morningstar's own model: equity $274.1B / 1,554M sh = $176.38 (FVE $186)",
+      "zh": "Morningstar 自己的模型：权益 $2,741 亿 / 15.54 亿股 = $176.38（公布值 $186）"
+     },
+     "impact": -9.62
+    },
+    {
+     "driver": {
+      "en": "My forecasts at Morningstar's 9.6% cost of equity: $182.66 (RI + DDM average)",
+      "zh": "按 Morningstar 9.6% 的股权成本计算我的预测：$182.66（两种方法平均）"
+     },
+     "impact": 6.28
+    },
+    {
+     "driver": {
+      "en": "My 10.6% cost of equity (beta 1.22) instead of 9.6%",
+      "zh": "改用我的 10.6% 股权成本（beta 1.22）"
+     },
+     "impact": -23.02
+    }
+   ],
    "assumptions": [
     {
      "item": {
@@ -1534,7 +1560,7 @@
       "zh": "每股价值"
      },
      "mine": "$159.64",
-     "morningstar": "—",
+     "morningstar": "$186.00",
      "sp": "$211.50",
      "note": {
       "en": "Street = analyst average (S&P Global)",
@@ -1547,48 +1573,60 @@
       "zh": "股权成本"
      },
      "mine": "10.6%",
-     "morningstar": "—",
+     "morningstar": "9.6%",
      "sp": "—",
      "note": {
-      "en": "rf 5.15% + 1.22 x 4.5%",
-      "zh": "无风险利率 5.15% + 1.22 × 4.5%"
+      "en": "Mine: rf 5.15% + 1.22 x 4.5%",
+      "zh": "我的：无风险利率 5.15% + 1.22 × 4.5%"
      }
     },
     {
      "item": {
-      "en": "Net revenues 2026E / 2030E",
-      "zh": "净收入 2026E / 2030E"
+      "en": "EPS 2027E",
+      "zh": "EPS 2027E"
      },
-     "mine": "$82.4B / $99.1B",
-     "morningstar": "—",
+     "mine": "$12.95",
+     "morningstar": "$11.80",
+     "sp": "—",
+     "note": {
+      "en": "Mine at constant shares",
+      "zh": "我的按股数不变计算"
+     }
+    },
+    {
+     "item": {
+      "en": "ROE / ROTCE 2030E",
+      "zh": "ROE / ROTCE 2030E"
+     },
+     "mine": {
+      "en": "ROTCE 26.3%",
+      "zh": "ROTCE 26.3%"
+     },
+     "morningstar": {
+      "en": "ROE 16.3%",
+      "zh": "ROE 16.3%"
+     },
+     "sp": "—",
+     "note": {
+      "en": "Different bases (tangible vs total equity)",
+      "zh": "口径不同（有形权益 vs 总权益）"
+     }
+    },
+    {
+     "item": {
+      "en": "Net income growth",
+      "zh": "净利润增长"
+     },
+     "mine": {
+      "en": "~4% a year 2027-30",
+      "zh": "2027-30 年约 4%"
+     },
+     "morningstar": {
+      "en": "6.3% (Stage II)",
+      "zh": "6.3%（第二阶段）"
+     },
      "sp": "—",
      "note": ""
-    },
-    {
-     "item": {
-      "en": "ROTCE 2026E / 2030E",
-      "zh": "ROTCE 2026E / 2030E"
-     },
-     "mine": "24.4% / 26.3%",
-     "morningstar": "—",
-     "sp": "—",
-     "note": {
-      "en": "FY25 actual 21.6%",
-      "zh": "FY25 实际 21.6%"
-     }
-    },
-    {
-     "item": {
-      "en": "Target CET1",
-      "zh": "目标 CET1"
-     },
-     "mine": "13.5% (2028+)",
-     "morningstar": "—",
-     "sp": "—",
-     "note": {
-      "en": "Requirement 11.8%",
-      "zh": "要求 11.8%"
-     }
     }
    ]
   },

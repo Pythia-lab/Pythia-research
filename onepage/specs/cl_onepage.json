@@ -1119,7 +1119,7 @@
   "wacc": "7.5%",
   "terminal_growth": "2.5%",
   "horizon": "2026-30",
-  "morningstar": null,
+  "morningstar": 88.0,
   "sp": 101.7,
   "show_weighted": false,
   "notes": [
@@ -1128,8 +1128,12 @@
     "zh": "基准 = 公司指引与一致预期的平均；一致预期情景 $81.09。Beta 0.6（原始 0.31）；终值占 EV 82%。"
    },
    {
-    "en": "With the raw beta (WACC 6.4%) the value is $111.82. Morningstar FV to follow.",
-    "zh": "若用原始 beta（WACC 6.4%），价值为 $111.82。Morningstar 合理价值待补充。"
+    "en": "With the raw beta (WACC 6.4%) the value is $111.82.",
+    "zh": "若用原始 beta（WACC 6.4%），价值为 $111.82。"
+   },
+   {
+    "en": "Morningstar FV $88 (Aug 3, 2026; wide moat, Low uncertainty; WACC 7.0%).",
+    "zh": "Morningstar 合理价值 $88（2026年8月3日；宽护城河，低不确定性；WACC 7.0%）。"
    }
   ]
  },
@@ -1461,8 +1465,8 @@
     "zh": "DCF 认为股价已充分反映价值。"
    },
    "body": {
-    "en": "Base $82.56 (WACC 7.5%, g 2.5%, beta 0.6) needs $24.7B sales by 2030 (3.9% a year) at a 22.2% EBIT margin; TV is 82% of EV. At $100.99 that is -18%. Beta decides it: the raw 0.31 gives $111.82.",
-    "zh": "基准价值 $82.56（WACC 7.5%，g 2.5%，beta 0.6）要求 2030 年销售 $247 亿（年增 3.9%）、EBIT 利润率 22.2%；终值占 EV 82%。按 $100.99 计为 -18%。结论取决于 beta：用原始 0.31 得 $111.82。"
+    "en": "Base $82.56 (WACC 7.5%, g 2.5%, beta 0.6) needs $24.7B sales by 2030 (3.9% a year) at a 22.2% EBIT margin; TV is 82% of EV. At $100.99 that is -18%. Beta decides it: the raw 0.31 gives $111.82. Morningstar ($88, wide moat) also sees the stock as overvalued; its 7.0% WACC alone would lift my value to $94.83.",
+    "zh": "基准价值 $82.56（WACC 7.5%，g 2.5%，beta 0.6）要求 2030 年销售 $247 亿（年增 3.9%）、EBIT 利润率 22.2%；终值占 EV 82%。按 $100.99 计为 -18%。结论取决于 beta：用原始 0.31 得 $111.82。Morningstar（$88，宽护城河）同样认为股价偏高；仅把 WACC 换成其 7.0%，我的价值就升至 $94.83。"
    }
   }
  ],
@@ -1471,14 +1475,14 @@
    "FY11-25 from SEC 10-K XBRL (calendar year); Q3 2026 from the Sep 30, 2026 10-Q via the analyst model. Segment and regional data from the 10-K segment table.",
    "EBITDA* = operating income + D&A. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt - cash). ROE* NM when equity < 8% of assets. Dividend/Sh.* = dividends paid / diluted shares.",
    "Header: Nov 16, 2026 close $100.99, 794.9M shares; book value = Sep 30, 2026 equity $640M / shares; TTM P/E (EPS $2.56); P/FCF on TTM FCF $3.79B. FY21-25 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
-   "DCF: Pythia model CL_DCF_Model, Nov 17, 2026; WACC 7.5%, g 2.5%, 5-year horizon. Street avg target = 21-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "DCF: Pythia model CL_DCF_Model, Nov 17, 2026; WACC 7.5%, g 2.5%, 5-year horizon. Street avg target = 21-analyst average (S&P Global via StockAnalysis). Morningstar FV $88 (Aug 3, 2026).",
    "Sources: Colgate-Palmolive 10-K FY2025, Q3 2026 10-Q and release (Oct 30, 2026); SEC EDGAR; StockAnalysis."
   ],
   "zh": [
    "FY11-25 数据取自 SEC 10-K XBRL（日历年）；2026年Q3 取自 2026年9月30日 10-Q（经分析模型）。分部与地区数据取自 10-K 分部表。",
    "EBITDA* = 营业利润 + 折旧摊销。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。ROE* 在权益低于资产 8% 时记为 NM。每股股息* = 已付股息 / 稀释股数。",
    "首行：2026年11月16日收盘 $100.99，7.949 亿股；每股账面 = 2026年9月30日权益 $640M / 股数；TTM P/E（EPS $2.56）；P/FCF 按 TTM FCF $37.9 亿。FY21-25 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
-   "DCF：Pythia 模型 CL_DCF_Model，2026年11月17日；WACC 7.5%，g 2.5%，预测 5 年。华尔街平均目标价为 21 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "DCF：Pythia 模型 CL_DCF_Model，2026年11月17日；WACC 7.5%，g 2.5%，预测 5 年。华尔街平均目标价为 21 位分析师平均（S&P Global，经 StockAnalysis）。",
    "来源：Colgate-Palmolive FY2025 10-K、2026年Q3 10-Q 及业绩公告（2026年10月30日）；SEC EDGAR；StockAnalysis。"
   ]
  },
@@ -1500,7 +1504,7 @@
   "updated": "2026-11-17",
   "price_date": "2026-11-16",
   "currency": "USD",
-  "moat": "",
+  "moat": "Wide",
   "summary": {
    "en": "A steady oral-care and pet-food cash machine that pays out more than it earns in FCF; my DCF ($82.56) sits below the price because I use a normal staples beta, not the unusually low raw beta.",
    "zh": "稳健的口腔护理与宠物食品现金机器，分配额超过 FCF；我的 DCF（$82.56）低于股价，因为我用的是正常的必需消费品 beta，而不是异常低的原始 beta。"
@@ -1547,10 +1551,32 @@
   "margin": "EBIT margin 16% → 22% (2030E, before one-offs)",
   "gap": {
    "summary": {
-    "en": "My blended base value is **$82.56**, **19% below** the Street average target (**$101.70**) and the price (**$100.99**). Revenue and margins are close to consensus (my consensus case is $81.09), so the gap is the **discount rate**: I use a **beta of 0.6** (WACC 7.5%) because the raw five-year beta of 0.31 is abnormally low; with the raw beta the value is **$111.82**. Morningstar's fair value will be added when the report is uploaded.",
-    "zh": "我的混合基准价值为 **$82.56**，比华尔街平均目标价（**$101.70**）和现价（**$100.99**）低 **19%**。营收和利润率与一致预期接近（我的一致预期情景为 $81.09），差距来自 **折现率**：我用 **0.6 的 beta**（WACC 7.5%），因为 5 年原始 beta 0.31 异常偏低；若用原始 beta，价值为 **$111.82**。Morningstar 的合理价值将在上传报告后补充。"
+    "en": "Morningstar's fair value is **$88** (Aug 3, 2026; wide moat, Low uncertainty); mine is **$82.56**, **$5.44 lower**, and both sit below the **$100.99** price (Morningstar rates the stock 2 stars). Morningstar models slightly lower sales (**$23.9B** in 2030 vs my $24.7B) and a slightly higher margin (22.8% vs 22.2%): at its **7.0% WACC** my forecasts are worth **$94.83**, so the gap is the **discount rate**: my beta 0.6 gives a 7.5% WACC. The Street ($101.70) prices in the raw 0.31 beta.",
+    "zh": "Morningstar 的合理价值为 **$88**（2026年8月3日；宽护城河，低不确定性）；我的是 **$82.56**，低 **$5.44**，两者都低于 **$100.99** 的股价（Morningstar 评级 2 星）。Morningstar 的销售略低（2030 年 **$239 亿**，我的 $247 亿），利润率略高（22.8% 对 22.2%）：按其 **7.0% 的 WACC**，我的预测值 **$94.83**，所以差距来自 **折现率**：我用 0.6 的 beta，WACC 为 7.5%。华尔街（$101.70）相当于采用原始 beta 0.31。"
    },
-   "bridge": [],
+   "bridge": [
+    {
+     "driver": {
+      "en": "Morningstar's own DCF: equity $68.6B / 809M sh = $84.77 (FVE $88)",
+      "zh": "Morningstar 自己的 DCF：权益 $686 亿 / 8.09 亿股 = $84.77（公布值 $88）"
+     },
+     "impact": -3.23
+    },
+    {
+     "driver": {
+      "en": "My forecasts at Morningstar's 7.0% WACC: $94.83 (higher sales, slightly lower margin)",
+      "zh": "按 Morningstar 7.0% 的 WACC 计算我的预测：$94.83（销售更高，利润率略低）"
+     },
+     "impact": 10.06
+    },
+    {
+     "driver": {
+      "en": "My 7.5% WACC (beta 0.6) instead of 7.0%",
+      "zh": "改用我的 7.5% WACC（beta 0.6）"
+     },
+     "impact": -12.27
+    }
+   ],
    "assumptions": [
     {
      "item": {
@@ -1558,21 +1584,47 @@
       "zh": "每股价值"
      },
      "mine": "$82.56",
-     "morningstar": "—",
+     "morningstar": "$88.00",
      "sp": "$101.70",
      "note": {
-      "en": "Street = average of 21 analysts (S&P Global)",
-      "zh": "华尔街 = 21 位分析师平均（S&P Global）"
+      "en": "Street = average of 21 analysts",
+      "zh": "华尔街 = 21 位分析师平均"
      }
     },
     {
      "item": "WACC",
      "mine": "7.5%",
-     "morningstar": "—",
+     "morningstar": "7.0%",
      "sp": "5.6%",
      "note": {
-      "en": "S&P Global WACC uses the raw beta",
-      "zh": "S&P Global 的 WACC 使用原始 beta"
+      "en": "Cost of equity: mine 7.85%, Morningstar 8.4%",
+      "zh": "股权成本：我的 7.85%，Morningstar 8.4%"
+     }
+    },
+    {
+     "item": {
+      "en": "Revenue 2027E / 2030E",
+      "zh": "营收 2027E / 2030E"
+     },
+     "mine": "$22.2B / $24.7B",
+     "morningstar": "$21.7B / $23.9B",
+     "sp": "$22.1B / —",
+     "note": {
+      "en": "Street = consensus",
+      "zh": "华尔街 = 一致预期"
+     }
+    },
+    {
+     "item": {
+      "en": "Op. margin 2030E",
+      "zh": "营业利润率 2030E"
+     },
+     "mine": "22.2%",
+     "morningstar": "22.8%",
+     "sp": "—",
+     "note": {
+      "en": "Morningstar: adjusted",
+      "zh": "Morningstar 为调整后口径"
      }
     },
     {
@@ -1583,32 +1635,6 @@
      "note": {
       "en": "Raw 5-year beta",
       "zh": "5 年原始 beta"
-     }
-    },
-    {
-     "item": {
-      "en": "Revenue 2026E / 2027E",
-      "zh": "营收 2026E / 2027E"
-     },
-     "mine": "$21.4B / $22.2B",
-     "morningstar": "—",
-     "sp": "$21.4B / $22.1B",
-     "note": {
-      "en": "Street = consensus",
-      "zh": "华尔街 = 一致预期"
-     }
-    },
-    {
-     "item": {
-      "en": "2030E EBIT margin",
-      "zh": "2030E EBIT 利润率"
-     },
-     "mine": "22.2%",
-     "morningstar": "—",
-     "sp": "—",
-     "note": {
-      "en": "FY25 GAAP 16.2% incl. impairments",
-      "zh": "FY25 GAAP 16.2%（含减值）"
      }
     }
    ]
@@ -1637,8 +1663,8 @@
    {
     "date": "2026-11-17",
     "note": {
-     "en": "One Page V2 with DCF",
-     "zh": "One Page V2（含 DCF）"
+     "en": "One Page V2 with DCF; Morningstar FV and gap bridge added",
+     "zh": "One Page V2（含 DCF）；补充 Morningstar 合理价值与差距拆解"
     }
    }
   ]

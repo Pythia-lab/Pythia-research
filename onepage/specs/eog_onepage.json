@@ -1126,7 +1126,7 @@
   "wacc": "8.6%",
   "terminal_growth": "1.5%",
   "horizon": "2026-30",
-  "morningstar": null,
+  "morningstar": 152.0,
   "sp": 167.14,
   "show_weighted": false,
   "notes": [
@@ -1135,8 +1135,12 @@
     "zh": "基准：WTI 由 $79（2027）降至 $70（2030），HH 由 $3.16 升至 $3.50。悲观 WTI $58；乐观 $85-95。Beta 0.9；终值占 EV 76%。"
    },
    {
-    "en": "Model price $165.54 (Oct 30); vs price uses Nov 16 close. Morningstar FV to follow.",
-    "zh": "模型股价 $165.54（10月30日）；较现价按 11月16日收盘。Morningstar 合理价值待补充。"
+    "en": "Model price $165.54 (Oct 30); vs price uses Nov 16 close.",
+    "zh": "模型股价 $165.54（10月30日）；较现价按 11月16日收盘。"
+   },
+   {
+    "en": "Morningstar FV $152 (Nov 10, 2026; narrow moat, Medium uncertainty; WACC 7.4%).",
+    "zh": "Morningstar 合理价值 $152（2026年11月10日；窄护城河，中等不确定性；WACC 7.4%）。"
    }
   ]
  },
@@ -1468,8 +1472,8 @@
     "zh": "价格假设决定估值。"
    },
    "body": {
-    "en": "Base $146.17 (WACC 8.6%, g 1.5%, beta 0.9) assumes WTI fades from $87 (2026) to $70 by 2030; TV is 76% of EV. At $155.47 that is -6%. Bear $73 (WTI $58) and bull $231 (WTI $85-95) show the range.",
-    "zh": "基准价值 $146.17（WACC 8.6%，g 1.5%，beta 0.9）假设 WTI 由 2026 年的 $87 回落到 2030 年的 $70；终值占 EV 76%。按 $155.47 计为 -6%。悲观 $73（WTI $58）、乐观 $231（WTI $85-95）显示了区间之宽。"
+    "en": "Base $146.17 (WACC 8.6%, g 1.5%, beta 0.9) assumes WTI fades from $87 (2026) to $70 by 2030; TV is 76% of EV. At $155.47 that is -6%. Bear $73 (WTI $58) and bull $231 (WTI $85-95) show the range. Morningstar ($152) lands close to me, but with a lower $60 mid-cycle WTI and a lower 7.4% WACC.",
+    "zh": "基准价值 $146.17（WACC 8.6%，g 1.5%，beta 0.9）假设 WTI 由 2026 年的 $87 回落到 2030 年的 $70；终值占 EV 76%。按 $155.47 计为 -6%。悲观 $73（WTI $58）、乐观 $231（WTI $85-95）显示了区间之宽。Morningstar（$152）与我接近，但它用的是更低的 $60 中周期 WTI 和更低的 7.4% WACC。"
    }
   }
  ],
@@ -1478,14 +1482,14 @@
    "FY11-25 from SEC 10-K XBRL (calendar year; FY11 shares/EPS adjusted for the 2014 2:1 split). Revenue is GAAP total revenues; the mix table uses S&P revenue excl. derivatives.",
    "EBITDA* = operating income + DD&A. FCF = OCF - capex (oil & gas property additions). ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares.",
    "Header: Nov 16, 2026 close $155.47, 524.5M shares; book value = Jun 30, 2026 equity $31.9B; TTM P/E (EPS $12.79); P/FCF on TTM FCF $6.6B. FY21-25 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
-   "DCF: Pythia model EOG_DCF_Model, Oct 30, 2026 (price $165.54); WACC 8.6%, g 1.5%. Street avg target = 33-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "DCF: Pythia model EOG_DCF_Model, Oct 30, 2026 (price $165.54); WACC 8.6%, g 1.5%. Street avg target = 33-analyst average (S&P Global via StockAnalysis). Morningstar FV $152 (Nov 10, 2026).",
    "Sources: EOG 10-K FY2025, Q4-25 and Q2-26 releases (unit costs, volumes); SEC EDGAR; FRED (WTI, Henry Hub); EIA STEO Oct 2026; StockAnalysis."
   ],
   "zh": [
    "FY11-25 数据取自 SEC 10-K XBRL（日历年；FY11 股数与 EPS 已按 2014 年 1 拆 2 调整）。营收为 GAAP 总收入；收入构成表采用 S&P 口径（不含衍生品）。",
    "EBITDA* = 营业利润 + 折旧折耗摊销。FCF = OCF - 资本开支（油气资产投入）。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。",
    "首行：2026年11月16日收盘 $155.47，5.245 亿股；每股账面 = 2026年6月30日权益 $319 亿；TTM P/E（EPS $12.79）；P/FCF 按 TTM FCF $66 亿。FY21-25 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
-   "DCF：Pythia 模型 EOG_DCF_Model，2026年10月30日（股价 $165.54）；WACC 8.6%，g 1.5%。华尔街平均目标价为 33 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "DCF：Pythia 模型 EOG_DCF_Model，2026年10月30日（股价 $165.54）；WACC 8.6%，g 1.5%。华尔街平均目标价为 33 位分析师平均（S&P Global，经 StockAnalysis）。",
    "来源：EOG FY2025 10-K、2025年Q4 与 2026年Q2 业绩公告（单位成本、产量）；SEC EDGAR；FRED（WTI、Henry Hub）；EIA 2026年10月 STEO；StockAnalysis。"
   ]
  },
@@ -1507,7 +1511,7 @@
   "updated": "2026-11-17",
   "price_date": "2026-11-16",
   "currency": "USD",
-  "moat": "",
+  "moat": "Narrow",
   "summary": {
    "en": "A low-cost U.S. oil producer whose value is set by the price deck: at mid-cycle WTI ~$70 my base value ($146.17) is a little below the price.",
    "zh": "低成本的美国石油生产商，估值由油气价格假设决定：在 WTI 约 $70 的中周期价格下，我的基准价值（$146.17）略低于股价。"
@@ -1568,10 +1572,32 @@
   "margin": "EBIT margin 38% (2026E) → 29% (2030E)",
   "gap": {
    "summary": {
-    "en": "My base value is **$146.17**, **6% below** the price (**$155.47**) and 13% below the Street average target (**$167.14**). Volumes and costs follow company guidance, so the gap is mostly the **price deck**: I let WTI fade from $87 in 2026 to **$70 by 2030** and use a **0.9 beta** (WACC 8.6%) instead of the raw 0.37. With the raw beta the value would be $213. Morningstar's fair value will be added when the report is uploaded.",
-    "zh": "我的基准价值为 **$146.17**，比现价（**$155.47**）低 **6%**，比华尔街平均目标价（**$167.14**）低 13%。产量和成本按公司指引，差距主要来自 **价格假设**：我让 WTI 从 2026 年的 $87 回落到 **2030 年的 $70**，并用 **0.9 的 beta**（WACC 8.6%）而不是原始的 0.37。若用原始 beta，价值约 $213。Morningstar 的合理价值将在上传报告后补充。"
+    "en": "Morningstar's fair value is **$152** (Nov 10, 2026; narrow moat, Medium uncertainty); mine is **$146.17**, only **$5.83 lower**, but for opposite reasons. Morningstar has higher prices near term (WTI **$83** in 2027 vs my $79) and a lower mid-cycle deck (**WTI $60**, gas $3.70, vs my $70 and $3.50). At its **7.4% WACC** my forecasts are worth **$177.89**, so my higher mid-cycle oil price adds value and my **8.6% WACC** (beta 0.9) takes it back.",
+    "zh": "Morningstar 的合理价值为 **$152**（2026年11月10日；窄护城河，中等不确定性）；我的是 **$146.17**，只低 **$5.83**，但原因相反。Morningstar 的近期价格更高（2027 年 WTI **$83**，我的 $79），中周期价格更低（**WTI $60**、天然气 $3.70；我的 $70 和 $3.50）。按其 **7.4% 的 WACC**，我的预测值 **$177.89**：我更高的中周期油价增加了价值，而我 **8.6% 的 WACC**（beta 0.9）又把它扣回。"
    },
-   "bridge": [],
+   "bridge": [
+    {
+     "driver": {
+      "en": "Morningstar's own DCF: equity $79.2B / 539M sh = $146.95 (FVE $152)",
+      "zh": "Morningstar 自己的 DCF：权益 $792 亿 / 5.39 亿股 = $146.95（公布值 $152）"
+     },
+     "impact": -5.05
+    },
+    {
+     "driver": {
+      "en": "My forecasts at Morningstar's 7.4% WACC: $177.89 (mid-cycle WTI $70 vs $60)",
+      "zh": "按 Morningstar 7.4% 的 WACC 计算我的预测：$177.89（中周期 WTI $70 对 $60）"
+     },
+     "impact": 30.94
+    },
+    {
+     "driver": {
+      "en": "My 8.6% WACC (beta 0.9) instead of 7.4%",
+      "zh": "改用我的 8.6% WACC（beta 0.9）"
+     },
+     "impact": -31.72
+    }
+   ],
    "assumptions": [
     {
      "item": {
@@ -1579,61 +1605,58 @@
       "zh": "每股价值"
      },
      "mine": "$146.17",
-     "morningstar": "—",
+     "morningstar": "$152.00",
      "sp": "$167.14",
      "note": {
-      "en": "Street = average of 33 analysts (S&P Global)",
-      "zh": "华尔街 = 33 位分析师平均（S&P Global）"
+      "en": "Street = average of 33 analysts",
+      "zh": "华尔街 = 33 位分析师平均"
      }
     },
     {
      "item": "WACC",
      "mine": "8.6%",
-     "morningstar": "—",
+     "morningstar": "7.4%",
      "sp": "6.0%",
      "note": {
-      "en": "S&P Global WACC uses the raw beta 0.37",
-      "zh": "S&P Global 的 WACC 使用原始 beta 0.37"
+      "en": "S&P Global uses the raw beta 0.37",
+      "zh": "S&P Global 使用原始 beta 0.37"
      }
     },
     {
      "item": {
-      "en": "WTI 2027E / 2030E",
-      "zh": "WTI 2027E / 2030E"
+      "en": "WTI 2027E / mid-cycle",
+      "zh": "WTI 2027E / 中周期"
      },
      "mine": "$79 / $70",
-     "morningstar": "—",
+     "morningstar": "$83 / $60",
      "sp": "—",
      "note": {
-      "en": "2027 from EIA STEO less WTI-Brent spread",
-      "zh": "2027 年取 EIA STEO 减 WTI-Brent 价差"
+      "en": "Mine reaches $70 in 2030",
+      "zh": "我的在 2030 年达到 $70"
      }
     },
     {
      "item": {
-      "en": "Henry Hub 2027E / 2030E",
-      "zh": "Henry Hub 2027E / 2030E"
+      "en": "Henry Hub 2027E / mid-cycle",
+      "zh": "Henry Hub 2027E / 中周期"
      },
      "mine": "$3.16 / $3.50",
-     "morningstar": "—",
+     "morningstar": "$3.36 / $3.70",
      "sp": "—",
-     "note": {
-      "en": "EIA STEO Oct 2026, then LNG demand",
-      "zh": "EIA 2026年10月 STEO，之后看 LNG 需求"
-     }
+     "note": ""
     },
     {
      "item": {
-      "en": "2026E revenue",
-      "zh": "2026E 营收"
+      "en": "2026E production",
+      "zh": "2026E 产量"
      },
-     "mine": "$31.0B",
-     "morningstar": "—",
-     "sp": "$29.9B",
-     "note": {
-      "en": "Street = S&P consensus",
-      "zh": "华尔街 = S&P 一致预期"
-     }
+     "mine": {
+      "en": "~1,400 MBoe/d (guidance)",
+      "zh": "约 140 万桶油当量/日（指引）"
+     },
+     "morningstar": "1,412 MBoe/d",
+     "sp": "—",
+     "note": ""
     }
    ]
   },
@@ -1661,8 +1684,8 @@
    {
     "date": "2026-11-17",
     "note": {
-     "en": "One Page V2 with DCF",
-     "zh": "One Page V2（含 DCF）"
+     "en": "One Page V2 with DCF; Morningstar FV and gap bridge added",
+     "zh": "One Page V2（含 DCF）；补充 Morningstar 合理价值与差距拆解"
     }
    },
    {

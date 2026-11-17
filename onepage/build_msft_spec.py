@@ -72,7 +72,7 @@ spec = {
         "wacc": "9.7%", "terminal_growth": "3.0%", "horizon": "FY27-31", "morningstar": 600.0, "sp": 636.12, "show_weighted": False,
         "notes": [L("Base = blend of guidance and consensus; consensus case $393.37. Beta 1.05; TV 84% of EV; OpenAI stake $135B added.",
                     "基准 = 公司指引与一致预期的平均；一致预期情景 $393.37。Beta 1.05；终值占 EV 84%；加回 OpenAI 股权 $1,350 亿。"),
-                  L("Morningstar FV $600 as of Jul 30, 2026 (update to follow).", "Morningstar 合理价值 $600（2026年7月30日，待更新）。")]},
+                  L("Morningstar FV $600 (set Jul 31, 2025; wide moat, High uncertainty; WACC 8.4%).", "Morningstar 合理价值 $600（2025年7月31日设定；宽护城河，高不确定性；WACC 8.4%）。")]},
     "kpi_tracker": {
         "title": L("CORE KPI TRACKER | FY22-26", "核心KPI | FY22-26"),
         "columns": [L("Metric", "指标"), "FY22", "FY23", "FY24", "FY25", "FY26"],
@@ -107,18 +107,18 @@ spec = {
          "body": L("Dividends plus buybacks were $48.7B in FY26, 73% of FCF. With AAA ratings and net debt/EBITDA 0.15x even after finance leases, the balance sheet can fund the build-out.",
                    "FY26 股息加回购 $487 亿，占 FCF 73%。AAA 评级，计入融资租赁后净债务/EBITDA 也仅 0.15 倍，资产负债表足以支撑建设。")},
         {"headline": L("My DCF is well below the market.", "我的 DCF 明显低于市场。"),
-         "body": L("Base $404.69 (WACC 9.7%, g 3%, beta 1.05) needs $631B revenue by FY31 (13.7% a year) at a 47.6% EBIT margin, with capex falling from 50% to 21% of revenue; TV is 84% of EV. At $517.99 that is -22%; Morningstar ($600) and the Street ($636) are higher.",
-                   "基准价值 $404.69（WACC 9.7%，g 3%，beta 1.05）要求 FY31 营收 $6,310 亿（年增 13.7%）、EBIT 利润率 47.6%，资本开支占营收由 50% 降到 21%；终值占 EV 84%。按 $517.99 计为 -22%；Morningstar（$600）和华尔街（$636）都更高。")}],
+         "body": L("Base $404.69 (WACC 9.7%, g 3%, beta 1.05) needs $631B revenue by FY31 (13.7% a year) at a 47.6% EBIT margin, with capex falling from 50% to 21% of revenue; TV is 84% of EV. At $517.99 that is -22%; Morningstar ($600) and the Street ($636) are higher: about $71 of the gap to Morningstar is its faster growth ($715B FY31 revenue) and $110 my higher WACC.",
+                   "基准价值 $404.69（WACC 9.7%，g 3%，beta 1.05）要求 FY31 营收 $6,310 亿（年增 13.7%）、EBIT 利润率 47.6%，资本开支占营收由 50% 降到 21%；终值占 EV 84%。按 $517.99 计为 -22%；Morningstar（$600）和华尔街（$636）都更高：与 Morningstar 的差距中，约 $71 来自其更快的增长（FY31 营收 $7,150 亿），$110 来自我更高的 WACC。")}],
     "footnotes": L([
         "FY12-26 from SEC 10-K XBRL (fiscal years end Jun 30). D&A* = depreciation + intangible and finance-lease amortisation. Acquisitions FY22-26 from the analyst model; FY12-21 not in XBRL (--).",
         "EBITDA* = operating income + D&A. FCF = OCF - cash capex (excl. finance leases). ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares.",
         "Header: Nov 16, 2026 close $517.99, 7,427M shares; book value = Sep 30, 2026 equity $470.5B; TTM P/E (EPS $19.15); P/FCF on TTM FCF $60.0B. FY22-26 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
-        "DCF: Pythia model MSFT_DCF_Model, Nov 17, 2026; WACC 9.7%, g 3.0%, horizon FY27-31. Morningstar FV $600 (Jul 30, 2026). Street avg target = 58-analyst average (S&P Global via StockAnalysis).",
+        "DCF: Pythia model MSFT_DCF_Model, Nov 17, 2026; WACC 9.7%, g 3.0%, horizon FY27-31. Morningstar FV $600 (Jul 31, 2025). Street avg target = 58-analyst average (S&P Global via StockAnalysis).",
         "Sources: Microsoft 10-K FY2026, Q1 FY27 release (Oct 28, 2026), Sep 2026 segment recast 8-K; SEC EDGAR; StockAnalysis; Morningstar."],
         ["FY12-26 数据取自 SEC 10-K XBRL（财年截至 6月30日）。折旧摊销* = 折旧 + 无形资产与融资租赁摊销。FY22-26 收购支出取自分析模型；FY12-21 XBRL 中没有（--）。",
          "EBITDA* = 营业利润 + 折旧摊销。FCF = OCF - 现金资本开支（不含融资租赁）。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。",
          "首行：2026年11月16日收盘 $517.99，74.27 亿股；每股账面 = 2026年9月30日权益 $4,705 亿；TTM P/E（EPS $19.15）；P/FCF 按 TTM FCF $600 亿。FY22-26 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
-         "DCF：Pythia 模型 MSFT_DCF_Model，2026年11月17日；WACC 9.7%，g 3.0%，预测期 FY27-31。Morningstar 合理价值 $600（2026年7月30日）。华尔街平均目标价为 58 位分析师平均（S&P Global，经 StockAnalysis）。",
+         "DCF：Pythia 模型 MSFT_DCF_Model，2026年11月17日；WACC 9.7%，g 3.0%，预测期 FY27-31。Morningstar 合理价值 $600（2025年7月31日）。华尔街平均目标价为 58 位分析师平均（S&P Global，经 StockAnalysis）。",
          "来源：Microsoft FY2026 10-K、Q1 FY27 业绩公告（2026年10月28日）、2026年9月分部重组 8-K；SEC EDGAR；StockAnalysis；Morningstar。"]),
     "brand_mark": "PYTHIA",
     "website": {
@@ -134,19 +134,20 @@ spec = {
                      {"name": L("Devices and Consumer", "设备与消费者"), "share": 19.2}],
         "revenue_cagr": "13.7% (FY26-31, blended)", "margin": "EBIT margin 46.8% → 47.6% (FY31E)",
         "gap": {
-            "summary": L(
-                "My blended base value is **$404.69**, **33% below** Morningstar's **$600** (dated Jul 30, 2026) and 36% below the Street average target (**$636.12**). My revenue path is close to consensus (FY27 $396B), so the gap comes from **valuation inputs**: a **9.7% WACC** (10-year Treasury 5.15%, beta 1.05) and capex that only falls to **21% of revenue by FY31**, keeping FCF well below operating earnings. At a 0.6 beta the value would be **$584**, close to Morningstar. A step-by-step bridge will be added when the Morningstar report is uploaded.",
-                "我的混合基准价值为 **$404.69**，比 Morningstar 的 **$600**（2026年7月30日）低 **33%**，比华尔街平均目标价（**$636.12**）低 36%。我的营收路径接近一致预期（FY27 $3,960 亿），差距来自 **估值参数**：**9.7% 的 WACC**（10 年期美债 5.15%，beta 1.05），以及资本开支到 **FY31 才降到营收的 21%**，使 FCF 明显低于经营利润。若 beta 为 0.6，价值为 **$584**，接近 Morningstar。上传 Morningstar 报告后将补充逐项拆解。"),
-            "bridge": [],
+            "summary": L("Morningstar's fair value is **$600** (set Jul 31, 2025 and kept after Q1 FY27); mine is **$404.69**, **$195.31 lower**, and the Street average target is **$636.12**. Two things drive it. **Forecasts**: Morningstar has revenue growing 17% a year to **$715B in FY31** (Azure +51% in FY27, +37% in FY28) versus my **$631B**; at its **8.4% WACC** my forecasts are worth **$514**. **Discount rate**: my 9.7% WACC (10-year Treasury 5.15%, beta 1.05) takes another $110.", 'Morningstar 的合理价值为 **$600**（2025年7月31日设定，Q1 FY27 后维持）；我的是 **$404.69**，低 **$195.31**；华尔街平均目标价为 **$636.12**。原因有两点。**预测**：Morningstar 的营收每年增长 17%，FY31 达 **$7,150 亿**（FY27 Azure +51%、FY28 +37%），我的为 **$6,310 亿**；按其 **8.4% 的 WACC**，我的预测值 **$514**。**折现率**：我 9.7% 的 WACC（10 年期美债 5.15%，beta 1.05）再减去 $110。'),
+            "bridge": [
+                {"driver": L("Morningstar's own DCF: equity $4,349.5B / 7,430M sh = $585.40 (FVE $600)", 'Morningstar 自己的 DCF：权益 $43,495 亿 / 74.30 亿股 = $585.40（公布值 $600）'), "impact": -14.6},
+                {"driver": L("My forecasts at Morningstar's 8.4% WACC: $514.47 (FY31 revenue $631B vs $715B)", '按 Morningstar 8.4% 的 WACC 计算我的预测：$514.47（FY31 营收 $6,310 亿对 $7,150 亿）'), "impact": -70.93},
+                {"driver": L('My 9.7% WACC (beta 1.05) instead of 8.4%', '改用我的 9.7% WACC（beta 1.05）'), "impact": -109.78}],
             "assumptions": [
-                {"item": L("Value per share", "每股价值"), "mine": "$404.69", "morningstar": "$600", "sp": "$636.12", "note": L("Street = average of 58 analysts (S&P Global)", "华尔街 = 58 位分析师平均（S&P Global）")},
-                {"item": "WACC", "mine": "9.7%", "morningstar": "—", "sp": "9.7%", "note": L("S&P Global WACC estimate", "S&P Global 的 WACC 估计")},
-                {"item": L("FY27E / FY28E revenue", "FY27E / FY28E 营收"), "mine": "$396B / $458B", "morningstar": "—", "sp": "$396B / $437B", "note": L("Street = consensus", "华尔街 = 一致预期")},
-                {"item": L("FY27E capex / revenue", "FY27E 资本开支/营收"), "mine": "50%", "morningstar": "—", "sp": "—", "note": L("Incl. finance leases; 21% by FY31", "含融资租赁；FY31 为 21%")},
-                {"item": L("FY27E FCF", "FY27E FCF"), "mine": "—", "morningstar": "—", "sp": "$32.6B", "note": L("S&P consensus", "S&P 一致预期")}]},
+                {"item": L('Value per share', '每股价值'), "mine": '$404.69', "morningstar": '$600.00', "sp": '$636.12', "note": L('Street = average of 58 analysts', '华尔街 = 58 位分析师平均')},
+                {"item": 'WACC', "mine": '9.7%', "morningstar": '8.4%', "sp": '9.7%', "note": L('Morningstar cost of equity 8.4%', 'Morningstar 股权成本 8.4%')},
+                {"item": L('Revenue FY27E / FY31E', '营收 FY27E / FY31E'), "mine": '$396B / $631B', "morningstar": '$399B / $715B', "sp": '$396B / —', "note": L('5-yr CAGR 13.7% vs 16.6%', '5 年 CAGR 13.7% 对 16.6%')},
+                {"item": L('Op. margin FY31E', '营业利润率 FY31E'), "mine": '47.6%', "morningstar": '47.3%', "sp": '—', "note": ''},
+                {"item": L('FY27E Azure growth', 'FY27E Azure 增长'), "mine": '~49%', "morningstar": '51%', "sp": '—', "note": L('Mine: guided +49-50% for Q2', '我的：Q2 指引 +49-50%')}]},
         "files": [{"type": "onepage", "lang": "en", "label": "One Page", "path": "reports/msft/MSFT_OnePage_en.pdf", "date": "2026-11-17"},
                   {"type": "onepage", "lang": "zh", "label": "One Page", "path": "reports/msft/MSFT_OnePage_zh.pdf", "date": "2026-11-17"}],
         "onepage_image": L("reports/msft/MSFT_OnePage_en.png", "reports/msft/MSFT_OnePage_zh.png"),
-        "history": [{"date": "2026-11-17", "note": L("One Page V2 with DCF", "One Page V2（含 DCF）")}]},
+        "history": [{"date": "2026-11-17", "note": L("One Page V2 with DCF; Morningstar FV and gap bridge added", "One Page V2（含 DCF）；补充 Morningstar 合理价值与差距拆解")}]},
 }
 write(spec, "onepage/specs/msft_onepage.json")

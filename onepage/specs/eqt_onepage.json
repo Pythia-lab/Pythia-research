@@ -1107,7 +1107,7 @@
   "wacc": "8.5%",
   "terminal_growth": "1.5%",
   "horizon": "2026-30",
-  "morningstar": null,
+  "morningstar": 67.0,
   "sp": 66.27,
   "show_weighted": false,
   "notes": [
@@ -1116,8 +1116,12 @@
     "zh": "基准：Henry Hub 由 $3.16（2027）升至 $3.50（2030）。悲观 $2.60-2.75；乐观 $3.90-4.25。Beta 0.9；终值占 EV 76%。"
    },
    {
-    "en": "Model price $55.38 (Oct 30); vs price uses Nov 16 close. Morningstar FV to follow.",
-    "zh": "模型股价 $55.38（10月30日）；较现价按 11月16日收盘。Morningstar 合理价值待补充。"
+    "en": "Model price $55.38 (Oct 30); vs price uses Nov 16 close.",
+    "zh": "模型股价 $55.38（10月30日）；较现价按 11月16日收盘。"
+   },
+   {
+    "en": "Morningstar FV $67 (Oct 26, 2026; no moat, High uncertainty; incl. the Range Resources deal).",
+    "zh": "Morningstar 合理价值 $67（2026年10月26日；无护城河，高不确定性；已计入收购 Range Resources）。"
    }
   ]
  },
@@ -1449,8 +1453,8 @@
     "zh": "天然气价格决定估值。"
    },
    "body": {
-    "en": "Base $54.40 (WACC 8.5%, g 1.5%, beta 0.9) assumes Henry Hub $3.16 in 2027 rising to $3.50 by 2030 as LNG grows; TV is 76% of EV. At $51.24 that is +6%. Bear $24 and bull $85 show how wide the range is.",
-    "zh": "基准价值 $54.40（WACC 8.5%，g 1.5%，beta 0.9）假设 Henry Hub 由 2027 年的 $3.16 随 LNG 增长升至 2030 年的 $3.50；终值占 EV 76%。按 $51.24 计 +6%。悲观 $24、乐观 $85，区间很宽。"
+    "en": "Base $54.40 (WACC 8.5%, g 1.5%, beta 0.9) assumes Henry Hub $3.16 in 2027 rising to $3.50 by 2030 as LNG grows; TV is 76% of EV. At $51.24 that is +6%. Bear $24 and bull $85 show how wide the range is. Morningstar ($67) already includes the Range Resources deal; at its 7.5% WACC my standalone model is worth about $64.",
+    "zh": "基准价值 $54.40（WACC 8.5%，g 1.5%，beta 0.9）假设 Henry Hub 由 2027 年的 $3.16 随 LNG 增长升至 2030 年的 $3.50；终值占 EV 76%。按 $51.24 计 +6%。悲观 $24、乐观 $85，区间很宽。Morningstar（$67）已计入收购 Range Resources；按其 7.5% 的 WACC，我的独立模型约 $64。"
    }
   }
  ],
@@ -1459,14 +1463,14 @@
    "FY11-25 from SEC 10-K XBRL (calendar year). Revenue = GAAP total revenues incl. derivative gains/losses (FY11-15: oil & gas revenue tag). Capex FY11-17 = payments for productive assets (incl. midstream before the 2018 spin).",
    "EBITDA* = operating income + DD&A. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares. KPI net debt/EBITDA from the analyst model (S&P basis).",
    "Header: Nov 16, 2026 close $51.24, 625.6M shares; book value = Sep 30, 2026 equity $25.5B; TTM P/E (EPS $4.21); P/FCF on TTM FCF $3.8B. FY21-25 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
-   "DCF: Pythia model EQT_DCF_Model, Oct 30, 2026 (price $55.38); WACC 8.5%, g 1.5%. Street avg target = 22-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "DCF: Pythia model EQT_DCF_Model, Oct 30, 2026 (price $55.38); WACC 8.5%, g 1.5%. Street avg target = 22-analyst average (S&P Global via StockAnalysis). Morningstar FV $67 (Oct 26, 2026).",
    "Sources: EQT 10-K FY2025, Q3 2026 release (Oct 27, 2026); SEC EDGAR; FRED (Henry Hub); EIA STEO Oct 2026; StockAnalysis."
   ],
   "zh": [
    "FY11-25 数据取自 SEC 10-K XBRL（日历年）。营收 = GAAP 总收入（含衍生品损益；FY11-15 用油气收入标签）。FY11-17 资本开支 = 生产性资产支出（2018 年分拆前含中游）。",
    "EBITDA* = 营业利润 + 折旧折耗摊销。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。KPI 中净债务/EBITDA 取自分析模型（S&P 口径）。",
    "首行：2026年11月16日收盘 $51.24，6.256 亿股；每股账面 = 2026年9月30日权益 $255 亿；TTM P/E（EPS $4.21）；P/FCF 按 TTM FCF $38 亿。FY21-25 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
-   "DCF：Pythia 模型 EQT_DCF_Model，2026年10月30日（股价 $55.38）；WACC 8.5%，g 1.5%。华尔街平均目标价为 22 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "DCF：Pythia 模型 EQT_DCF_Model，2026年10月30日（股价 $55.38）；WACC 8.5%，g 1.5%。华尔街平均目标价为 22 位分析师平均（S&P Global，经 StockAnalysis）。",
    "来源：EQT FY2025 10-K、2026年Q3 业绩公告（2026年10月27日）；SEC EDGAR；FRED（Henry Hub）；EIA 2026年10月 STEO；StockAnalysis。"
   ]
  },
@@ -1488,7 +1492,7 @@
   "updated": "2026-11-17",
   "price_date": "2026-11-16",
   "currency": "USD",
-  "moat": "",
+  "moat": "None",
   "summary": {
    "en": "The largest U.S. natural-gas producer, now with its own pipelines: after years of share-funded growth it generates real FCF and is paying down debt; my base value ($54.40) is close to the price.",
    "zh": "美国最大的天然气生产商，现在拥有自己的管道：经历多年发股扩张后，已产生真实的 FCF 并在还债；我的基准价值（$54.40）接近股价。"
@@ -1542,10 +1546,32 @@
   "margin": "EBIT margin 40% (2026E) → 41% (2030E)",
   "gap": {
    "summary": {
-    "en": "My base value is **$54.40**, **6% above** the price (**$51.24**) but 18% below the Street average target (**$66.27**). Volumes and capex follow guidance; the difference is the **gas deck** (Henry Hub $3.16 in 2027 rising to $3.50) and the **0.9 beta** (WACC 8.5%; S&P Global uses 7.4%). With a 0.65 beta the value is about $64, close to the Street. Morningstar's fair value will be added when the report is uploaded.",
-    "zh": "我的基准价值为 **$54.40**，比现价（**$51.24**）高 **6%**，但比华尔街平均目标价（**$66.27**）低 18%。产量和资本开支按公司指引；差距来自 **天然气价格假设**（Henry Hub 2027 年 $3.16，逐步升至 $3.50）和 **0.9 的 beta**（WACC 8.5%；S&P Global 用 7.4%）。若 beta 为 0.65，价值约 $64，接近华尔街。Morningstar 的合理价值将在上传报告后补充。"
+    "en": "Morningstar's fair value is **$67** (Oct 26, 2026; no moat, High uncertainty); mine is **$54.40**, **$12.60 lower**. Morningstar's model already includes the **acquisition of Range Resources** (expected to close in early 2027), which mine does not; even so, at Morningstar's **7.5% WACC** my standalone forecasts are worth **$64.33**, almost the same. The gap is the **discount rate**: my 0.9 beta gives an **8.5% WACC**. Morningstar notes that EQT holders need quick delivery of the Range synergies to break even.",
+    "zh": "Morningstar 的合理价值为 **$67**（2026年10月26日；无护城河，高不确定性）；我的是 **$54.40**，低 **$12.60**。Morningstar 的模型已计入 **收购 Range Resources**（预计 2027 年初完成），我的模型没有；即便如此，按 Morningstar **7.5% 的 WACC**，我的独立预测值 **$64.33**，几乎相同。差距来自 **折现率**：我用 0.9 的 beta，WACC 为 **8.5%**。Morningstar 指出，EQT 股东需要尽快兑现 Range 的协同效应才能不亏。"
    },
-   "bridge": [],
+   "bridge": [
+    {
+     "driver": {
+      "en": "Morningstar's own DCF: equity $40.2B / 630M sh = $63.82 (FVE $67)",
+      "zh": "Morningstar 自己的 DCF：权益 $402 亿 / 6.30 亿股 = $63.82（公布值 $67）"
+     },
+     "impact": -3.18
+    },
+    {
+     "driver": {
+      "en": "My standalone forecasts (no Range deal) at Morningstar's 7.5% WACC: $64.33",
+      "zh": "按 Morningstar 7.5% 的 WACC 计算我的独立预测（不含 Range）：$64.33"
+     },
+     "impact": 0.51
+    },
+    {
+     "driver": {
+      "en": "My 8.5% WACC (beta 0.9) instead of 7.5%",
+      "zh": "改用我的 8.5% WACC（beta 0.9）"
+     },
+     "impact": -9.93
+    }
+   ],
    "assumptions": [
     {
      "item": {
@@ -1553,21 +1579,50 @@
       "zh": "每股价值"
      },
      "mine": "$54.40",
-     "morningstar": "—",
+     "morningstar": "$67.00",
      "sp": "$66.27",
      "note": {
-      "en": "Street = average of 22 analysts (S&P Global)",
-      "zh": "华尔街 = 22 位分析师平均（S&P Global）"
+      "en": "Street = average of 22 analysts",
+      "zh": "华尔街 = 22 位分析师平均"
      }
     },
     {
      "item": "WACC",
      "mine": "8.5%",
-     "morningstar": "—",
+     "morningstar": "7.5%",
      "sp": "7.4%",
      "note": {
-      "en": "S&P Global WACC estimate",
-      "zh": "S&P Global 的 WACC 估计"
+      "en": "Cost of equity: mine 9.0%, Morningstar 8.0%",
+      "zh": "股权成本：我的 9.0%，Morningstar 8.0%"
+     }
+    },
+    {
+     "item": {
+      "en": "Range Resources deal",
+      "zh": "收购 Range Resources"
+     },
+     "mine": {
+      "en": "Not included",
+      "zh": "未计入"
+     },
+     "morningstar": {
+      "en": "Included (close early 2027)",
+      "zh": "已计入（2027 年初完成）"
+     },
+     "sp": "—",
+     "note": ""
+    },
+    {
+     "item": {
+      "en": "Revenue 2026E / 2030E",
+      "zh": "营收 2026E / 2030E"
+     },
+     "mine": "$8.6B / $9.0B",
+     "morningstar": "$9.2B / $17.5B",
+     "sp": "$9.1B / —",
+     "note": {
+      "en": "Morningstar 2030 includes Range",
+      "zh": "Morningstar 2030 年含 Range"
      }
     },
     {
@@ -1576,37 +1631,11 @@
       "zh": "Henry Hub 2027E / 2030E"
      },
      "mine": "$3.16 / $3.50",
-     "morningstar": "—",
+     "morningstar": "$3.36 / $3.70",
      "sp": "—",
      "note": {
-      "en": "EIA STEO Oct 2026, then LNG demand",
-      "zh": "EIA 2026年10月 STEO，之后看 LNG 需求"
-     }
-    },
-    {
-     "item": {
-      "en": "2026E revenue",
-      "zh": "2026E 营收"
-     },
-     "mine": "$8.6B",
-     "morningstar": "—",
-     "sp": "$9.1B",
-     "note": {
-      "en": "Street = S&P consensus",
-      "zh": "华尔街 = S&P 一致预期"
-     }
-    },
-    {
-     "item": {
-      "en": "2026E capex",
-      "zh": "2026E 资本开支"
-     },
-     "mine": "$2.68B",
-     "morningstar": "—",
-     "sp": "—",
-     "note": {
-      "en": "Company guidance",
-      "zh": "公司指引"
+      "en": "Morningstar: mid-cycle $3.70",
+      "zh": "Morningstar 中周期 $3.70"
      }
     }
    ]
@@ -1635,8 +1664,8 @@
    {
     "date": "2026-11-17",
     "note": {
-     "en": "One Page V2 with DCF",
-     "zh": "One Page V2（含 DCF）"
+     "en": "One Page V2 with DCF; Morningstar FV and gap bridge added",
+     "zh": "One Page V2（含 DCF）；补充 Morningstar 合理价值与差距拆解"
     }
    },
    {

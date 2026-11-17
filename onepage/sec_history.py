@@ -73,7 +73,7 @@ def pick(facts, key, years):
     for tag in TAGS[key]:
         s = series(facts, tag, key in INSTANT)
         for y in years:
-            if res.get(y) is None and s.get(y) is not None:
+            if res.get(y) is None and s.get(y) is not None and not (key == "rev" and s[y] == 0):
                 res[y] = s[y]
     return res
 
