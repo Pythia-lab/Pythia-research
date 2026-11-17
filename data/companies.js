@@ -54,6 +54,411 @@
 
 window.COMPANIES = [
   {
+    "id": "swk",
+    "name": {
+      "en": "Stanley Black & Decker",
+      "zh": "史丹利百得"
+    },
+    "ticker": "SWK",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Industrials",
+    "industry": "Industrial Machinery",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 112.92,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 101.85,
+      "bear": 68.65,
+      "bull": 103.64,
+      "morningstar": null,
+      "sp": 113.36
+    },
+    "moat": "",
+    "summary": {
+      "en": "A tool brand house repairing margins and paying down debt after the 2022 inventory bust; my DCF ($101.85) is 10% below the price, which already prices most of the margin recovery.",
+      "zh": "在 2022 年库存危机后修复利润率、降低债务的工具品牌公司；我的 DCF（$101.85）比股价低 10%，股价已反映了大部分利润率修复。"
+    },
+    "tags": [
+      {
+        "en": "Tools",
+        "zh": "工具"
+      },
+      {
+        "en": "Housing cycle",
+        "zh": "房地产周期"
+      },
+      {
+        "en": "Turnaround",
+        "zh": "扭转"
+      },
+      {
+        "en": "Dividend",
+        "zh": "股息"
+      }
+    ],
+    "business": {
+      "en": "### Two segments\n- **Tools & Outdoor (87% of FY25 sales, 10.1% margin):** power tools, hand tools and outdoor equipment under DEWALT, CRAFTSMAN, STANLEY and other brands.\n- **Engineered Fastening (13%, 10.0%):** fasteners for autos and industry; CAM aerospace fasteners sold to Howmet in early 2026.\n\n### What changed\nAfter the 2022 inventory glut, a cost programme and divestments rebuilt gross margin to ~31% and cut debt; 2026 margins are boosted by one-time tariff refunds.\n\n### Key risks\nHousing and DIY demand, tariffs and input costs, retailer inventories, and leverage.",
+      "zh": "### 两个分部\n- **工具与户外（占 FY25 销售 87%，利润率 10.1%）：** DEWALT、CRAFTSMAN、STANLEY 等品牌的电动工具、手动工具与户外设备。\n- **工程紧固件（13%，10.0%）：** 汽车与工业紧固件；CAM 航空紧固件已于 2026 年初出售给 Howmet。\n\n### 发生了什么变化\n2022 年库存积压后，降本计划和资产出售使毛利率回升至约 31% 并降低了债务；2026 年利润率受一次性关税退款推高。\n\n### 关键风险\n房地产与 DIY 需求、关税与原材料成本、零售商库存，以及杠杆。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Tools & Outdoor",
+          "zh": "工具与户外"
+        },
+        "share": 87.0
+      },
+      {
+        "name": {
+          "en": "Engineered Fastening",
+          "zh": "工程紧固件"
+        },
+        "share": 13.0
+      }
+    ],
+    "dcf": {
+      "wacc": "9.1%",
+      "terminalGrowth": "2.0%",
+      "horizon": "2026-30",
+      "revenueCagr": "2.3% (2025-30, blended)",
+      "margin": "EBIT margin 7.8% → 11.6% (2030E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 68.65
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 101.85
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 103.64
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$101.85**, **10% below** the price (**$112.92**) and the Street average target (**$113.36**). Revenue grows only **2.3% a year** to 2030 and the EBIT margin recovers to **11.6%**, close to consensus; the difference is mostly the **discount rate**: with the raw beta of **1.16** my WACC is 9.1%, while a 1.0 beta (WACC 8.6%) gives **$112.81**, about the market price. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合基准价值为 **$101.85**，比股价（**$112.92**）和华尔街平均目标价（**$113.36**）低 **10%**。营收到 2030 年每年只增长 **2.3%**，EBIT 利润率回升至 **11.6%**，与一致预期接近；差距主要来自 **折现率**：用原始 beta **1.16**，WACC 为 9.1%；若 beta 为 1.0（WACC 8.6%），价值为 **$112.81**，约等于市价。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$101.85",
+          "morningstar": "—",
+          "sp": "$113.36",
+          "note": {
+            "en": "Street = average of 15 analysts (S&P Global)",
+            "zh": "华尔街 = 15 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "9.1%",
+          "morningstar": "—",
+          "sp": "9.6%",
+          "note": {
+            "en": "S&P Global WACC estimate",
+            "zh": "S&P Global 的 WACC 估计"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2030E",
+            "zh": "营收 2026E / 2030E"
+          },
+          "mine": "$15.2B / $17.0B",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "2026 after the CAM sale",
+            "zh": "2026 年为出售 CAM 后"
+          }
+        },
+        {
+          "item": {
+            "en": "EBIT margin 2030E",
+            "zh": "EBIT 利润率 2030E"
+          },
+          "mine": "11.6%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "FY25 7.8% (S&P)",
+            "zh": "FY25 7.8%（S&P）"
+          }
+        },
+        {
+          "item": {
+            "en": "2026 GAAP EPS",
+            "zh": "2026 GAAP EPS"
+          },
+          "mine": "—",
+          "morningstar": "—",
+          "sp": {
+            "en": "Guide $5.45-5.85",
+            "zh": "指引 $5.45-5.85"
+          },
+          "note": {
+            "en": "Incl. tariff refunds",
+            "zh": "含关税退款"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/swk/SWK_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/swk/SWK_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/swk/SWK_OnePage_en.png",
+      "zh": "reports/swk/SWK_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
+
+  {
+    "id": "xpev",
+    "name": {
+      "en": "XPeng",
+      "zh": "小鹏汽车"
+    },
+    "ticker": "XPEV",
+    "exchange": "NYSE",
+    "market": "CN",
+    "sector": "Consumer Discretionary",
+    "industry": "Automobiles",
+    "indices": [
+      "Other"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 9.67,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 17.99,
+      "bear": 3.67,
+      "bull": 19.8,
+      "morningstar": null,
+      "sp": 16.25
+    },
+    "moat": "",
+    "summary": {
+      "en": "A Chinese smart-EV maker that has reached scale and a 19% gross margin but is not yet profitable; my DCF ($17.99 per ADS) is well above the price, with a very wide range ($3.67 bear).",
+      "zh": "已实现规模、毛利率达 19% 但尚未盈利的中国智能电动车企；我的 DCF（每 ADS $17.99）明显高于股价，但区间很宽（悲观 $3.67）。"
+    },
+    "tags": [
+      {
+        "en": "Electric vehicles",
+        "zh": "电动车"
+      },
+      {
+        "en": "China",
+        "zh": "中国"
+      },
+      {
+        "en": "Autonomous driving",
+        "zh": "智能驾驶"
+      },
+      {
+        "en": "Loss-making",
+        "zh": "亏损期"
+      }
+    ],
+    "business": {
+      "en": "### Two revenue lines\n- **Vehicle sales (89% of FY25 revenue, +91%):** smart electric cars sold in China and abroad; deliveries reached 118,390 in Q3 2026.\n- **Services & others (11%, +66%):** technology fees from Volkswagen, software, parts and services.\n\n### What changed\nAfter the 2023 price war cut gross margin to 1.7%, XPeng rebuilt it to 19% with scale and technology fees, and turned FCF positive in FY25. It still loses money at the operating level.\n\n### Key risks\nPrice competition in China, cash needs and dilution, technology execution, and US-China tensions (ADR listing).",
+      "zh": "### 两条收入线\n- **汽车销售（占 FY25 营收 89%，+91%）：** 在中国及海外销售智能电动车；2026年Q3 交付 118,390 辆。\n- **服务及其他（11%，+66%）：** 来自大众的技术服务费、软件、零部件与服务。\n\n### 发生了什么变化\n2023 年价格战使毛利率降至 1.7%，之后小鹏依靠规模和技术服务费使其回升至 19%，并在 FY25 实现正 FCF。经营层面仍在亏损。\n\n### 关键风险\n中国市场价格竞争、资金需求与股权稀释、技术落地，以及中美关系（ADR 上市）。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "Vehicle sales",
+          "zh": "汽车销售"
+        },
+        "share": 89.1
+      },
+      {
+        "name": {
+          "en": "Services & others",
+          "zh": "服务及其他"
+        },
+        "share": 10.9
+      }
+    ],
+    "dcf": {
+      "wacc": "10.1%",
+      "terminalGrowth": "2.5%",
+      "horizon": "2026-35",
+      "revenueCagr": "10.4% (2025-35, blended)",
+      "margin": "EBIT margin -3.3% → 6.5% (2035E)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 3.67
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 17.99
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 19.8
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$17.99 per ADS**, **86% above** the price (**$9.67**) and 11% above the Street average target (**$16.25**). It needs revenue to grow **10.4% a year to $31.0B in 2035** and the EBIT margin to turn positive in **2028** and reach **6.5%**; I use a **1.3 beta** (WACC 10.1%) rather than the raw 0.98, which would give $21.71. The market is pricing something closer to my bear case. Morningstar's fair value will be added when the report is uploaded.",
+        "zh": "我的混合基准价值为 **每 ADS $17.99**，比股价（**$9.67**）高 **86%**，比华尔街平均目标价（**$16.25**）高 11%。它要求营收 **每年增长 10.4%，2035 年达 $310 亿**，EBIT 利润率在 **2028 年** 转正并达到 **6.5%**；我用 **1.3 的 beta**（WACC 10.1%），而不是原始的 0.98（对应 $21.71）。市场定价更接近我的悲观情景。Morningstar 的合理价值将在上传报告后补充。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per ADS",
+            "zh": "每 ADS 价值"
+          },
+          "mine": "$17.99",
+          "morningstar": "—",
+          "sp": "$16.25",
+          "note": {
+            "en": "Street = average of 25 analysts (S&P Global)",
+            "zh": "华尔街 = 25 位分析师平均（S&P Global）"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "10.1%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Beta 1.3 (raw 0.98)",
+            "zh": "Beta 1.3（原始 0.98）"
+          }
+        },
+        {
+          "item": {
+            "en": "Revenue 2026E / 2035E",
+            "zh": "营收 2026E / 2035E"
+          },
+          "mine": "$13.3B / $31.0B",
+          "morningstar": "—",
+          "sp": "—",
+          "note": ""
+        },
+        {
+          "item": {
+            "en": "EBIT margin 2026E / 2035E",
+            "zh": "EBIT 利润率 2026E / 2035E"
+          },
+          "mine": "-5.3% / 6.5%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Positive from 2028",
+            "zh": "2028 年起为正"
+          }
+        },
+        {
+          "item": {
+            "en": "Deliveries 2030E",
+            "zh": "2030E 交付量"
+          },
+          "mine": "~865k",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "Blend of guidance 930k and consensus 800k",
+            "zh": "指引 93 万与一致预期 80 万的平均"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/xpev/XPEV_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/xpev/XPEV_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/xpev/XPEV_OnePage_en.png",
+      "zh": "reports/xpev/XPEV_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      },
+      "mine": {
+        "en": "My DCF / ADS",
+        "zh": "我的 DCF / ADS"
+      }
+    }
+  },
+
+  {
     "id": "gd",
     "name": {
       "en": "General Dynamics",

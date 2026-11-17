@@ -1,0 +1,1617 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "SWK | FY25: Jan 3, 2026 | Q3 26: Sep 2026 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+  "zh": "SWK | FY25：2026年1月3日 | 2026年Q3：2026年9月 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "STANLEY B&D",
+   "zh": "史丹利百得"
+  },
+  "ticker": "SWK",
+  "name_size_pt": 19,
+  "name_width_in": 2.3
+ },
+ "header_metrics": [
+  {
+   "value": "16.8B"
+  },
+  {
+   "value": "112.92"
+  },
+  {
+   "value": "59.46"
+  },
+  {
+   "value": "20.2x"
+  },
+  {
+   "value": "9.8x"
+  },
+  {
+   "value": "3.1%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Brands | Tools & Outdoor (DEWALT, CRAFTSMAN, STANLEY) $13.2B, 87% of FY25 sales.",
+    "2 Sell | Pros, DIY and retail channels; FY25 sales -1.5%, Q3 2026 organic +4%.",
+    "3 Restore margin | Gross margin 25% (FY23) to 31% (FY25); Q3 2026 39% incl. tariff refunds.",
+    "4 Simplify | Sold Infrastructure (2024) and CAM aerospace fasteners (2026) to cut debt.",
+    "5 Collect | FY25 OCF $1.0B - capex $0.3B = FCF $0.7B → dividends $0.5B; debt down to $5.2B."
+   ],
+   "zh": [
+    "1 品牌 | 工具与户外（DEWALT、CRAFTSMAN、STANLEY）$132 亿，占 FY25 销售 87%。",
+    "2 销售 | 专业、DIY 与零售渠道；FY25 销售 -1.5%，2026年Q3 有机 +4%。",
+    "3 修复利润率 | 毛利率由 FY23 的 25% 升至 FY25 的 31%；2026年Q3 含关税退款为 39%。",
+    "4 精简 | 出售基础设施业务（2024）和 CAM 航空紧固件（2026）以降债。",
+    "5 回款 | FY25 OCF $1.0B - 资本开支 $0.3B = FCF $0.7B → 股息 $0.5B；债务降至 $52 亿。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: tool demand vs housing, gross margin without tariff refunds, and debt reduction.",
+   "zh": "关注：工具需求与房地产周期、剔除关税退款后的毛利率，以及债务下降。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "SALES BY SEGMENT | FY25",
+   "zh": "分部销售 | FY25"
+  },
+  "columns": [
+   {
+    "en": "Segment",
+    "zh": "分部"
+   },
+   "$M",
+   {
+    "en": "YoY",
+    "zh": "同比"
+   },
+   {
+    "en": "Margin",
+    "zh": "利润率"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tools & Outdoor",
+     "zh": "工具与户外"
+    },
+    "13,158",
+    "-1.1%",
+    "10.1%"
+   ],
+   [
+    {
+     "en": "Engineered Fastening",
+     "zh": "工程紧固件"
+    },
+    "1,972",
+    "-4.4%",
+    "10.0%"
+   ]
+  ],
+  "total_row": [
+   {
+    "en": "Total net sales",
+    "zh": "合计"
+   },
+   "15,130",
+   "-1.5%",
+   "7.8%"
+  ],
+  "notes": [
+   {
+    "en": "Segment profit margins (10-K); total = S&P EBIT margin. CAM sold to Howmet in early 2026 (~15% of Fastening).",
+    "zh": "分部利润率取自 10-K；合计为 S&P 口径 EBIT 利润率。CAM 于 2026 年初出售给 Howmet（约占紧固件 15%）。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "ocf_ps": [
+   5.872255371682196,
+   5.796006022759312,
+   5.466821182042626,
+   8.112710267502207,
+   7.742328395740835,
+   7.998947418138145,
+   4.385073040820209,
+   8.04247990815155,
+   9.628407543115852,
+   12.449284909528588,
+   4.018203412836921,
+   -9.32272137870242,
+   7.955205641364665,
+   7.316073682888624,
+   6.394606197079235
+  ],
+  "fcf_ps": [
+   4.096293465800535,
+   3.5590668322325607,
+   3.3235501587141636,
+   6.290965774992645,
+   5.703115791128051,
+   5.6576275074726565,
+   1.4831189446962592,
+   4.903686694731471,
+   6.912604472410331,
+   10.306168309455941,
+   0.8726003490401396,
+   -12.710711388475469,
+   5.69345112887393,
+   4.976965835409824,
+   4.529293248528425
+  ],
+  "last_price": 112.92,
+  "log": true,
+  "legend": {
+   "en": [
+    "OCF / sh $6.39",
+    "FCF / sh $4.53"
+   ],
+   "zh": [
+    "OCF /股 $6.39",
+    "FCF /股 $4.53"
+   ]
+  },
+  "price_min": 40,
+  "price_max": 300,
+  "price_ticks": [
+   50,
+   100,
+   200
+  ],
+  "cash_max": 16,
+  "cash_min": -14,
+  "note": {
+   "en": "Cash $/sh L lin; price R log (Nov 16, 2026)",
+   "zh": "现金$/股：左线性 | 股价：右对数（2026年11月16日）"
+  },
+  "annotations": [
+   {
+    "x": 6.1,
+    "text": {
+     "en": "Craftsman 2017",
+     "zh": "收购 Craftsman 2017"
+    }
+   },
+   {
+    "x": 10.6,
+    "dy": 10,
+    "text": {
+     "en": "Inventory glut 2022",
+     "zh": "2022 库存积压"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "FY11",
+   "FY12",
+   "FY13",
+   "FY14",
+   "FY15",
+   "FY16",
+   "FY17",
+   "FY18",
+   "FY19",
+   "FY20",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M sh",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      9376.5,
+      10022.4,
+      10889.5,
+      11338.6,
+      11171.8,
+      11593.5,
+      12966.6,
+      13982.4,
+      12912.9,
+      12750.0,
+      15281.3,
+      16947.4,
+      15781.1,
+      15365.7,
+      15130.4
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      null,
+      6.888497840345531,
+      8.651620370370372,
+      4.124156297350656,
+      -1.471081085848347,
+      3.7746826831844604,
+      11.84370552464744,
+      7.833973439452135,
+      -7.648901476141434,
+      -1.261529168505915,
+      19.853333333333325,
+      10.902868211474171,
+      -6.8818815865560605,
+      -2.6322626432884855,
+      -1.5313327736451998
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA率*"
+     },
+     "values": [
+      16.70985975577241,
+      16.693606321839084,
+      15.658202855962164,
+      17.176723757783147,
+      17.96040029359638,
+      18.027342907663776,
+      17.686980395786097,
+      15.82990044627532,
+      19.78021978021978,
+      20.019607843137255,
+      14.952916309476288,
+      7.545110164390997,
+      4.989512771606542,
+      9.490618715710966,
+      10.175540633426742
+     ]
+    },
+    {
+     "key": "op_income",
+     "values": [
+      1338.3,
+      1435.2,
+      1467.1,
+      1684.2,
+      1749.6,
+      1826.4,
+      1996.5,
+      1882.2,
+      1994.0,
+      2176.0,
+      1911,
+      909,
+      355,
+      1032,
+      1174
+     ]
+    },
+    {
+     "key": "op_margin",
+     "values": [
+      14.272916333386657,
+      14.31992337164751,
+      13.47261123100234,
+      14.853685640202494,
+      15.660860380601157,
+      15.753655065338338,
+      15.397251399750129,
+      13.461208376244421,
+      15.441922418666607,
+      17.066666666666666,
+      12.505480554664853,
+      5.363654601885835,
+      2.249526332131474,
+      6.716257638766863,
+      7.759213239570665
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      674.6,
+      883.8,
+      490.3,
+      760.9,
+      883.7,
+      968.0,
+      1227.3,
+      605.2,
+      955.8,
+      1233.8,
+      1689.2,
+      1062.5,
+      -310.5,
+      294.3,
+      401.9
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      7.194582200181304,
+      8.818247126436782,
+      4.502502410578998,
+      6.710705025311767,
+      7.910095060778032,
+      8.349506188812697,
+      9.465087224098838,
+      4.328298432314911,
+      7.4019004251562395,
+      9.676862745098038,
+      11.054033361036037,
+      6.269398255779647,
+      -1.9675434538783736,
+      1.9153048673343875,
+      2.656241738486755
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      998.9,
+      966.2,
+      868.0,
+      1295.9,
+      1182.3,
+      1185.5,
+      668.5,
+      1260.9,
+      1505.7,
+      2022.1,
+      663.1,
+      -1459.5,
+      1191.3,
+      1106.9,
+      971.2
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      10.653228816722656,
+      9.640405491698596,
+      7.97098122044171,
+      11.429100594429647,
+      10.582896220841763,
+      10.225557424418856,
+      5.155553498989711,
+      9.017765190525234,
+      11.66043259066515,
+      15.859607843137255,
+      4.33929050538894,
+      -8.611940474645078,
+      7.548903435121759,
+      7.203706957704497,
+      6.418865330724898
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      1.480729321079158,
+      1.0932337632948632,
+      1.7703446869263715,
+      1.7031147325535552,
+      1.3378974765191807,
+      1.224690082644628,
+      0.5446915994459383,
+      2.0834434897554526,
+      1.5753295668549907,
+      1.6389204084940834,
+      0.39255268766279894,
+      -1.3736470588235294,
+      "NM",
+      3.761128100577642,
+      2.4165215227668577
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      302.1,
+      372.9,
+      340.3,
+      291.0,
+      311.4,
+      347.0,
+      442.4,
+      492.1,
+      424.7,
+      348.1,
+      519.1,
+      530.4,
+      338.7,
+      353.9,
+      283.3
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      30.24326759435379,
+      38.594493893603804,
+      39.205069124423964,
+      22.4554363762636,
+      26.338492768332912,
+      29.270350063264445,
+      66.17801047120419,
+      39.02767864223967,
+      28.20614996347214,
+      17.214776717274123,
+      78.28381842859298,
+      "NM",
+      28.43112566104256,
+      31.972174541512327,
+      29.17009884678748
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      696.8,
+      593.3000000000001,
+      527.7,
+      1004.9000000000001,
+      870.9,
+      838.5,
+      226.10000000000002,
+      768.8000000000001,
+      1081.0,
+      1674.0,
+      144.0,
+      -1989.9,
+      852.5999999999999,
+      753.0000000000001,
+      687.9000000000001
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      7.431344318242414,
+      5.919739782886335,
+      4.845952523072685,
+      8.862646182068334,
+      7.795520865035178,
+      7.232500970371329,
+      1.7437107645797665,
+      5.498340771255293,
+      8.371473487752558,
+      13.129411764705882,
+      0.9423282050610878,
+      -11.741624083930278,
+      5.402665213451533,
+      4.900525195728148,
+      4.546475968910274
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions",
+      "zh": "收购支出"
+     },
+     "values": [
+      1179.6,
+      707.3,
+      933.9,
+      3.2,
+      17.6,
+      59.3,
+      2583.5,
+      524.6,
+      685.4,
+      1324.4,
+      2043.8,
+      71.9,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF",
+      "zh": "收购/OCF"
+     },
+     "values": [
+      118.08989888877765,
+      73.20430552680604,
+      107.59216589861751,
+      0.24693263369087118,
+      1.488623868730441,
+      5.002108814846056,
+      386.4622288706058,
+      41.60520263303989,
+      45.52035598060702,
+      65.49626625785075,
+      308.21897149751163,
+      "NM",
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      68.9,
+      89.7,
+      66.4,
+      57.1,
+      67.9,
+      81.2,
+      78.7,
+      76.5,
+      88.8,
+      109.1,
+      118.3,
+      90.7,
+      83.8,
+      105.4,
+      94.1
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      6.89758734608069,
+      9.283792175533016,
+      7.649769585253457,
+      4.406204182421483,
+      5.743043220840735,
+      6.849430619991565,
+      11.772625280478684,
+      6.067094932191291,
+      5.897589161187487,
+      5.395381039513377,
+      17.840446388176744,
+      "NM",
+      7.034332242088475,
+      9.522088716234528,
+      9.689044481054365
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      11.1,
+      1073.9,
+      39.2,
+      28.2,
+      649.8,
+      374.1,
+      28.7,
+      527.1,
+      27.5,
+      26.2,
+      34.3,
+      2323.0,
+      16.1,
+      17.7,
+      20.1
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      1.111222344579037,
+      111.14676050507141,
+      4.516129032258065,
+      2.1760938344008025,
+      54.96066988074093,
+      31.556305356389714,
+      4.293193717277487,
+      41.80347370925529,
+      1.826393039782161,
+      1.2956827060976213,
+      5.172673804855979,
+      "NM",
+      1.3514647863678337,
+      1.5990604390640526,
+      2.0696046128500822
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      275.9,
+      304.0,
+      312.7,
+      321.3,
+      319.9,
+      330.9,
+      362.9,
+      384.9,
+      402.0,
+      431.8,
+      474.8,
+      465.8,
+      482.6,
+      491.2,
+      500.6
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      27.620382420662725,
+      31.463465121092938,
+      36.025345622119815,
+      24.793579751524035,
+      27.057430432208406,
+      27.912273302404046,
+      54.285714285714285,
+      30.525814894123243,
+      26.698545526997407,
+      21.354037881410417,
+      71.60307645905594,
+      "NM",
+      40.5103668261563,
+      44.37618574396964,
+      51.54448105436573
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      10.999230137014806,
+      11.874821952241307,
+      11.369967430544657,
+      13.492728932156986,
+      14.959025087123095,
+      15.905373973433282,
+      13.747123731827216,
+      12.041446329513708,
+      13.100964737192283,
+      12.217855137563168,
+      8.166092398565501,
+      4.171032608064309,
+      1.721534372371967,
+      5.426373099757728,
+      6.136226802077475
+     ]
+    },
+    {
+     "key": "roe",
+     "metric": "ROE*",
+     "values": [
+      9.632189159860644,
+      13.256138351007182,
+      7.211142487351453,
+      11.835249101740523,
+      15.205795305939846,
+      15.203392492539658,
+      14.782828647828284,
+      7.7231311094663235,
+      10.461565403938138,
+      11.15591883974104,
+      14.574004572710411,
+      10.93996149133555,
+      -3.428628217444595,
+      3.3750387045723,
+      4.438627879751729
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      4.2297322716157755,
+      5.578136834132795,
+      2.965207346795605,
+      4.814786691471455,
+      5.841563214743718,
+      6.183328010220377,
+      6.426428313357105,
+      3.1183017312448476,
+      4.640571744851092,
+      5.235442135591926,
+      5.9943222143364085,
+      4.256248172316961,
+      -1.3121307651349319,
+      1.3469785664266851,
+      1.8918549970108784
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      170.105,
+      166.701,
+      158.776,
+      159.737,
+      152.706,
+      148.207,
+      152.449,
+      156.78,
+      156.381,
+      162.427,
+      165.024,
+      156.553,
+      149.751,
+      151.297,
+      151.878
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      55.121836512742135,
+      60.122014864937825,
+      68.58404292840227,
+      70.98292818820937,
+      73.15888046311213,
+      78.22505009884824,
+      85.05532997920615,
+      89.18484500574053,
+      82.57333051969229,
+      78.49680164012142,
+      92.60047023463254,
+      108.25343493896636,
+      105.38226789804409,
+      101.55984586607799,
+      99.6220650785499
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      3.97,
+      5.3,
+      3.09,
+      4.76,
+      5.79,
+      6.53,
+      8.05,
+      3.85,
+      6.11,
+      7.46,
+      10.16,
+      6.76,
+      -2.07,
+      1.95,
+      2.65
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      5.872255371682196,
+      5.796006022759312,
+      5.466821182042626,
+      8.112710267502207,
+      7.742328395740835,
+      7.998947418138145,
+      4.385073040820209,
+      8.04247990815155,
+      9.628407543115852,
+      12.449284909528588,
+      4.018203412836921,
+      -9.32272137870242,
+      7.955205641364665,
+      7.316073682888624,
+      6.394606197079235
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      1.7759619058816616,
+      2.2369391905267513,
+      2.1432710233284626,
+      1.8217444925095627,
+      2.039212604612785,
+      2.3413199106654883,
+      2.901954096123949,
+      3.138793213420079,
+      2.7158030707055203,
+      2.1431166000726485,
+      3.145603063796781,
+      3.387990009773048,
+      2.2617545124907346,
+      2.3391078474788,
+      1.8653129485508109
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      4.096293465800535,
+      3.5590668322325607,
+      3.3235501587141636,
+      6.290965774992645,
+      5.703115791128051,
+      5.6576275074726565,
+      1.4831189446962592,
+      4.903686694731471,
+      6.912604472410331,
+      10.306168309455941,
+      0.8726003490401396,
+      -12.710711388475469,
+      5.69345112887393,
+      4.976965835409824,
+      4.529293248528425
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      1.621939390376532,
+      1.8236243333873223,
+      1.9694412253741118,
+      2.0114312901832387,
+      2.094875119510694,
+      2.2326880646663114,
+      2.3804682221595415,
+      2.455032529659395,
+      2.5706447714236385,
+      2.658425015545445,
+      2.877157261974016,
+      2.9753502008904333,
+      3.222682987091906,
+      3.246594446684336,
+      3.2960665797548034
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      18.36,
+      10.52,
+      null,
+      42.21,
+      29.47
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.47,
+      -17.9,
+      5.67,
+      6.06,
+      5.81
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1.58,
+      4.38,
+      3.29,
+      4.05,
+      4.32
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "End demand",
+     "zh": "终端需求"
+    },
+    "text": {
+     "en": "Pro and DIY tool demand tracks housing turnover; FY25 sales -1.5%, Q3 2026 organic +4%.",
+     "zh": "专业与 DIY 工具需求跟随房屋交易；FY25 销售 -1.5%，2026年Q3 有机 +4%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Two segments",
+     "zh": "两个分部"
+    },
+    "sub": [
+     {
+      "title": {
+       "en": "Tools & Outdoor",
+       "zh": "工具与户外"
+      },
+      "text": {
+       "en": "87%; 10.1% margin.",
+       "zh": "87%；利润率 10.1%。"
+      }
+     },
+     {
+      "title": {
+       "en": "Fastening",
+       "zh": "紧固件"
+      },
+      "text": {
+       "en": "13%; 10.0% margin.",
+       "zh": "13%；利润率 10.0%。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Margin repair",
+     "zh": "利润率修复"
+    },
+    "text": {
+     "en": "EBIT margin 12.5% (FY21) fell to 2.2% (FY23) after the inventory glut; 7.8% in FY25.",
+     "zh": "EBIT 利润率由 FY21 的 12.5% 在库存积压后降至 FY23 的 2.2%；FY25 回到 7.8%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Cash and debt",
+     "zh": "现金与债务"
+    },
+    "text": {
+     "en": "FY25 FCF $0.7B covered the $0.5B dividend; TTM FCF $1.7B; net debt/EBITDA 5.1x (FY22) to 2.7x TTM.",
+     "zh": "FY25 FCF $0.7B 覆盖了 $0.5B 股息；TTM FCF $17 亿；净债务/EBITDA 由 FY22 的 5.1 倍降至 TTM 2.7 倍。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "Tools margins must reach ~13.5% by 2030 without tariff help, so FCF can cover the dividend and keep cutting debt.",
+     "zh": "工具业务利润率须在不靠关税退款的情况下于 2030 年达到约 13.5%，使 FCF 能覆盖股息并继续降债。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "Street avg target",
+   "zh": "华尔街平均目标价"
+  },
+  "bull": {
+   "en": "Guidance",
+   "zh": "公司指引"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Nov 17, 2026",
+   "zh": "2026年11月17日"
+  },
+  "price": 112.92,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 68.65
+   },
+   {
+    "name": "base",
+    "value": 101.85
+   },
+   {
+    "name": "bull",
+    "value": 103.64
+   }
+  ],
+  "wacc": "9.1%",
+  "terminal_growth": "2.0%",
+  "horizon": "2026-30",
+  "morningstar": null,
+  "sp": 113.36,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "Base = blend of guidance and consensus; consensus case $100.09. Beta 1.16; TV 75% of EV.",
+    "zh": "基准 = 公司指引与一致预期的平均；一致预期情景 $100.09。Beta 1.16；终值占 EV 75%。"
+   },
+   {
+    "en": "2026 margins include one-time tariff refunds (~1.5pp). Morningstar FV to follow.",
+    "zh": "2026 年利润率含一次性关税退款（约 1.5 个百分点）。Morningstar 合理价值待补充。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | FY21-25",
+   "zh": "核心KPI | FY21-25"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Gross margin",
+     "zh": "毛利率"
+    },
+    "33.5%",
+    "25.9%",
+    "24.9%",
+    "29.9%",
+    "30.6%"
+   ],
+   [
+    {
+     "en": "EBIT margin (S&P)",
+     "zh": "EBIT 利润率"
+    },
+    "12.5%",
+    "5.4%",
+    "2.2%",
+    "6.7%",
+    "7.8%"
+   ],
+   [
+    {
+     "en": "Tools margin",
+     "zh": "工具业务利润率"
+    },
+    "--",
+    "--",
+    "5.1%",
+    "9.0%",
+    "10.1%"
+   ],
+   [
+    {
+     "en": "Total debt ($B)",
+     "zh": "总债务（$B）"
+    },
+    "7.0",
+    "7.9",
+    "7.7",
+    "6.6",
+    "6.3"
+   ],
+   [
+    {
+     "en": "Net debt / EBITDA",
+     "zh": "净债务/EBITDA"
+    },
+    "2.84x",
+    "5.07x",
+    "7.38x",
+    "4.01x",
+    "3.59x"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y",
+   "5Y",
+   "10Y",
+   "14Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "-1.5%",
+    "-3.7%",
+    "3.5%",
+    "3.1%",
+    "3.5%"
+   ],
+   [
+    {
+     "en": "Op. Income",
+     "zh": "营业利润"
+    },
+    "13.8%",
+    "8.9%",
+    "-11.6%",
+    "-3.9%",
+    "-.9%"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "-12.3%",
+    "NM",
+    "-13.6%",
+    "-1.9%",
+    "-.2%"
+   ],
+   [
+    {
+     "en": "Capex",
+     "zh": "资本开支"
+    },
+    "-19.9%",
+    "-18.9%",
+    "-4.0%",
+    "-.9%",
+    "-.5%"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "35.9%",
+    "-26.8%",
+    "-18.7%",
+    "-7.5%",
+    "-2.8%"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "-9.0%",
+    "NM",
+    "-15.2%",
+    "-2.3%",
+    ".7%"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "1.5%",
+    "3.5%",
+    "4.4%",
+    "4.6%",
+    "5.2%"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "28.2",
+    "25.0",
+    "23.7",
+    "21.8",
+    "21.2"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "16.6",
+    "15.2",
+    "14.6",
+    "13.1",
+    "12.2"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "7.0",
+    "7.9",
+    "7.7",
+    "6.6",
+    "6.3"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "30.8",
+    "11.1",
+    "15.0",
+    "12.4",
+    "11.8"
+   ],
+   [
+    {
+     "en": "Cash + ST",
+     "zh": "现金及短投"
+    },
+    "0.1",
+    "0.4",
+    "0.4",
+    "0.3",
+    "0.3"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "58.9%",
+    "61.1%",
+    "61.7%",
+    "60.1%",
+    "57.4%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY12-25 OCF $13.4B less capex $5.4B left **$8.0B FCF**. Dividends **$5.6B (70%)**; buybacks **$5.2B (65%)**; acquisitions **$9.0B** (Craftsman, MTD, Excel). Payouts and deals ran far ahead of FCF and were paid with debt.",
+    "zh": "FY12-25 OCF $134 亿减资本开支 $54 亿，得 **FCF $80 亿**。股息 **$56 亿（70%）**；回购 **$52 亿（65%）**；收购 **$90 亿**（Craftsman、MTD、Excel）。分配与收购远超 FCF，靠举债支付。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted shares FY11 170M to FY25 152M, **down 11%**, mostly from the $2.3B buyback in FY22. Buybacks restarted in 2026 under a new **$1.0B** authorisation.",
+    "zh": "稀释股数由 FY11 的 170M 降至 FY25 的 152M，**减少 11%**，主要来自 FY22 的 $23 亿回购。2026 年在新的 **$10 亿** 授权下重启回购。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "Acquisitions built the company; the cycle broke it.",
+    "zh": "收购造就了公司，周期打断了它。"
+   },
+   "body": {
+    "en": "Revenue rose from $9.4B (FY11) to $16.9B (FY22) through deals, then fell to $15.1B (FY25). The 2022 inventory glut drove OCF to -$1.5B and EBIT margin down to 2.2% in FY23.",
+    "zh": "营收通过收购由 FY11 的 $94 亿增至 FY22 的 $169 亿，之后降至 FY25 的 $151 亿。2022 年库存积压使 OCF 降至 -$15 亿，FY23 EBIT 利润率降至 2.2%。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The margin repair is working.",
+    "zh": "利润率修复在见效。"
+   },
+   "body": {
+    "en": "Gross margin recovered from 24.9% (FY23) to 30.6% (FY25) on cost cuts and simpler operations; Tools & Outdoor margin rose from 5.1% to 10.1%. Q3 2026's 39% gross margin includes ~430bp of one-time tariff refunds.",
+    "zh": "通过降本和简化运营，毛利率由 FY23 的 24.9% 回升至 FY25 的 30.6%；工具与户外利润率由 5.1% 升至 10.1%。2026年Q3 39% 的毛利率包含约 430 个基点的一次性关税退款。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Divestments pay down debt.",
+    "zh": "出售资产用于还债。"
+   },
+   "body": {
+    "en": "Selling Infrastructure (2024) and CAM aerospace fasteners (2026) cut total debt from $7.9B (FY22) to $5.2B; net debt/EBITDA fell from 7.4x (FY23) to 2.7x TTM.",
+    "zh": "出售基础设施业务（2024）和 CAM 航空紧固件（2026），使总债务由 FY22 的 $79 亿降至 $52 亿；净债务/EBITDA 由 FY23 的 7.4 倍降至 TTM 2.7 倍。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The dividend has been the anchor.",
+    "zh": "股息一直是锚。"
+   },
+   "body": {
+    "en": "Dividend per share has grown 5.2% a year for 14 years even when FCF was negative; in FY25 FCF only just covered it (73%). The yield is 3.1% at today's price.",
+    "zh": "14 年来每股股息年均增长 5.2%，即使 FCF 为负也未中断；FY25 的 FCF 只是勉强覆盖（股息占 73%）。按现价股息率 3.1%。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Demand is the swing factor.",
+    "zh": "需求是关键变量。"
+   },
+   "body": {
+    "en": "DEWALT gains share with professionals, but DIY and outdoor demand follow housing turnover. My model grows sales only 2.3% a year to 2030; a housing recovery is the upside, a slump the bear case ($68.65). In my model the 2026 tariff refunds (~1.5pp) fall away, so Tools margin dips from 12.8% to 12.0% in 2027.",
+    "zh": "DEWALT 在专业用户中份额提升，但 DIY 与户外需求跟随房屋交易。我的模型到 2030 年销售每年只增长 2.3%；房地产复苏是上行空间，下滑则是悲观情景（$68.65）。在我的模型中，2026 年的关税退款（约 1.5 个百分点）随后消失，工具业务利润率由 12.8% 降至 2027 年的 12.0%。"
+   }
+  },
+  {
+   "headline": {
+    "en": "My DCF is a little below the price.",
+    "zh": "我的 DCF 略低于股价。"
+   },
+   "body": {
+    "en": "Base $101.85 (WACC 9.1%, g 2%, beta 1.16) needs $17.0B sales by 2030 at an 11.6% EBIT margin; TV is 75% of EV. At $112.92 that is -10%; the Street ($113.36) sits at the price. A 1.0 beta gives $112.81.",
+    "zh": "基准价值 $101.85（WACC 9.1%，g 2%，beta 1.16）要求 2030 年销售 $170 亿、EBIT 利润率 11.6%；终值占 EV 75%。按 $112.92 计为 -10%；华尔街（$113.36）与股价持平。beta 为 1.0 时价值 $112.81。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY11-25 from SEC 10-K XBRL (52/53-week fiscal years; FY25 ended Jan 3, 2026). Op. income FY21-25 = S&P EBIT (analyst model); GAAP operating income not tagged after FY20.",
+   "EBITDA* = op. income + D&A. FCF = OCF - capex. ROIC* = op. income x (1-21%) / (equity + debt - cash). Dividend/Sh.* = dividends paid / diluted shares. Total debt FY21-25 and net debt/EBITDA from the model (S&P basis, incl. short-term debt).",
+   "Header: Nov 16, 2026 close $112.92, 148.7M shares; book value = Q3 2026 equity $8.8B; TTM P/E (EPS $5.58, incl. tariff refunds and CAM gain); P/FCF on TTM FCF $1.7B. FY21-25 ratios and Mkt cap* from StockAnalysis.",
+   "DCF: Pythia model SWK_DCF_Model, Nov 17, 2026; WACC 9.1%, g 2.0%. Street avg target = 15-analyst average (S&P Global via StockAnalysis). Morningstar FV not yet provided.",
+   "Sources: Stanley Black & Decker 10-K FY2025, Q3 2026 release (Nov 4, 2026); SEC EDGAR; StockAnalysis."
+  ],
+  "zh": [
+   "FY11-25 数据取自 SEC 10-K XBRL（52/53 周财年；FY25 截至 2026年1月3日）。FY21-25 营业利润为 S&P 口径 EBIT（分析模型）；FY20 后 XBRL 中无 GAAP 营业利润。",
+   "EBITDA* = 营业利润 + 折旧摊销。FCF = OCF - 资本开支。ROIC* = 营业利润 ×（1-21%）/（权益 + 债务 - 现金）。每股股息* = 已付股息 / 稀释股数。FY21-25 总债务与净债务/EBITDA 取自模型（S&P 口径，含短期借款）。",
+   "首行：2026年11月16日收盘 $112.92，1.487 亿股；每股账面 = 2026年Q3 权益 $88 亿；TTM P/E（EPS $5.58，含关税退款与 CAM 出售收益）；P/FCF 按 TTM FCF $17 亿。FY21-25 比率与市值*取自 StockAnalysis。",
+   "DCF：Pythia 模型 SWK_DCF_Model，2026年11月17日；WACC 9.1%，g 2.0%。华尔街平均目标价为 15 位分析师平均（S&P Global，经 StockAnalysis）。Morningstar 合理价值待补充。",
+   "来源：Stanley Black & Decker FY2025 10-K、2026年Q3 业绩公告（2026年11月4日）；SEC EDGAR；StockAnalysis。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "swk",
+  "name": {
+   "en": "Stanley Black & Decker",
+   "zh": "史丹利百得"
+  },
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Industrial Machinery",
+  "indices": [
+   "S&P 500",
+   "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "",
+  "summary": {
+   "en": "A tool brand house repairing margins and paying down debt after the 2022 inventory bust; my DCF ($101.85) is 10% below the price, which already prices most of the margin recovery.",
+   "zh": "在 2022 年库存危机后修复利润率、降低债务的工具品牌公司；我的 DCF（$101.85）比股价低 10%，股价已反映了大部分利润率修复。"
+  },
+  "tags": [
+   {
+    "en": "Tools",
+    "zh": "工具"
+   },
+   {
+    "en": "Housing cycle",
+    "zh": "房地产周期"
+   },
+   {
+    "en": "Turnaround",
+    "zh": "扭转"
+   },
+   {
+    "en": "Dividend",
+    "zh": "股息"
+   }
+  ],
+  "business": {
+   "en": "### Two segments\n- **Tools & Outdoor (87% of FY25 sales, 10.1% margin):** power tools, hand tools and outdoor equipment under DEWALT, CRAFTSMAN, STANLEY and other brands.\n- **Engineered Fastening (13%, 10.0%):** fasteners for autos and industry; CAM aerospace fasteners sold to Howmet in early 2026.\n\n### What changed\nAfter the 2022 inventory glut, a cost programme and divestments rebuilt gross margin to ~31% and cut debt; 2026 margins are boosted by one-time tariff refunds.\n\n### Key risks\nHousing and DIY demand, tariffs and input costs, retailer inventories, and leverage.",
+   "zh": "### 两个分部\n- **工具与户外（占 FY25 销售 87%，利润率 10.1%）：** DEWALT、CRAFTSMAN、STANLEY 等品牌的电动工具、手动工具与户外设备。\n- **工程紧固件（13%，10.0%）：** 汽车与工业紧固件；CAM 航空紧固件已于 2026 年初出售给 Howmet。\n\n### 发生了什么变化\n2022 年库存积压后，降本计划和资产出售使毛利率回升至约 31% 并降低了债务；2026 年利润率受一次性关税退款推高。\n\n### 关键风险\n房地产与 DIY 需求、关税与原材料成本、零售商库存，以及杠杆。"
+  },
+  "segments": [
+   {
+    "name": {
+     "en": "Tools & Outdoor",
+     "zh": "工具与户外"
+    },
+    "share": 87.0
+   },
+   {
+    "name": {
+     "en": "Engineered Fastening",
+     "zh": "工程紧固件"
+    },
+    "share": 13.0
+   }
+  ],
+  "revenue_cagr": "2.3% (2025-30, blended)",
+  "margin": "EBIT margin 7.8% → 11.6% (2030E)",
+  "gap": {
+   "summary": {
+    "en": "My blended base value is **$101.85**, **10% below** the price (**$112.92**) and the Street average target (**$113.36**). Revenue grows only **2.3% a year** to 2030 and the EBIT margin recovers to **11.6%**, close to consensus; the difference is mostly the **discount rate**: with the raw beta of **1.16** my WACC is 9.1%, while a 1.0 beta (WACC 8.6%) gives **$112.81**, about the market price. Morningstar's fair value will be added when the report is uploaded.",
+    "zh": "我的混合基准价值为 **$101.85**，比股价（**$112.92**）和华尔街平均目标价（**$113.36**）低 **10%**。营收到 2030 年每年只增长 **2.3%**，EBIT 利润率回升至 **11.6%**，与一致预期接近；差距主要来自 **折现率**：用原始 beta **1.16**，WACC 为 9.1%；若 beta 为 1.0（WACC 8.6%），价值为 **$112.81**，约等于市价。Morningstar 的合理价值将在上传报告后补充。"
+   },
+   "bridge": [],
+   "assumptions": [
+    {
+     "item": {
+      "en": "Value per share",
+      "zh": "每股价值"
+     },
+     "mine": "$101.85",
+     "morningstar": "—",
+     "sp": "$113.36",
+     "note": {
+      "en": "Street = average of 15 analysts (S&P Global)",
+      "zh": "华尔街 = 15 位分析师平均（S&P Global）"
+     }
+    },
+    {
+     "item": "WACC",
+     "mine": "9.1%",
+     "morningstar": "—",
+     "sp": "9.6%",
+     "note": {
+      "en": "S&P Global WACC estimate",
+      "zh": "S&P Global 的 WACC 估计"
+     }
+    },
+    {
+     "item": {
+      "en": "Revenue 2026E / 2030E",
+      "zh": "营收 2026E / 2030E"
+     },
+     "mine": "$15.2B / $17.0B",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "2026 after the CAM sale",
+      "zh": "2026 年为出售 CAM 后"
+     }
+    },
+    {
+     "item": {
+      "en": "EBIT margin 2030E",
+      "zh": "EBIT 利润率 2030E"
+     },
+     "mine": "11.6%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "FY25 7.8% (S&P)",
+      "zh": "FY25 7.8%（S&P）"
+     }
+    },
+    {
+     "item": {
+      "en": "2026 GAAP EPS",
+      "zh": "2026 GAAP EPS"
+     },
+     "mine": "—",
+     "morningstar": "—",
+     "sp": {
+      "en": "Guide $5.45-5.85",
+      "zh": "指引 $5.45-5.85"
+     },
+     "note": {
+      "en": "Incl. tariff refunds",
+      "zh": "含关税退款"
+     }
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/swk/SWK_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/swk/SWK_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/swk/SWK_OnePage_en.png",
+   "zh": "reports/swk/SWK_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   }
+  ]
+ }
+}
