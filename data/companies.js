@@ -69,7 +69,7 @@ window.COMPANIES = [
     "S&P 500",
     "Russell 1000"
   ],
-  "updated": "2026-11-17",
+  "updated": "2026-11-16",
   "currency": "USD",
   "price": 44.27,
   "priceDate": "2026-11-16",
@@ -215,14 +215,14 @@ window.COMPANIES = [
       "lang": "en",
       "label": "One Page",
       "path": "reports/dvn/DVN_OnePage_en.pdf",
-      "date": "2026-11-17"
+      "date": "2026-11-16"
     },
     {
       "type": "onepage",
       "lang": "zh",
       "label": "One Page",
       "path": "reports/dvn/DVN_OnePage_zh.pdf",
-      "date": "2026-11-17"
+      "date": "2026-11-16"
     }
   ],
   "onepageImage": {
@@ -231,7 +231,7 @@ window.COMPANIES = [
   },
   "history": [
     {
-      "date": "2026-11-17",
+      "date": "2026-11-16",
       "note": {
         "en": "One Page V2 with DCF",
         "zh": "One Page V2（含 DCF）"

@@ -108,6 +108,9 @@ When the user edits the Word file or asks for changes ("move X", "add a row unde
 and re-render, so the .docx, PDF, PNG and website stay in sync. Keep text clear of rules: tables already pad the
 total rows and section rules; don't remove that padding to squeeze content — cut words instead.
 
+- **Dates are New York dates.** The server clock is UTC; get today with `TZ=America/New_York date +%F` for the
+  meta line (Issued), website `updated`, file `date` and history entries.
+
 ### Quality bar — check before every delivery (from the user's reviews)
 The renderer enforces most of this automatically; read its output and fix every `QA PROBLEM` line before delivering.
 - **Nothing clipped in Word.** Word (not LibreOffice) clips a nested table wider than its cell's text area — this

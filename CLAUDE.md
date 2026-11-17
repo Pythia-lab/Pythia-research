@@ -48,6 +48,9 @@ onepage/specs/        每家公司 One Page 的 JSON 规格（重新生成 One P
 
 ## 质量要求
 
+- **所有日期按美国纽约时间（America/New_York）。** 服务器时钟是 UTC，晚上会比纽约早一天。
+  取「今天」一律用 `TZ=America/New_York date +%F`：网站的 `updated`、历史记录日期、One Page 的 Issued / 发布日期都用它。
+
 - 交付前自己先看一遍（截图），别让用户来发现对齐、裁切、贴线、换行这类问题。
 - 不编造数据：示例或占位数字不得出现在线上网站；拿不到的数据标 `--` 并在脚注说明。
 - 外部数据注明来源与日期（SEC、StockAnalysis、Morningstar 等）。

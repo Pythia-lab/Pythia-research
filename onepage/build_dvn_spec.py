@@ -94,8 +94,8 @@ fcfps = col(lambda d, y: d["fcf"] / d["sh"])
 
 spec = {
     "lang": "en",
-    "meta_line": L("DVN | FY25: Dec 31, 2025 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
-                   "DVN | FY25：2025年12月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"),
+    "meta_line": L("DVN | FY25: Dec 31, 2025 | Market: Nov 16, 2026 | USD | Issued: Nov 16, 2026",
+                   "DVN | FY25：2025年12月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月16日"),
     "company": {"name": L("DEVON ENERGY", "戴文能源"), "ticker": "DVN", "name_size_pt": 22, "name_width_in": 2.2},
     "header_metrics": [{"value": "50.5B"}, {"value": "44.27"}, {"value": "36.62"}, {"value": "10.3x"}, {"value": "27.4x"}, {"value": "2.9%"}],
     "business_chain": {
@@ -219,7 +219,7 @@ spec = {
     "brand_mark": "PYTHIA",
     "website": {
         "id": "dvn", "name": L("Devon Energy", "戴文能源"), "exchange": "NYSE", "market": "US", "sector": "Energy", "industry": "Oil & Gas E&P",
-        "indices": ["S&P 500", "Russell 1000"], "updated": "2026-11-17", "price_date": "2026-11-16", "currency": "USD", "moat": "Narrow",
+        "indices": ["S&P 500", "Russell 1000"], "updated": "2026-11-16", "price_date": "2026-11-16", "currency": "USD", "moat": "Narrow",
         "summary": L("A low-cost, multi-basin shale producer absorbing Coterra; at $44 the stock is below even Morningstar's $60-oil case, and the upside rests on synergies, asset sales and buybacks.",
                      "低成本、多盆地的页岩油气生产商，正在整合 Coterra；股价 $44 已低于按 Morningstar $60 油价算出的价值，上行空间来自协同效应、出售资产和回购。"),
         "tags": [L("Oil & gas", "油气"), "E&P", L("Shale", "页岩"), L("M&A integration", "并购整合")],
@@ -239,10 +239,10 @@ spec = {
                 {"item": L("Production 2027E (MBoe/d)", "2027E 产量（千桶油当量/天）"), "mine": "1,625", "morningstar": "1,499", "sp": "—", "note": ""},
                 {"item": L("EBITDA 2027E", "2027E EBITDA"), "mine": "$13.8B", "morningstar": "$9.4B", "sp": "$14.6B", "note": L("S&P = consensus", "S&P 为一致预期")},
                 {"item": L("EPS 2027E", "2027E EPS"), "mine": "$4.12", "morningstar": "$2.39", "sp": "$5.41", "note": L("Mine includes Coterra step-up DD&A", "我的口径含 Coterra 增值折耗")}]},
-        "files": [{"type": "onepage", "lang": "en", "label": "One Page", "path": "reports/dvn/DVN_OnePage_en.pdf", "date": "2026-11-17"},
-                  {"type": "onepage", "lang": "zh", "label": "One Page", "path": "reports/dvn/DVN_OnePage_zh.pdf", "date": "2026-11-17"}],
+        "files": [{"type": "onepage", "lang": "en", "label": "One Page", "path": "reports/dvn/DVN_OnePage_en.pdf", "date": "2026-11-16"},
+                  {"type": "onepage", "lang": "zh", "label": "One Page", "path": "reports/dvn/DVN_OnePage_zh.pdf", "date": "2026-11-16"}],
         "onepage_image": L("reports/dvn/DVN_OnePage_en.png", "reports/dvn/DVN_OnePage_zh.png"),
-        "history": [{"date": "2026-11-17", "note": L("One Page V2 with DCF", "One Page V2（含 DCF）")},
+        "history": [{"date": "2026-11-16", "note": L("One Page V2 with DCF", "One Page V2（含 DCF）")},
                     {"date": "2026-11-02", "note": L("Pitch: preliminary Buy, base $69.33", "推介：初步买入，基准 $69.33")}]},
 }
 json.dump(spec, open("onepage/specs/dvn_onepage.json", "w"), ensure_ascii=False, indent=1)

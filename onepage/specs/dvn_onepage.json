@@ -1,8 +1,8 @@
 {
  "lang": "en",
  "meta_line": {
-  "en": "DVN | FY25: Dec 31, 2025 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
-  "zh": "DVN | FY25：2025年12月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+  "en": "DVN | FY25: Dec 31, 2025 | Market: Nov 16, 2026 | USD | Issued: Nov 16, 2026",
+  "zh": "DVN | FY25：2025年12月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月16日"
  },
  "company": {
   "name": {
@@ -1505,7 +1505,7 @@
    "S&P 500",
    "Russell 1000"
   ],
-  "updated": "2026-11-17",
+  "updated": "2026-11-16",
   "price_date": "2026-11-16",
   "currency": "USD",
   "moat": "Narrow",
@@ -1621,14 +1621,14 @@
     "lang": "en",
     "label": "One Page",
     "path": "reports/dvn/DVN_OnePage_en.pdf",
-    "date": "2026-11-17"
+    "date": "2026-11-16"
    },
    {
     "type": "onepage",
     "lang": "zh",
     "label": "One Page",
     "path": "reports/dvn/DVN_OnePage_zh.pdf",
-    "date": "2026-11-17"
+    "date": "2026-11-16"
    }
   ],
   "onepage_image": {
@@ -1637,7 +1637,7 @@
   },
   "history": [
    {
-    "date": "2026-11-17",
+    "date": "2026-11-16",
     "note": {
      "en": "One Page V2 with DCF",
      "zh": "One Page V2（含 DCF）"
