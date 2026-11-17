@@ -131,21 +131,21 @@ window.COMPANIES = [
   },
   "gap": {
     "summary": {
-      "en": "My base value of **$69.33** is 11.8% above Morningstar's **$62** and above the analyst average (**$61.69**). On Morningstar's own price deck ($60 WTI midcycle) my model gives **$52.83**, so the price deck explains more than the whole gap; Morningstar's lower volumes (1,499 vs 1,625 MBoe/d) and higher costs (EBITDA $9.4B vs my $13.8B) are offset elsewhere in its method.",
-      "zh": "我的基准价值 **$69.33** 比 Morningstar 的 **$62** 高 11.8%，也高于分析师平均目标价（**$61.69**）。用 Morningstar 自己的价格（中周期 $60 WTI），我的模型得出 **$52.83**，说明油价假设解释了全部差距还有余；Morningstar 更低的产量（1,499 vs 1,625 千桶油当量/天）和更高的成本（EBITDA $9.4B vs 我的 $13.8B）在其方法的其他部分被抵消。"
+      "en": "My base value of **$69.33** is **$7.33 (11.8%)** above Morningstar's **$62**. Two steps explain it.\n\n- **Step 1 — same oil price, my model: −$9.17.** Running my model on Morningstar's own price forecast ($60 WTI long run) gives **$52.83**, below their $62. So apart from prices, my model is the more conservative one (discount rate, terminal value, synergy credit and the Eagle Ford sale), even though Morningstar assumes lower volumes (1,499 vs 1,625 MBoe/d).\n- **Step 2 — my oil price forecast: +$16.50.** I use the EIA path (WTI $79 in 2027 easing to $70) instead of Morningstar's ($73 easing to $60). That lifts the value from $52.83 to **$69.33**.\n\nIn short, the whole gap is about the long-run oil price. If oil settles near $60, my model says DVN is worth about $53.",
+      "zh": "我的基准价值 **$69.33** 比 Morningstar 的 **$62** 高 **$7.33（11.8%）**，可以拆成两步。\n\n- **第 1 步——用同样的油价，换成我的模型：−$9.17。** 用 Morningstar 自己的价格预测（长期 $60 WTI）跑我的模型，得到 **$52.83**，比他们的 $62 低。说明除油价以外，我的模型整体更保守（折现率、终值、协同效应和出售 Eagle Ford 的处理），尽管 Morningstar 假设的产量更低（1,499 vs 1,625 千桶油当量/天）。\n- **第 2 步——换成我的油价预测：+$16.50。** 我采用 EIA 的路径（2027 年 WTI $79，之后回落到 $70），而不是 Morningstar 的（$73 回落到 $60），价值因此从 $52.83 升到 **$69.33**。\n\n简单说，差距全部来自对长期油价的判断。如果油价长期在 $60 左右，我的模型认为 DVN 约值 $53。"
     },
     "bridge": [
       {
         "driver": {
-          "en": "My model on Morningstar's price deck (volumes, costs, method)",
-          "zh": "按 Morningstar 价格跑我的模型（产量、成本、方法）"
+          "en": "Same oil price, my model",
+          "zh": "同样的油价，换成我的模型"
         },
         "impact": -9.17
       },
       {
         "driver": {
-          "en": "EIA-anchored deck: WTI $79 → $70 vs $73 → $60",
-          "zh": "EIA 价格：WTI $79→$70 vs $73→$60"
+          "en": "My oil price forecast (WTI $79 → $70)",
+          "zh": "换成我的油价预测（WTI $79 → $70）"
         },
         "impact": 16.5
       }

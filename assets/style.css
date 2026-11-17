@@ -181,6 +181,7 @@ table.co tbody tr:hover{background:var(--card)}
 .block .sub{font-size:13px;color:var(--muted);margin:0 0 20px}
 .lead{font-size:18px;line-height:1.8;margin:0;color:var(--ink);border-left:3px solid var(--accent);padding-left:18px}
 .prose{font-size:15px;line-height:1.85;color:var(--ink2);max-width:70ch}
+.block .prose{max-width:none}
 .prose h3{font-size:16px;color:var(--ink);margin:22px 0 6px}
 .prose h3:first-child{margin-top:0}
 .prose p{margin:0 0 12px}
@@ -198,8 +199,14 @@ table.co tbody tr:hover{background:var(--card)}
 .legend i.band{width:18px;height:8px;border-radius:2px;background:var(--accent-soft);border:1px solid var(--c-mine)}
 
 /* bridge */
-.bridge{display:flex;flex-direction:column;gap:6px;margin-top:22px}
-.br-row{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr) 80px;gap:14px;align-items:center;font-size:13.5px}
+.bridge{display:flex;flex-direction:column;gap:0;margin-top:26px}
+.br-row{display:grid;grid-template-columns:58px minmax(0,220px) minmax(0,1fr) 72px 92px;gap:12px;align-items:center;font-size:13.5px;padding:4px 0;border-bottom:1px solid var(--line2)}
+.br-row.total{border-bottom:0}
+.br-head{border-bottom:1px solid var(--line);padding-bottom:6px;font:600 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.br-tag{font:600 11px var(--mono);letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
+.br-row .run{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:600}
+.br-title{font-weight:600;margin:0 0 4px;font-size:15px}
+.br-how{font-size:13.5px;color:var(--muted);margin:0 0 10px;line-height:1.7}
 .br-row .lab{color:var(--ink2)}
 .br-row.total .lab{font-weight:600;color:var(--ink)}
 .br-track{position:relative;height:22px}
@@ -314,8 +321,9 @@ footer{background:var(--footer);color:var(--footer-ink);padding-block:52px 40px}
   .metric-bar{grid-template-columns:repeat(2,minmax(0,1fr))}
   .metric{padding:14px 12px !important;border-right:0 !important;border-bottom:1px solid var(--line2)}
   .metric:nth-child(odd){padding-left:0 !important;border-right:1px solid var(--line2) !important}
-  .br-row{grid-template-columns:minmax(0,1fr) 70px}
-  .br-row .br-track{grid-column:1 / -1;order:3}
+  .br-row{grid-template-columns:44px minmax(0,1fr) 62px 70px;row-gap:4px}
+  .br-row .br-track{grid-column:2 / -1;order:5}
+  .br-head span:nth-child(3){display:none}
   .about-grid h1{font-size:38px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

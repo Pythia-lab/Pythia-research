@@ -33,6 +33,7 @@
       gapTitle: "Why my valuation differs", subGap: function (m) { return "Starting from " + m + "'s fair value, step by step to mine."; },
       fvAria: "Fair value comparison", needFV: "Add a price and at least one fair value to show the chart.", range: "My bear – bull range",
       other: "Other / unexplained", axisFrom: function (v) { return "Axis starts at " + v + " to make the differences visible."; },
+      brHow: "How to read: start from Morningstar's fair value, apply each step in order — red lowers the value, green raises it — and you arrive at my fair value. The right-hand column is the running value after each step.", brStart: "Start", brEnd: "Result", brStep: "Step", brChange: "Change", brRunning: "Running value", brTitle: "Bridge: Morningstar → my fair value",
       thAssump: "Key assumption", thNote: "Comment", noGap: "Gap analysis not filled in yet.",
       revMix: "Revenue mix", horizon: "Forecast horizon ", tg: "Terminal growth", cagr: "Revenue CAGR", margin: "Margin assumption",
       prob: "Probability ", pw: "Probability-weighted", vsPx: " vs price", noDcf: "DCF summary not filled in yet.",
@@ -69,6 +70,7 @@
       gapTitle: "我的估值为什么不同", subGap: function (m) { return "从 " + m + " 的 Fair Value 出发，逐项走到我的 Fair Value。"; },
       fvAria: "Fair Value 对比", needFV: "填写现价和至少一个 Fair Value 后显示对比图。", range: "我的悲观 – 乐观区间",
       other: "其他 / 未归因", axisFrom: function (v) { return "横轴从 " + v + " 起，以便看清各项差异。"; },
+      brHow: "怎么看：从 Morningstar 的合理价值出发，按顺序加上每一步——红色代表让价值变低，绿色代表让价值变高——最后得到我的合理价值。最右一列是每一步之后的累计价值。", brStart: "起点", brEnd: "结果", brStep: "第", brChange: "变动", brRunning: "累计价值", brTitle: "从 Morningstar 走到我的估值",
       thAssump: "关键假设", thNote: "说明", noGap: "尚未填写差距分析。",
       revMix: "收入结构", horizon: "预测期 ", tg: "永续增长率", cagr: "收入 CAGR", margin: "利润率假设",
       prob: "概率 ", pw: "概率加权", vsPx: " vs 现价", noDcf: "尚未填写 DCF 摘要。",
@@ -387,12 +389,18 @@
       var lo = Math.min.apply(null, ends), hi = Math.max.apply(null, ends), pad = (hi - lo) * 0.35 || hi * .05;
       lo = Math.max(0, lo - pad); hi += pad * .3;
       var x = function (v) { return (v - lo) / (hi - lo) * 100; };
-      h += '<div class="bridge">' + steps.map(function (s) {
+      var cell = function (s, i) {
         var a = s.total ? lo : Math.min(s.a, s.b), b = s.total ? s.b : Math.max(s.a, s.b);
         var col = s.total ? s.color : s.other ? "var(--muted2)" : s.v >= 0 ? "var(--green)" : "var(--neg)";
-        return '<div class="br-row' + (s.total ? " total" : "") + '"><span class="lab">' + esc(s.lab) + '</span><div class="br-track"><div class="br-bar" style="left:' + x(a).toFixed(2) + "%;width:" + Math.max(.4, x(b) - x(a)).toFixed(2) + "%;background:" + col + '"></div></div>' +
-          '<span class="val ' + (s.delta ? (s.v >= 0 ? "up" : "down") : "") + '">' + (s.delta ? (s.v >= 0 ? "+" : "−") + money(Math.abs(s.v), C) : money(s.v, C)) + "</span></div>";
-      }).join("") + '<p class="sub" style="margin:8px 0 0">' + esc(u("axisFrom")(money(lo, C))) + "</p></div>";
+        var tag = i === 0 ? u("brStart") : i === steps.length - 1 ? u("brEnd") : (LANG === "zh" ? u("brStep") + " " + i + " 步" : u("brStep") + " " + i);
+        var change = s.delta ? '<span class="' + (s.v >= 0 ? "up" : "down") + '">' + (s.v >= 0 ? "+" : "−") + money(Math.abs(s.v), C) + "</span>" : "";
+        return '<div class="br-row' + (s.total ? " total" : "") + '"><span class="br-tag">' + esc(tag) + '</span><span class="lab">' + esc(s.lab) + "</span>" +
+          '<div class="br-track"><div class="br-bar" style="left:' + x(a).toFixed(2) + "%;width:" + Math.max(.4, x(b) - x(a)).toFixed(2) + "%;background:" + col + '"></div></div>' +
+          '<span class="val">' + change + '</span><span class="run">' + money(s.total ? s.v : s.b, C) + "</span></div>";
+      };
+      h += '<div class="bridge"><p class="br-title">' + esc(u("brTitle")) + '</p><p class="br-how">' + esc(u("brHow")) + "</p>" +
+        '<div class="br-row br-head"><span></span><span></span><span></span><span class="val">' + esc(u("brChange")) + '</span><span class="run">' + esc(u("brRunning")) + "</span></div>" +
+        steps.map(cell).join("") + '<p class="sub" style="margin:8px 0 0">' + esc(u("axisFrom")(money(lo, C))) + "</p></div>";
     }
     var rows = g.assumptions || [];
     if (rows.length) h += '<div class="scroll" style="margin-top:26px"><table class="cmp"><thead><tr><th>' + u("thAssump") + '</th><th class="m">' + esc(L("mine")) + "</th><th>" + esc(L("morningstar")) + "</th><th>" + esc(L("sp")) + "</th><th>" + u("thNote") + "</th></tr></thead><tbody>" +
