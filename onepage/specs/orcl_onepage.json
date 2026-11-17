@@ -1,0 +1,1676 @@
+{
+ "lang": "en",
+ "meta_line": {
+  "en": "ORCL | FY26: May 31, 2026 | Q1 FY27: Aug 31, 2026 | Market: Nov 16, 2026 | USD | Issued: Nov 17, 2026",
+  "zh": "ORCL | FY26：2026年5月31日 | Q1 FY27：2026年8月31日 | 市场日期：2026年11月16日 | 美元 | 发布日期：2026年11月17日"
+ },
+ "company": {
+  "name": {
+   "en": "ORACLE",
+   "zh": "甲骨文"
+  },
+  "ticker": "ORCL",
+  "name_size_pt": 24,
+  "name_width_in": 2.0
+ },
+ "header_metrics": [
+  {
+   "value": "371.6B"
+  },
+  {
+   "value": "119.09"
+  },
+  {
+   "value": "21.54"
+  },
+  {
+   "value": "18.7x"
+  },
+  {
+   "value": "NM"
+  },
+  {
+   "value": "1.7%"
+  }
+ ],
+ "business_chain": {
+  "title": {
+   "en": "HOW IT EARNS CASH | BUSINESS CHAIN",
+   "zh": "现金生成路径"
+  },
+  "lines": {
+   "en": [
+    "1 Contract | Multi-year AI/cloud capacity deals: RPO $638B at FY26, $664B at Aug 31.",
+    "2 Build | FY26 capex $55.7B (82.6% of revenue) plus $288B of leases not yet begun.",
+    "3 Run | Q1 FY27 OCI revenue +121% to $7.39B; cloud apps +9.9% to $4.22B.",
+    "4 Defend | License support (~$24.5B, 36% of FY26) is the cash engine.",
+    "5 Collect | FY26 OCF $32.0B - capex $55.7B = FCF -$23.7B → debt, equity, prepayments."
+   ],
+   "zh": [
+    "1 签约 | 多年期 AI/云算力合同：FY26 末 RPO $638B，8月31日 $664B。",
+    "2 建设 | FY26 资本开支 $557 亿（占营收 82.6%），另有 $2,880 亿尚未起租的租约。",
+    "3 运营 | Q1 FY27 OCI 收入 +121% 至 $7.39B；云应用 +9.9% 至 $4.22B。",
+    "4 守住 | 许可证支持收入（约 $245 亿，占 FY26 36%）是现金引擎。",
+    "5 回款 | FY26 OCF $32.0B - 资本开支 $55.7B = FCF -$23.7B → 靠举债、增发、预付款补足。"
+   ]
+  },
+  "watch": {
+   "en": "Watch: OCI delivery on time, capex vs OCF, and customer prepayments.",
+   "zh": "关注：OCI 能否按时交付、资本开支与 OCF 的缺口、客户预付款。"
+  }
+ },
+ "mix_table": {
+  "title": {
+   "en": "REVENUE BY LINE | FY26",
+   "zh": "收入构成 | FY26"
+  },
+  "columns": [
+   {
+    "en": "Revenue",
+    "zh": "营收"
+   },
+   "$M",
+   {
+    "en": "Mix",
+    "zh": "占比"
+   },
+   {
+    "en": "YoY",
+    "zh": "同比"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "en": "Cloud infrastructure (OCI)",
+     "zh": "云基础设施（OCI）"
+    },
+    "18,200",
+    "27.0%",
+    "+76.7%"
+   ],
+   [
+    {
+     "en": "Cloud applications",
+     "zh": "云应用（SaaS）"
+    },
+    "15,800",
+    "23.5%",
+    "+11.3%"
+   ],
+   [
+    {
+     "en": "License support & license",
+     "zh": "许可证支持与许可证"
+    },
+    "24,530",
+    "36.4%",
+    "-.8%"
+   ],
+   [
+    {
+     "en": "Hardware & services",
+     "zh": "硬件与服务"
+    },
+    "8,827",
+    "13.1%",
+    "+8.1%"
+   ]
+  ],
+  "total_row": [
+   {
+    "en": "Total revenue",
+    "zh": "合计"
+   },
+   "67,357",
+   "100.0%",
+   "+17.3%"
+  ],
+  "notes": [
+   {
+    "en": "OCI / SaaS split derived from quarterly releases (rounded); Q1 FY27 OCI $7.39B vs $3.35B.",
+    "zh": "OCI / SaaS 拆分由季度公告推算（取整）；Q1 FY27 OCI $7.39B，上年同期 $3.35B。"
+   }
+  ]
+ },
+ "chart": {
+  "x_labels": [
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25",
+   "26"
+  ],
+  "ocf_ps": [
+   2.6973503434739943,
+   2.9364161849710984,
+   3.2408774978279755,
+   3.2378414390406394,
+   3.178861788617886,
+   3.3497747213659,
+   3.6304860783388393,
+   3.8989817792068595,
+   3.988767455980571,
+   5.257114493712773,
+   3.423905240488155,
+   6.2057122198120025,
+   6.614594403117251,
+   7.264829030006978,
+   10.973575840768703
+  ],
+  "fcf_ps": [
+   2.5701668302257117,
+   2.802229562345169,
+   3.114900086880973,
+   2.928936264712414,
+   2.90267131242741,
+   2.870524069243538,
+   3.2208588957055215,
+   3.4541800643086815,
+   3.5139647844565878,
+   4.550628722700199,
+   1.804737975592247,
+   3.062183658712943,
+   4.18243003896564,
+   -0.1374738311235171,
+   -8.128345916266301
+  ],
+  "last_price": 119.09,
+  "log": true,
+  "price_min": 20,
+  "price_max": 400,
+  "price_ticks": [
+   25,
+   50,
+   100,
+   200,
+   400
+  ],
+  "cash_max": 12,
+  "cash_min": -10,
+  "legend": {
+   "en": [
+    "OCF / sh $10.97",
+    "FCF / sh -$8.13"
+   ],
+   "zh": [
+    "OCF /股 $10.97",
+    "FCF /股 -$8.13"
+   ]
+  },
+  "note": {
+   "en": "FY ends May; cash $/sh L lin; price R log (Nov 16, 2026)",
+   "zh": "财年截至5月；现金$/股：左线性 | 股价：右对数（2026年11月16日）"
+  },
+  "annotations": [
+   {
+    "x": 4.5,
+    "text": {
+     "en": "NetSuite FY17",
+     "zh": "收购 NetSuite FY17"
+    }
+   },
+   {
+    "x": 10.05,
+    "dy": 10,
+    "text": {
+     "en": "Cerner 06/2022",
+     "zh": "收购 Cerner 06/2022"
+    }
+   },
+   {
+    "x": 13.3,
+    "dy": 20,
+    "text": {
+     "en": "AI capex build",
+     "zh": "AI 资本开支扩张"
+    }
+   }
+  ]
+ },
+ "value_creation": {
+  "title": {
+   "en": "VALUE CREATION",
+   "zh": "价值创造"
+  },
+  "columns": [
+   "FY12",
+   "FY13",
+   "FY14",
+   "FY15",
+   "FY16",
+   "FY17",
+   "FY18",
+   "FY19",
+   "FY20",
+   "FY21",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "money_unit": "$M",
+  "share_unit": "M sh",
+  "groups": [
+   [
+    {
+     "key": "revenue",
+     "values": [
+      37121.0,
+      37180.0,
+      38275.0,
+      38226.0,
+      37047.0,
+      37792.0,
+      39383.0,
+      39506.0,
+      39068.0,
+      40479.0,
+      42440.0,
+      49954.0,
+      52961.0,
+      57399.0,
+      67357.0
+     ]
+    },
+    {
+     "key": "rev_yoy",
+     "values": [
+      4.208073662343503,
+      0.15893968373696943,
+      2.945131791285638,
+      -0.12802090137165045,
+      -3.084288180819339,
+      2.0109590520150045,
+      4.209885690093151,
+      0.31231749739735193,
+      -1.108692350529028,
+      3.611651479471689,
+      4.844487265001596,
+      17.704995287464655,
+      6.01953797493695,
+      8.379751137629587,
+      17.34873429850694
+     ]
+    },
+    {
+     "key": "gross_margin",
+     "metric": {
+      "en": "EBITDA Margin*",
+      "zh": "EBITDA利润率*"
+     },
+     "values": [
+      44.777888526709944,
+      47.37762237762238,
+      46.15806662312214,
+      43.77125516664051,
+      40.79412638000378,
+      40.6541066892464,
+      40.75108549374095,
+      41.649369715992506,
+      43.165762260673695,
+      44.786185429481954,
+      33.10084825636192,
+      38.43736237338351,
+      40.58080474311286,
+      41.55473091865712,
+      44.39033804949745
+     ]
+    },
+    {
+     "key": "op_income",
+     "values": [
+      13706.0,
+      14684.0,
+      14759.0,
+      13871.0,
+      12604.0,
+      12913.0,
+      13264.0,
+      13535.0,
+      13896.0,
+      15213.0,
+      10926.0,
+      13093.0,
+      15353.0,
+      17678.0,
+      20606.0
+     ]
+    },
+    {
+     "key": "op_margin",
+     "values": [
+      36.922496699981146,
+      39.49435180204411,
+      38.56041802743305,
+      36.28682048867263,
+      34.02164817664048,
+      34.16860711261643,
+      33.679506386004114,
+      34.26061864020655,
+      35.5687519197297,
+      37.58245015934188,
+      25.74458058435438,
+      26.2101133042399,
+      28.98925624516153,
+      30.798445965957594,
+      30.592217586887777
+     ]
+    },
+    {
+     "key": "net_income",
+     "values": [
+      9981.0,
+      10925.0,
+      10955.0,
+      9938.0,
+      8901.0,
+      9452.0,
+      3587.0,
+      11083.0,
+      10135.0,
+      13746.0,
+      6717.0,
+      8503.0,
+      10467.0,
+      12443.0,
+      17087.0
+     ]
+    },
+    {
+     "key": "net_margin",
+     "values": [
+      26.887745480994585,
+      29.38407746100054,
+      28.62181580666231,
+      25.998011824412703,
+      24.026236942262532,
+      25.010584250635056,
+      9.107990757433411,
+      28.053966486103377,
+      25.941947373809764,
+      33.95834877343808,
+      15.827049952874647,
+      17.021659927132962,
+      19.763599629916353,
+      21.678078015296435,
+      25.36781626260077
+     ]
+    }
+   ],
+   [
+    {
+     "key": "ocf",
+     "values": [
+      13743.0,
+      14224.0,
+      14921.0,
+      14580.0,
+      13685.0,
+      14126.0,
+      15386.0,
+      14551.0,
+      13139.0,
+      15887.0,
+      9539.0,
+      17165.0,
+      18673.0,
+      20821.0,
+      31977.0
+     ]
+    },
+    {
+     "key": "ocf_margin",
+     "values": [
+      37.02217073893483,
+      38.25712748789672,
+      38.98367080339648,
+      38.141579029979596,
+      36.93956325748374,
+      37.378281117696865,
+      39.06761800776985,
+      36.83237989166203,
+      33.63110474045254,
+      39.247511055115,
+      22.476437323279924,
+      34.36161268366897,
+      35.25802005249146,
+      36.27415111761529,
+      47.47390768591237
+     ]
+    },
+    {
+     "key": "ocf_ni",
+     "fmt": "x",
+     "values": [
+      1.3769161406672679,
+      1.3019679633867276,
+      1.3620264719306252,
+      1.4670959951700544,
+      1.5374677002583979,
+      1.4944985188319933,
+      4.289378310565932,
+      1.312911666516286,
+      1.2963986186482486,
+      1.1557544012803724,
+      1.420128033348221,
+      2.018699282606139,
+      1.7839877710900927,
+      1.673310294944949,
+      1.8714227190261603
+     ]
+    },
+    {
+     "key": "capex",
+     "values": [
+      648.0,
+      650.0,
+      580.0,
+      1391.0,
+      1189.0,
+      2021.0,
+      1736.0,
+      1660.0,
+      1564.0,
+      2135.0,
+      4511.0,
+      8695.0,
+      6866.0,
+      21215.0,
+      55663.0
+     ]
+    },
+    {
+     "key": "capex_ocf",
+     "values": [
+      4.715127701375246,
+      4.569741282339708,
+      3.8871389317069904,
+      9.540466392318244,
+      8.688344903178663,
+      14.306951720232197,
+      11.282984531392175,
+      11.408150642567522,
+      11.90349341654616,
+      13.438660540064204,
+      47.290072334626274,
+      50.65540343722692,
+      36.769667434263376,
+      101.89232025359011,
+      174.07198924226788
+     ]
+    },
+    {
+     "key": "fcf",
+     "values": [
+      13095.0,
+      13574.0,
+      14341.0,
+      13189.0,
+      12496.0,
+      12105.0,
+      13650.0,
+      12891.0,
+      11575.0,
+      13752.0,
+      5028.0,
+      8470.0,
+      11807.0,
+      -394.0,
+      -23686.0
+     ]
+    },
+    {
+     "key": "fcf_margin",
+     "values": [
+      35.27652811077287,
+      36.50887573964497,
+      37.46832135858916,
+      34.502694501124886,
+      33.73012659594569,
+      32.03058848433531,
+      34.6596247111698,
+      32.630486508378475,
+      29.62782840176103,
+      33.97317127399393,
+      11.84731385485391,
+      16.955599151219122,
+      22.293763335284456,
+      -0.686423108416523,
+      -35.164867793993196
+     ]
+    }
+   ],
+   [
+    {
+     "key": "acq",
+     "metric": {
+      "en": "Acquisitions",
+      "zh": "收购支出"
+     },
+     "values": [
+      4702.0,
+      3305.0,
+      3488.0,
+      6239.0,
+      650.0,
+      11221.0,
+      1724.0,
+      363.0,
+      124.0,
+      41.0,
+      148.0,
+      27721.0,
+      63.0,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "acq_ocf",
+     "metric": {
+      "en": "Acquisitions / OCF",
+      "zh": "收购/OCF"
+     },
+     "values": [
+      34.213781561522225,
+      23.235376827896513,
+      23.376449299644797,
+      42.79149519890261,
+      4.7497259773474605,
+      79.43508424182359,
+      11.204991550760433,
+      2.4946739055735003,
+      0.94375523251389,
+      0.2580726380059168,
+      1.551525317119195,
+      161.4972327410428,
+      0.337385529909495,
+      null,
+      null
+     ]
+    },
+    {
+     "key": "sbc",
+     "values": [
+      659.0,
+      755.0,
+      805.0,
+      933.0,
+      1037.0,
+      1350.0,
+      1607.0,
+      1653.0,
+      1590.0,
+      1837.0,
+      2613.0,
+      3547.0,
+      3974.0,
+      4674.0,
+      4811.0
+     ]
+    },
+    {
+     "key": "sbc_ocf",
+     "values": [
+      4.795168449392418,
+      5.30793025871766,
+      5.395080758662288,
+      6.399176954732511,
+      7.577639751552795,
+      9.556845533059606,
+      10.444559989600936,
+      11.360043983231392,
+      12.101377578202298,
+      11.562913073582175,
+      27.39280847048957,
+      20.664142149723276,
+      21.28206501365608,
+      22.448489505787425,
+      15.045188729399255
+     ]
+    },
+    {
+     "key": "buybacks",
+     "values": [
+      5856.0,
+      11021.0,
+      9813.0,
+      8087.0,
+      10440.0,
+      3561.0,
+      11347.0,
+      36140.0,
+      19240.0,
+      20934.0,
+      16248.0,
+      1300.0,
+      1202.0,
+      600.0,
+      95.0
+     ]
+    },
+    {
+     "key": "buybacks_ocf",
+     "values": [
+      42.6107836716874,
+      77.48172103487065,
+      65.76636954627706,
+      55.466392318244175,
+      76.2879064669346,
+      25.208834772759452,
+      73.74886260236579,
+      248.36780977252425,
+      146.43427962554227,
+      131.7681122930698,
+      170.33231994968025,
+      7.5735508301776875,
+      6.437101697638302,
+      2.881705969934201,
+      0.29708853238265004
+     ]
+    },
+    {
+     "key": "dividends",
+     "values": [
+      1205.0,
+      1433.0,
+      2178.0,
+      2255.0,
+      2541.0,
+      2631.0,
+      3140.0,
+      2932.0,
+      3070.0,
+      3063.0,
+      3457.0,
+      3668.0,
+      4391.0,
+      4743.0,
+      5787.0
+     ]
+    },
+    {
+     "key": "dividends_ocf",
+     "values": [
+      8.768100123699337,
+      10.074521934758156,
+      14.596876884927285,
+      15.466392318244171,
+      18.567774936061383,
+      18.625230072207277,
+      20.408163265306122,
+      20.149817881932513,
+      23.36555293401324,
+      19.279914395417638,
+      36.240696089736865,
+      21.36906495776289,
+      23.515235902104642,
+      22.77988569232986,
+      18.097382493667325
+     ]
+    }
+   ],
+   [
+    {
+     "key": "roic",
+     "metric": "ROIC*",
+     "values": [
+      38.0658524343316,
+      38.78598478821245,
+      37.43306340718105,
+      31.3806421718273,
+      29.451914414414414,
+      22.822746534358295,
+      27.364768462131188,
+      27.600054050070018,
+      27.955692367355844,
+      28.93199367596178,
+      18.818776069227418,
+      13.276957849725104,
+      14.913326389457794,
+      14.338089002677506,
+      12.155376928707987
+     ]
+    },
+    {
+     "key": "roe",
+     "metric": "ROE*",
+     "values": [
+      22.84609045962278,
+      24.469181150331483,
+      23.369171039720126,
+      20.42208659556542,
+      18.822559157520775,
+      17.54920163386558,
+      7.735271284395756,
+      50.87445490016066,
+      83.9406990226934,
+      "NM*",
+      "NM*",
+      "NM*",
+      "NM*",
+      60.842990562808666,
+      40.197139362002446
+     ]
+    },
+    {
+     "key": "roa",
+     "values": [
+      12.742732391129497,
+      13.353786730552974,
+      12.13635255799526,
+      8.960983922887568,
+      7.934569441968266,
+      7.00194827803335,
+      2.602084859739864,
+      10.195108040732597,
+      8.779604636254959,
+      10.484566041477573,
+      6.145639862027321,
+      6.327390165495893,
+      7.424668028600613,
+      7.390666484518387,
+      6.527760268032809
+     ]
+    }
+   ],
+   [
+    {
+     "key": "shares",
+     "values": [
+      5095.0,
+      4844.0,
+      4604.0,
+      4503.0,
+      4305.0,
+      4217.0,
+      4238.0,
+      3732.0,
+      3294.0,
+      3022.0,
+      2786.0,
+      2766.0,
+      2823.0,
+      2866.0,
+      2914.0
+     ]
+    },
+    {
+     "key": "rev_ps",
+     "values": [
+      7.285770363101079,
+      7.675474814203138,
+      8.313423110338835,
+      8.489007328447702,
+      8.605574912891987,
+      8.961821199905145,
+      9.292826805096743,
+      10.585744908896034,
+      11.860352155434123,
+      13.394771674387822,
+      15.233309404163675,
+      18.06001446131598,
+      18.760538434289764,
+      20.027564549895324,
+      23.1149622512011
+     ]
+    },
+    {
+     "key": "eps",
+     "values": [
+      1.96,
+      2.26,
+      2.38,
+      2.21,
+      2.07,
+      2.24,
+      0.85,
+      2.97,
+      3.08,
+      4.55,
+      2.41,
+      3.07,
+      3.71,
+      4.34,
+      5.83
+     ]
+    },
+    {
+     "key": "ocf_ps",
+     "values": [
+      2.6973503434739943,
+      2.9364161849710984,
+      3.2408774978279755,
+      3.2378414390406394,
+      3.178861788617886,
+      3.3497747213659,
+      3.6304860783388393,
+      3.8989817792068595,
+      3.988767455980571,
+      5.257114493712773,
+      3.423905240488155,
+      6.2057122198120025,
+      6.614594403117251,
+      7.264829030006978,
+      10.973575840768703
+     ]
+    },
+    {
+     "key": "capex_ps",
+     "values": [
+      0.12718351324828264,
+      0.13418662262592898,
+      0.1259774109470026,
+      0.3089051743282256,
+      0.2761904761904762,
+      0.47925065212236184,
+      0.4096271826333176,
+      0.44480171489817794,
+      0.474802671523983,
+      0.7064857710125745,
+      1.6191672648959081,
+      3.14352856109906,
+      2.4321643641516117,
+      7.4023028611304955,
+      19.101921757035004
+     ]
+    },
+    {
+     "key": "fcf_ps",
+     "values": [
+      2.5701668302257117,
+      2.802229562345169,
+      3.114900086880973,
+      2.928936264712414,
+      2.90267131242741,
+      2.870524069243538,
+      3.2208588957055215,
+      3.4541800643086815,
+      3.5139647844565878,
+      4.550628722700199,
+      1.804737975592247,
+      3.062183658712943,
+      4.18243003896564,
+      -0.1374738311235171,
+      -8.128345916266301
+     ]
+    },
+    {
+     "key": "div_ps",
+     "metric": {
+      "en": "Dividend / Sh.*",
+      "zh": "每股股息*"
+     },
+     "values": [
+      0.2365063788027478,
+      0.2958298926507019,
+      0.4730668983492615,
+      0.500777259604708,
+      0.5902439024390244,
+      0.6239032487550391,
+      0.7409155261915998,
+      0.7856377277599143,
+      0.9319975713418336,
+      1.0135671740569159,
+      1.2408470926058865,
+      1.3261026753434562,
+      1.555437477860432,
+      1.6549197487787857,
+      1.985929993136582
+     ]
+    }
+   ],
+   [
+    {
+     "key": "avg_pe",
+     "metric": {
+      "en": "P/E (FY-end)*",
+      "zh": "年末P/E*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      28.57,
+      33.64,
+      30.77,
+      37.31,
+      38.23
+     ]
+    },
+    {
+     "key": "fcf_yield",
+     "metric": {
+      "en": "FCF Yield*",
+      "zh": "FCF收益率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.62,
+      2.96,
+      3.67,
+      -0.08,
+      -3.65
+     ]
+    },
+    {
+     "key": "div_yield",
+     "metric": {
+      "en": "Dividend Yield*",
+      "zh": "股息率*"
+     },
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1.78,
+      1.37,
+      1.37,
+      1.09,
+      0.89
+     ]
+    }
+   ]
+  ],
+  "sidebar": [
+   {
+    "title": {
+     "en": "Contracted demand",
+     "zh": "已签约需求"
+    },
+    "text": {
+     "en": "RPO $638B at FY26 vs $138B a year earlier; ~13% to be recognised within 12 months.",
+     "zh": "FY26 末 RPO $638B（上年 $138B）；约 13% 将在 12 个月内确认收入。"
+    }
+   },
+   {
+    "title": {
+     "en": "Four revenue lines",
+     "zh": "四条收入线"
+    },
+    "sub": [
+     {
+      "title": "OCI",
+      "text": {
+       "en": "27% of FY26 revenue; +77%.",
+       "zh": "占 FY26 营收 27%；+77%。"
+      }
+     },
+     {
+      "title": {
+       "en": "Cloud apps",
+       "zh": "云应用"
+      },
+      "text": {
+       "en": "23%; +11%.",
+       "zh": "23%；+11%。"
+      }
+     },
+     {
+      "title": {
+       "en": "License support",
+       "zh": "许可证支持"
+      },
+      "text": {
+       "en": "36%; flat, high margin.",
+       "zh": "36%；持平，高利润率。"
+      }
+     },
+     {
+      "title": {
+       "en": "Hardware & services",
+       "zh": "硬件与服务"
+      },
+      "text": {
+       "en": "13%; low growth.",
+       "zh": "13%；低增长。"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "Margin mix",
+     "zh": "利润结构"
+    },
+    "text": {
+     "en": "FY26 op. margin 30.6%; gross margin ~66% vs ~80% in FY17 as infrastructure costs rise.",
+     "zh": "FY26 营业利润率 30.6%；随着基础设施成本上升，毛利率由 FY17 约 80% 降至约 66%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Funding gap",
+     "zh": "资金缺口"
+    },
+    "text": {
+     "en": "FY26 OCF $32.0B - capex $55.7B = FCF -$23.7B; TTM gap -$28.7B; prepayments are 34% of TTM OCF.",
+     "zh": "FY26 OCF $32.0B - 资本开支 $55.7B = FCF -$23.7B；TTM 缺口 -$28.7B；预付款占 TTM OCF 34%。"
+    }
+   },
+   {
+    "title": {
+     "en": "Return condition",
+     "zh": "回报条件"
+    },
+    "final": true,
+    "text": {
+     "en": "New OCI capacity must earn more than its cost of capital and turn FCF positive (~FY2030 in my model) before debt and lease commitments tighten.",
+     "zh": "新增的 OCI 算力必须赚到高于资本成本的回报，并在债务和租约压力加大前让 FCF 转正（我的模型中约在 FY2030）。"
+    }
+   }
+  ]
+ },
+ "labels": {
+  "sp": {
+   "en": "Street avg target",
+   "zh": "华尔街平均目标价"
+  },
+  "bull": {
+   "en": "Guidance",
+   "zh": "公司指引"
+  }
+ },
+ "dcf": {
+  "as_of": {
+   "en": "Nov 6, 2026",
+   "zh": "2026年11月6日"
+  },
+  "price": 119.09,
+  "scenarios": [
+   {
+    "name": "bear",
+    "value": 101.32
+   },
+   {
+    "name": "base",
+    "value": 243.09
+   },
+   {
+    "name": "bull",
+    "value": 251.67
+   }
+  ],
+  "wacc": "9.6%",
+  "terminal_growth": "3.0%",
+  "horizon": "FY27-36",
+  "morningstar": null,
+  "sp": 235.77,
+  "show_weighted": false,
+  "notes": [
+   {
+    "en": "Base = blend of guidance and consensus; consensus case $233.29. Beta 1.4; TV 74% of EV.",
+    "zh": "基准 = 公司指引与一致预期的平均；一致预期情景 $233.29。Beta 1.4；终值占 EV 74%。"
+   },
+   {
+    "en": "Morningstar FV not in source files. vs price uses Nov 16 close $119.09.",
+    "zh": "资料中没有 Morningstar 合理价值。较现价按 11月16日收盘 $119.09 计算。"
+   }
+  ]
+ },
+ "kpi_tracker": {
+  "title": {
+   "en": "CORE KPI TRACKER | FY22-26",
+   "zh": "核心KPI | FY22-26"
+  },
+  "columns": [
+   {
+    "en": "Metric",
+    "zh": "指标"
+   },
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "rows": [
+   [
+    {
+     "en": "RPO ($B)",
+     "zh": "RPO（$B）"
+    },
+    "46.6",
+    "67.9",
+    "97.9",
+    "137.8",
+    "638"
+   ],
+   [
+    {
+     "en": "Capex / revenue",
+     "zh": "资本开支/营收"
+    },
+    "10.6%",
+    "17.4%",
+    "13.0%",
+    "37.0%",
+    "82.6%"
+   ],
+   [
+    {
+     "en": "EBIT / interest",
+     "zh": "EBIT/利息"
+    },
+    "3.97x",
+    "3.74x",
+    "4.37x",
+    "4.94x",
+    "4.48x"
+   ],
+   [
+    {
+     "en": "Net debt / EBITDA*",
+     "zh": "净债务/EBITDA*"
+    },
+    "2.85x",
+    "4.04x",
+    "3.43x",
+    "3.36x",
+    "3.08x"
+   ],
+   [
+    {
+     "en": "Depreciation ($B)",
+     "zh": "折旧（$B）"
+    },
+    "2.0",
+    "2.5",
+    "3.1",
+    "3.9",
+    "7.6"
+   ]
+  ]
+ },
+ "cagr": {
+  "title": {
+   "en": "COMPOUND ANNUAL GROWTH RATE",
+   "zh": "复合年增长率 | CAGR"
+  },
+  "columns": [
+   "",
+   "1Y",
+   "3Y",
+   "5Y",
+   "10Y",
+   "14Y"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Revenue",
+     "zh": "营收"
+    },
+    "17.3%",
+    "10.5%",
+    "10.7%",
+    "6.2%",
+    "4.3%"
+   ],
+   [
+    {
+     "en": "Op. Income",
+     "zh": "营业利润"
+    },
+    "16.6%",
+    "16.3%",
+    "6.3%",
+    "5.0%",
+    "3.0%"
+   ],
+   [
+    {
+     "en": "OCF",
+     "zh": "OCF"
+    },
+    "53.6%",
+    "23.0%",
+    "15.0%",
+    "8.9%",
+    "6.2%"
+   ],
+   [
+    {
+     "en": "Capex",
+     "zh": "资本开支"
+    },
+    "162.4%",
+    "85.7%",
+    "92.0%",
+    "46.9%",
+    "37.4%"
+   ],
+   [
+    {
+     "en": "Diluted EPS",
+     "zh": "稀释EPS"
+    },
+    "34.3%",
+    "23.8%",
+    "5.1%",
+    "10.9%",
+    "8.1%"
+   ],
+   [
+    {
+     "en": "FCF / Sh.",
+     "zh": "每股FCF"
+    },
+    "NM",
+    "NM",
+    "NM",
+    "NM",
+    "NM"
+   ],
+   [
+    {
+     "en": "Div. / Sh.",
+     "zh": "每股股息"
+    },
+    "20.0%",
+    "14.4%",
+    "14.4%",
+    "12.9%",
+    "16.4%"
+   ]
+  ]
+ },
+ "financial_position": {
+  "title": {
+   "en": "FINANCIAL POSITION | $B",
+   "zh": "财务状况 | $B"
+  },
+  "columns": [
+   "",
+   "FY22",
+   "FY23",
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "rows": [
+   [
+    {
+     "en": "Tot. assets",
+     "zh": "总资产"
+    },
+    "109.3",
+    "134.4",
+    "141.0",
+    "168.4",
+    "261.8"
+   ],
+   [
+    {
+     "en": "Tot. liabilities",
+     "zh": "总负债"
+    },
+    "115.1",
+    "132.8",
+    "131.7",
+    "147.4",
+    "218.7"
+   ],
+   [
+    {
+     "en": "Total debt",
+     "zh": "总债务"
+    },
+    "75.9",
+    "90.5",
+    "86.9",
+    "92.6",
+    "129.5"
+   ],
+   [
+    {
+     "en": "Mkt cap*",
+     "zh": "市值*"
+    },
+    "191.9",
+    "286.0",
+    "322.1",
+    "464.2",
+    "649.4"
+   ],
+   [
+    {
+     "en": "Cash + ST",
+     "zh": "现金及短投"
+    },
+    "21.9",
+    "10.2",
+    "10.7",
+    "11.2",
+    "31.9"
+   ],
+   [
+    {
+     "en": "Liab./assets",
+     "zh": "负债/资产"
+    },
+    "105.3%",
+    "98.8%",
+    "93.4%",
+    "87.5%",
+    "83.6%"
+   ]
+  ]
+ },
+ "lead_paragraphs": [
+  {
+   "label": {
+    "en": "CAPITAL RETURNS:",
+    "zh": "现金分配："
+   },
+   "text": {
+    "en": "FY12-26 OCF $242.4B less capex $110.5B left **$131.9B FCF**. Buybacks **$155.9B (118%)**; dividends **$46.5B (35%)**; acquisitions **$59.8B** (Cerner $27.7B). Buybacks stopped as the AI build began: **$0.1B** in FY26 vs $36.1B in FY19.",
+    "zh": "FY12-26 OCF $242.4B 减资本开支 $110.5B，得 **FCF $131.9B**。回购 **$155.9B（118%）**；股息 **$46.5B（35%）**；收购 **$59.8B**（Cerner $27.7B）。AI 建设开始后回购几乎停止：FY26 仅 **$0.1B**，FY19 为 $36.1B。"
+   }
+  },
+  {
+   "label": {
+    "en": "NET SHARES:",
+    "zh": "净股数变化："
+   },
+   "text": {
+    "en": "Diluted shares FY12 5,095M to FY26 2,914M, **down 43%** on debt-funded buybacks. The trend has reversed: ~**$19.9B of ATM equity** in Q1 FY27 lifted shares outstanding to **3.12B**, about 7% above the FY26 count.",
+    "zh": "稀释股数由 FY12 的 5,095M 降至 FY26 的 2,914M，**减少 43%**，主要靠举债回购。趋势已经反转：Q1 FY27 通过 ATM 增发约 **$199 亿**股票，流通股增至 **31.2 亿股**，比 FY26 多约 7%。"
+   }
+  }
+ ],
+ "commentary": [
+  {
+   "headline": {
+    "en": "Growth is real; the bill is capital.",
+    "zh": "增长是真的，代价是资本。"
+   },
+   "body": {
+    "en": "Q1 FY27 revenue rose 29.6% to $19.35B and EBIT 57.3% to $6.73B, led by OCI (+121%). Capex rose 3.35x to $28.5B in the same quarter, so each new revenue dollar now costs more than a dollar of upfront spending.",
+    "zh": "Q1 FY27 营收增长 29.6% 至 $19.35B，EBIT 增长 57.3% 至 $6.73B，主要靠 OCI（+121%）。同一季度资本开支增至 3.35 倍，达 $28.5B：每新增一美元收入，前期要先投入超过一美元。"
+   }
+  },
+  {
+   "headline": {
+    "en": "A software cash machine became a builder.",
+    "zh": "软件现金机器变成了建设者。"
+   },
+   "body": {
+    "en": "Capex was 5.3% of revenue in FY17 and 82.6% in FY26. FCF went from +$11.8B (FY24) to -$0.4B (FY25) and -$23.7B (FY26). Past software cash flow cannot be extrapolated; depreciation alone rose from $3.9B to $7.6B in one year.",
+    "zh": "资本开支占营收由 FY17 的 5.3% 升至 FY26 的 82.6%。FCF 由 FY24 的 +$11.8B 变为 FY25 的 -$0.4B、FY26 的 -$23.7B。过去的软件现金流不能直接外推；仅折旧一年内就由 $3.9B 升至 $7.6B，未来几年折旧还会持续压低利润率。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Prepayments flatter the cash flow.",
+    "zh": "预付款美化了现金流。"
+   },
+   "body": {
+    "en": "Customer prepayments of $16.0B are 34% of TTM OCF. Without them, OCF covers 41% of capex instead of 62%. Real liquidity, but tied to future delivery: if a large customer slows its build or renegotiates, OCF falls just as capex peaks.",
+    "zh": "客户预付款 $16.0B，占 TTM OCF 34%。剔除后，OCF 对资本开支的覆盖由 62% 降至 41%。这是真实的流动性，但与未来交付义务绑定：若大客户放缓建设或重新谈判，OCF 会在资本开支见顶时同步下滑。"
+   }
+  },
+  {
+   "headline": {
+    "en": "Leverage and leases limit flexibility.",
+    "zh": "杠杆和租约限制了灵活性。"
+   },
+   "body": {
+    "en": "Debt is $134.5B incl. finance leases; EBIT covers interest 4.5x. Another $288B of data-center leases has not yet started. S&P downgraded Oracle in July 2026. Buybacks have stopped and ATM equity is now a funding source, so per-share value depends on capital discipline.",
+    "zh": "含融资租赁的债务 $134.5B；EBIT 覆盖利息 4.5 倍。另有 $2,880 亿数据中心租约尚未起租。S&P 已于 2026年7月下调 Oracle 评级。回购已停止，ATM 增发成为资金来源，每股价值取决于资本纪律。"
+   }
+  },
+  {
+   "headline": {
+    "en": "RPO is visibility, not cash.",
+    "zh": "RPO 是可见度，不是现金。"
+   },
+   "body": {
+    "en": "$664B of RPO, ~13% in the next 12 months, depends on on-time capacity. Morningstar cut the moat to Narrow and flagged a possible $25B+ revenue delay on Project Jupiter. Track RPO conversion each quarter, not new bookings.",
+    "zh": "$664B 的 RPO 中约 13% 在未来 12 个月确认，前提是算力按时交付。Morningstar 已把护城河下调为 Narrow，并提示 Project Jupiter 可能延迟 $250 亿以上收入。应逐季跟踪 RPO 转化为收入的速度，而不是新签合同额。"
+   }
+  },
+  {
+   "headline": {
+    "en": "The DCF needs capex to roll over.",
+    "zh": "DCF 需要资本开支见顶回落。"
+   },
+   "body": {
+    "en": "Base $243.09 (9.6% WACC, 3% g, beta 1.4) needs ~$373B revenue by FY36 at a 32% EBIT margin and capex falling to ~13.5% of sales; 74% of EV is terminal. At $119.09 that is +104%; bear $101.32 is -15%.",
+    "zh": "基准价值 $243.09（WACC 9.6%，g 3%，beta 1.4）要求 FY36 营收约 $3,730 亿、EBIT 利润率 32%，且资本开支降到营收约 13.5%；终值占 EV 74%。按 $119.09 计空间 +104%；悲观情景 $101.32，-15%。股价接近悲观情景，说明市场在等待资本开支见顶的证据。"
+   }
+  }
+ ],
+ "footnotes": {
+  "en": [
+   "FY12-26 from SEC 10-K XBRL (fiscal years end May 31); Q1 FY27 and TTM from the Aug 31, 2026 10-Q. Cash + ST FY17-26 from the analyst model (cash + marketable securities).",
+   "EBITDA* = operating income + depreciation + intangible amortisation. FCF = OCF - capex. Debt = notes payable incl. current portion (excl. leases). Net debt/EBITDA* from the analyst model.",
+   "ROIC* = op. income x (1-17%) / (equity + debt - cash), year-end. ROE* NM when equity < 8% of assets (buybacks shrank equity). Dividend/Sh.* = dividends paid / diluted shares.",
+   "Header: Nov 16, 2026 close $119.09, 3.12B shares; book value = Aug 31, 2026 equity $67.2B / 3.12B; TTM P/E; P/FCF NM (negative FCF). FY22-26 P/E, yields and Mkt cap* from StockAnalysis (FY-end).",
+   "DCF: Pythia model ORCL_DCF_Model_10Y, valuation date Nov 6, 2026 (price $116.10); WACC 9.6%, g 3.0%. Street avg target = 42-analyst average via StockAnalysis/S&P Global. Morningstar FV not provided.",
+   "Sources: Oracle FY2026 10-K, Q1 FY2027 10-Q; SEC EDGAR; StockAnalysis; Morningstar notes (Mar 5, Jun 17, Sep 11, Sep 24, 2026); S&P Global Ratings (Jul 10, 2026)."
+  ],
+  "zh": [
+   "FY12-26 数据取自 SEC 10-K XBRL（财年截至 5月31日）；Q1 FY27 与 TTM 取自 2026年8月31日 10-Q。FY17-26 现金及短投取自分析模型（现金 + 有价证券）。",
+   "EBITDA* = 营业利润 + 折旧 + 无形资产摊销。FCF = OCF - 资本开支。债务 = 应付票据（含一年内到期，不含租赁）。净债务/EBITDA* 取自分析模型。",
+   "ROIC* = 营业利润 ×（1-17%）/（权益 + 债务 - 现金），年末口径。ROE* 在权益低于资产 8% 时记为 NM（回购使权益缩小）。每股股息* = 已付股息 / 稀释股数。",
+   "首行：2026年11月16日收盘 $119.09，31.2 亿股；每股账面 = 2026年8月31日权益 $67.2B / 31.2 亿股；TTM P/E；P/FCF 为 NM（FCF 为负）。FY22-26 的 P/E、收益率与市值*取自 StockAnalysis（年末口径）。",
+   "DCF：Pythia 模型 ORCL_DCF_Model_10Y，估值日 2026年11月6日（股价 $116.10）；WACC 9.6%，g 3.0%。华尔街平均目标价为 42 位分析师平均（StockAnalysis / S&P Global）。资料中没有 Morningstar 合理价值。",
+   "来源：Oracle FY2026 10-K、Q1 FY2027 10-Q；SEC EDGAR；StockAnalysis；Morningstar 报告（2026年3月5日、6月17日、9月11日、9月24日）；S&P Global Ratings（2026年7月10日）。"
+  ]
+ },
+ "brand_mark": "PYTHIA",
+ "website": {
+  "id": "orcl",
+  "name": {
+   "en": "Oracle",
+   "zh": "甲骨文"
+  },
+  "exchange": "NYSE",
+  "market": "US",
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "indices": [
+   "S&P 500",
+   "Russell 1000"
+  ],
+  "updated": "2026-11-17",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "moat": "Narrow",
+  "summary": {
+   "en": "A software cash machine turned AI-infrastructure builder: OCI growth and a $664B backlog are real, but capex now exceeds operating cash flow, so the value depends on capex rolling over before debt and lease commitments bite.",
+   "zh": "从软件现金机器转型为 AI 基础设施建设者：OCI 增长和 $6,640 亿未履约合同是真的，但资本开支已超过经营现金流，价值取决于资本开支能否在债务和租约压力加大前见顶回落。"
+  },
+  "tags": [
+   {
+    "en": "Cloud infrastructure",
+    "zh": "云基础设施"
+   },
+   "AI",
+   {
+    "en": "Database & software",
+    "zh": "数据库与软件"
+   },
+   {
+    "en": "Capex cycle",
+    "zh": "资本开支周期"
+   }
+  ],
+  "business": {
+   "en": "### Four revenue lines\n- **Oracle Cloud Infrastructure (OCI):** rents compute and GPU capacity, largely to AI customers; about 27% of FY26 revenue and growing fastest (+121% in Q1 FY27).\n- **Cloud applications (SaaS):** Fusion ERP, NetSuite, health (Cerner); about 23%.\n- **License support and licenses:** the database and middleware installed base; about 36%, flat but very profitable.\n- **Hardware and services:** about 13%.\n\n### The change\nOracle is spending most of its revenue on data centers (capex 82.6% of FY26 revenue) to deliver contracted AI capacity. Remaining performance obligations reached $664B at Aug 31, 2026.\n\n### Key risks\nFunding gap and leverage ($134.5B debt, $288B of uncommenced leases), customer concentration and prepayment timing, delivery delays, AI demand cycle, and the 2026 credit downgrade.",
+   "zh": "### 四条收入线\n- **Oracle 云基础设施（OCI）：** 出租算力和 GPU，主要客户是 AI 公司；约占 FY26 营收 27%，增长最快（Q1 FY27 +121%）。\n- **云应用（SaaS）：** Fusion ERP、NetSuite、医疗（Cerner）；约 23%。\n- **许可证支持与许可证：** 数据库和中间件的存量客户；约 36%，持平但利润率很高。\n- **硬件与服务：** 约 13%。\n\n### 发生了什么变化\nOracle 把大部分营收投入数据中心（FY26 资本开支占营收 82.6%），以交付已签约的 AI 算力。截至 2026年8月31日，未履约合同（RPO）达 $6,640 亿。\n\n### 关键风险\n资金缺口与杠杆（债务 $1,345 亿、$2,880 亿未起租租约）、客户集中与预付款时点、交付延迟、AI 需求周期，以及 2026 年信用评级下调。"
+  },
+  "segments": [
+   {
+    "name": {
+     "en": "License support & license",
+     "zh": "许可证支持与许可证"
+    },
+    "share": 36.4
+   },
+   {
+    "name": {
+     "en": "Cloud infrastructure (OCI)",
+     "zh": "云基础设施（OCI）"
+    },
+    "share": 27.0
+   },
+   {
+    "name": {
+     "en": "Cloud applications",
+     "zh": "云应用"
+    },
+    "share": 23.5
+   },
+   {
+    "name": {
+     "en": "Hardware & services",
+     "zh": "硬件与服务"
+    },
+    "share": 13.1
+   }
+  ],
+  "revenue_cagr": "~19% (FY26-36, blended)",
+  "margin": "EBIT margin 31% → 32% (FY27-36)",
+  "gap": {
+   "summary": {
+    "en": "My blended base value is **$243.09**, close to the Street average target (**$235.77**) and between the analyst-consensus case (**$233.29**) and the company-guidance case (**$251.67**). The stock trades at **$119.09**, so the market prices something near my **bear case ($101.32)**: slower OCI ramp, capex staying high for longer and cash flow staying negative. Morningstar's fair value is not in my source files, so it is not compared here.",
+    "zh": "我的混合基准价值为 **$243.09**，接近华尔街平均目标价（**$235.77**），介于分析师一致预期情景（**$233.29**）和公司指引情景（**$251.67**）之间。股价只有 **$119.09**，说明市场的定价接近我的 **悲观情景（$101.32）**：OCI 爬坡更慢、资本开支更久维持高位、现金流持续为负。资料中没有 Morningstar 的合理价值，因此这里不作对比。"
+   },
+   "bridge": [],
+   "assumptions": [
+    {
+     "item": {
+      "en": "Value per share",
+      "zh": "每股价值"
+     },
+     "mine": "$243.09",
+     "morningstar": "—",
+     "sp": "$235.77",
+     "note": {
+      "en": "Average of 42 analysts (StockAnalysis / S&P Global)",
+      "zh": "42 位分析师平均（StockAnalysis / S&P Global）"
+     }
+    },
+    {
+     "item": {
+      "en": "FY27E OCI growth",
+      "zh": "FY27E OCI 增长"
+     },
+     "mine": "114.3%",
+     "morningstar": "—",
+     "sp": "115.9%",
+     "note": {
+      "en": "Mine = blend of guidance 112.6% and consensus",
+      "zh": "我的 = 指引 112.6% 与一致预期的平均"
+     }
+    },
+    {
+     "item": "WACC",
+     "mine": "9.6%",
+     "morningstar": "—",
+     "sp": "10.4%",
+     "note": {
+      "en": "S&P Global WACC estimate",
+      "zh": "S&P Global 的 WACC 估计"
+     }
+    },
+    {
+     "item": "Beta",
+     "mine": "1.40",
+     "morningstar": "—",
+     "sp": "1.78",
+     "note": {
+      "en": "Raw 5-year beta",
+      "zh": "5 年原始 beta"
+     }
+    },
+    {
+     "item": {
+      "en": "FY36E EBIT margin",
+      "zh": "FY36E EBIT 利润率"
+     },
+     "mine": "32%",
+     "morningstar": "—",
+     "sp": "—",
+     "note": {
+      "en": "FY26 actual 33% (S&P basis)",
+      "zh": "FY26 实际 33%（S&P 口径）"
+     }
+    }
+   ]
+  },
+  "files": [
+   {
+    "type": "onepage",
+    "lang": "en",
+    "label": "One Page",
+    "path": "reports/orcl/ORCL_OnePage_en.pdf",
+    "date": "2026-11-17"
+   },
+   {
+    "type": "onepage",
+    "lang": "zh",
+    "label": "One Page",
+    "path": "reports/orcl/ORCL_OnePage_zh.pdf",
+    "date": "2026-11-17"
+   }
+  ],
+  "onepage_image": {
+   "en": "reports/orcl/ORCL_OnePage_en.png",
+   "zh": "reports/orcl/ORCL_OnePage_zh.png"
+  },
+  "history": [
+   {
+    "date": "2026-11-17",
+    "note": {
+     "en": "One Page V2 with DCF",
+     "zh": "One Page V2（含 DCF）"
+    }
+   },
+   {
+    "date": "2026-11-08",
+    "note": {
+     "en": "A4 analyses and 10-year DCF",
+     "zh": "A4 分析与 10 年 DCF"
+    }
+   }
+  ]
+ }
+}

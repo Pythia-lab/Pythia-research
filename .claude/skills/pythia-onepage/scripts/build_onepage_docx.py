@@ -739,10 +739,15 @@ def qa_text(pdf, spec):
             probs.append(f"header value '{v}' is split or wrapped - shorten it or lower header_value_size_pt")
     groups = H.vc_rows(spec["value_creation"], LANG)
     # rebuild text lines (words grouped by baseline) and compare with spaces removed
-    lines = {}
-    for x, y, w in words:
-        lines.setdefault(round(y * 2) / 2, []).append((x, w))
-    flat = ["".join(w for _, w in sorted(v)) for v in lines.values()]
+    # cluster baselines within 1.2pt (Latin and CJK baselines in one cell differ by a few tenths of a point)
+    lines, cur, last = [], [], None
+    for x, y, w in sorted(words, key=lambda t: t[1]):
+        if last is not None and y - last > 1.2:
+            lines.append(cur); cur = []
+        cur.append((x, w)); last = y
+    if cur:
+        lines.append(cur)
+    flat = ["".join(w for _, w in sorted(v)) for v in lines]
     alltext = "".join(flat)
     for g in groups:
         for r in g:

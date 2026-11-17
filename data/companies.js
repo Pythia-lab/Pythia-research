@@ -53,6 +53,221 @@
 ------------------------------------------------------------------ */
 
 window.COMPANIES = [
+  {
+    "id": "orcl",
+    "name": {
+      "en": "Oracle",
+      "zh": "甲骨文"
+    },
+    "ticker": "ORCL",
+    "exchange": "NYSE",
+    "market": "US",
+    "sector": "Information Technology",
+    "industry": "Systems Software",
+    "indices": [
+      "S&P 500",
+      "Russell 1000"
+    ],
+    "updated": "2026-11-17",
+    "currency": "USD",
+    "price": 119.09,
+    "priceDate": "2026-11-16",
+    "fairValue": {
+      "mine": 243.09,
+      "bear": 101.32,
+      "bull": 251.67,
+      "morningstar": null,
+      "sp": 235.77
+    },
+    "moat": "Narrow",
+    "summary": {
+      "en": "A software cash machine turned AI-infrastructure builder: OCI growth and a $664B backlog are real, but capex now exceeds operating cash flow, so the value depends on capex rolling over before debt and lease commitments bite.",
+      "zh": "从软件现金机器转型为 AI 基础设施建设者：OCI 增长和 $6,640 亿未履约合同是真的，但资本开支已超过经营现金流，价值取决于资本开支能否在债务和租约压力加大前见顶回落。"
+    },
+    "tags": [
+      {
+        "en": "Cloud infrastructure",
+        "zh": "云基础设施"
+      },
+      "AI",
+      {
+        "en": "Database & software",
+        "zh": "数据库与软件"
+      },
+      {
+        "en": "Capex cycle",
+        "zh": "资本开支周期"
+      }
+    ],
+    "business": {
+      "en": "### Four revenue lines\n- **Oracle Cloud Infrastructure (OCI):** rents compute and GPU capacity, largely to AI customers; about 27% of FY26 revenue and growing fastest (+121% in Q1 FY27).\n- **Cloud applications (SaaS):** Fusion ERP, NetSuite, health (Cerner); about 23%.\n- **License support and licenses:** the database and middleware installed base; about 36%, flat but very profitable.\n- **Hardware and services:** about 13%.\n\n### The change\nOracle is spending most of its revenue on data centers (capex 82.6% of FY26 revenue) to deliver contracted AI capacity. Remaining performance obligations reached $664B at Aug 31, 2026.\n\n### Key risks\nFunding gap and leverage ($134.5B debt, $288B of uncommenced leases), customer concentration and prepayment timing, delivery delays, AI demand cycle, and the 2026 credit downgrade.",
+      "zh": "### 四条收入线\n- **Oracle 云基础设施（OCI）：** 出租算力和 GPU，主要客户是 AI 公司；约占 FY26 营收 27%，增长最快（Q1 FY27 +121%）。\n- **云应用（SaaS）：** Fusion ERP、NetSuite、医疗（Cerner）；约 23%。\n- **许可证支持与许可证：** 数据库和中间件的存量客户；约 36%，持平但利润率很高。\n- **硬件与服务：** 约 13%。\n\n### 发生了什么变化\nOracle 把大部分营收投入数据中心（FY26 资本开支占营收 82.6%），以交付已签约的 AI 算力。截至 2026年8月31日，未履约合同（RPO）达 $6,640 亿。\n\n### 关键风险\n资金缺口与杠杆（债务 $1,345 亿、$2,880 亿未起租租约）、客户集中与预付款时点、交付延迟、AI 需求周期，以及 2026 年信用评级下调。"
+    },
+    "segments": [
+      {
+        "name": {
+          "en": "License support & license",
+          "zh": "许可证支持与许可证"
+        },
+        "share": 36.4
+      },
+      {
+        "name": {
+          "en": "Cloud infrastructure (OCI)",
+          "zh": "云基础设施（OCI）"
+        },
+        "share": 27.0
+      },
+      {
+        "name": {
+          "en": "Cloud applications",
+          "zh": "云应用"
+        },
+        "share": 23.5
+      },
+      {
+        "name": {
+          "en": "Hardware & services",
+          "zh": "硬件与服务"
+        },
+        "share": 13.1
+      }
+    ],
+    "dcf": {
+      "wacc": "9.6%",
+      "terminalGrowth": "3.0%",
+      "horizon": "FY27-36",
+      "revenueCagr": "~19% (FY26-36, blended)",
+      "margin": "EBIT margin 31% → 32% (FY27-36)",
+      "scenarios": [
+        {
+          "name": "Bear",
+          "prob": null,
+          "value": 101.32
+        },
+        {
+          "name": "Base",
+          "prob": null,
+          "value": 243.09
+        },
+        {
+          "name": "Bull",
+          "prob": null,
+          "value": 251.67
+        }
+      ]
+    },
+    "gap": {
+      "summary": {
+        "en": "My blended base value is **$243.09**, close to the Street average target (**$235.77**) and between the analyst-consensus case (**$233.29**) and the company-guidance case (**$251.67**). The stock trades at **$119.09**, so the market prices something near my **bear case ($101.32)**: slower OCI ramp, capex staying high for longer and cash flow staying negative. Morningstar's fair value is not in my source files, so it is not compared here.",
+        "zh": "我的混合基准价值为 **$243.09**，接近华尔街平均目标价（**$235.77**），介于分析师一致预期情景（**$233.29**）和公司指引情景（**$251.67**）之间。股价只有 **$119.09**，说明市场的定价接近我的 **悲观情景（$101.32）**：OCI 爬坡更慢、资本开支更久维持高位、现金流持续为负。资料中没有 Morningstar 的合理价值，因此这里不作对比。"
+      },
+      "bridge": [],
+      "assumptions": [
+        {
+          "item": {
+            "en": "Value per share",
+            "zh": "每股价值"
+          },
+          "mine": "$243.09",
+          "morningstar": "—",
+          "sp": "$235.77",
+          "note": {
+            "en": "Average of 42 analysts (StockAnalysis / S&P Global)",
+            "zh": "42 位分析师平均（StockAnalysis / S&P Global）"
+          }
+        },
+        {
+          "item": {
+            "en": "FY27E OCI growth",
+            "zh": "FY27E OCI 增长"
+          },
+          "mine": "114.3%",
+          "morningstar": "—",
+          "sp": "115.9%",
+          "note": {
+            "en": "Mine = blend of guidance 112.6% and consensus",
+            "zh": "我的 = 指引 112.6% 与一致预期的平均"
+          }
+        },
+        {
+          "item": "WACC",
+          "mine": "9.6%",
+          "morningstar": "—",
+          "sp": "10.4%",
+          "note": {
+            "en": "S&P Global WACC estimate",
+            "zh": "S&P Global 的 WACC 估计"
+          }
+        },
+        {
+          "item": "Beta",
+          "mine": "1.40",
+          "morningstar": "—",
+          "sp": "1.78",
+          "note": {
+            "en": "Raw 5-year beta",
+            "zh": "5 年原始 beta"
+          }
+        },
+        {
+          "item": {
+            "en": "FY36E EBIT margin",
+            "zh": "FY36E EBIT 利润率"
+          },
+          "mine": "32%",
+          "morningstar": "—",
+          "sp": "—",
+          "note": {
+            "en": "FY26 actual 33% (S&P basis)",
+            "zh": "FY26 实际 33%（S&P 口径）"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "type": "onepage",
+        "lang": "en",
+        "label": "One Page",
+        "path": "reports/orcl/ORCL_OnePage_en.pdf",
+        "date": "2026-11-17"
+      },
+      {
+        "type": "onepage",
+        "lang": "zh",
+        "label": "One Page",
+        "path": "reports/orcl/ORCL_OnePage_zh.pdf",
+        "date": "2026-11-17"
+      }
+    ],
+    "onepageImage": {
+      "en": "reports/orcl/ORCL_OnePage_en.png",
+      "zh": "reports/orcl/ORCL_OnePage_zh.png"
+    },
+    "history": [
+      {
+        "date": "2026-11-17",
+        "note": {
+          "en": "One Page V2 with DCF",
+          "zh": "One Page V2（含 DCF）"
+        }
+      },
+      {
+        "date": "2026-11-08",
+        "note": {
+          "en": "A4 analyses and 10-year DCF",
+          "zh": "A4 分析与 10 年 DCF"
+        }
+      }
+    ],
+    "labels": {
+      "sp": {
+        "en": "Street avg target",
+        "zh": "华尔街平均目标价"
+      }
+    }
+  },
 
 {
   "id": "dvn",

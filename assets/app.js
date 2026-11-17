@@ -30,7 +30,7 @@
       price: "Price", impliedUp: "Implied upside", mineVsPx: "My FV / price", waccG: "WACC / terminal g", vsIt: "Mine vs theirs ", moat: "Moat: ",
       secSummary: "Conclusion", secFV: "Fair value comparison", secGap: "Gap analysis", secBiz: "Business", secDcf: "DCF summary", secFiles: "Report files", secHist: "History",
       subFV: "Price and three fair values on one scale; the shaded band is my bear-to-bull range.",
-      gapTitle: "Why my valuation differs", subGap: function (m) { return "Starting from " + m + "'s fair value, step by step to mine."; },
+      gapTitle: "Why my valuation differs", subGap: function (m) { return "Starting from " + m + "'s fair value, step by step to mine."; }, subGapCmp: "My assumptions next to the outside view.",
       fvAria: "Fair value comparison", needFV: "Add a price and at least one fair value to show the chart.", range: "My bear – bull range",
       other: "Other / unexplained", axisFrom: function (v) { return "Axis starts at " + v + " to make the differences visible."; },
       brHow: "How to read: start from Morningstar's fair value, apply each step in order — red lowers the value, green raises it — and you arrive at my fair value. The right-hand column is the running value after each step.", brStart: "Start", brEnd: "Result", brStep: "Step", brChange: "Change", brRunning: "Running value", brTitle: "Bridge: Morningstar → my fair value",
@@ -67,7 +67,7 @@
       price: "现价", impliedUp: "隐含空间", mineVsPx: "我的 FV / 现价", waccG: "WACC / 永续增长", vsIt: "我的 vs 它 ", moat: "护城河：",
       secSummary: "结论", secFV: "Fair Value 对比", secGap: "差距拆解", secBiz: "公司业务", secDcf: "DCF 摘要", secFiles: "报告文件", secHist: "更新记录",
       subFV: "现价与三方估值在同一刻度上；阴影区间是我的悲观到乐观情景。",
-      gapTitle: "我的估值为什么不同", subGap: function (m) { return "从 " + m + " 的 Fair Value 出发，逐项走到我的 Fair Value。"; },
+      gapTitle: "我的估值为什么不同", subGap: function (m) { return "从 " + m + " 的 Fair Value 出发，逐项走到我的 Fair Value。"; }, subGapCmp: "我的假设与外部观点逐项对照。",
       fvAria: "Fair Value 对比", needFV: "填写现价和至少一个 Fair Value 后显示对比图。", range: "我的悲观 – 乐观区间",
       other: "其他 / 未归因", axisFrom: function (v) { return "横轴从 " + v + " 起，以便看清各项差异。"; },
       brHow: "怎么看：从 Morningstar 的合理价值出发，按顺序加上每一步——红色代表让价值变低，绿色代表让价值变高——最后得到我的合理价值。最右一列是每一步之后的累计价值。", brStart: "起点", brEnd: "结果", brStep: "第", brChange: "变动", brRunning: "累计价值", brTitle: "从 Morningstar 走到我的估值",
@@ -131,7 +131,10 @@
     if (x == null) return null;
     return x >= t.under ? { k: "under", t: u("under") } : x <= t.over ? { k: "over", t: u("over") } : { k: "fair", t: u("fair") };
   }
-  function L(k) { var l = SITE.labels || {}; return T(l[k]) || { mine: u("thCo"), morningstar: "Morningstar", sp: "S&P" }[k]; }
+  // CUR = company being rendered; its own "labels" (e.g. sp: "Street avg target") override the site-wide names
+  var CUR = null;
+  function L(k) { var o = CUR && CUR.labels && T(CUR.labels[k]); if (o) return o; var l = SITE.labels || {}; return T(l[k]) || { mine: u("thCo"), morningstar: "Morningstar", sp: "S&P" }[k]; }
+  function LFV(k) { return CUR && CUR.labels && CUR.labels[k] ? L(k) : L(k) + " FV"; }
   function fileKind(p) {
     var e = (String(p || "").split(".").pop() || "").toLowerCase();
     return { pdf: "PDF", xlsx: "XLS", xls: "XLS", xlsm: "XLS", csv: "CSV", docx: "DOC", doc: "DOC", pptx: "PPT", png: "IMG", jpg: "IMG", jpeg: "IMG", webp: "IMG", md: "TXT", html: "WEB" }[e] || "FILE";
@@ -290,6 +293,7 @@
 
   /* ---------- company ---------- */
   function viewCompany(c) {
+    CUR = c;
     var f = fv(c), x = upside(c), v = verdict(c), C = c.currency;
     var h = '<div class="wrap"><div class="crumb"><a href="#">' + u("companies") + '</a> / <a href="#" data-filter-sec="' + esc(c._sec.en) + '">' + esc(secName(c._sec)) + "</a> / " + esc(secName(c._ind)) + "</div>";
     h += '<div class="co-head"><div><h1>' + esc(cname(c)) + "<small>" + esc(cnameAlt(c)) + "</small></h1>" +
@@ -300,16 +304,16 @@
       (c.example ? '<div class="ex-banner">' + u("exBanner") + "</div>" : "");
     h += '<div class="metric-bar">' +
       metric(u("price"), money(c.price, C), c.priceDate ? u("asOf") + c.priceDate : "") +
-      metric(L("mine") + " FV", money(f.mine, C), isNum(f.bear) && isNum(f.bull) ? money(f.bear, C) + " – " + money(f.bull, C) : "") +
-      metric(L("morningstar") + " FV", money(f.morningstar, C), diffTxt(f.mine, f.morningstar)) +
-      metric(L("sp") + " FV", money(f.sp, C), diffTxt(f.mine, f.sp)) +
+      metric(LFV("mine"), money(f.mine, C), isNum(f.bear) && isNum(f.bull) ? money(f.bear, C) + " – " + money(f.bull, C) : "") +
+      metric(LFV("morningstar"), money(f.morningstar, C), diffTxt(f.mine, f.morningstar)) +
+      metric(LFV("sp"), money(f.sp, C), diffTxt(f.mine, f.sp)) +
       metric(u("impliedUp"), '<span class="' + (x == null ? "" : x >= 0 ? "up" : "down") + '">' + pct(x) + "</span>", u("mineVsPx")) +
       metric(u("waccG"), c.dcf && c.dcf.wacc ? esc(c.dcf.wacc) : "—", c.dcf && c.dcf.terminalGrowth ? "g = " + esc(c.dcf.terminalGrowth) : "") + "</div>";
     var secs = [["summary", u("secSummary")], ["valuation", u("secFV")], ["gap", u("secGap")], ["business", u("secBiz")], ["dcf", u("secDcf")], ["files", u("secFiles")], ["history", u("secHist")]];
     h += '<div class="detail"><nav class="toc">' + secs.map(function (s) { return '<a href="#' + esc(c.id) + '" data-jump="b-' + s[0] + '">' + s[1] + "</a>"; }).join("") + '</nav><div class="blocks">';
     h += block("summary", u("secSummary"), "", '<p class="lead">' + E(c.summary) + "</p>" + (c.tags && c.tags.length ? '<div class="tags">' + c.tags.map(function (t) { return '<span class="chip">' + E(t) + "</span>"; }).join("") + "</div>" : ""));
     h += block("valuation", u("secFV"), u("subFV"), fvChart(c));
-    h += block("gap", u("gapTitle"), u("subGap")(L("morningstar")), gapBlock(c));
+    h += block("gap", u("gapTitle"), isNum(f.morningstar) && c.gap && (c.gap.bridge || []).length ? u("subGap")(L("morningstar")) : u("subGapCmp"), gapBlock(c));
     h += block("business", u("secBiz"), "", segBlock(c) + '<div class="prose">' + md(c.business) + "</div>");
     h += block("dcf", u("secDcf"), c.dcf && c.dcf.horizon ? u("horizon") + T(c.dcf.horizon) : "", dcfBlock(c));
     h += block("files", u("secFiles"), u("subFiles"), filesBlock(c));
@@ -495,6 +499,7 @@
     }).join("");
   }
   function viewOpOne(c) {
+    CUR = c;
     var o = onePages().filter(function (x) { return x.c === c; })[0] || { c: c, pdf: "", img: T(c.onepageImage) || "", date: c.updated }, f = fv(c), C = c.currency;
     app.innerHTML = '<div class="wrap"><div class="crumb"><a href="#onepage">' + u("opBack") + '</a></div><div class="opv"><div>' + sheet(o, "big") + "</div><aside>" +
       '<p class="eyebrow" style="margin:0">One Page · ' + esc(o.date) + "</p><h1>" + esc(cname(c)) + '</h1><p class="meta">' + esc(c.ticker) + " · " + esc(c.exchange || "") + " · " + esc(secName(c._ind)) + "</p>" +
@@ -600,6 +605,7 @@
   /* ---------- router ---------- */
   function route() {
     var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    CUR = null;
     var find = function (id) { return ALL.filter(function (x) { return x.id === id; })[0]; };
     var c = find(h), brand = SITE.brand || "";
     if (c) { renderChrome("home"); viewCompany(c); document.title = cname(c) + " (" + c.ticker + ") · " + brand; return window.scrollTo(0, 0); }
