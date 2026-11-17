@@ -1,0 +1,12 @@
+# Word / Excel / PowerPoint masters never go into this public repo
+*.docx
+*.doc
+*.xlsx
+*.xlsm
+*.xls
+*.pptx
+*.ppt
+# local junk
+.DS_Store
+__pycache__/
+*.pyc
